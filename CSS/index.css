@@ -1,5 +1,61 @@
 /* GENERAL */
 
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: lightgrey;
+}
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.intro__title {
+  margin: 0 0 1em 0;
+}
+
+.intro__text+.intro__text {
+  margin-bottom: 1em;
+}
+
+.realistaion {
+  width: 100vw;
+  height: 100vh;
+  background: lightgrey;
+}
+
+.leistungen {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.branchen {
+  width: 100vw;
+  height: 100vh;
+  background: lightgrey;
+}
+
+.kontakt {
+  width: 100vw;
+  height: 50vh;
+  background: #ffffff;
+}
+
+.kontakt__content a {
+  text-decoration: none;
+}
+
+.btn__kontakt {
+  background: #0066b2;
+  color: #ffffff;
+  border: 1px solid #0066b2;
+  border-radius: 0.5em;
+  padding: 0.5em 1.5em;
+  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
+}
 
 /* GRID */
 
