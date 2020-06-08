@@ -1,7 +1,105 @@
 /* GENERAL */
 
+
+/* HERO */
+
 .hero {
-  width: 100vw;
-  height: 100vh;
-  background: lightgray;
+  background-image: url("../IMAGES/Miarbeiter/mitarbeiter_beispiel.jpg");
+  height: 800px;
+  background-position: 0 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 0.5rem 0;
+}
+
+.hero__title {
+  color: #ffffff;
+  padding: 12em 0 0 0;
+}
+
+
+/* INTRO */
+
+.karriere-intro {
+  background: #ffffff;
+  margin: 0 0 0.5rem 0;
+}
+
+.karriere-intro__content {
+  padding: 4em 0 4em 0;
+}
+
+.karriere-intro__content h2 {
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+.karriere-intro__content p {
+  padding: 0 0 1em 0;
+  text-align: center;
+}
+
+
+/* LEISTUNGEN */
+
+.karriere-leistungen {
+  background: #ffffff;
+  margin: 0 0 0.5rem 0;
+}
+
+.karriere-leistungen__content {
+  padding: 4em 0 4em 0;
+}
+
+.karriere-leistungen__content h3 {
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+.karriere-leistungen__list {
+  list-style: none;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0;
+}
+
+
+/* BEWERBEN */
+
+.bewerben {
+  background: #ffffff;
+  margin: 0 0 0.5rem 0;
+}
+
+.bewerben__content {
+  padding: 4em 0 4em 0;
+  text-align: center;
+}
+
+.bewerben__content h3 {
+  padding: 0 0 2em 0;
+}
+
+.bewerben__content a {
+  padding: 2.5em 0 0 0;
+}
+
+
+/* STELLENANGEBOTE */
+
+.stellenangebote {
+  background: #ffffff;
+  margin: 0 0 0.5rem 0;
+}
+
+.stellenangebote__content {
+  padding: 4em 0 4em 0;
+}
+
+.stellenangebote__content h2 {
+  padding: 0 0 2em 0;
+}
+
+.stellenangebote__content h3 {
+  padding: 0;
 }

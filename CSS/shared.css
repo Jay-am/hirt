@@ -16,6 +16,7 @@ body {
 }
 
 body {
+  background: #fafafa;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -47,6 +48,7 @@ h3 {
   color: rgb(58, 58, 58);
   padding-top: 1.5em;
   padding-bottom: 0.2em;
+  letter-spacing: 0.05rem;
   font-weight: 600;
   margin: 0;
 }
@@ -60,18 +62,22 @@ article {
   margin: 0;
 }
 
+p {
+  line-height: 160%;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 
@@ -86,8 +92,8 @@ h3 {
 /* NAVIGATION */
 
 .nav {
-  background: #fff;
-  padding: 0 1em 0 1em;
+  /* background: #fff; */
+  padding: 0 1.5em 0 1.5em;
 }
 
 .nav__bar {
