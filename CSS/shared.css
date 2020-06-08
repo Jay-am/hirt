@@ -371,9 +371,9 @@ nav ul {
 
 .copyright {
   font-size: 0.7rem;
-  text-align: center;
+  text-align: right;
   color: grey;
-  padding-bottom: 0;
+  padding-bottom: 2em;
 }
 
 /* MEDIA QUERIES */
@@ -471,9 +471,9 @@ nav ul {
     padding: 0 3em 0 3em;
   }
 
-  .legal__item+.legal__item {
+  /* .legal__item+.legal__item {
     margin-left: 1em;
-  }
+  } */
 
 }
 
