@@ -282,33 +282,39 @@ nav ul {
   margin: 0 0 0 1em;
 }
 
-.btn--kontakt {
+.btn__kontakt {
   background: #0066b2;
   padding: 0.75em 1.5em;
   border: 1px solid #0066b2;
-  border-radius: 60em;
+  border-radius: 0.5em;
   color: #fff;
   text-decoration: none;
   box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
 }
 
-.btn--kontakt:hover,
-.btn--kontakt:active {
-  background: #004980;
-  color: #fff;
+.btn__ontakt:link,
+.btn__kontakt:visited {
+  background: #0066b2;
+}
+
+.btn__kontakt:hover,
+.btn__kontakt:active {
+  background: #014779;
   box-shadow: 2px 2px 10px 2px rgb(214, 212, 212);
+  transition: ease-in-out 600ms;
 }
 
 
 /* FOOTER */
 
 .footer {
-  background: #004980;
+  background: #00355c;
 }
 
 .footer__main-content h3 {
-  font-size: 1.1rem;
-  color: darkgray;
+  font-size: 0.9rem;
+  color: gray;
+  text-transform: uppercase;
 
 }
 
@@ -320,6 +326,7 @@ nav ul {
   padding: 0 0 0.5em 0;
   margin: 0;
   text-decoration: none;
+  color: lightgrey;
   font-size: 0.9rem;
 }
 
@@ -359,7 +366,7 @@ nav ul {
 .copyright {
   font-size: 0.7rem;
   text-align: center;
-  color: lightgrey;
+  color: grey;
   padding-bottom: 0;
 }
 

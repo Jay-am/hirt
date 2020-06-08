@@ -38,25 +38,6 @@
   background: lightgrey;
 }
 
-.kontakt {
-  width: 100vw;
-  height: 50vh;
-  background: #ffffff;
-}
-
-.kontakt__content a {
-  text-decoration: none;
-}
-
-.btn__kontakt {
-  background: #0066b2;
-  color: #ffffff;
-  border: 1px solid #0066b2;
-  border-radius: 0.5em;
-  padding: 0.5em 1.5em;
-  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
-}
-
 /* GRID */
 
 /* BLUR EFFECT */
@@ -105,6 +86,29 @@
 .branche:hover .branchen-grid__image img {
   filter: blur(1.5px);
 }
+
+/* KONTAKT */
+
+.kontakt {
+  width: 100vw;
+  height: 50vh;
+  background: #ffffff;
+}
+
+.kontakt__content h2 {
+  margin: 2em 0 1.5em 0;
+}
+
+.kontakt__content p {
+  margin: 0 0 2em 0;
+}
+
+.kontakt__content a {
+  text-decoration: none;
+}
+
+
+
 
 @media (min-width: 600px) {}
 
