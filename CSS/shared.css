@@ -460,11 +460,15 @@ nav ul {
   /* FOOTER */
 
   .footer__main-content {
-    padding: 4em 0 3em 0;
+    padding: 4em 3em 3em 3em;
   }
 
   .footer__main-content h3 {
     padding: 0 0 1em 0;
+  }
+
+  .footer__secondary-content {
+    padding: 0 3em 0 3em;
   }
 
   .legal__item+.legal__item {

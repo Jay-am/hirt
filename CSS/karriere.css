@@ -92,14 +92,48 @@
   margin: 0 0 0.5rem 0;
 }
 
-.stellenangebote__content {
-  padding: 4em 0 4em 0;
+.stellenangebote__title {
+  padding: 4 0 4em 0;
+  text-align: center;
 }
 
-.stellenangebote__content h2 {
-  padding: 0 0 2em 0;
+.stellenangebote__content {
+  padding: 3em 0 4em 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .stellenangebote__content h3 {
-  padding: 0;
+  padding: 1em 0 0.25em 0;
+  text-align: center;
+}
+
+.ausbildung,
+.berufseinsteiger,
+.berufserfahrene {
+  background: #fafafa;
+  width: 30%;
+}
+
+.job {
+  background: #ffffff;
+  margin: 1em;
+  padding: 0.1em 0.75em;
+}
+
+.job h4 {
+  font-weight: normal;
+}
+
+.job,
+.job:link,
+.job:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.job:hover,
+.job:active {
+  color: #0066b2;
+  transition: ease-in-out 300ms;
 }
