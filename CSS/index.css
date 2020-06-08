@@ -1,10 +1,17 @@
 /* GENERAL */
 
+
+
+/* HERO */
+
 .hero {
   width: 100vw;
   height: 100vh;
   background: lightgrey;
 }
+
+
+/* INTRO */
 
 .intro {
   width: 100vw;
@@ -20,11 +27,17 @@
   margin-bottom: 1em;
 }
 
+
+/* REALISATION */
+
 .realistaion {
   width: 100vw;
   height: 100vh;
   background: lightgrey;
 }
+
+
+/* LEISTUNGEN */
 
 .leistungen {
   width: 100vw;
@@ -32,10 +45,19 @@
   background: #ffffff;
 }
 
+
+/* BRANCHEN */
+
 .branchen {
-  width: 100vw;
-  height: 100vh;
   background: lightgrey;
+}
+
+.branchen-grid {
+  padding: 0 0 2em 0;
+}
+
+.branchen-grid img {
+  width: 100%;
 }
 
 /* GRID */
@@ -59,7 +81,7 @@
 }
 
 .branchen-grid__title {
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: white;
   letter-spacing: 0.01rem;
   text-decoration: none;
@@ -90,23 +112,21 @@
 /* KONTAKT */
 
 .kontakt {
-  width: 100vw;
-  height: 50vh;
   background: #ffffff;
 }
 
 .kontakt__content h2 {
-  margin: 2em 0 1.5em 0;
+  padding: 2em 0 1em 0;
 }
 
 .kontakt__content p {
-  margin: 0 0 2em 0;
+  padding: 0 0 2em 0;
 }
 
 .kontakt__content a {
   text-decoration: none;
+  margin: 0 0 4em 0;
 }
-
 
 
 
@@ -115,6 +135,11 @@
 @media (min-width: 900px) {
 
   /* GRID */
+
+  .branchen {
+    min-width: 100vw;
+    height: 100vh;
+  }
 
 }
 
@@ -168,6 +193,23 @@
     grid-column: 3 / span 8;
     grid-row: 3 / span 2;
     padding: 2em;
+  }
+
+
+  /* KONTAKT */
+
+  .kontakt {
+    width: 100vw;
+    height: 50vh;
+    background: #ffffff;
+  }
+
+  .kontakt__content h2 {
+    padding: 5em 0 1.5em 0;
+  }
+
+  .kontakt__content p {
+    padding: 0 0 2em 0;
   }
 }
 
