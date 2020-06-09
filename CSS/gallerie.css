@@ -1,20 +1,32 @@
+.hero {
+  background: url(../IMAGES/hero-gallerie.jpeg);
+  height: 600px;
+  background-position: 25% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  color: #ffffff;
+  line-height: 4.5rem;
+  padding: 1em 0 0 1em;
+  font-size: 4rem;
+  text-shadow: 2px 3px rgb(19, 19, 19);
+  font-weight: lighter;
+}
+
 .gallerie__content {
   text-align: center;
   padding: 04em 0 4em 0;
 }
 
-.gallerie__content h2 {
+.gallerie__content h3 {
   padding: 0 0 1em 0;
+  text-transform: none;
 }
 
 
 /* KONTAKT */
-
-/* .kontakt {
-  width: 100vw;
-  height: 50vh;
-  background: #ffffff;
-} */
 
 .kontakt__content {
   text-align: center;
