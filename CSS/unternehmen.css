@@ -39,6 +39,10 @@
   width: 50%;
 }
 
+.text-1 {
+  margin-bottom: 1em;
+}
+
 .unternehmen-info__text--paragraph+.unternehmen-info__text--paragraph {
   margin-bottom: 1em;
 }
