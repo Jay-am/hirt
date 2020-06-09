@@ -110,11 +110,12 @@
 
 /* KONTAKT */
 
-.kontakt {
-  background: #ffffff;
+.kontakt__content {
+  text-align: center;
+  padding: 4em 0 4em 0;
 }
 
-.kontakt__content h2 {
+.kontakt__content h3 {
   padding: 2em 0 1em 0;
 }
 
