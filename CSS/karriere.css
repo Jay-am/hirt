@@ -112,11 +112,13 @@
 .berufseinsteiger,
 .berufserfahrene {
   background: #fafafa;
+  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
   width: 30%;
 }
 
 .job {
   background: #ffffff;
+  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
   margin: 1em;
   padding: 0.1em 0.75em;
 }
