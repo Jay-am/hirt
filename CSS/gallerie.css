@@ -17,12 +17,25 @@
 
 .gallerie__content {
   text-align: center;
-  padding: 04em 0 4em 0;
+  padding: 4em 0 4em 0;
 }
 
-.gallerie__content h3 {
-  padding: 0 0 1em 0;
+.gallerie__content h2 {
+  padding: 1em 0 0 0;
   text-transform: none;
+}
+
+/* GRID */
+
+.gallerie__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+  margin: 0 0.5em 0 0.5em;
+}
+
+.grid-1 {
+  border: 1px solid lightgray;
 }
 
 
