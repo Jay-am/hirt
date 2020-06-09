@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500');
 
@@ -327,10 +327,8 @@ nav ul {
 .footer__main-content h3 {
   color: lightgrey;
   font-size: 1rem;
-}
-
-.zertifiziert img {
-  width: 20%;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
 }
 
 .footer__item {
@@ -372,6 +370,18 @@ nav ul {
 .legal {
   margin-bottom: 1em;
   font-size: 0.8rem;
+}
+
+.zertifiziert {
+  text-align: right;
+  margin: 0;
+  width: 13%;
+}
+
+.footer__image {
+  /* max-width: 20%; */
+  text-align: right;
+  margin: 0;
 }
 
 .copyright {
