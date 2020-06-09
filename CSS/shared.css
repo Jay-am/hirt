@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500');
 
 /* GENERAL */
 
@@ -16,10 +18,12 @@ body {
 }
 
 body {
-  background: #fafafa;
+  background: #ffffff;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -45,12 +49,26 @@ a {
 h1,
 h2,
 h3 {
+  /* font-family: "Open Sans",
+sans-serif; */
+  font-family: 'Roboto', sans-serif;
   color: rgb(58, 58, 58);
-  padding-top: 1.5em;
-  padding-bottom: 0.2em;
   letter-spacing: 0.05rem;
-  font-weight: 600;
+  font-weight: 300;
+  text-transform: uppercase;
   margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 p,
@@ -58,26 +76,13 @@ div,
 ul,
 li,
 article {
+  font-size: 1rem;
   color: #94979b;
   margin: 0;
 }
 
 p {
   line-height: 160%;
-}
-
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 1.5rem;
 }
 
 
