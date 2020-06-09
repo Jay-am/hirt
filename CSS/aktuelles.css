@@ -1,3 +1,11 @@
+.hero {
+  background-image: url(../IMAGES/Aktuelles/aktuelles-brille.jpg);
+  height: 500px;
+  background-position: 0 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .aktuelles__content {
   text-align: center;
   padding: 04em 0 4em 0;
