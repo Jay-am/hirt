@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   height: 100%;
@@ -99,7 +103,10 @@ p {
 /* NAVIGATION */
 
 .nav {
-  /* background: #fff; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 0 1.5em 0 1.5em;
 }
 
