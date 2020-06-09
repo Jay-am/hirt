@@ -1,22 +1,45 @@
 /* GENERAL */
 
 .hero {
-  width: 100vw;
-  height: 100vh;
-  background: lightgrey;
+  background-image: url("../IMAGES/späne.jpeg");
+  height: 600px;
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 0.5rem 0;
+
+}
+
+.hero__title {
+  color: #ffffff;
+  line-height: 4.5rem;
+  padding: 3em 0 0 0.15rem;
+  font-size: 4rem;
+  text-shadow: 2px 3px rgb(19, 19, 19);
+  font-weight: lighter;
 }
 
 .unternehmen-info {
   width: 100vw;
-  height: 50vh;
   background: #ffffff;
+}
+
+.unternehmen-info__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 0 4em 0;
 }
 
 .unternehmen-info__title {
   margin: 0 0 1em 0;
 }
 
-.unternehmen-info__text+.unternehmen-info__text {
+.unternehmen-info__text {
+  padding: 1em 0 1em 10%;
+  width: 50%;
+}
+
+.unternehmen-info__text--paragraph+.unternehmen-info__text--paragraph {
   margin-bottom: 1em;
 }
 
@@ -24,6 +47,11 @@
   width: 100vw;
   height: 50vh;
   background: #ffffff;
+}
+
+.kontakt__content {
+  text-align: center;
+  padding: 4em 0 4em 0;
 }
 
 .kontakt__content h3 {

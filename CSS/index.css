@@ -5,8 +5,22 @@
 /* HERO */
 
 .hero {
-  width: 100vw;
-  height: 100vh;
+  background-image: url("../IMAGES/späne.jpeg");
+  height: 600px;
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 0.5rem 0;
+
+}
+
+.hero h1 {
+  color: #ffffff;
+  line-height: 4.5rem;
+  padding: 1em 0 0 1em;
+  font-size: 4rem;
+  text-shadow: 2px 3px rgb(19, 19, 19);
+  font-weight: lighter;
 }
 
 
@@ -14,15 +28,30 @@
 
 .intro {
   width: 100vw;
-  height: 100vh;
+  height: 700px;
   background: #ffffff;
+}
+
+.intro__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 0 4em 0;
+}
+
+.intro-1 {
+  margin: 0 0 1em 0;
 }
 
 .intro__title {
   margin: 0 0 1em 0;
 }
 
-.intro__text+.intro__text {
+.intro__text {
+  padding: 1em 0 1em 10%;
+  width: 45%;
+}
+
+.intro__text--parapraph+.intro__text--parapraph {
   margin-bottom: 1em;
 }
 
@@ -31,8 +60,32 @@
 
 .realistaion {
   width: 100vw;
-  height: 100vh;
-  background: lightgrey;
+  height: 600px;
+  background: #fafafa;
+}
+
+.realisation__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 6em 0 6em 0;
+}
+
+.realisation__content h2 {
+  padding: 0 0 1.5em 0;
+}
+
+.realisation__content p {
+  line-height: 250%;
+}
+
+.realisation__image {
+  background: lightseagreen;
+  /* width: 50%; */
+}
+
+.realisation__text {
+  padding: 0 0 1em 2em;
+  width: 50%;
 }
 
 
@@ -40,15 +93,35 @@
 
 .leistungen {
   width: 100vw;
-  height: 100vh;
+  height: 800px;
   background: #ffffff;
+}
+
+.leistungen__content h2 {
+  padding: 0 0 1.5em 0;
+  line-height: 2.5rem;
+}
+
+.leistungen__text p {
+  margin-bottom: 1em;
+}
+
+.leistungen__content {
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 6em 0 6em 0;
+}
+
+.leistungen__text {
+  padding: 1em 0 1em 5%;
+  width: 50%;
 }
 
 
 /* BRANCHEN */
 
 .branchen {
-  background: lightgrey;
+  background: #fafafa;
 }
 
 .branchen-grid {
@@ -138,7 +211,7 @@
 
   .branchen {
     min-width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
 }
@@ -155,44 +228,68 @@
   }
 
   .luft-und-raumfahrt {
-    grid-column: 5 / span 2;
-    grid-row: 1 / span 2;
+    grid-column: 5 / 7;
+    grid-row: 3 / 5;
   }
 
   .medizintechnik {
-    grid-column: 7 / span 2;
-    grid-row: 1 / span 2;
+    grid-column: 7 / 9;
+    grid-row: 3 / 5;
   }
 
   .rehatechnik {
-    grid-column: 11 / span 2;
-    grid-row: 2 / span 2;
+    grid-column: 9 / 11;
+    grid-row: 5 / 7;
   }
 
   .sensortechnik {
-    grid-column: 11 / span 2;
-    grid-row: 4 / span 2;
+    grid-column: 11 / 13;
+    grid-row: 5 / 7;
   }
 
   .verteidigungs-und-wehrtechnik {
-    grid-column: 8 / span 2;
-    grid-row: 5 / span 2;
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
   }
 
   .lebensmitteltechnik {
-    grid-column: 4 / span 2;
-    grid-row: 5 / span 2;
+    grid-column: 5 / 7;
+    grid-row: 5 / 7;
   }
 
   .motorsport {
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 2;
+    grid-column: 1 / 3;
+    grid-row: 11 / 13;
   }
 
   .branchen-grid__header {
-    grid-column: 3 / span 8;
-    grid-row: 3 / span 2;
+    grid-column: 1 / 11;
+    grid-row: 1 / 3;
     padding: 2em;
+  }
+
+  .grey-1 {
+    grid-column: 1 / 5;
+    grid-row: 3 / 5;
+    background: lightgrey;
+  }
+
+  .grey-2 {
+    grid-column: 9 / 13;
+    grid-row: 3 / 5;
+    background: lightgrey;
+  }
+
+  .grey-3 {
+    grid-column: 3 / 5;
+    grid-row: 5 / 7;
+    background: lightgrey;
+  }
+
+  .grey-4 {
+    grid-column: 7 / 9;
+    grid-row: 5 / 7;
+    background: lightgrey;
   }
 
 
