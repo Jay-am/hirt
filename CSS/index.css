@@ -5,9 +5,9 @@
 /* HERO */
 
 .hero {
-  background-image: url("../IMAGES/späne.jpeg");
+  background-image: url("../IMAGES/hero-präzision-2.jpeg");
   height: 600px;
-  background-position: 0 70%;
+  background-position: 70% 20%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 0 0.5rem 0;

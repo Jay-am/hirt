@@ -102,13 +102,7 @@ p {
 
 /* NAVIGATION */
 
-.nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0 1.5em 0 1.5em;
-}
+.nav {}
 
 .nav__bar {
   padding: 0 0 1em 0;
@@ -439,7 +433,12 @@ nav ul {
     align-items: center;
     visibility: visible;
     height: auto;
-    margin: 1em 0 1em 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1em 1.5em 1em 1.5em;
+    /* box-shadow: 2px 2px 10px 0px rgb(209, 208, 208); */
+    z-index: 1;
   }
 
   .nav img {
