@@ -10,8 +10,6 @@
   background-position: 70% 20%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 0 0.5rem 0;
-
 }
 
 .hero h1 {
@@ -28,18 +26,13 @@
 
 .intro {
   width: 100vw;
-  height: 700px;
   background: #ffffff;
 }
 
 .intro__content {
   display: flex;
   justify-content: space-between;
-  padding: 4em 0 4em 0;
-}
-
-.intro-1 {
-  margin: 0 0 1em 0;
+  padding: 5em 0 4em 0;
 }
 
 .intro__title {
@@ -47,12 +40,16 @@
 }
 
 .intro__text {
-  padding: 1em 0 1em 10%;
+  padding: 0em 0 0em 10%;
   width: 45%;
 }
 
 .intro__text--parapraph+.intro__text--parapraph {
   margin-bottom: 1em;
+}
+
+.intro-1 {
+  margin: 0 0 1em 0;
 }
 
 
