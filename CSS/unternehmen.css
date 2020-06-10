@@ -9,13 +9,13 @@
 
 }
 
-.hero__title {
+.hero h1 {
   color: #ffffff;
-  line-height: 4.5rem;
-  padding: 3em 0 0 0.15rem;
   font-size: 4rem;
-  text-shadow: 2px 3px rgb(19, 19, 19);
   font-weight: lighter;
+  line-height: 4.5rem;
+  padding: 1em 0 0 1.5em;
+  text-shadow: 2px 3px rgb(19, 19, 19);
 }
 
 .unternehmen-info {
