@@ -124,7 +124,7 @@ p {
   text-align: center;
   list-style: none;
   font-size: 1rem;
-  padding: 1em 0 2.5em 0;
+  padding: 1em 0 1em 0;
 }
 
 .nav__list--primary {
@@ -144,14 +144,16 @@ p {
 
 .nav__item {
   margin: 0 auto 0.5em auto;
-  padding: 0.375em 0 0.375em 0;
+  padding: 0.375em 0 0 0;
 }
 
+.nav__btn,
 .nav__item,
 .nav__link:link,
-.nav__link:visited {
+.nav__link:visited,
+.nav__btn--link:link,
+.nav__btn--link:visited {
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .nav__link:hover,
@@ -160,18 +162,25 @@ p {
   transition: ease-in-out 300ms;
 }
 
-.nav__btn {
+.nav__btn--link {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
-  color: #0066b2;
   border: 1px solid #0066b2;
   border-radius: 0.5em;
   padding: 0.25em 0.75em;
+  /* box-shadow: 2px 2px 10px 0px rgb(209, 208, 208); */
 }
 
 .nav__btn a {
   text-decoration: none;
+  color: #0066b2;
+}
+
+.flag {
+  width: 2em;
+  padding: 0;
+  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
 }
 
 /* .nav__link--button:link,
@@ -181,18 +190,17 @@ p {
   border: 1px solid #0066b2;
   border-radius: 60rem;
   padding: 0.25em 1em;
-  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
+  
 }
 
-.nav__link--button:hover,
-.nav__link--button:active {
+*/
+.nav__btn--link:hover,
+.nav__btn--link:active {
   color: #fff;
   background: #004980;
   border: 1px solid #004980;
-  border-radius: 60rem;
-  padding: 0.25em 1em;
   box-shadow: 2px 2px 10px 0px rgb(214, 212, 212);
-} */
+}
 
 /* SUBNAV */
 
