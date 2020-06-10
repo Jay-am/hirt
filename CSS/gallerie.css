@@ -1,7 +1,7 @@
 .hero {
-  background: url(../IMAGES/hero-gallerie.jpeg);
+  background: url(../IMAGES/hero-gallerie-3.jpeg);
   height: 800px;
-  background-position: 25% 80%;
+  background-position: 0 95%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9,7 +9,7 @@
 .hero h1 {
   color: #ffffff;
   line-height: 4.5rem;
-  padding: 4em 0 0 1em;
+  padding: 1em 0 0 1em;
   font-size: 4rem;
   text-shadow: 2px 3px rgb(19, 19, 19);
   font-weight: lighter;
@@ -21,7 +21,7 @@
 }
 
 .gallerie__content h2 {
-  padding: 1em 0 0 0;
+  padding: 0;
   text-transform: none;
 }
 
@@ -34,8 +34,10 @@
   margin: 0 0.5em 0 0.5em;
 }
 
-.grid-1 {
-  border: 1px solid lightgray;
+.grid {
+  width: 60%;
+  justify-self: center;
+  margin-bottom: 1em;
 }
 
 
