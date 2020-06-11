@@ -5,9 +5,9 @@
 /* HERO */
 
 .hero {
-  background-image: url("../IMAGES/Heros/hero-präzision-2.jpeg");
-  height: 600px;
-  background-position: 70% 20%;
+  background-image: url("../IMAGES/Heros/hero-schrauben.jpeg");
+  height: 100vh;
+  background-position: 70% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -19,7 +19,7 @@
   font-weight: lighter;
   line-height: 4.5rem;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
-  padding: 25% 0 0 5%;
+  padding: 10% 0 0 5%;
 }
 
 

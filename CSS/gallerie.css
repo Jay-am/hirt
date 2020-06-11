@@ -1,6 +1,6 @@
 .hero {
   background: url(../IMAGES/Heros/hero-gallerie-3.jpeg);
-  height: 850px;
+  height: 100vh;
   background-position: 0 95%;
   background-repeat: no-repeat;
   background-size: cover;

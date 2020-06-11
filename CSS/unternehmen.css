@@ -1,21 +1,21 @@
 /* GENERAL */
 
 .hero {
-  background-image: url("../IMAGES/späne.jpeg");
-  height: 600px;
+  background-image: url("../IMAGES/Heros/hero-unternehmen.jpeg");
+  height: 100vh;
   background-position: 0 70%;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
-.hero h1 {
+.hero__title {
   color: #ffffff;
   font-size: 4rem;
   font-weight: lighter;
   line-height: 4.5rem;
-  padding: 1em 0 0 1.5em;
-  text-shadow: 2px 3px rgb(19, 19, 19);
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  padding: 25% 0 0 5%;
 }
 
 .unternehmen-info {
