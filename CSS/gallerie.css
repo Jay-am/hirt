@@ -1,18 +1,18 @@
 .hero {
-  background: url(../IMAGES/hero-gallerie-3.jpeg);
-  height: 600px;
+  background: url(../IMAGES/Heros/hero-gallerie-3.jpeg);
+  height: 850px;
   background-position: 0 95%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero h1 {
+.hero__title {
   color: black;
   font-size: 4rem;
   font-weight: lighter;
   line-height: 4.5rem;
-  padding: 2em 0 0 2em;
-  text-shadow: 2px 2px rgb(255, 255, 255);
+  text-shadow: 3px 3px 2px rgb(255, 255, 255);
+  padding: 22% 0 0 6%;
 }
 
 .gallerie__content {
