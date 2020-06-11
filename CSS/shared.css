@@ -176,6 +176,13 @@ p {
   /* box-shadow: 2px 2px 10px 0px rgb(209, 208, 208); */
 }
 
+.flag:hover,
+.flag:active {
+  transform: scale(0.9);
+  transition-timing-function: ease-in-out;
+  transition: 0.6s;
+}
+
 .nav__btn--link:hover,
 .nav__btn--link:active {
   color: #fff;
@@ -512,7 +519,7 @@ nav ul {
   .nav.sticky .nav__item img:hover,
   .nav.sticky .nav__item img:active {
     box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
-    transform: scaleZ(1.1);
+    transform: scale(0.9);
   }
 
 
