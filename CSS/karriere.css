@@ -121,14 +121,16 @@
 
 .stellenangebote__content h3 {
   font-size: 1.1rem;
-  padding: 3em 0 1em 0;
+  padding: 3.5em 0 1em 0;
 }
 
 .no-job h4,
 .job h4 {
-  font-weight: normal;
   font-size: 1rem;
-  padding: 0.25em 0 0 0;
+  color: #0066b2;
+  font-weight: 500;
+  padding: 0.25em 0 0.1em 0;
+  border-bottom: 1px solid #e1e2e2;
 }
 
 .job,
@@ -136,7 +138,6 @@
 .job:link,
 .job:visited {
   text-decoration: none;
-  text-transform: uppercase;
   padding: 0;
 }
 
@@ -154,6 +155,53 @@
 .no-job h4 {
   color: #e1e2e2;
 }
+
+
+/* ACCORDION */
+
+
+.wrapper {
+  width: 70%;
+}
+
+@media(max-width:992px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+.panel-heading {
+  padding: 0;
+  border: 0;
+}
+
+.panel-title>a,
+.panel-title>a:active {
+  display: block;
+  padding: 15px;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-decoration: none;
+}
+
+.panel-heading a:before {
+  font-family: 'Glyphicons Halflings';
+  content: "\e114";
+  float: right;
+  transition: all 0.5s;
+}
+
+.panel-heading.active a:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+
 
 @media (min-width: 1200px) {
 
