@@ -390,7 +390,7 @@ nav ul {
 }
 
 .footer__image {
-  /* max-width: 20%; */
+  max-width: 70%;
   text-align: right;
   margin: 0;
 }
