@@ -5,32 +5,19 @@
 
 .hero {
   background-image: url("../IMAGES/Miarbeiter/mitarbeiter-1.jpeg");
-  height: 600px;
-  background-position: 0 25%;
+  height: 850px;
+  background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* .hero::after {
-  content: "";
-  background: url(../IMAGES/Miarbeiter/mitarbeiter-1.jpeg);
-  height: 800px;
-  opacity: 0.8;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-} */
-
-.hero h1 {
+.hero__title {
   color: #ffffff;
-  line-height: 4.5rem;
-  padding: 1em 0 0 1em;
   font-size: 4rem;
-  text-shadow: 2px 3px rgb(19, 19, 19);
   font-weight: lighter;
+  line-height: 4.5rem;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  padding: 25% 0 0 5%;
 }
 
 
