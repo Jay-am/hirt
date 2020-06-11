@@ -391,8 +391,8 @@ nav ul {
 
 .footer__image {
   max-width: 70%;
-  text-align: right;
-  margin: 0;
+  align-self: center;
+  margin-right: 0;
 }
 
 .copyright {
