@@ -1,9 +1,10 @@
 /* GENERAL */
 
 .hero {
-  background-image: url("../IMAGES/Heros/hero-unternehmen.jpeg");
-  height: 100vh;
-  background-position: 0 70%;
+  background: url("../IMAGES/Heros/hero-unternehmen.jpeg"), rgba(0, 102, 178, 0.95);
+  /* height: 100vh; */
+  height: 65vh;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -15,7 +16,8 @@
   font-weight: lighter;
   line-height: 4.5rem;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
-  padding: 25% 0 0 5%;
+  /* padding: 38% 0 0 10%; */
+  padding: 7% 0 0 10%;
 }
 
 .unternehmen-info {
@@ -26,7 +28,7 @@
 .unternehmen-info__content {
   display: flex;
   justify-content: space-between;
-  padding: 4em 0 4em 0;
+  padding: 4em 0 3.5em 0;
 }
 
 .unternehmen-info__title {
@@ -35,7 +37,7 @@
 
 .unternehmen-info__text {
   padding: 1em 0 1em 10%;
-  width: 50%;
+  width: 49%;
 }
 
 .text-1 {
@@ -46,26 +48,14 @@
   margin-bottom: 1em;
 }
 
-.kontakt {
-  width: 100vw;
-  height: 50vh;
-  background: #ffffff;
+.unternehmen-info__image {
+  width: 50%;
+  align-self: center;
+  justify-self: center;
 }
 
-.kontakt__content {
-  text-align: center;
-  padding: 4em 0 4em 0;
-}
-
-.kontakt__content h3 {
-  padding: 2em 0 1em 0;
-}
-
-.kontakt__content p {
-  padding: 0 0 2em 0;
-}
-
-.kontakt__content a {
-  text-decoration: none;
-  margin: 0 0 4em 0;
+.unternehmen-info__image img {
+  width: 40%;
+  align-self: center;
+  justify-self: center;
 }
