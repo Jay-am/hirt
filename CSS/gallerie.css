@@ -1,5 +1,5 @@
 .hero {
-  background: url(../IMAGES/Heros/hero-gallerie-3.jpeg);
+  background: url(../IMAGES/Heros/hero-gallerie-3.jpeg), rgba(0, 102, 178, 0.99);
   height: 100vh;
   background-position: 0 95%;
   background-repeat: no-repeat;
@@ -7,12 +7,12 @@
 }
 
 .hero__title {
-  color: black;
+  color: #ffffff;
   font-size: 4rem;
   font-weight: lighter;
   line-height: 4.5rem;
-  text-shadow: 3px 3px 2px rgb(255, 255, 255);
-  padding: 22% 0 0 6%;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  padding: 8% 0 0 6%;
 }
 
 .gallerie__content {
