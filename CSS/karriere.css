@@ -117,14 +117,13 @@
 
 .stellenangebote__content h2 {
   padding: 0;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.1875rem;
 }
 
 .stellenangebote__content h3 {
   font-size: 1.1rem;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  letter-spacing: 0.05rem;
   padding: 4.5em 0 1em 0;
 }
 
@@ -184,8 +183,8 @@
   display: block;
   color: #0066b2;
   font-weight: 500;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.1875rem;
   text-decoration: none;
 }
 
