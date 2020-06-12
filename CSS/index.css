@@ -5,8 +5,10 @@
 /* HERO */
 
 .hero {
-  background-image: url("../IMAGES/Heros/hero-schrauben.jpeg");
-  height: 100vh;
+  background: url("../IMAGES/Heros/hero-schrauben.jpeg"), rgba(0, 102, 178, 1);
+  /* height: 100vh; */
+  height: 65vh;
+  /* background-position: 70% 0%; */
   background-position: 70% 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,10 +18,12 @@
 .hero__title {
   color: #ffffff;
   font-size: 4rem;
-  font-weight: lighter;
+  /* font-weight: lighter; */
+  font-weight: 300;
   line-height: 4.5rem;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
-  padding: 10% 0 0 5%;
+  /* padding: 10% 0 0 5%; */
+  padding: 10% 0 0 10%;
 }
 
 
@@ -51,6 +55,10 @@
 
 .intro-1 {
   margin: 0 0 1em 0;
+}
+
+.intro__image img {
+  width: 50%;
 }
 
 
@@ -96,6 +104,7 @@
 .leistungen__content h2 {
   padding: 0 0 1.5em 0;
   line-height: 2.5rem;
+  text-align: center;
 }
 
 .leistungen__text p {
@@ -122,17 +131,17 @@
 
 .branchen__content {
   padding: 4em 0 2em 0;
-
 }
 
 .branchen__header {
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: center;
-  padding-bottom: 2em;
+  padding: 0 0 2em 3.5em;
 }
 
 .zertifikat img {
   width: 80%;
+  padding: 0 2em 0.5em 0;
 }
 
 .branchen-grid {
@@ -150,7 +159,6 @@
 
 .branche {
   position: relative;
-  margin-bottom: 1em;
 }
 
 .branchen-grid__image {
@@ -167,7 +175,7 @@
 .branchen-grid__title {
   font-size: 2.5em;
   color: white;
-  text-shadow: 2px 3px rgb(19, 19, 19);
+  text-shadow: 2px 3px 5px rgb(19, 19, 19);
   letter-spacing: 0.01rem;
   text-decoration: none;
   text-align: center;
@@ -194,27 +202,6 @@
   filter: blur(1.5px);
 }
 
-/* KONTAKT */
-
-.kontakt__content {
-  text-align: center;
-  padding: 4em 0 4em 0;
-}
-
-.kontakt__content h3 {
-  padding: 2em 0 1em 0;
-}
-
-.kontakt__content p {
-  padding: 0 0 2em 0;
-}
-
-.kontakt__content a {
-  text-decoration: none;
-  margin: 0 0 4em 0;
-}
-
-
 
 @media (min-width: 600px) {}
 
@@ -224,7 +211,6 @@
 
   .branchen {
     min-width: 100vw;
-    /* height: 100vh; */
   }
 
 }
@@ -236,7 +222,7 @@
   .branchen-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.5em;
+    gap: 1em;
     margin: 0 3em 0 3em;
   }
 
@@ -288,22 +274,6 @@
     justify-self: center;
     align-self: center;
   } */
-
-
-  /* KONTAKT */
-
-  .kontakt {
-    width: 100vw;
-    background: #ffffff;
-  }
-
-  .kontakt__content h2 {
-    padding: 5em 0 1.5em 0;
-  }
-
-  .kontakt__content p {
-    padding: 0 0 2em 0;
-  }
 }
 
 @media (min-width: 1800px) {}
