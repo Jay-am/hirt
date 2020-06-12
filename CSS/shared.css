@@ -13,6 +13,12 @@
   box-sizing: border-box;
 }
 
+/* *,
+html {
+  padding: 0;
+  margin: 0;
+} */
+
 html {
   scroll-behavior: smooth;
 }
@@ -409,9 +415,14 @@ nav ul {
 }
 
 .footer__image {
+  display: block;
   max-width: 70%;
-  align-self: center;
-  margin-right: 0;
+  align-self: flex-end;
+  margin: 0 0 0 auto;
+}
+
+.zertifiziert img {
+  align-self: flex-end;
 }
 
 .copyright {
