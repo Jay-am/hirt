@@ -161,44 +161,44 @@
 
 
 .wrapper {
-  width: 70%;
-}
-
-@media(max-width:992px) {
-  .wrapper {
-    width: 100%;
-  }
+  width: 100%;
 }
 
 .panel-heading {
   padding: 0;
   border: 0;
+  background: #ffffff;
+}
+
+.panel-body {
+  background: #ffffff;
 }
 
 .panel-title>a,
 .panel-title>a:active {
   display: block;
-  padding: 15px;
-  color: #555;
+  padding: 0 1em 0 1em;
+  color: #0066b2;
   font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 500;
   letter-spacing: 1px;
   word-spacing: 3px;
   text-decoration: none;
+  background: #ffffff;
 }
 
 .panel-heading a:before {
-  font-family: 'Glyphicons Halflings';
   content: "\e114";
   float: right;
   transition: all 0.5s;
+  background: #ffffff;
 }
 
 .panel-heading.active a:before {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
+  background: #ffffff;
 }
 
 
