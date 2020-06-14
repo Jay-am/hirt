@@ -1,7 +1,7 @@
 .hero {
   background: url("../../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
       rgba(0, 102, 178, 0.15));
-  height: 100vh;
+  height: 65vh;
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,4 +14,9 @@
   line-height: 4.5rem;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
   padding: 25% 0 0 5%;
+}
+
+.luft-und-raumfahrt {
+  padding: 4em 0 4em 0;
+  text-align: center;
 }
