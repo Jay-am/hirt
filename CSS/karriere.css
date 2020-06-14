@@ -5,7 +5,7 @@
 
 .hero {
   background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), rgba(0, 102, 178, 0.95);
-  height: 100vh;
+  height: 65vh;
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,8 @@
 .hero__title {
   color: #ffffff;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: lighter;
+  /* font-weight: 300; */
   line-height: 4.5rem;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
   padding: 25% 0 0 5%;

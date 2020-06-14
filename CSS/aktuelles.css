@@ -3,7 +3,7 @@
 .hero {
   background: url(../IMAGES/Aktuelles/aktuelles-brille.jpg), rgba(0, 102, 178, 0.99);
   /* background: url(../IMAGES/Aktuelles/aktuelles-brille.jpg),
-    linear-gradient(rgba(0, 0, 0, 0.15),
+    linear-gradient(rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 0.15)); */
   height: 65vh;
   background-position: 0 10%;
