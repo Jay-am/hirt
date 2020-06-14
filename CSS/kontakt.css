@@ -1,5 +1,6 @@
 .hero {
-  background: url("../IMAGES/Heros/hero-kontakt.png"), rgba(0, 102, 178, 0.8);
+  background: url("../IMAGES/Heros/hero-kontakt.png"), linear-gradient(rgba(0, 102, 178, 0.99),
+      rgba(0, 102, 178, 0.15));
   height: 65vh;
   background-position: 70% 0%;
   background-repeat: no-repeat;

@@ -537,6 +537,7 @@ nav ul {
   .nav.sticky .nav__item a:link,
   .nav.sticky .nav__item a:visited {
     color: #94979b;
+    text-shadow: none;
   }
 
   .nav.sticky .nav__item a:hover,
