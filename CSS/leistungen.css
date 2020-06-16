@@ -24,20 +24,20 @@
 /* LEISTUNGEN */
 
 .details-leistungen__content {
-  padding: 6em 0 5.5em 0;
+  padding: 4em 0 3.5em 0;
 }
 
 .details-leistungen__content h2 {
-  padding: 0 0 1.5em 2em;
+  padding: 0 0 1.5em 0;
   line-height: 2.5rem;
 }
 
 .details-leistungen__text--header p {
-  padding: 0 0 0 4em;
-  width: 60%;
+  width: 55%;
+  margin: 0 auto;
 }
 
-.details-leistungen__text--cards {
+.details-leistungen__text--card {
   justify-content: space-evenly;
   padding: 6em 0 2em 0;
 }
