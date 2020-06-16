@@ -23,7 +23,6 @@
 
 .details-leistungen {
   padding: 4em 0 3em 0;
-  /* text-align: center; */
 }
 
 .details-leistungen h2 {
@@ -38,6 +37,16 @@
   padding: 1em 0 0 0;
 }
 
+.details-leistungen__section--content {
+  width: 50%;
+  padding: 0 1em 0 1em;
+}
+
+.details-leistungen__section--img {
+  width: 50%;
+  padding: 0 1em 0 1em;
+}
+
 .progress-pointer {
   width: 0;
   height: 0;
@@ -47,6 +56,20 @@
   border-color: #fafafa transparent transparent transparent;
   margin: 0 auto;
 }
+
+
+/* INTRO */
+
+.details-leistungen__intro--content {
+  padding: 0 4em 0 4em;
+}
+
+.detailsleistungen__intro--text {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 /* ENTWICKLUNG */
 
