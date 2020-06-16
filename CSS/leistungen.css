@@ -60,13 +60,12 @@
 
 /* INTRO */
 
-.details-leistungen__intro--content {
-  padding: 0 4em 0 4em;
-}
+.details-leistungen__intro--content {}
 
 .detailsleistungen__intro--text {
-  width: 65%;
+  width: 80%;
   text-align: center;
+  padding: 4em 0 5em 0;
   margin: 0 auto;
 }
 
