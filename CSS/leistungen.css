@@ -26,6 +26,18 @@
   /* text-align: center; */
 }
 
+.details-leistungen h2 {
+  padding: 0 0 1em 0;
+}
+
+.details-leistungen h3 {
+  padding: 0 0 0.5em 0;
+}
+
+.details-leistungen__text {
+  padding: 1em 0 0 0;
+}
+
 /* ENTWICKLUNG */
 
 .details-leistungen__entwicklung {
@@ -39,15 +51,17 @@
   background: #fafafa;
 }
 
-.bold {
-  font-size: 0.8rem;
-  font-weight: 500;
-  padding: 1.5em 0 0em 0;
+.details-leistungen__text--bold {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 2.5em 0 0.5em 0;
 }
 
-.light {
-  font-size: 0.7rem;
-  font-weight: 300;
+.details-leistungen__text--light {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  padding: 0.5em 0 0 0;
 }
 
 
@@ -63,4 +77,3 @@
 .details-leistungen__Qualitätsmanagement {
   background: #fafafa;
 }
-
