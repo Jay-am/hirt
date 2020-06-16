@@ -1,3 +1,5 @@
+/* HERO */
+
 .hero {
   background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
       rgba(0, 102, 178, 0.15));
@@ -16,43 +18,25 @@
   padding: 15% 0 0 5%;
 }
 
-.details-leistungen {
-  padding: 4em 0 4em 0;
-  text-align: center;
-}
 
 /* LEISTUNGEN */
 
-.details-leistungen__content {
-  padding: 4em 0 3.5em 0;
+.details-leistungen {
+  padding: 4em 0 4em 0;
+  /* text-align: center; */
 }
 
-.details-leistungen__content h2 {
-  padding: 0 0 1.5em 0;
-  line-height: 2.5rem;
+/* ENTWICKLUNG */
+
+.details-leistungen__entwicklung {
+  background: #fafafa;
 }
 
-.details-leistungen__text--header p {
-  width: 55%;
-  margin: 0 auto;
-}
 
-.details-leistungen__text--card {
-  justify-content: space-evenly;
-  padding: 6em 0 2em 0;
-}
+/* FERTIGUNG */
 
-.details-leistungen__text--cards h4 {
-  font-size: 0.8rem;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.details-leistungen__text--card {
-  /* align-self: center; */
-  text-align: center;
-  padding: 1em 0.5em 1em 0.5em;
-  /* background: #fafafa; */
+.details-leistungen__fertigung {
+  background: #fafafa;
 }
 
 .bold {
@@ -66,35 +50,17 @@
   font-weight: 300;
 }
 
-/* POINTER */
 
-.pointer {
-  width: 200px;
-  height: 450px;
-  position: relative;
-  background: #f3f4f8;
+/* MONTAGE */
+
+.details-leistungen__montage {
+  background: #fafafa;
 }
 
-.pointer:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 30px solid #ffffff;
-  border-top: 225px solid transparent;
-  border-bottom: 225px solid transparent;
+
+/* QUALITÄTSMANAGEMENT */
+
+.details-leistungen__Qualitätsmanagement {
+  background: #fafafa;
 }
 
-.pointer:before {
-  content: "";
-  position: absolute;
-  right: -262px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 30px solid #f3f4f8;
-  border-top: 225px solid transparent;
-  border-bottom: 225px solid transparent;
-}
