@@ -100,19 +100,26 @@
   width: 19%;
 }
 
+.fertigung {
+  width: 55%;
+  text-align: center;
+  padding: 1em 0 0 0;
+  margin: 0 auto;
+}
+
 /* ACCORDION */
 
-h1 {
-  text-align: center;
-  color: #333;
+.section-accordion {
+  background: #fafafa;
 }
 
 .accordion {
   width: 100%;
   max-width: 1500px;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
-  margin: 3em auto;
+  padding: 0 0 4em 0;
+  margin: 0 auto;
 }
 
 .accordion ul {
@@ -128,7 +135,7 @@ h1 {
   vertical-align: bottom;
   position: relative;
   width: 20%;
-  height: 600px;
+  height: 500px;
   background-repeat: no-repeat;
   background-position: center center;
   transition: all 500ms ease;
@@ -142,14 +149,15 @@ h1 {
 
 .accordion ul li div a {
   display: block;
-  height: 600px;
+  height: 500px;
   width: 100%;
   position: relative;
   z-index: 3;
   vertical-align: bottom;
   padding: 15px 20px;
   box-sizing: border-box;
-  color: #fff;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
   text-decoration: none;
   transition: all 200ms ease;
 }
@@ -173,49 +181,43 @@ h1 {
   text-overflow: clip;
   font-size: 24px;
   text-transform: uppercase;
-  margin-bottom: 2px;
-  top: 160px;
+  /* margin-bottom: 2px; */
+  top: 5px;
 }
 
 .accordion ul li div a p {
-  top: 160px;
+  top: 5px;
   font-size: 13.5px;
 }
 
 .accordion ul li:nth-child(1) {
   /* background: url("http://michael-ferry.com/assets/accordion1.jpg"); */
   background: red;
-  height: 600px;
+  height: 500px;
 }
 
 .accordion ul li:nth-child(2) {
   /* background: url("http://michael-ferry.com/assets/accordion2.jpg"); */
   background: blue;
-  height: 600px;
+  height: 500px;
 }
 
 .accordion ul li:nth-child(3) {
   /* background: url("http://michael-ferry.com/assets/accordion3.jpg"); */
   background: green;
-  height: 600px;
+  height: 500px;
 }
 
 .accordion ul li:nth-child(4) {
   /* background: url("http://michael-ferry.com/assets/accordion4.jpg"); */
   background: grey;
-  height: 600px;
+  height: 500px;
 }
 
 .accordion ul li:nth-child(5) {
   /* background: url("http://michael-ferry.com/assets/accordion5.jpg"); */
   background: pink;
-  height: 600px;
-}
-
-.accordion ul li:nth-child(6) {
-  /* background: url("http://michael-ferry.com/assets/accordion6.jpg"); */
-  background: purple;
-  height: 600px;
+  height: 500px;
 }
 
 .accordion ul:hover li,
@@ -236,7 +238,7 @@ h1 {
 .accordion ul:hover li:hover a,
 .accordion ul li:focus a,
 .accordion ul:focus-within li:focus a {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .accordion ul:hover li:hover a *,
@@ -260,7 +262,7 @@ h1 {
 }
 
 .accordion ul:hover li:hover a {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .accordion ul:hover li:hover a * {
@@ -290,22 +292,6 @@ h1 {
     transition: none;
   }
 }
-
-.about {
-  text-align: center;
-  font-size: 12px;
-  color: #666;
-}
-
-.about a {
-  color: blue;
-  text-decoration: none;
-}
-
-.about a:hover {
-  text-decoration: underline;
-}
-
 
 
 /* MONTAGE */
