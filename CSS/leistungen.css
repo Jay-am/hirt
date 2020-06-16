@@ -22,7 +22,7 @@
 /* LEISTUNGEN */
 
 .details-leistungen {
-  padding: 4em 0 4em 0;
+  padding: 4em 0 3em 0;
   /* text-align: center; */
 }
 
@@ -36,6 +36,16 @@
 
 .details-leistungen__text {
   padding: 1em 0 0 0;
+}
+
+.progress-pointer {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  /* border-width: 30px 450px 0 450px; */
+  border-width: 60px 800px 0 800px;
+  border-color: #fafafa transparent transparent transparent;
+  margin: 0 auto;
 }
 
 /* ENTWICKLUNG */
