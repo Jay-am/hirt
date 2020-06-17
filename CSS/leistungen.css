@@ -192,31 +192,46 @@
 
 .accordion ul li:nth-child(1) {
   /* background: url("http://michael-ferry.com/assets/accordion1.jpg"); */
-  background: red;
+  background: url(../IMAGES/Leistungen/drehen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
 }
 
 .accordion ul li:nth-child(2) {
   /* background: url("http://michael-ferry.com/assets/accordion2.jpg"); */
-  background: blue;
+  background: url(../IMAGES/Leistungen/fräsen.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
 }
 
 .accordion ul li:nth-child(3) {
   /* background: url("http://michael-ferry.com/assets/accordion3.jpg"); */
-  background: green;
+  background: url(../IMAGES/Leistungen/oberflächenveredelung-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
 }
 
 .accordion ul li:nth-child(4) {
   /* background: url("http://michael-ferry.com/assets/accordion4.jpg"); */
-  background: grey;
+  background: url(../IMAGES/Leistungen/bohren.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
 }
 
 .accordion ul li:nth-child(5) {
   /* background: url("http://michael-ferry.com/assets/accordion5.jpg"); */
-  background: pink;
+  background: url(../IMAGES/Leistungen/drahterodieren.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
 }
 
