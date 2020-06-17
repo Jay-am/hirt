@@ -83,14 +83,12 @@
 .entwicklung {
   /* background: rgba(255, 255, 255, 0.8); */
   padding: 4em 0 5em 0;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .entwicklung p {
   color: rgb(58, 58, 58);
-}
-
-.shadow {
-  text-shadow: 15px 15px 30px rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
 
@@ -106,6 +104,7 @@
 
 .lagerhaltung h3 {
   padding: 4em 0 0 0;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .lagerhaltung p {
@@ -117,7 +116,7 @@
 /* FERTIGUNG */
 
 .details-leistungen__fertigung {
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 .details-leistungen__text--bold {
@@ -147,16 +146,16 @@
 /* ACCORDION */
 
 .section-accordion {
-  background: #f2f2f2;
-
+  background: #ffffff;
   padding: 0 0 6em 0;
 }
 
 .accordion {
   width: 100%;
-  max-width: 1500px;
-  height: 500px;
+  max-width: 1800px;
+  height: 450px;
   overflow: hidden;
+  border: 1px solid #f2f2f2;
   margin: 0 auto;
 }
 
@@ -362,10 +361,12 @@
 
 .montage h3 {
   padding: 1.8em 0 0 0;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .montage p {
   color: rgb(58, 58, 58);
+  text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
 }
 
 
@@ -377,6 +378,7 @@
 
 .oberflächenveredelung h3 {
   padding: 4em 0 0 0;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .oberflächenveredelung img {
@@ -396,6 +398,12 @@
   background-size: cover;
   height: 650px;
 }
+
+.qualitätssicherung h3 {
+  padding: 4em 0 0 0;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
 
 /* QUALITÄTSMANAGEMENT */
 
