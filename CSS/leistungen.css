@@ -151,7 +151,10 @@
 /* FERTIGUNG */
 
 .details-leistungen__fertigung {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: rgb(242, 242, 242);
+  height: 600px;
+  clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
 }
 
 .details-leistungen__text--bold {
@@ -182,13 +185,14 @@
 /* ACCORDION */
 
 .section-accordion {
-  background: #ffffff;
-  padding: 0 0 2em 0;
-  position: relative;
-  /* clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0); */
+  /* background: #ffffff; */
+  background: rgb(242, 242, 242);
+  padding: 0 0 8em 0;
+  /* position: relative; */
+  clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 }
 
-.section-accordion:after {
+/* .section-accordion:after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,255,255)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
   background-position: center center;
   background-repeat: no-repeat;
@@ -199,7 +203,7 @@
   width: 100%;
   bottom: -3.9vw;
   z-index: 1;
-}
+} */
 
 .accordion {
   width: 100%;
