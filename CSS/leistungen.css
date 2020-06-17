@@ -73,22 +73,28 @@
 /* ENTWICKLUNG */
 
 .details-leistungen__entwicklung {
-  background: url(../IMAGES/Leistungen/entwicklung.jpg), rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Leistungen/entwicklung2.jpg), rgba(0, 0, 0, 1);
   background-position: 40% 20%;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid #f2f2f2;
+  height: 600px;
 }
 
 .entwicklung {
-  /* background: rgba(255, 255, 255, 0.8); */
-  padding: 4em 0 5em 0;
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  padding: 6em 0 5em 0;
+  color: #ffffff
+    /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+}
+
+.entwicklung h3 {
+  color: #ffffff
+    /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
 }
 
 .entwicklung p {
-  color: rgb(58, 58, 58);
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  /* color: rgb(58, 58, 58); */
+  color: #ffffff;
+  /* text-shadow: 1px 1px 3px rgb(255, 255, 255); */
 }
 
 
@@ -356,17 +362,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 700px;
 }
 
 .montage h3 {
-  padding: 1.8em 0 0 0;
+  padding: 1.5em 0 0 0;
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .montage p {
   color: rgb(58, 58, 58);
-  text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255);
 }
 
 
