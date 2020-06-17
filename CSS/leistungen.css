@@ -73,22 +73,35 @@
 /* ENTWICKLUNG */
 
 .details-leistungen__entwicklung {
-  background: url(../IMAGES/Leistungen/entwicklung2.jpg), rgba(0, 0, 0, 1);
+  background-image: url(../IMAGES/Leistungen/entwicklung2.jpg);
   background-position: 40% 20%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
+  position: relative;
+}
+
+.details-leistungen__entwicklung:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176,106,179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 5vw;
+  position: absolute;
+  width: 100%;
+  bottom: -3.9vw;
+  z-index: 1;
 }
 
 .entwicklung {
-  padding: 6em 0 5em 0;
-  color: #ffffff
-    /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+  padding: 7em 0 5em 0;
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
 }
 
 .entwicklung h3 {
-  color: #ffffff
-    /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+  color: #ffffff;
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
 }
 
 .entwicklung p {
@@ -106,10 +119,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
+  position: relative;
+}
+
+.details-leistungen__lagerhaltung:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176, 106, 179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 5vw;
+  position: absolute;
+  width: 100%;
+  bottom: -3.9vw;
+  z-index: 1;
 }
 
 .lagerhaltung h3 {
-  padding: 4em 0 0 0;
+  padding: 6em 0 0 0;
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
@@ -145,15 +172,30 @@
 .fertigung {
   width: 55%;
   text-align: center;
-  padding: 1em 0 0 0;
+  padding: 4em 0 0 0;
   margin: 0 auto;
 }
+
 
 /* ACCORDION */
 
 .section-accordion {
   background: #ffffff;
-  padding: 0 0 6em 0;
+  padding: 0 0 2em 0;
+  position: relative;
+}
+
+.section-accordion:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,255,255)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 5vw;
+  position: absolute;
+  width: 100%;
+  bottom: -3.9vw;
+  z-index: 1;
 }
 
 .accordion {
@@ -181,7 +223,7 @@
   height: 500px;
   background-repeat: no-repeat;
   background-position: center center;
-  transition: all 500ms ease;
+  transition: all 600ms ease;
 }
 
 .accordion ul li div {
@@ -202,7 +244,7 @@
   color: #ffffff;
   text-shadow: 0.25px 0.25px 0.5px rgb(0, 0, 0);
   text-decoration: none;
-  transition: all 200ms ease;
+  transition: all 600ms ease;
 }
 
 .accordion ul li div a * {
@@ -216,13 +258,12 @@
   overflow: hidden;
   -webkit-transform: translateX(-20px);
   transform: translateX(-20px);
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
 }
 
 .accordion ul li div a h2 {
   text-overflow: clip;
-  /* text-overflow: unset; */
   font-size: 24px;
   text-transform: uppercase;
   /* margin-bottom: 2px; */
@@ -232,7 +273,6 @@
 .accordion ul li div a p {
   top: 5px;
   font-size: 13.5px;
-  text-overflow: unset;
 }
 
 .accordion ul li:nth-child(1) {
@@ -279,6 +319,14 @@
   background-size: cover;
   height: 500px;
 }
+
+/* .accordion ul li:nth-child(1):active:not(.focus-within),
+.accordion ul li:nth-child(2):active:not(.focus-within),
+.accordion ul li:nth-child(3):active:not(.focus-within),
+.accordion ul li:nth-child(4):active:not(.focus-within),
+.accordion ul li:nth-child(5):active:not(.focus-within) {
+  filter: blur(1.5px);
+} */
 
 .accordion ul:hover li,
 .accordion ul:focus-within li {
@@ -363,10 +411,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
+  position: relative;
+}
+
+.details-leistungen__montage:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176,106,179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 5vw;
+  position: absolute;
+  width: 100%;
+  bottom: -3.9vw;
+  z-index: 1;
 }
 
 .montage h3 {
-  padding: 1.5em 0 0 0;
+  padding: 3em 0 0 0;
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
@@ -380,10 +442,25 @@
 
 .details-leistungen__oberflächenveredelung {
   height: 650px;
+  position: relative;
+  background: rgb(242, 242, 242);
+}
+
+.details-leistungen__oberflächenveredelung:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(242, 242, 242)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 5vw;
+  position: absolute;
+  width: 100%;
+  bottom: -3.9vw;
+  z-index: 1;
 }
 
 .oberflächenveredelung h3 {
-  padding: 4em 0 0 0;
+  padding: 5em 0 0 0;
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
@@ -403,6 +480,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
+  position: relative;
+}
+
+.details-leistungen__qualitätssicherung:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176,106,179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  height: 5vw;
+  position: absolute;
+  width: 100%;
+  bottom: -3.9vw;
+  z-index: 1;
 }
 
 .qualitätssicherung h3 {
