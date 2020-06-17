@@ -53,7 +53,7 @@
   border-style: solid;
   /* border-width: 30px 450px 0 450px; */
   border-width: 60px 800px 0 800px;
-  border-color: #fafafa transparent transparent transparent;
+  border-color: #f2f2f2 transparent transparent transparent;
   margin: 0 auto;
 }
 
@@ -73,14 +73,51 @@
 /* ENTWICKLUNG */
 
 .details-leistungen__entwicklung {
-  background: #fafafa;
+  background: url(../IMAGES/Leistungen/entwicklung.jpg), rgba(0, 0, 0, 1);
+  background-position: 40% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid #f2f2f2;
+}
+
+.entwicklung {
+  /* background: rgba(255, 255, 255, 0.8); */
+  padding: 4em 0 5em 0;
+}
+
+.entwicklung p {
+  color: rgb(58, 58, 58);
+}
+
+.shadow {
+  text-shadow: 15px 15px 30px rgb(255, 255, 255);
+}
+
+
+/* LAGERHALTUNG */
+
+.details-leistungen__lagerhaltung {
+  background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
+  background-position: 10% 62%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.lagerhaltung h3 {
+  padding: 4em 0 0 0;
+}
+
+.lagerhaltung p {
+  color: rgb(58, 58, 58);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
 
 /* FERTIGUNG */
 
 .details-leistungen__fertigung {
-  background: #fafafa;
+  background: #f2f2f2;
 }
 
 .details-leistungen__text--bold {
@@ -110,7 +147,8 @@
 /* ACCORDION */
 
 .section-accordion {
-  background: #fafafa;
+  background: #f2f2f2;
+
   padding: 0 0 6em 0;
 }
 
@@ -179,6 +217,7 @@
 
 .accordion ul li div a h2 {
   text-overflow: clip;
+  /* text-overflow: unset; */
   font-size: 24px;
   text-transform: uppercase;
   /* margin-bottom: 2px; */
@@ -188,6 +227,7 @@
 .accordion ul li div a p {
   top: 5px;
   font-size: 13.5px;
+  text-overflow: unset;
 }
 
 .accordion ul li:nth-child(1) {
@@ -277,6 +317,7 @@
 }
 
 .accordion ul:hover li:hover a {
+  opacity: 1;
   /* background: rgba(0, 0, 0, 0.1); */
 }
 
@@ -312,12 +353,53 @@
 /* MONTAGE */
 
 .details-leistungen__montage {
-  background: #fafafa;
+  background: url(../IMAGES/Leistungen/montage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
 }
 
+.montage h3 {
+  padding: 1.8em 0 0 0;
+}
+
+.montage p {
+  color: rgb(58, 58, 58);
+}
+
+
+/* OBERFLÄCHENVEREDELUNG */
+
+.details-leistungen__oberflächenveredelung {
+  height: 650px;
+}
+
+.oberflächenveredelung h3 {
+  padding: 4em 0 0 0;
+}
+
+.oberflächenveredelung img {
+  width: 100%;
+  display: block;
+  align-self: flex-end;
+  margin: 0 auto;
+}
+
+
+/* QUALITÄTSSICHERUNG */
+
+.details-leistungen__qualitätssicherung {
+  background: url(../IMAGES/Leistungen/messraum.jpg), rgba(0, 0, 0, 1);
+  background-position: 10% 62%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
 
 /* QUALITÄTSMANAGEMENT */
 
 .details-leistungen__Qualitätsmanagement {
-  background: #fafafa;
+  background: #f2f2f2;
+  height: 650px;
 }
