@@ -27,14 +27,15 @@
 
 .karriere-intro {
   background: #ffffff;
+  height: 500px;
 }
 
 .karriere-intro__content {
-  padding: 4em 0 4em 0;
+  padding: 6em 0 6em 0;
 }
 
 .karriere-intro__content h2 {
-  padding: 0 0 1em 0;
+  padding: 2em 0 1em 0;
   text-align: center;
 }
 
@@ -47,11 +48,11 @@
 /* LEISTUNGEN */
 
 .karriere-leistungen {
-  background: #fafafa;
+  background: url(../IMAGES/Branchen/branchen-collage-light.jpg), rgba(0, 102, 178, 0.99);
 }
 
 .karriere-leistungen__content {
-  padding: 4em 0 4em 0;
+  padding: 8em 0 8em 0;
 }
 
 /* .karriere-leistungen__image {
@@ -70,12 +71,26 @@
 
 .karriere-leistungen__text h3 {
   padding: 0 0 1.5em 0;
+  /* color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+  color: black;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
   text-align: center;
 }
 
 .karriere-leistungen__list {
   list-style: none;
   line-height: 2.5rem;
+  text-align: center;
+  padding: 0;
+}
+
+.karriere-leistungen__list li {
+  /* color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+  color: black;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
   text-align: center;
   padding: 0;
 }
