@@ -122,6 +122,7 @@
 
 .stellenangebote {
   background: #fafafa;
+  border-top: 1px solid #efeded;
 }
 
 .stellenangebote__content {
