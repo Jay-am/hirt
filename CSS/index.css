@@ -125,6 +125,7 @@
   justify-content: space-evenly;
   /* padding: 4em 0 1em 0; */
   margin: 4em 3em 1em 3em;
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
 .leistungen__text--cards h4 {
@@ -150,6 +151,12 @@
   color: #ffffff;
   font-size: 0.7rem;
   font-weight: 300;
+}
+
+.leistungen__text--card:hover,
+.leistungen__text--card:active {
+  transform: scale(1.05);
+  transition: scale 0.6s ease-in-out;
 }
 
 .entwicklung {
