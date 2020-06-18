@@ -153,8 +153,8 @@
 .details-leistungen__fertigung {
   /* background: #ffffff; */
   background: rgb(242, 242, 242);
-  height: 600px;
-  clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+  height: 400px;
+  clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
 }
 
 .details-leistungen__text--bold {
@@ -177,7 +177,7 @@
 .fertigung {
   width: 55%;
   text-align: center;
-  padding: 1em 0 0 0;
+  padding: 5em 0 1em 0;
   margin: 0 auto;
 }
 
