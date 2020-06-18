@@ -290,9 +290,13 @@
 
 .branche:hover .branchen-grid__image img {
   filter: blur(1.5px);
-  /* transform: scale(1.1);
-  transition: scale 0.6s ease-in-out; */
+  transform: scale(1.1);
+  transition: scale 0.6s ease-in-out;
   box-shadow: 2px 2px 10px 0px #94979b;
+}
+
+.branche:hover .branchen-grid {
+  filter: drop-shadow(3px 1px 1px rgba(50, 50, 0, 0.5));
 }
 
 
