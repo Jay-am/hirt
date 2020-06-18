@@ -197,6 +197,10 @@
   clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%);
 }
 
+.oberflächenveredelung h4 {
+  padding: 0 0 0.5em 0;
+}
+
 .montage {
   width: 10%;
   background: #0066b2;
