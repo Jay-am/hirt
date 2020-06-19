@@ -22,7 +22,8 @@
   font-weight: lighter;
   /* font-weight: 300; */
   line-height: 4.5rem;
-  text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0),
+6px 6px 6px rgb(0, 0, 0);
   padding: 25% 0 0 5%;
   /* padding: 10% 0 0 10%; */
 }
@@ -133,7 +134,7 @@
   text-decoration: none;
   color: #ffffff;
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
   transform: rotate(-90deg);
@@ -199,7 +200,7 @@
 
 .oberflächenveredelung {
   width: 21%;
-  background: url(../IMAGES/Leistungen/oberflächenveredelung.jpg), rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
   /* border: 1px solid #efeded; */
   clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%);
 }
