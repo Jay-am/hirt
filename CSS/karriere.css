@@ -18,7 +18,7 @@
   font-weight: lighter;
   /* font-weight: 300; */
   line-height: 4.5rem;
-  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   padding: 25% 0 0 5%;
 }
 
