@@ -128,7 +128,8 @@
   filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
-.leistungen__text--cards h4 {
+.leistungen__text--cards a {
+  text-decoration: none;
   color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
@@ -166,7 +167,7 @@
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
 }
 
-.entwicklung h4 {
+.entwicklung a {
   padding: 90% 0 0 5%;
   text-align: start;
 }
@@ -178,7 +179,7 @@
   clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 20% 50%, 0% 0%);
 }
 
-.lagerhaltung h4 {
+.lagerhaltung a {
   padding: 70% 0 0 20%;
   text-align: center;
 }
@@ -197,7 +198,7 @@
   clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%);
 }
 
-.oberflächenveredelung h4 {
+.oberflächenveredelung a {
   padding: 0 0 0.5em 0;
 }
 
@@ -208,7 +209,7 @@
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
-.montage h4 {
+.montage a {
   padding: 110% 0 0 20%;
   text-align: center;
 }
@@ -220,7 +221,7 @@
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 15% 50%, 0% 0%);
 }
 
-.qualitätssicherung h4 {
+.qualitätssicherung a {
   padding: 55% 4% 0 5%;
   text-align: end;
 }
