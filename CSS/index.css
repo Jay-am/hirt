@@ -23,7 +23,7 @@
   /* font-weight: 300; */
   line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 25% 0 0 10%;
+  padding: 25% 0 0 5%;
   /* padding: 10% 0 0 10%; */
 }
 
@@ -122,6 +122,7 @@
 } */
 
 .leistungen__text--cards {
+  height: 450px;
   justify-content: space-evenly;
   /* padding: 4em 0 1em 0; */
   margin: 4em 3em 1em 3em;
@@ -132,9 +133,10 @@
   text-decoration: none;
   color: #ffffff;
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 300;
   text-transform: uppercase;
+  transform: rotate(-90deg);
 }
 
 .leistungen__text--card {
@@ -172,7 +174,7 @@
 }
 
 .entwicklung a {
-  padding: 90% 0 0 2%;
+  padding: -10% 0 0 -10%;
   text-align: start;
 }
 

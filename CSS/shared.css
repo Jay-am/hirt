@@ -132,8 +132,6 @@ p {
   text-align: center;
   margin: 0 auto;
   padding: 1.5em 0 0 0;
-  /* padding-bottom: 4em; */
-  /* border-bottom: 1px solid #0066b2; */
 }
 
 .nav__link {
@@ -148,6 +146,8 @@ p {
 }
 
 .nav__btn,
+.nav__btn a,
+.nav__btn--link,
 .nav__item,
 .nav__link:link,
 .nav__link:visited,
@@ -163,23 +163,21 @@ p {
 }
 
 .nav__btn--link {
-  text-decoration: none;
   font-size: 1rem;
-  border: 1px solid #0066b2;
-  border-radius: 0.5em;
-  padding: 0.25em 0.75em;
-  /* box-shadow: 2px 2px 10px 0px rgb(209, 208, 208); */
+  /* border: 1px solid #0066b2;
+  border-radius: 0.5em; */
+  /* padding: 0.25em 0.75em; */
+  padding: 0.375em 0.875em;
 }
 
 .nav__btn a {
-  text-decoration: none;
-  color: #0066b2;
+  /* color: #0066b2; */
+  color: #94979b;
 }
 
 .flag {
   width: 2em;
   padding: 0;
-  /* box-shadow: 2px 2px 10px 0px rgb(209, 208, 208); */
 }
 
 .flag:hover,
@@ -188,15 +186,15 @@ p {
   transition: ease-in-out 600ms;
 }
 
-.nav__btn--link:hover,
+/* .nav__btn--link:hover,
 .nav__btn--link:active {
   color: #fff;
   background: #004980;
   border: 1px solid #004980;
+  border-radius: 0.5em;
   transform: scale(0.99);
   transition: ease-in-out 600ms;
-  /* box-shadow: 2px 2px 10px 0px rgb(214, 212, 212); */
-}
+} */
 
 /* SUBNAV */
 
@@ -321,7 +319,7 @@ nav ul {
   box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
 }
 
-.btn__ontakt:link,
+.btn__kontakt:link,
 .btn__kontakt:visited {
   background: #0066b2;
 }
@@ -532,7 +530,17 @@ nav ul {
   .nav__btn a,
   .nav__btn a:link,
   .nav__btn a:visited {
-    text-shadow: 1px 1px 2px rgba(150, 112, 112, 0.5);
+    /* text-shadow: 1px 1px 2px rgba(150, 112, 112, 0.5); */
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
+
+  .nav__btn a,
+  .nav__btn a:hover,
+  .nav__btn a:active {
+    color: #004980;
+    border-radius: 0.5em;
+    transition: ease-in-out 600ms;
   }
 
   .nav.sticky {
@@ -551,18 +559,27 @@ nav ul {
   .nav.sticky .nav__btn a:link,
   .nav.sticky .nav__btn a:visited {
     text-shadow: none;
+    border: 1px solid #0066b2;
+    border-radius: 0.5em;
+    padding: 0.25em 0.75em;
+    color: #0066b2;
   }
 
   .nav.sticky .nav__item a:hover,
   .nav.sticky .nav__item a:active {
-    color: #004980;
+    color: #ffffff;
     text-shadow: none;
   }
 
   .nav.sticky .nav__btn a:hover,
   .nav.sticky .nav__btn a:active {
-    box-shadow: 0.5px 0.5px 10px 0px rgb(209, 208, 208);
     text-shadow: none;
+    color: #fff;
+    background: #004980;
+    border: 1px solid #004980;
+    transform: scale(0.99);
+    transition: ease-in-out 600ms;
+    box-shadow: 0.5px 0.5px 10px 0px rgb(209, 208, 208);
   }
 
 
