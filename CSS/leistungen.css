@@ -211,8 +211,8 @@
 
 .accordion {
   width: 100%;
-  max-width: 1800px;
-  height: 450px;
+  max-width: 1400px;
+  height: 400px;
   overflow: hidden;
   border: 1px solid #f2f2f2;
   margin: 0 auto;
@@ -419,7 +419,8 @@
 .details-leistungen__oberflächenveredelung {
   height: 700px;
   /* position: relative; */
-  background: rgb(242, 242, 242);
+  /* background: rgb(242, 242, 242); */
+  background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
   clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 }
 
@@ -439,7 +440,17 @@
 
 .oberflächenveredelung h3 {
   padding: 5em 0 0 0;
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+}
+
+.oberflächenveredelung p {
+  /* color: rgb(58, 58, 58);
+  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255); */
+  color: #ffffff;
+  /* text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
 .oberflächenveredelung img {
