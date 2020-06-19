@@ -6,7 +6,9 @@
 .hero {
   background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
       rgba(0, 102, 178, 0.15));
-  height: 65vh;
+  /* height: 65vh;
+  background-position: 0 5%; */
+  height: 100vh;
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +21,8 @@
   /* font-weight: 300; */
   line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 25% 0 0 5%;
+  /* padding: 25% 0 0 5%; */
+  padding: 35% 0 0 5%;
 }
 
 
@@ -31,6 +34,7 @@
 }
 
 .karriere-intro__content {
+  width: 55%;
   padding: 6em 0 6em 0;
 }
 
@@ -74,7 +78,7 @@
   /* color: #ffffff;
   text-shadow: 1px 1px 3px rgb(0, 0, 0); */
   color: black;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
   text-align: center;
 }
 

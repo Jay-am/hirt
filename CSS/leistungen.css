@@ -3,8 +3,10 @@
 .hero {
   background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
       rgba(0, 102, 178, 0.15));
-  height: 65vh;
-  background-position: 0 5%;
+  /* height: 65vh;
+  background-position: 0 5%; */
+  height: 100vh;
+  background-position: 0 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,7 +17,8 @@
   font-weight: lighter;
   line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 15% 0 0 5%;
+  /* padding: 15% 0 0 5%; */
+  padding: 25% 0 0 5%;
 }
 
 
@@ -144,7 +147,8 @@
 
 .lagerhaltung p {
   color: rgb(58, 58, 58);
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255); */
+  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255);
 }
 
 
@@ -478,7 +482,7 @@
 
 .montage p {
   color: rgb(58, 58, 58);
-  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255);
+  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255);
 }
 
 
