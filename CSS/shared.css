@@ -550,9 +550,19 @@ nav ul {
 
   .nav.sticky .nav__item a,
   .nav.sticky .nav__item a:link,
-  .nav.sticky .nav__item a:visited {
+  .nav.sticky .nav__item a:visited,
+  .nav.sticky .nav__item,
+  .nav.sticky .nav__link:link,
+  .nav.sticky .nav__link:visited {
     color: #94979b;
     text-shadow: none;
+  }
+
+  .nav.sticky .nav__item a:hover,
+  .nav.sticky .nav__item a:active {
+    color: #0066b2;
+    text-shadow: none;
+
   }
 
   .nav.sticky .nav__btn a,
@@ -565,12 +575,6 @@ nav ul {
     color: #0066b2;
   }
 
-  .nav.sticky .nav__item a:hover,
-  .nav.sticky .nav__item a:active {
-    color: #ffffff;
-    text-shadow: none;
-  }
-
   .nav.sticky .nav__btn a:hover,
   .nav.sticky .nav__btn a:active {
     text-shadow: none;
@@ -581,7 +585,6 @@ nav ul {
     transition: ease-in-out 600ms;
     box-shadow: 0.5px 0.5px 10px 0px rgb(209, 208, 208);
   }
-
 
   .nav.sticky .nav__item img:hover,
   .nav.sticky .nav__item img:active {
