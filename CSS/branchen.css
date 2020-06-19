@@ -178,14 +178,14 @@
 .lebensmitteltechnik {
   background: url(../IMAGES/Branchen/Lebensmitteltechnik/lebensmitteltechnik.jpg);
   height: 800px;
-  background-position: 10% 90%;
+  background-position: 0% 90%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 2em;
 }
 
 .details-branchen__content--lebensmitteltechnik {
-  padding: 14em 10% 0em 0em;
+  padding: 16em 10% 0em 5em;
 }
 
 .details-branchen__content--lebensmitteltechnik h2 {
