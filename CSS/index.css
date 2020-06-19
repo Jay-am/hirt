@@ -131,6 +131,7 @@
 .leistungen__text--cards a {
   text-decoration: none;
   color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -143,6 +144,7 @@
 
 .bold {
   color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
   font-size: 0.8rem;
   font-weight: 500;
   padding: 1.5em 0 0em 0;
@@ -150,6 +152,7 @@
 
 .light {
   color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
   font-size: 0.7rem;
   font-weight: 300;
 }
@@ -169,7 +172,7 @@
 }
 
 .entwicklung a {
-  padding: 90% 0 0 5%;
+  padding: 90% 0 0 2%;
   text-align: start;
 }
 
@@ -223,7 +226,7 @@
 }
 
 .qualitätssicherung a {
-  padding: 55% 4% 0 5%;
+  padding: 55% 0% 0 14%;
   text-align: end;
 }
 
