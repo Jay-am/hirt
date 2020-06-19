@@ -162,7 +162,8 @@
 
 .entwicklung {
   width: 11%;
-  background: #0066b2;
+  /* background: #0066b2; */
+  background: url(../IMAGES/Leistungen/entwicklung2.jpg);
   /* border: 1px solid #efeded; */
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
 }
@@ -174,7 +175,7 @@
 
 .lagerhaltung {
   width: 14%;
-  background: #0066b2;
+  background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
   /* border: 1px solid #efeded; */
   clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 20% 50%, 0% 0%);
 }
@@ -186,14 +187,14 @@
 
 .fertigung {
   width: 26%;
-  background: #0066b2;
+  background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
   /* border: 1px solid #efeded; */
   clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
 }
 
 .oberflächenveredelung {
   width: 21%;
-  background: #0066b2;
+  background: url(../IMAGES/Leistungen/oberflächenveredelung.jpg), rgba(0, 0, 0, 1);
   /* border: 1px solid #efeded; */
   clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%);
 }
@@ -204,7 +205,7 @@
 
 .montage {
   width: 10%;
-  background: #0066b2;
+  background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
   /* border: 1px solid #efeded; */
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
@@ -216,7 +217,7 @@
 
 .qualitätssicherung {
   width: 18%;
-  background: #0066b2;
+  background: url(../IMAGES/Leistungen/messraum.jpg), rgba(0, 0, 0, 1);
   /* border: 1px solid #efeded; */
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 15% 50%, 0% 0%);
 }
