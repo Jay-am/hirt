@@ -71,6 +71,7 @@
   height: 650px;
   /* position: relative; */
   clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  margin-bottom: -5em;
 }
 
 /* .details-leistungen__entwicklung:after {
@@ -113,7 +114,7 @@
   height: 700px;
   /* position: relative; */
   clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  transform: translateY(-5em);
+  margin-bottom: -5em;
 }
 
 /* .details-leistungen__lagerhaltung:after {
@@ -148,7 +149,6 @@
   background: rgb(242, 242, 242);
   height: 400px;
   clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
-  transform: translateY(-10em);
 }
 
 .details-leistungen__text--bold {
@@ -183,8 +183,8 @@
   background: rgb(242, 242, 242);
   padding: 0 0 8em 0;
   /* position: relative; */
-  clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  transform: translateY(-10em);
+  clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  margin-bottom: -4em;
 }
 
 /* .section-accordion:after {
@@ -412,8 +412,8 @@
   /* position: relative; */
   /* background: rgb(242, 242, 242); */
   background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
-  clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  transform: translateY(-14em);
+  clip-path: polygon(50% 13%, 100% 0, 100% 86%, 50% 100%, 0 86%, 0 0);
+  margin-bottom: -5em;
 }
 
 /* 
@@ -462,8 +462,8 @@
   background-size: cover;
   height: 850px;
   /* position: relative; */
-  clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  transform: translateY(-20em);
+  clip-path: polygon(50% 14%, 100% 0, 100% 87%, 50% 100%, 0 87%, 0 0);
+  margin-bottom: -5em;
 }
 
 /* .details-leistungen__montage:after {
@@ -499,8 +499,8 @@
   background-size: cover;
   height: 700px;
   /* position: relative; */
-  clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  transform: translateY(-25em);
+  clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  margin-bottom: -5em;
 }
 
 /* .details-leistungen__qualitätssicherung:after {
@@ -529,22 +529,8 @@
   height: 650px;
   padding: 4em 0 0 0;
   clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
-  transform: translateY(-30em);
 }
 
 .qualitätsmanagement h3 {
   padding: 4em 0 0 0;
-}
-
-
-/* KONTAKT */
-
-.kontakt {
-  transform: translateY(-30em);
-}
-
-/* FOOTER */
-
-.footer {
-  transform: translateY(-30em);
 }
