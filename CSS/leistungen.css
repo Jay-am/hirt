@@ -22,10 +22,11 @@
 }
 
 
-/* LEISTUNGEN */
+/* INTRO */
 
 .details-leistungen {
   padding: 4em 0 3em 0;
+  margin: 0;
 }
 
 .details-leistungen h2 {
@@ -50,21 +51,6 @@
   padding: 0 1em 0 1em;
 }
 
-.progress-pointer {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  /* border-width: 30px 450px 0 450px; */
-  border-width: 60px 800px 0 800px;
-  border-color: #f2f2f2 transparent transparent transparent;
-  margin: 0 auto;
-}
-
-
-/* INTRO */
-
-.details-leistungen__intro--content {}
-
 .detailsleistungen__intro--text {
   width: 80%;
   text-align: center;
@@ -72,6 +58,8 @@
   margin: 0 auto;
 }
 
+
+/* LEISTUNGEN */
 
 /* ENTWICKLUNG */
 
