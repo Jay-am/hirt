@@ -319,24 +319,22 @@ nav ul {
   margin: 0 0 0 1em;
 }
 
-.btn__kontakt {
-  background: #0066b2;
-  padding: 0.75em 1.5em;
-  border: 1px solid #0066b2;
-  border-radius: 0.5em;
-  color: #fff;
-  text-decoration: none;
-  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
-}
-
+.btn__kontakt,
 .btn__kontakt:link,
 .btn__kontakt:visited {
+  text-decoration: none;
+  color: #ffffff;
   background: #0066b2;
+  border: 1px solid #0066b2;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
+  padding: 0.75em 1.5em;
 }
 
 .btn__kontakt:hover,
 .btn__kontakt:active {
   background: #014779;
+  border: 1px solid #014779;
   box-shadow: 2px 2px 10px 2px rgb(214, 212, 212);
   transform: scale(0.99);
   transition: ease-in-out 600ms;
