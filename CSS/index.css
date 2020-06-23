@@ -5,8 +5,7 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Heros/hero-wasser.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
-      rgba(0, 102, 178, 0.15));
+  background: url("../IMAGES/Heros/hero-wasser.jpeg");
   height: 100vh;
   /* height: 65vh; */
   background-position: 70% 100%;
@@ -23,7 +22,7 @@
   /* font-weight: 300; */
   line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
-6px 6px 6px rgb(0, 0, 0);
+    6px 6px 6px rgb(0, 0, 0);
   padding: 25% 0 0 5%;
   /* padding: 10% 0 0 10%; */
 }

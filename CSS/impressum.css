@@ -1,7 +1,7 @@
 .hero {
   background: url("../IMAGES/Heros/impressum.jpg"), linear-gradient(rgba(0, 102, 178, 0.99),
       rgba(0, 102, 178, 0.15));
-  height: 50vh;
+  height: 40vh;
   background-position: 0% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,7 @@
   line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 15% 0 0 14%;
+  padding: 10% 0 0 14%;
 }
 
 

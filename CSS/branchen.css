@@ -1,8 +1,7 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
-      rgba(0, 102, 178, 0.15));
+  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
   height: 100vh;
   background-position: 0 5%;
   background-repeat: no-repeat;
