@@ -1,8 +1,8 @@
 .hero {
-  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
+  background: url("../IMAGES/Heros/impressum.jpg"), linear-gradient(rgba(0, 102, 178, 0.99),
       rgba(0, 102, 178, 0.15));
-  height: 65vh;
-  background-position: 0 5%;
+  height: 50vh;
+  background-position: 0 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,7 +14,7 @@
   line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 20% 0 0 6%;
+  padding: 15% 0 0 6%;
 }
 
 /* MAIN */
@@ -99,7 +99,7 @@
 /* TABS */
 
 .tablist__items {
-  padding: 1em 5% 6850px 4.8%;
+  padding: 1em 5% 6850px 4.5%;
 }
 
 .tabs {
