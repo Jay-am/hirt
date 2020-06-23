@@ -20,7 +20,7 @@
 /* MAIN */
 
 .agb__content {
-  padding: 4em 0em 8em 0em;
+  padding: 4em 0em 3em 0em;
 }
 
 .agb__content h2 {
@@ -70,17 +70,13 @@
 /* BUTTON */
 
 .agb__download {
-  padding: 2em 0 0 0;
-}
-
-.agb__download a {
-  text-decoration: none;
-  color: #ffffff;
+  padding: 0 0 8em 0;
 }
 
 .btn__agb--download,
 .btn__agb--download:link,
 .btn__agb--download:visited {
+  text-decoration: none;
   color: #ffffff;
   background: #0066b2;
   border: 1px solid #0066b2;
