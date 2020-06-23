@@ -19,5 +19,61 @@
 /* MAIN */
 
 .impressum__content {
-  padding: 6em 0em 6em 0em;
+  padding: 4em 0em 6em 0em;
+}
+
+.impressum__content h2 {
+  padding: 2em 0em 0.5em 0em;
+}
+
+.impressum__content h3 {
+  padding: 2em 0em 1em 0em;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.impressum__content h4 {
+  padding: 2em 0em 1em 0em;
+  font-weight: 400;
+  color: rgb(58, 58, 58);
+}
+
+.impressum__content .h4 {
+  padding: 1.5em 0em 1.5em 0em;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(58, 58, 58);
+}
+
+.impressum__content p {
+  padding: 0em 0em 1em 0em;
+}
+
+.address {
+  font-weight: 300;
+  line-height: 60%;
+}
+
+.impressum__text a {
+  padding-bottom: 2em;
+}
+
+.impressum__content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.impressum__content a:link,
+.impressum__content a:visited {
+  text-decoration: none;
+  color: #94979b;
+}
+
+.impressum__content a:active,
+.impressum__content a:hover {
+  color: #0066b2;
+}
+
+.impressum__content span {
+  font-weight: 100;
 }
