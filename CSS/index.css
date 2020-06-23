@@ -1,8 +1,6 @@
-/* GENERAL */
-
-
-
+/* xxxxxxxxxxxxxxxxxxxxxx */
 /* HERO */
+/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .hero {
   background: url("../IMAGES/Heros/hero-wasser.jpeg");
@@ -27,8 +25,9 @@
   /* padding: 10% 0 0 10%; */
 }
 
-
+/* xxxxxxxxxxxxxxxxxxxxxx */
 /* INTRO */
+/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .intro {
   width: 100vw;
@@ -63,7 +62,9 @@
 }
 
 
+/* xxxxxxxxxxxxxxxxxxxxxx */
 /* REALISATION */
+/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .realistaion {
   width: 100vw;
@@ -100,7 +101,9 @@
 }
 
 
+/* xxxxxxxxxxxxxxxxxxxxxx */
 /* LEISTUNGEN */
+/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .leistungen {
   width: 100vw;
@@ -113,7 +116,7 @@
 
 .leistungen__content h2 {
   padding: 0 0 0 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* .leistungen__text--header p {
@@ -165,23 +168,45 @@
   transition: scale 0.6s ease-in-out;
 }
 
+.leistungen__card {
+  position: relative;
+  /* justify-content: space-evenly;
+  align-content: center; */
+}
+
+
+/* ENTWICKLUNG */
+
 .entwicklung {
   width: 11%;
   /* background: #0066b2; */
   background: url(../IMAGES/Leistungen/entwicklung2.jpg);
-  /* border: 1px solid #efeded; */
+  background-position: 55% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
 }
 
 .entwicklung a {
   padding: -10% 0 0 -10%;
-  text-align: start;
+  text-align: center;
 }
 
+.leistungen__card-header--entwicklung {
+  position: absolute;
+  top: 190px;
+  left: -30px;
+}
+
+
+/* LAGERHALTUNG */
+
 .lagerhaltung {
-  width: 14%;
+  width: 12%;
   background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
-  /* border: 1px solid #efeded; */
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 20% 50%, 0% 0%);
 }
 
@@ -190,17 +215,39 @@
   text-align: center;
 }
 
+.leistungen__card-header--lagerhaltung {
+  position: absolute;
+  top: 130px;
+  left: -80px;
+}
+
+
+/* FERTIGUNG */
+
 .fertigung {
-  width: 26%;
+  width: 31%;
   background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
-  /* border: 1px solid #efeded; */
+  background-position: 70% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
 }
 
+.leistungen__card-header--fertigung {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+}
+
+
+/* OBERFLÄCHENVEREDELUNG */
+
 .oberflächenveredelung {
-  width: 21%;
+  width: 23%;
   background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
-  /* border: 1px solid #efeded; */
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%);
 }
 
@@ -208,10 +255,21 @@
   padding: 0 0 0.5em 0;
 }
 
+.leistungen__card-header--oberflächenveredelung {
+  position: absolute;
+  top: 185px;
+  left: -80px;
+}
+
+
+/* MONTAGE */
+
 .montage {
-  width: 10%;
+  width: 12%;
   background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
-  /* border: 1px solid #efeded; */
+  background-position: 70% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
@@ -220,20 +278,39 @@
   text-align: center;
 }
 
+.leistungen__card-header--montage {
+  position: absolute;
+  top: 130px;
+  left: -35px;
+}
+
+
+/* QUALITÄTSSICHERUNG */
+
 .qualitätssicherung {
-  width: 18%;
+  width: 11%;
   background: url(../IMAGES/Leistungen/messraum.jpg), rgba(0, 0, 0, 1);
-  /* border: 1px solid #efeded; */
+  background-position: 30% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 15% 50%, 0% 0%);
 }
 
 .qualitätssicherung a {
   padding: 55% 0% 0 14%;
-  text-align: end;
+  text-align: center;
+}
+
+.leistungen__card-header--qualitätssicherung {
+  position: absolute;
+  top: 120px;
+  left: -165px;
 }
 
 
+/* xxxxxxxxxxxxxxxxxxxxxx */
 /* BRANCHEN */
+/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .branchen {
   background: #fafafa;
