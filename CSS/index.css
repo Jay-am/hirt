@@ -236,7 +236,13 @@
 .leistungen__card-header--fertigung {
   position: absolute;
   top: 180px;
-  left: 10px;
+  left: 15px;
+}
+
+.leistungen__card-content--fertigung {
+  position: absolute;
+  top: 55px;
+  left: 160px;
 }
 
 
@@ -259,6 +265,12 @@
   position: absolute;
   top: 185px;
   left: -80px;
+}
+
+.leistungen__card-content--oberflächenveredelung {
+  position: absolute;
+  top: 70px;
+  left: 160px;
 }
 
 
