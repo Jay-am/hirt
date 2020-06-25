@@ -412,29 +412,28 @@
 
 .branche:hover {
   transform: scale(1.1);
-  transition: scale 0.8s ease-in-out;
+  transition: scale 0.9s ease-in-out;
   filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)) drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
 
-@media (min-width: 600px) {}
-
-@media (min-width: 900px) {
+@media (min-width: 600px) {
 
   /* GRID */
 
   .branchen {
     min-width: 100vw;
   }
-
 }
+
+@media (min-width: 900px) {}
 
 @media (min-width: 1200px) {
 
   /* GRID */
 
   .branchen-grid {
-    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5)) drop-shadow(1px 4px 6px rgba(50, 50, 0, 0.2));
+    filter: drop-shadow(-1px 6px 3px rgba(0, 0, 0, 0.5)) drop-shadow(1px 4px 6px rgba(0, 0, 0, 0.2));
   }
 
   .branchen-grid__image {
