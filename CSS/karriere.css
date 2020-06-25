@@ -4,25 +4,22 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
-      rgba(0, 102, 178, 0.15));
-  /* height: 65vh;
-  background-position: 0 5%; */
-  height: 100vh;
-  background-position: 0 5%;
+  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
+  height: 65vh;
+  background-position: 30% 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero__title {
   color: #ffffff;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: lighter;
-  /* font-weight: 300; */
-  line-height: 4.5rem;
+  line-height: 4rem;
+  text-align: center;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  /* padding: 25% 0 0 5%; */
-  padding: 35% 0 0 5%;
+  padding: 25% 0.5em 0 0.5em;
+  margin: 0 auto;
 }
 
 
@@ -30,12 +27,11 @@
 
 .karriere-intro {
   background: #ffffff;
-  height: 650px;
 }
 
 .karriere-intro__content {
-  width: 55%;
-  padding: 6em 0 6em 0;
+  width: 90%;
+  padding: 2em 0 5em 0;
 }
 
 .karriere-intro__content h2 {
@@ -223,10 +219,65 @@
 }
 
 
+/* MEDIAQUERIES */
+
+@media (min-width: 900px) {
+
+  .hero {
+    height: 65vh;
+    /* height: 100vh; */
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    padding: 20% 0 0 15%;
+    /* padding: 38% 0 0 10%; */
+  }
+}
 
 @media (min-width: 1200px) {
 
-  .karriere-intro__content {
-    padding: 4em 7em 4em 7em;
+  .hero {
+    .hero {
+      /* height: 65vh;
+    background-position: 0 5%; */
+      height: 100vh;
+      background-position: 0 5%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .hero__title {
+      color: #ffffff;
+      font-size: 4rem;
+      font-weight: lighter;
+      /* font-weight: 300; */
+      line-height: 4.5rem;
+      text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
+      /* padding: 25% 0 0 5%; */
+      padding: 35% 0 0 5%;
+    }
+
+    .karriere-intro {
+      background: #ffffff;
+    }
+
+    .karriere-intro__content {
+      width: 55%;
+      padding: 6em 0 6em 0;
+    }
+
+    .karriere-intro__content h2 {
+      padding: 2em 0 1em 0;
+      text-align: center;
+    }
+
+    .karriere-intro__content p {
+      padding: 0 0 1em 0;
+      text-align: center;
+    }
   }
-}
