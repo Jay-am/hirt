@@ -1,6 +1,5 @@
 .hero {
-  background: url("../IMAGES/Heros/impressum.jpg"), linear-gradient(rgba(0, 102, 178, 0.99),
-      rgba(0, 102, 178, 0.15));
+  background: url("../IMAGES/Heros/impressum.jpg");
   height: 40vh;
   background-position: 0 50%;
   background-repeat: no-repeat;
@@ -16,6 +15,7 @@
     6px 6px 6px rgb(0, 0, 0);
   padding: 10% 0 0 14%;
 }
+
 
 /* MAIN */
 
@@ -64,7 +64,6 @@
 .datenschutz__content a:hover {
   color: #0066b2;
 }
-
 
 .small {
   font-size: 0.8rem;
