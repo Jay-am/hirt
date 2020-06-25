@@ -519,7 +519,7 @@ nav ul {
   .nav__item+.nav__item,
   .nav__btn a,
   .flag {
-    margin-left: 3em;
+    margin-left: 1em;
   }
 
   .nav__item {
@@ -652,6 +652,14 @@ nav ul {
   .container {
     width: 90%;
     margin: 0 auto;
+  }
+
+  /* NAV */
+
+  .nav__item+.nav__item,
+  .nav__btn a,
+  .flag {
+    margin-left: 3em;
   }
 }
 
