@@ -334,19 +334,25 @@
   border-bottom: 1px solid #efeded;
 }
 
+.branchen__content {
+  padding: 5em 5% 4em 5%;
+}
+
 .branchen__header {
   justify-content: space-between;
   align-content: center;
-  padding: 7em 0 1.5em 3.5em;
+  padding: 0em 0 2em 0em;
 }
 
 .zertifikat img {
   width: 100%;
-  padding: 0 7em 2em 0;
+  align-self: center;
+  justify-self: center;
+  padding: 0 3em 0em 0;
 }
 
 .branchen-grid {
-  padding: 0 0 7em 0;
+  padding: 2em 0 2em 0;
   margin: 0 auto;
 }
 
@@ -388,7 +394,7 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity .6s;
+  transition: opacity .3s;
   clip-path: polygon(22% 0%, 78% 0%, 100% 50%, 78% 100%, 22% 100%, 0% 50%);
   background: rgba(#94979b, 0.05);
   display: flex;

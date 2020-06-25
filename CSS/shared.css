@@ -424,13 +424,18 @@ nav ul {
 
 .footer__image {
   display: block;
-  max-width: 70%;
+  max-width: 80%;
   align-self: flex-end;
   margin: 0 0 0 auto;
 }
 
 .zertifiziert img {
   align-self: flex-end;
+}
+
+.zertifiziert img:hover {
+  transform: scale(0.98);
+  transition: scale 0.6s ease-in-out;
 }
 
 .copyright {
