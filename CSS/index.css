@@ -135,7 +135,9 @@
 .leistungen__text--cards a {
   text-decoration: none;
   color: #ffffff;
-  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+  text-shadow: 1px 1px 2px rgb(0, 0, 0),
+    3px 3px 3px rgb(0, 0, 0);
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
