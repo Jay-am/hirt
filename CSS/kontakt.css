@@ -40,11 +40,11 @@
 }
 
 .absatz {
-  padding: 2.5em 0 0 0;
+  padding: 1.5em 0 0 0;
 }
 
 .kontakt {
-  padding: 2em 0 2em 0;
+  padding: 1.5em 0 2em 0;
 }
 
 
@@ -61,16 +61,16 @@
   padding: 4em 2em 2em 2em;
 }
 
-.ansprechpartner__header {
-  padding: 0 0 3em 0;
+.ansprechpartner__content h3 {
+  padding: 0 0 1.5em 0;
 }
 
-.ansprechpartner__header h3 {
-  padding: 0 0 1em 0;
+.ansprechpartner__text {
+  padding: 0 0 2em 0;
 }
 
-.ansprechpartner__header p+.ansprechparter__header p {
-  margin-bottom: 0.8em;
+.ansprechpartner__text p+.ansprechparter__text p {
+  margin-bottom: 1em;
 }
 
 
