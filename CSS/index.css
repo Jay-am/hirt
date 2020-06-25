@@ -111,7 +111,7 @@
 }
 
 .leistungen__content {
-  padding: 8em 0 8em 0;
+  padding: 6em 0 6em 0;
 }
 
 .leistungen__content h2 {
@@ -130,7 +130,7 @@
   justify-content: space-evenly;
   /* padding: 4em 0 1em 0; */
   margin: 4em 5% 1em 5%;
-  filter: drop-shadow(-1px 3px 6px rgba(50, 50, 0, 0.3)) drop-shadow(1px 3px 6px rgba(50, 50, 0, 0.2));
+  filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3)) drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
 .leistungen__text--cards a {
@@ -168,7 +168,7 @@
 .leistungen__text--card:hover,
 .leistungen__text--card:active {
   transform: scale(1.05);
-  transition: scale 0.6s ease-in-out;
+  transition: scale 0.9s ease-in-out;
 }
 
 .leistungen__card {
