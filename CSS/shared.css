@@ -107,7 +107,7 @@ p {
   margin: 0 auto;
 }
 
-/* NAVIGATION */
+/* NAVIGATION (MOBILE) */
 
 .nav__bar {
   padding: 0 0 1em 0;
@@ -151,6 +151,7 @@ p {
 .nav__item {
   margin: 0 auto 0.5em auto;
   padding: 0.375em 0 0 0;
+  padding-bottom: 0.5em;
 }
 
 .nav__btn,
@@ -170,17 +171,20 @@ p {
   transition: ease-in-out 300ms;
 }
 
+.nav__btn a,
 .nav__btn--link {
+  color: #94979b;
   font-size: 1rem;
+  padding: 0.25em 0 1em 0;
   /* border: 1px solid #0066b2;
-  border-radius: 0.5em; */
-  /* padding: 0.25em 0.75em; */
-  padding: 0.375em 0.875em;
+  border-radius: 0.5em;
+  padding: 0.25em 0.75em; */
+  /* padding: 0.375em 0.875em; */
 }
 
-.nav__btn a {
-  /* color: #0066b2; */
-  color: #94979b;
+.nav__btn--link:hover,
+.nav__btn--link:active {
+  color: #0066b2;
 }
 
 .flag {
@@ -194,17 +198,7 @@ p {
   transition: ease-in-out 600ms;
 }
 
-/* .nav__btn--link:hover,
-.nav__btn--link:active {
-  color: #fff;
-  background: #004980;
-  border: 1px solid #004980;
-  border-radius: 0.5em;
-  transform: scale(0.99);
-  transition: ease-in-out 600ms;
-} */
-
-/* SUBNAV */
+/* SUBNAV DROPDOWN */
 
 .nav-dropdown {
   position: absolute;
@@ -246,6 +240,7 @@ nav ul li ul li a {
 nav ul {
   display: none;
 }
+
 
 /* NAV HAMBURGER */
 
@@ -483,7 +478,7 @@ nav ul {
     top: 0;
     left: 0;
     padding: 0.75em 2.25em 0.75em 2.25em;
-    transition: 0.6s;
+    /* transition: 0.3s; */
     z-index: 10;
   }
 
@@ -495,7 +490,7 @@ nav ul {
   nav ul li,
   nav ul li a {
     position: relative;
-    transition: 0.6s;
+    /* transition: 0.3s; */
   }
 
   .nav img {
@@ -518,7 +513,7 @@ nav ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 0 0 0;
+    padding: 0.75em 0 0 0;
   }
 
   .nav__item+.nav__item,
@@ -544,15 +539,15 @@ nav ul {
   .nav__list--primary .nav__link:active {
     color: #004980;
     transition: ease-in-out 600ms;
+    text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0), 1px 1px 4px rgb(255, 255, 255);
   }
 
   .nav__btn a,
   .nav__btn a:link,
   .nav__btn a:visited {
-    /* text-shadow: 1px 1px 2px rgba(150, 112, 112, 0.5); */
     color: #ffffff;
-    /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
     text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0), 1px 1px 4px rgb(0, 0, 0);
+    padding: 0.375em 0.875em 0.0625em 0.875em;
   }
 
   .nav__btn a,
@@ -560,7 +555,8 @@ nav ul {
   .nav__btn a:active {
     color: #004980;
     border-radius: 0.5em;
-    transition: ease-in-out 600ms;
+    transition: ease-in-out 300ms;
+    text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0), 1px 1px 4px rgb(255, 255, 255);
   }
 
   .nav.sticky {
@@ -602,8 +598,18 @@ nav ul {
     background: #004980;
     border: 1px solid #004980;
     transform: scale(0.99);
-    transition: ease-in-out 600ms;
+    transition: scale 0.6s ease-in-out;
     box-shadow: 0.5px 0.5px 10px 0px rgb(209, 208, 208);
+  }
+
+  .nav.sticky .nav__btn--link:hover,
+  .nav.sticky .nav__btn--link:active {
+    color: #fff;
+    background: #004980;
+    border: 1px solid #004980;
+    border-radius: 0.5em;
+    transform: scale(0.99);
+    transition: scale 0.6s ease-in-out;
   }
 
   .nav.sticky .flag {
