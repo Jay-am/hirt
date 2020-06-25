@@ -146,8 +146,13 @@
   /* GALLERIE */
 
   .gallerie__content {
+    width: 45%;
     text-align: center;
     padding: 6em 0 8em 0;
+  }
+
+  .gallerie__content h2 {
+    font-size: 2rem;
   }
 
 
