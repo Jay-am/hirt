@@ -1,12 +1,9 @@
-/* GENERAL */
-
-
 /* HERO */
 
 .hero {
   background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
   height: 65vh;
-  background-position: 30% 0;
+  background-position: 30% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,10 +13,8 @@
   font-size: 3.5rem;
   font-weight: lighter;
   line-height: 4rem;
-  text-align: center;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 25% 0.5em 0 0.5em;
-  margin: 0 auto;
+  padding: 30% 0.5em 0 0.5em;
 }
 
 
@@ -31,17 +26,15 @@
 
 .karriere-intro__content {
   width: 90%;
-  padding: 2em 0 5em 0;
+  padding: 2em 1em 5em 2em;
 }
 
 .karriere-intro__content h2 {
   padding: 2em 0 1em 0;
-  text-align: center;
 }
 
 .karriere-intro__content p {
   padding: 0 0 1em 0;
-  text-align: center;
 }
 
 
@@ -65,7 +58,6 @@
 }
 
 .karriere-leistungen__text {
-  align-self: center;
   /* width: 50%; */
 }
 
@@ -75,13 +67,11 @@
   text-shadow: 1px 1px 3px rgb(0, 0, 0); */
   color: black;
   text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
-  text-align: center;
 }
 
 .karriere-leistungen__list {
   list-style: none;
   line-height: 2.5rem;
-  text-align: center;
   padding: 0;
 }
 
@@ -91,7 +81,6 @@
   color: black;
   font-weight: 400;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
-  text-align: center;
   padding: 0;
 }
 
@@ -104,7 +93,6 @@
 
 .bewerben__content {
   padding: 6em 0 6em 0;
-  text-align: center;
 }
 
 .bewerben__content h3 {
@@ -126,7 +114,7 @@
 }
 
 .stellenangebote__content {
-  padding: 6em 0 6em 0;
+  padding: 6em 0 2em 0;
 }
 
 .stellenangebote__title {
@@ -242,42 +230,88 @@
 @media (min-width: 1200px) {
 
   .hero {
-    .hero {
-      /* height: 65vh;
+    /* height: 65vh;
     background-position: 0 5%; */
-      height: 100vh;
-      background-position: 0 5%;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .hero__title {
-      color: #ffffff;
-      font-size: 4rem;
-      font-weight: lighter;
-      /* font-weight: 300; */
-      line-height: 4.5rem;
-      text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-      /* padding: 25% 0 0 5%; */
-      padding: 35% 0 0 5%;
-    }
-
-    .karriere-intro {
-      background: #ffffff;
-    }
-
-    .karriere-intro__content {
-      width: 55%;
-      padding: 6em 0 6em 0;
-    }
-
-    .karriere-intro__content h2 {
-      padding: 2em 0 1em 0;
-      text-align: center;
-    }
-
-    .karriere-intro__content p {
-      padding: 0 0 1em 0;
-      text-align: center;
-    }
+    height: 100vh;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+  .hero__title {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: lighter;
+    /* font-weight: 300; */
+    line-height: 4.5rem;
+    text-align: left;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
+    /* padding: 25% 0 0 5%; */
+    padding: 35% 0 0 5%;
+  }
+
+  .karriere-intro {
+    background: #ffffff;
+  }
+
+  .karriere-intro__content {
+    width: 50%;
+    text-align: left;
+    padding: 6em 0 9em 0;
+  }
+
+  .karriere-intro__content h2,
+  .karriere-intro__content p {}
+
+  /* LEISTUNGEN */
+
+  .karriere-leistungen__content {
+    padding: 8em 0 8em 0;
+  }
+
+  /* .karriere-leistungen__image {
+    width: 40%;
+  } */
+
+  .karriere-leistungen__image img {
+    width: 100%;
+    padding-left: 20%;
+  }
+
+  .karriere-leistungen__text {
+    align-self: center;
+    /* width: 50%; */
+  }
+
+  .karriere-leistungen__text h3 {
+    padding: 0 0 1.5em 0;
+    /* color: #ffffff;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+    color: black;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .karriere-leistungen__list {
+    list-style: none;
+    line-height: 2.5rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  .karriere-leistungen__list li {
+    /* color: #ffffff;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+    color: black;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+    text-align: center;
+    padding: 0;
+  }
+
+  /* BEWERBEN */
+
+  .bewerben__content {
+    text-align: center;
+  }
+}
