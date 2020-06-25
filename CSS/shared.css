@@ -517,7 +517,7 @@ nav ul {
 
   .nav__item {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .nav__list--primary .nav__item,
@@ -624,6 +624,7 @@ nav ul {
 
   .footer__main-content {
     padding: 4em 3em 3em 3em;
+    margin: 0;
   }
 
   .footer__main-content h3 {
@@ -636,7 +637,7 @@ nav ul {
 
   .footer__main-content h3 {
     color: lightgrey;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 0.75rem;
   }
@@ -646,7 +647,11 @@ nav ul {
     margin: 0;
     text-decoration: none;
     color: lightgrey;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .leistungsspektrum+.leistungsspektrum {
+    margin-left: 1em;
   }
 
   .footer__links,
@@ -702,6 +707,24 @@ nav ul {
   .nav__item+.nav__item,
   .nav__btn a,
   .flag {
+    margin-left: 3em;
+  }
+
+  .nav__item {
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+
+  .footer__main-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .footer__item {
+    font-size: 1rem;
+  }
+
+  .leistungsspektrum+.leistungsspektrum {
     margin-left: 3em;
   }
 }
