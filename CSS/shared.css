@@ -117,7 +117,7 @@ p {
 
 .nav__logo {
   width: 5em;
-  margin: 15% 0em 15% 25%;
+  margin: 15% 0em 15% 2em;
 }
 
 .nav__logo:active,
@@ -139,7 +139,7 @@ p {
   list-style: none;
   text-align: left;
   margin: 0 auto;
-  padding: 2% 0 2% 3.5%;
+  padding: 2% 0 2% 2em;
 }
 
 .nav__link {
@@ -175,7 +175,7 @@ p {
 .nav__btn--link {
   color: #94979b;
   font-size: 1rem;
-  padding: 0.25em 0 1em 0;
+  padding: 0.25em 0 1.5em 0;
   /* border: 1px solid #0066b2;
   border-radius: 0.5em;
   padding: 0.25em 0.75em; */
@@ -256,8 +256,8 @@ nav ul {
 
 #nav-toggle {
   position: absolute;
-  right: 1em;
-  top: 1.7em;
+  right: 2em;
+  top: 1.8em;
   cursor: pointer;
   padding: 10px 35px 8px 0px;
 }
@@ -361,11 +361,15 @@ nav ul {
   background: #00355c;
 }
 
+.footer__main-content {
+  margin: 3em 0em 0em 2em;
+}
+
 .footer__main-content h3 {
   color: lightgrey;
   font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 0.75rem;
+  margin: 0.5em 0 0.75em 0em;
 }
 
 .footer__item {
@@ -378,14 +382,14 @@ nav ul {
 
 .footer__links,
 .legal__links {
-  padding: 0;
+  padding: 0.5em 0 1.5em 0em;
   list-style: none;
   text-decoration: none;
 }
 
 .footer__link,
 .legal__link {
-  padding: 0;
+  padding: 0 0 0.5em 0;
 }
 
 .footer__link:link,
@@ -409,21 +413,10 @@ nav ul {
   font-size: 0.8rem;
 }
 
-.zertifiziert {
-  text-align: right;
-  margin: 0;
-  width: 13%;
-}
-
 .footer__image {
   display: block;
-  max-width: 80%;
-  align-self: flex-end;
-  margin: 0 0 0 auto;
-}
-
-.zertifiziert img {
-  align-self: flex-end;
+  max-width: 60%;
+  margin: 0;
 }
 
 .zertifiziert img:hover {
@@ -435,7 +428,7 @@ nav ul {
   font-size: 0.7rem;
   text-align: right;
   color: grey;
-  padding-bottom: 2em;
+  padding: 2em 2em 2em 0;
 }
 
 /* MEDIA QUERIES */
@@ -641,9 +634,59 @@ nav ul {
     padding: 0 3em 0 3em;
   }
 
+  .footer__main-content h3 {
+    color: lightgrey;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+  }
+
+  .footer__item {
+    padding: 0 0 0.5em 0;
+    margin: 0;
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 0.9rem;
+  }
+
+  .footer__links,
+  .legal__links {
+    padding: 0.5em 0 1.5em 1em;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .footer__links,
+  .legal__links {
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .zertifiziert {
+    text-align: right;
+    margin: 0;
+    width: 13%;
+  }
+
+  .footer__image {
+    display: block;
+    max-width: 80%;
+    align-self: flex-end;
+    margin: 0 0 0 auto;
+  }
+
   /* .legal__item+.legal__item {
     margin-left: 1em;
   } */
+
+  .zertifiziert img {
+    align-self: flex-end;
+  }
+
+  .copyright {
+    padding: 0 0 2em 0;
+  }
 
 }
 
