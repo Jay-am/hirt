@@ -131,7 +131,7 @@ p {
 .nav__text {
   text-align: center;
   list-style: none;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
   padding: 1em 0 5% 0;
 }
 
@@ -145,7 +145,7 @@ p {
 .nav__link {
   text-decoration: none;
   color: #94979b;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
 }
 
 .nav__item {
@@ -174,7 +174,7 @@ p {
 .nav__btn a,
 .nav__btn--link {
   color: #94979b;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
   padding: 0.25em 0 1.5em 0;
   /* border: 1px solid #0066b2;
   border-radius: 0.5em;
@@ -367,7 +367,7 @@ nav ul {
 
 .footer__main-content h3 {
   color: lightgrey;
-  font-size: 1rem;
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
   font-weight: 400;
   margin: 0.5em 0 0.75em 0em;
 }
@@ -377,7 +377,7 @@ nav ul {
   margin: 0;
   text-decoration: none;
   color: lightgrey;
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 0.9vw, 9rem);
 }
 
 .footer__links,
@@ -410,7 +410,7 @@ nav ul {
 
 .legal {
   margin-bottom: 1em;
-  font-size: 0.8rem;
+  font-size: clamp(0.7rem, 0.9vw, 9rem);
 }
 
 .footer__image {
@@ -426,6 +426,7 @@ nav ul {
 
 .copyright {
   font-size: 0.7rem;
+  font-size: clamp(0.65rem, 0.8vw, 7rem);
   text-align: right;
   color: grey;
   padding: 2em 2em 2em 0;
@@ -513,12 +514,6 @@ nav ul {
   .nav__btn a,
   .flag {
     margin-left: 1.5em;
-  }
-
-  .nav__item,
-  .nav__link,
-  .nav__btn a {
-    font-size: 0.9rem;
   }
 
   .nav__list--primary .nav__item,
@@ -638,7 +633,6 @@ nav ul {
 
   .footer__main-content h3 {
     color: lightgrey;
-    font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 0.75rem;
   }
@@ -648,7 +642,6 @@ nav ul {
     margin: 0;
     text-decoration: none;
     color: lightgrey;
-    font-size: 0.7rem;
   }
 
   .leistungsspektrum+.leistungsspektrum {
@@ -711,21 +704,7 @@ nav ul {
     margin-left: 3em;
   }
 
-  .nav__item,
-  .nav__link,
-  .nav__btn a {
-    font-size: 1rem;
-  }
-
   /* FOOTER */
-
-  .footer__main-content h3 {
-    font-size: 1rem;
-  }
-
-  .footer__item {
-    font-size: 0.9rem;
-  }
 
   .leistungsspektrum+.leistungsspektrum {
     margin-left: 3em;
