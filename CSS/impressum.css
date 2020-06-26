@@ -13,7 +13,7 @@
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 20% 0 0 0;
+  padding: 15% 0 0 0;
 }
 
 
@@ -142,12 +142,12 @@
 
 @media (min-width: 900px) {
   .hero__title {
-    padding: 12% 0 0 0;
+    padding: 15% 0 0 0;
   }
 }
 
 @media (min-width: 1200px) {
   .hero__title {
-    padding: 10% 0 0 0;
+    padding: 15% 0 0 0;
   }
 }
