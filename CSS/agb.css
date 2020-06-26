@@ -16,7 +16,7 @@
   word-wrap: break-word;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 10% 0 0 2.5%;
+  padding: 10% 0 0 5%;
 }
 
 /* MAIN */
@@ -103,7 +103,7 @@
 
 .tablist__items {
   padding-top: 2.5em;
-  padding-bottom: clamp(6850px, 650em, 7150px);
+  padding-bottom: clamp(6850px, 2500em, 7150px);
   margin: 0 auto;
 }
 
@@ -192,6 +192,10 @@ p.link a:hover {
   background-color: #f0f0f0;
 }
 
+/* footer {
+  transform: translateY(70em);
+} */
+
 /* MEDIAQUERIES */
 
 @media (min-width: 900px) {
@@ -204,4 +208,8 @@ p.link a:hover {
   .tabs label {
     left: -2.5em;
   }
+
+  /* .tablist__items {
+    padding-bottom: 7150px;
+  } */
 }
