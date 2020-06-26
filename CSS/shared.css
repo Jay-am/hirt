@@ -470,7 +470,7 @@ nav ul {
     height: auto;
     top: 0;
     left: 0;
-    padding: 0.75em 2.25em 0.75em 2.25em;
+    padding: 0.25em 2.25em 0.25em 2.25em;
     /* transition: 0.3s; */
     z-index: 10;
   }
@@ -510,10 +510,9 @@ nav ul {
   }
 
   .nav__item+.nav__item,
-  .nav__link,
   .nav__btn a,
   .flag {
-    margin-left: 1.1em;
+    margin-left: 1.5em;
   }
 
   .nav__item,
@@ -707,10 +706,9 @@ nav ul {
   /* NAV */
 
   .nav__item+.nav__item,
-  .nav__link,
   .nav__btn a,
   .flag {
-    margin-left: 1.5em;
+    margin-left: 3em;
   }
 
   .nav__item,

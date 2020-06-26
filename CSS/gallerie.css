@@ -125,6 +125,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+
+  /* KONTAKT */
+
+  /* .kontakt__content {
+    width: 60%;
+  } */
+
 }
 
 @media (min-width: 1200px) {
