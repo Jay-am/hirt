@@ -14,7 +14,7 @@
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 30% 0 0 0.5em;
+  padding: 65% 0 0 0.5em;
 }
 
 .unternehmen-info {
@@ -59,7 +59,18 @@
 
 /* MEDIAQUERIES */
 
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+  .hero {
+    height: 65vh;
+    /* height: 100vh; */
+    background-position: 0 0;
+  }
+
+  .hero__title {
+    padding: 40% 0 0 0.5em;
+    /* padding: 38% 0 0 10%; */
+  }
+}
 
 @media (min-width: 900px) {
 
@@ -70,7 +81,7 @@
   }
 
   .hero__title {
-    padding: 20% 0 0 15%;
+    padding: 28% 0 0 15%;
     /* padding: 38% 0 0 10%; */
   }
 
@@ -104,7 +115,7 @@
   }
 
   .hero__title {
-    padding: 15% 0 0 10%;
+    padding: 20% 0 0 10%;
     /* padding: 38% 0 0 10%; */
   }
 
