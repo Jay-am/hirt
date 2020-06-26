@@ -1,8 +1,7 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg"), linear-gradient(rgba(0, 102, 178, 0.99),
-      rgba(0, 102, 178, 0.15));
+  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
   /* height: 65vh;
   background-position: 0 5%; */
   height: 100vh;
@@ -13,9 +12,9 @@
 
 .hero__title {
   color: #ffffff;
-  font-size: 4rem;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
-  line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   /* padding: 15% 0 0 5%; */
   padding: 25% 0 0 5%;
