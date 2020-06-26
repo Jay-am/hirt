@@ -1,6 +1,5 @@
 .hero {
-  background: url("../IMAGES/Heros/impressum.jpg"), linear-gradient(rgba(0, 102, 178, 0.99),
-      rgba(0, 102, 178, 0.15));
+  background: url("../IMAGES/Heros/impressum.jpg");
   height: 40vh;
   background-position: 0% 50%;
   background-repeat: no-repeat;
@@ -9,12 +8,12 @@
 
 .hero__title {
   color: #ffffff;
-  font-size: 4rem;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
-  line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 10% 0 0 14%;
+  padding: 20% 0 0 0;
 }
 
 
@@ -136,4 +135,19 @@
 
 .disclaimer__content span {
   font-weight: 100;
+}
+
+
+/* MEDIAQUERIES */
+
+@media (min-width: 900px) {
+  .hero__title {
+    padding: 12% 0 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero__title {
+    padding: 10% 0 0 0;
+  }
 }
