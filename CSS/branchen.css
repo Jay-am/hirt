@@ -25,7 +25,7 @@
 }
 
 .intro-branchen__content {
-  padding: 5em 0 5em 0;
+  padding: 4em 0 5em 0;
 }
 
 .intro-branchen__header h2 {
@@ -264,26 +264,12 @@
   }
 
   .intro-branchen__content {
-    padding: 5em 0 5em 0;
-  }
-
-  .intro-branchen__header h2 {
-    padding: 0em 0 1em 0;
-  }
-
-  .intro-branchen__header p {
-    width: 50%;
-    margin: 0 auto;
-    padding: 0em 0 4em 0;
-  }
-
-  .details-branchen {
-    margin: 0 auto;
-    /* padding: 4em 0 4em 0; */
+    padding: 5em 0 5.5em 0;
   }
 
   .details-branchen__content {
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
   }
 
   .luft-und-raumfahrt {
@@ -292,7 +278,7 @@
   }
 
   .details-branchen__content--luft-und-raumfahrt {
-    padding: 10em 0em 0em 10%;
+    padding: 10em 2em 6.5em 0;
   }
 
   .medizintechnik {
@@ -301,7 +287,7 @@
   }
 
   .details-branchen__content--medizintechnik {
-    padding: 11em 10% 0em 0em;
+    padding: 10em 2em 6.5em 0;
   }
 
   .rehatechnik {
@@ -310,7 +296,7 @@
   }
 
   .details-branchen__content--rehatechnik {
-    padding: 11em 0em 0em 10%;
+    padding: 10em 2em 6.5em 0;
   }
 
   .sensortechnik {
@@ -319,7 +305,7 @@
   }
 
   .details-branchen__content--sensortechnik {
-    padding: 11em 10% 0em 0em;
+    padding: 10em 2em 6.5em 0;
   }
 
   .lebensmitteltechnik {
@@ -328,7 +314,7 @@
   }
 
   .details-branchen__content--lebensmitteltechnik {
-    padding: 16em 10% 0em 5em;
+    padding: 10em 2em 6.5em 0;
   }
 
   .verteidigungs-und-wehrtechnik {
@@ -337,7 +323,7 @@
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik {
-    padding: 10em 0em 0em 10%;
+    padding: 10em 2em 6.5em 0;
   }
 
   .motorsport {
@@ -346,7 +332,7 @@
   }
 
   .details-branchen__content--motorsport {
-    padding: 10em 0em 0em 10%;
+    padding: 10em 2em 6.5em 0;
   }
 }
 
