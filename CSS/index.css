@@ -15,10 +15,9 @@
 
 .hero__title {
   color: #ffffff;
-  font-size: 4rem;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
-  /* font-weight: 300; */
-  line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
   padding: 25% 0 0 5%;
@@ -417,6 +416,8 @@
 }
 
 
+/* MEDIAQUERIES */
+
 @media (min-width: 600px) {
 
   /* GRID */
@@ -429,6 +430,20 @@
 @media (min-width: 900px) {}
 
 @media (min-width: 1200px) {
+
+  /* HERO */
+
+  .hero {
+    height: 100vh;
+    /* height: 65vh; */
+    background-position: 70% 100%;
+    /* background-position: 80% 42%; */
+  }
+
+  .hero__title {
+    padding: 25% 0 0 5%;
+    /* padding: 10% 0 0 10%; */
+  }
 
   /* GRID */
 

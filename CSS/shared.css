@@ -71,15 +71,15 @@ sans-serif; */
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: clamp(3rem, 5vw, 4rem);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
 }
 
 h4,
@@ -88,7 +88,7 @@ div,
 ul,
 li,
 article {
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
   color: #94979b;
   letter-spacing: 0.05rem;
   margin: 0;
