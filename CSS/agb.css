@@ -209,7 +209,7 @@ p.link a:hover {
     left: -2.5em;
   }
 
-  /* .tablist__items {
-    padding-bottom: 7150px;
-  } */
+  .tablist__items {
+    padding-bottom: 6850px;
+  }
 }

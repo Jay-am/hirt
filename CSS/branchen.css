@@ -10,12 +10,13 @@
 
 .hero__title {
   color: #ffffff;
-  font-size: 4rem;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
-  line-height: 4.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   padding: 30% 0 0 5%;
 }
+
 
 /* INTRO */
 
