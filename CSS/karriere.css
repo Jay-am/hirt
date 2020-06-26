@@ -10,9 +10,9 @@
 
 .hero__title {
   color: #ffffff;
-  font-size: 3.5rem;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
-  line-height: 4rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   padding: 30% 0.5em 0 0.5em;
 }
@@ -120,14 +120,13 @@
 }
 
 .stellenangebote__content h3 {
-  font-size: 1.1rem;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
   letter-spacing: 0.05rem;
   padding: 4.5em 0 1em 0;
 }
 
 .no-job h4,
 .job h4 {
-  font-size: 1rem;
   color: #0066b2;
   font-weight: 500;
   padding: 0.25em 0 0.1em 0;
@@ -252,8 +251,6 @@
   }
 
   .hero__title {
-    font-size: 4rem;
-    line-height: 4.5rem;
     /* padding: 25% 0 0 5%; */
     padding: 35% 0 0 10%;
   }
