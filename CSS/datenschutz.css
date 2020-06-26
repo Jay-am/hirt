@@ -11,6 +11,7 @@
   font-size: 4rem;
   font-weight: lighter;
   line-height: 4.5rem;
+  word-wrap: break-word;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
   padding: 10% 0 0 14%;
