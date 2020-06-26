@@ -14,7 +14,7 @@
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 30% 0.5em 0 0.5em;
+  padding: 55% 0.5em 0 0.5em;
 }
 
 
@@ -200,17 +200,29 @@
 
 /* MEDIAQUERIES */
 
+@media (min-width: 600px) {
+
+  .hero {
+    height: 65vh;
+    background-position: 30% 35%;
+  }
+
+  .hero__title {
+    padding: 40% 0.5em 0 0.5em;
+  }
+}
+
 @media (min-width: 900px) {
 
   /* HERO */
 
   .hero {
     height: 65vh;
-    background-position: 30% 0%;
+    background-position: 30% 35%;
   }
 
   .hero__title {
-    padding: 30% 0.5em 0 5%;
+    padding: 28% 0.5em 0 5%;
   }
 
   /* INTRO */
@@ -252,7 +264,7 @@
 
   .hero__title {
     /* padding: 25% 0 0 5%; */
-    padding: 35% 0 0 10%;
+    padding: 38% 0 0 10%;
   }
 
   /* INTRO */
@@ -260,7 +272,7 @@
   .karriere-intro__content {
     width: 50%;
     text-align: left;
-    padding: 6em 5% 9em 10%;
+    padding: 6em 5% 9em 9.8%;
   }
 
 
@@ -302,7 +314,7 @@
   /* STELLENANGEBOTE */
 
   .stellenangebote__content {
-    padding: 6em 10% 2em 10%;
+    padding: 6em 10% 2em 9.8%;
   }
 
 }
