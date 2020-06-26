@@ -10,9 +10,9 @@
 
 .hero__title {
   color: #ffffff;
-  font-size: 3.5rem;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
-  line-height: 4rem;
   text-align: center;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   padding: 10% 0 0 0;
@@ -28,7 +28,6 @@
 }
 
 .gallerie__content h2 {
-  font-size: 1.7rem;
   padding: 0;
   text-transform: none;
 }
@@ -61,7 +60,7 @@
 /* HOVER EFFECT IMAGE TITLE */
 
 .gallerie__grid--title {
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
   color: #94979b;
   text-shadow: 1px 1px 1px rgb(255, 255, 255);
   letter-spacing: 0.01rem;
@@ -144,9 +143,6 @@
   }
 
   .hero__title {
-    font-size: 4rem;
-    line-height: 4.5rem;
-
     padding: 8% 0 0 6%;
   }
 
@@ -156,10 +152,6 @@
     width: 45%;
     text-align: center;
     padding: 6em 0 8em 0;
-  }
-
-  .gallerie__content h2 {
-    font-size: 2rem;
   }
 
 
