@@ -41,9 +41,6 @@
   padding: 1.5em 0 0 0;
 }
 
-.details-leistungen__section--content {
-  padding: 0 1em 0 1em;
-}
 
 /* .details-leistungen__section--img {
   width: 50%;
@@ -58,6 +55,12 @@
 
 
 /* LEISTUNGEN */
+
+.details-leistungen__section--content {
+  width: 100%;
+  padding: 0 1em 0 1em;
+}
+
 
 /* ENTWICKLUNG */
 
@@ -543,32 +546,56 @@
 @media (min-width: 600px) {
 
   .hero {
-    height: 100vh;
+    height: 65vh;
     background-position: 0 5%;
   }
 
   .hero__title {
-    padding: 25% 0 0 5%;
+    padding: 45% 0 0 5%;
   }
 
   .details-leistungen {
-    padding: 4em 0 3em 0;
+    padding: 2.5em 0 1.5em 0;
+  }
+
+  /* LEISTUNGEN */
+
+  .details-leistungen__section--content {
+    width: 80%;
+    padding: 0 1em 0 1em;
   }
 }
 
 @media (min-width: 900px) {
 
   .hero {
-    height: 100vh;
+    height: 65vh;
     background-position: 0 5%;
   }
 
   .hero__title {
-    padding: 25% 0 0 5%;
+    padding: 35% 5% 0 5%;
   }
 
   .details-leistungen {
     padding: 4em 0 3em 0;
+  }
+
+  .detailsleistungen__intro--text {
+    width: 70%;
+    text-align: center;
+    padding: 4em 0 5em 0;
+    margin: 0 auto;
+  }
+
+  .details-leistungen__section--content {
+    width: 70%;
+    padding: 0 1em 0 1em;
+  }
+
+  .detailsleistungen__section--text {
+    width: 0%;
+    padding: 4em 0 5em 0;
   }
 }
 
