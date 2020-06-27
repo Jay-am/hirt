@@ -588,6 +588,8 @@
     margin: 0 auto;
   }
 
+  /* LEISTUNGEN */
+
   .details-leistungen__section--content {
     width: 70%;
     padding: 0 1em 0 1em;
@@ -627,6 +629,15 @@
     padding: 4em 0 5em 0;
     margin: 0 auto;
   }
+
+  /* LEISTUNGEN */
+
+  .details-leistungen__section--content {
+    width: 70%;
+    padding: 0 1em 0 1em;
+  }
+
+  /* KONTAKT */
 
   .kontakt__content {
     padding: 4em 0 3em 0;
