@@ -462,7 +462,7 @@
   }
 
   .intro-branchen__content {
-    padding: 5em 0 5em 0;
+    padding: 8em 0 8em 0;
   }
 
   /* BRANCHEN */
@@ -491,7 +491,7 @@
   }
 
   .details-branchen__content--medizintechnik {
-    padding: 11em 10% 0em 0em;
+    padding: 10em 0em 0em 10%;
   }
 
   .rehatechnik {
@@ -500,7 +500,7 @@
   }
 
   .details-branchen__content--rehatechnik {
-    padding: 11em 0em 0em 10%;
+    padding: 10em 0em 0em 10%;
   }
 
   .sensortechnik {
@@ -509,7 +509,7 @@
   }
 
   .details-branchen__content--sensortechnik {
-    padding: 11em 10% 0em 0em;
+    padding: 10em 0em 0em 10%;
   }
 
   .lebensmitteltechnik {
@@ -518,7 +518,7 @@
   }
 
   .details-branchen__content--lebensmitteltechnik {
-    padding: 16em 10% 0em 5em;
+    padding: 10em 0em 0em 10%;
   }
 
   .verteidigungs-und-wehrtechnik {
