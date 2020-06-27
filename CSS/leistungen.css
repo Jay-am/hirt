@@ -4,7 +4,7 @@
   background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
   /* height: 65vh;
   background-position: 0 5%; */
-  height: 100vh;
+  height: 65vh;
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,19 +17,20 @@
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   /* padding: 15% 0 0 5%; */
-  padding: 25% 0 0 5%;
+  padding: 50% 0 0 5%;
 }
 
 
 /* INTRO */
 
 .details-leistungen {
-  padding: 4em 0 3em 0;
+  padding: 2em 0 1em 0;
   margin: 0;
 }
 
 .details-leistungen h2 {
   padding: 0 0 1em 0;
+  word-wrap: break-word;
 }
 
 .details-leistungen h3 {
@@ -41,18 +42,16 @@
 }
 
 .details-leistungen__section--content {
-  width: 50%;
   padding: 0 1em 0 1em;
 }
 
-.details-leistungen__section--img {
+/* .details-leistungen__section--img {
   width: 50%;
   padding: 0 1em 0 1em;
-}
+} */
 
 .detailsleistungen__intro--text {
-  width: 80%;
-  text-align: center;
+  width: 100%;
   padding: 4em 0 5em 0;
   margin: 0 auto;
 }
@@ -532,4 +531,77 @@
 
 .qualitätsmanagement h3 {
   padding: 4em 0 0 0;
+}
+
+.kontakt__content {
+  padding: 3em 0 2em 0;
+}
+
+
+/* MEDIAQUERIES */
+
+@media (min-width: 600px) {
+
+  .hero {
+    height: 100vh;
+    background-position: 0 5%;
+  }
+
+  .hero__title {
+    padding: 25% 0 0 5%;
+  }
+
+  .details-leistungen {
+    padding: 4em 0 3em 0;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .hero {
+    height: 100vh;
+    background-position: 0 5%;
+  }
+
+  .hero__title {
+    padding: 25% 0 0 5%;
+  }
+
+  .details-leistungen {
+    padding: 4em 0 3em 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .hero {
+    height: 100vh;
+    background-position: 0 5%;
+  }
+
+  .hero__title {
+    padding: 25% 0 0 5%;
+  }
+
+  /* INTRO */
+
+  .details-leistungen {
+    padding: 4em 0 3em 0;
+  }
+
+  .details-leistungen__section--content {
+    width: 50%;
+    padding: 0 1em 0 1em;
+  }
+
+  .detailsleistungen__intro--text {
+    width: 80%;
+    text-align: center;
+    padding: 4em 0 5em 0;
+    margin: 0 auto;
+  }
+
+  .kontakt__content {
+    padding: 4em 0 3em 0;
+  }
 }
