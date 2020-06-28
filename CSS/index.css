@@ -68,9 +68,7 @@
 }
 
 .realisation__content {
-  display: flex;
-  justify-content: space-around;
-  padding: 9em 0 8.5em 0;
+  padding: 5em 0 4.5em 0;
 }
 
 .realisation__content h2 {
@@ -82,12 +80,12 @@
 }
 
 .realisation__image img {
-  width: 80%;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .realisation__text {
-  padding: 0 0 1em 0;
-  width: 40%;
+  padding: 3.5em 5% 1em 5%;
 }
 
 .realisation__text p {
