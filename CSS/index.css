@@ -120,7 +120,7 @@
 .leistungen__text--cards {
   height: 450px;
   /* padding: 4em 0 1em 0; */
-  margin: 4em 5% 73em 5%;
+  margin: 4em 5% 100em 5%;
   filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3)) drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
@@ -157,7 +157,7 @@
 
 .leistungen__text--card:hover,
 .leistungen__text--card:active {
-  transform: scale(1.05);
+  transform: scale(0.99);
   transition: scale 0.9s ease-in-out;
 }
 
@@ -171,13 +171,12 @@
 /* ENTWICKLUNG */
 
 .entwicklung {
-  height: 200px;
+  height: 150px;
   background: url(../IMAGES/Leistungen/entwicklung2.jpg);
   background-position: 55% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  /* margin-bottom: -5em; */
 }
 
 .entwicklung a {
@@ -187,21 +186,20 @@
 
 .leistungen__card-header--entwicklung {
   position: absolute;
-  top: 190px;
-  left: -30px;
+  top: 0px;
+  left: 0px;
 }
 
 
 /* LAGERHALTUNG */
 
 .lagerhaltung {
-  height: 200px;
+  height: 150px;
   background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  /* margin-bottom: -5em; */
 }
 
 .lagerhaltung a {
@@ -211,21 +209,20 @@
 
 .leistungen__card-header--lagerhaltung {
   position: absolute;
-  top: 130px;
-  left: -80px;
+  top: -100px;
+  left: 0px;
 }
 
 
 /* FERTIGUNG */
 
 .fertigung {
-  height: 500px;
+  height: 650px;
   background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  /* margin-bottom: -5em; */
 }
 
 .leistungen__card-header--fertigung {
@@ -244,13 +241,12 @@
 /* OBERFLÄCHENVEREDELUNG */
 
 .oberflächenveredelung {
-  height: 200px;
+  height: 650px;
   background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  /* margin-bottom: -5em; */
 }
 
 .oberflächenveredelung a {
@@ -273,13 +269,12 @@
 /* MONTAGE */
 
 .montage {
-  height: 200px;
+  height: 150px;
   background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
   background-position: 70% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  /* margin-bottom: -5em; */
 }
 
 .montage a {
@@ -289,21 +284,20 @@
 
 .leistungen__card-header--montage {
   position: absolute;
-  top: 130px;
-  left: -35px;
+  top: -100px;
+  left: 0px;
 }
 
 
 /* QUALITÄTSSICHERUNG */
 
 .qualitätssicherung {
-  height: 200px;
+  height: 150px;
   background: url(../IMAGES/Leistungen/messraum.jpg), rgba(0, 0, 0, 1);
   background-position: 30% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  /* margin-bottom: -5em; */
 }
 
 .qualitätssicherung a {
@@ -313,8 +307,8 @@
 
 .leistungen__card-header--qualitätssicherung {
   position: absolute;
-  top: 120px;
-  left: -165px;
+  top: -120px;
+  left: 0px;
 }
 
 
