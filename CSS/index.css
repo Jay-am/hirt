@@ -486,6 +486,11 @@
     padding: 5em 5% 2em 5%;
   }
 
+  .branchen-grid {
+    padding: 3em 0 3em 0;
+    margin: 0 auto;
+  }
+
   .zertifikat img {
     width: 100%;
   }
@@ -504,8 +509,8 @@
   .branchen-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2em;
-    row-gap: 0em;
+    column-gap: 1em;
+    row-gap: 1em;
     justify-items: center;
   }
 }
