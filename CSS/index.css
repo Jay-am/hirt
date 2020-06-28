@@ -329,17 +329,23 @@
 }
 
 .branchen__content {
-  padding: 5em 5% 4em 5%;
+  padding: 5em 5% 2em 5%;
 }
 
 .branchen__header {
-  align-content: center;
+  text-align: center;
   padding: 0em 0 2em 0em;
+  margin: 0 auto;
+}
+
+.zertifikat {
+  padding: 2.5em 0 0 0;
 }
 
 .zertifikat img {
   width: 100%;
-  padding: 0 3em 0em 0;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .zertifikat:hover {
@@ -349,13 +355,13 @@
 }
 
 .branchen-grid {
-  padding: 2em 0 2em 0;
+  padding: 1em 0 2em 0;
   margin: 0 auto;
 }
 
 .branchen-grid img {
   width: 100%;
-  height: 100%;
+  margin: 1em auto;
 }
 
 
@@ -378,7 +384,7 @@
 }
 
 .branchen-grid__title {
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.8);
   letter-spacing: 0.01rem;
@@ -387,7 +393,7 @@
   z-index: 1;
   position: absolute;
   height: 100%;
-  width: 80%;
+  width: 100%;
   top: 0;
   left: 0;
   opacity: 0;
@@ -408,8 +414,8 @@
 }
 
 .branche:hover {
-  transform: scale(1.1);
-  transition: scale 0.9s ease-in-out;
+  /* transform: scale(1.1);
+  transition: scale 0.9s ease-in-out; */
   filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)) drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
