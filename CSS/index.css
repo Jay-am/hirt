@@ -119,9 +119,8 @@
 
 .leistungen__text--cards {
   height: 450px;
-  justify-content: space-evenly;
   /* padding: 4em 0 1em 0; */
-  margin: 4em 5% 1em 5%;
+  margin: 4em 5% 73em 5%;
   filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3)) drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
@@ -134,7 +133,6 @@
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
-  transform: rotate(-90deg);
 }
 
 .leistungen__text--card {
@@ -173,12 +171,13 @@
 /* ENTWICKLUNG */
 
 .entwicklung {
+  height: 200px;
   background: url(../IMAGES/Leistungen/entwicklung2.jpg);
   background-position: 55% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  margin-bottom: -5em;
+  /* margin-bottom: -5em; */
 }
 
 .entwicklung a {
@@ -196,12 +195,13 @@
 /* LAGERHALTUNG */
 
 .lagerhaltung {
+  height: 200px;
   background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  margin-bottom: -5em;
+  /* margin-bottom: -5em; */
 }
 
 .lagerhaltung a {
@@ -219,12 +219,13 @@
 /* FERTIGUNG */
 
 .fertigung {
+  height: 500px;
   background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  margin-bottom: -5em;
+  /* margin-bottom: -5em; */
 }
 
 .leistungen__card-header--fertigung {
@@ -243,12 +244,13 @@
 /* OBERFLÄCHENVEREDELUNG */
 
 .oberflächenveredelung {
+  height: 200px;
   background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  margin-bottom: -5em;
+  /* margin-bottom: -5em; */
 }
 
 .oberflächenveredelung a {
@@ -271,12 +273,13 @@
 /* MONTAGE */
 
 .montage {
+  height: 200px;
   background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
   background-position: 70% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  margin-bottom: -5em;
+  /* margin-bottom: -5em; */
 }
 
 .montage a {
@@ -294,12 +297,13 @@
 /* QUALITÄTSSICHERUNG */
 
 .qualitätssicherung {
+  height: 200px;
   background: url(../IMAGES/Leistungen/messraum.jpg), rgba(0, 0, 0, 1);
   background-position: 30% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-  margin-bottom: -5em;
+  /* margin-bottom: -5em; */
 }
 
 .qualitätssicherung a {
