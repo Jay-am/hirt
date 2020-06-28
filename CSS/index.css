@@ -1,6 +1,4 @@
-/* xxxxxxxxxxxxxxxxxxxxxx */
 /* HERO */
-/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .hero {
   background: url("../IMAGES/Heros/hero-wasser.jpeg");
@@ -21,9 +19,8 @@
   padding: 50% 0 0 5%;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxx */
+
 /* INTRO */
-/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .intro {
   width: 100vw;
@@ -56,9 +53,7 @@
 }
 
 
-/* xxxxxxxxxxxxxxxxxxxxxx */
 /* REALISATION */
-/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .realistaion {
   width: 100vw;
@@ -93,9 +88,7 @@
 }
 
 
-/* xxxxxxxxxxxxxxxxxxxxxx */
 /* LEISTUNGEN */
-/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .leistungen {
   width: 100vw;
@@ -168,7 +161,7 @@
 }
 
 
-/* ENTWICKLUNG */
+/* Entwicklung */
 
 .entwicklung {
   height: 150px;
@@ -191,7 +184,7 @@
 }
 
 
-/* LAGERHALTUNG */
+/* Lagerhaltung */
 
 .lagerhaltung {
   height: 150px;
@@ -214,7 +207,7 @@
 }
 
 
-/* FERTIGUNG */
+/* Fetigung */
 
 .fertigung {
   height: 650px;
@@ -238,7 +231,7 @@
 }
 
 
-/* OBERFLÄCHENVEREDELUNG */
+/* Oberflächenveredelung */
 
 .oberflächenveredelung {
   height: 650px;
@@ -266,7 +259,7 @@
 }
 
 
-/* MONTAGE */
+/* Montage */
 
 .montage {
   height: 150px;
@@ -289,7 +282,7 @@
 }
 
 
-/* QUALITÄTSSICHERUNG */
+/* Qualitässicherung */
 
 .qualitätssicherung {
   height: 150px;
@@ -312,9 +305,7 @@
 }
 
 
-/* xxxxxxxxxxxxxxxxxxxxxx */
 /* BRANCHEN */
-/* xxxxxxxxxxxxxxxxxxxxxx */
 
 .branchen {
   background: #fafafa;
@@ -429,6 +420,39 @@
     padding: 25% 0 0 5%;
   }
 
+
+  /* REALISATION */
+
+  .realisation__content {
+    padding: 5em 0 4.5em 0;
+  }
+
+  .realisation__image img {
+    width: 40%;
+  }
+
+  .realisation__text {
+    text-align: center;
+    padding: 3.5em 5% 1em 5%;
+  }
+
+
+  /* BRANCHEN */
+
+  .branchen__content {
+    padding: 5em 5% 2em 5%;
+  }
+
+  .zertifikat img {
+    width: 100%;
+  }
+
+  .branchen-grid img {
+    width: 80%;
+    margin: 2em auto 1em auto;
+  }
+
+
   /* GRID */
 
   .branchen {
@@ -465,9 +489,8 @@
       /* padding: 10% 0 0 10%; */
     }
 
-    /* xxxxxxxxxxxxxxxxxxxxxx */
+  
     /* INTRO */
-    /* xxxxxxxxxxxxxxxxxxxxxx */
 
     .intro {
       width: 100vw;
