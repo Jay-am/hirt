@@ -185,13 +185,14 @@
   text-decoration: none;
 }
 
-.panel-heading a:before {
-  content: "\e114";
+.panel-heading a::before {
+  content: "\2039";
   float: right;
   transition: all 0.5s;
+  font-size: 1.5em;
 }
 
-.panel-heading.active a:before {
+.panel-heading.active a::before {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
