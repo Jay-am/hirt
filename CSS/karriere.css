@@ -58,7 +58,7 @@
   /* color: #ffffff;
   text-shadow: 1px 1px 3px rgb(0, 0, 0); */
   color: black;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255), 1px 1px 2px rgb(255, 255, 255);
 }
 
 .karriere-leistungen__list {
@@ -71,8 +71,8 @@
   /* color: #ffffff;
   text-shadow: 1px 1px 3px rgb(0, 0, 0); */
   color: black;
-  font-weight: 400;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1px rgb(255, 255, 255), 1px 1px 1px rgb(255, 255, 255);
   padding: 0;
 }
 
