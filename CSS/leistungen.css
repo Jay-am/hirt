@@ -399,6 +399,71 @@
   transform: translateX(0);
 }
 
+/* HEADER ACCORDION FOLDED */
+
+.drehen,
+.fräsen,
+.schleifen,
+.bohren,
+.drahterodieren {
+  position: relative;
+}
+
+.drehen::before {
+  position: absolute;
+  content: "Drehen";
+  font-size: 1.3em;
+  text-transform: uppercase;
+  top: 46px;
+  left: 95px;
+  opacity: 1;
+}
+
+/* .drehen::after {
+  opacity: 0;
+} */
+
+.fräsen::before {
+  position: absolute;
+  content: "Fräsen";
+  font-size: 1.3em;
+  text-transform: uppercase;
+  top: 46px;
+  left: 95px;
+  opacity: 1;
+}
+
+.schleifen::before {
+  position: absolute;
+  content: "Schleifen";
+  font-size: 1.3em;
+  text-transform: uppercase;
+  top: 46px;
+  left: 95px;
+  opacity: 1;
+}
+
+.bohren::before {
+  position: absolute;
+  content: "Bohren";
+  font-size: 1.3em;
+  text-transform: uppercase;
+  top: 46px;
+  left: 95px;
+  opacity: 1;
+}
+
+.drahterodieren::before {
+  position: absolute;
+  content: "Drahterodieren";
+  font-size: 1.3em;
+  text-transform: uppercase;
+  top: 46px;
+  left: 95px;
+  opacity: 1;
+}
+
+
 @media screen and (max-width: 600px) {
   body {
     margin: 0;
