@@ -153,14 +153,14 @@
 }
 
 .details-leistungen__text--bold {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
   font-weight: 400;
   text-transform: uppercase;
   padding: 0em 0 0.5em 0;
 }
 
 .details-leistungen__text--light {
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 1.3vw, 0.9rem);
   font-weight: 300;
   padding: 0;
 }
@@ -272,7 +272,7 @@
 
 .accordion ul li div a h4 {
   text-overflow: wrap;
-  font-size: 1.3em;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
   text-transform: uppercase;
   padding-bottom: 1em;
   top: 5px;
@@ -280,7 +280,7 @@
 
 .accordion ul li div a h5 {
   text-overflow: wrap;
-  font-size: 0.95em;
+  font-size: clamp(0.85rem, 1.2vw, 0.95rem);
   font-weight: 600;
   padding: 0;
   top: 5px;
@@ -288,7 +288,7 @@
 
 .accordion ul li div a p {
   text-overflow: wrap;
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 1vw, 0.9rem);
   font-weight: 400;
   top: 5px;
 }
@@ -416,11 +416,14 @@
   text-transform: uppercase;
   top: 46px;
   left: 95px;
-  opacity: 1;
+  /* opacity: 1; */
+  transition: ease-in-out 600ms;
 }
 
-/* .drehen::after {
-  opacity: 0;
+/* .drehen::before:hover,
+.drehen::before:active {
+  opacity: 0 !important;
+  
 } */
 
 .fräsen::before {
@@ -724,8 +727,8 @@
     padding: 0 1em 0 1em;
   }
 
-  .details-leistungen__text--bold {
-    font-size: 2rem;
+  /* .details-leistungen__text--bold {
+    font-size: clamp(1.5rem, 4vw, 2rem);
     font-weight: 400;
     text-transform: uppercase;
     padding: 0em 0 0.5em 0;
@@ -735,7 +738,7 @@
     font-size: 0.9rem;
     font-weight: lighter;
     padding: 0.5em 0 0.5em 0;
-  }
+  } */
 
   /* KONTAKT */
 
