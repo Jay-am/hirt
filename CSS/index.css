@@ -643,6 +643,7 @@
 
   .leistungen__text--cards {
     height: 450px;
+    display: flex;
     justify-content: space-evenly;
     /* padding: 4em 0 1em 0; */
     margin: 4em 5% 1em 5%;
@@ -683,8 +684,9 @@
 
   .leistungen__text--card:hover,
   .leistungen__text--card:active {
-    transform: scale(1.05);
-    transition: scale 0.9s ease-in-out;
+    /* transform: scale(1.01); */
+    transform: scale(0.99);
+    transition: scale 1.5s ease-in-out;
   }
 
   .leistungen__card {
@@ -698,6 +700,7 @@
 
   .entwicklung {
     width: 11%;
+    height: 450px;
     background: url(../IMAGES/Leistungen/entwicklung2.jpg);
     background-position: 55% 0%;
     background-repeat: no-repeat;
@@ -721,6 +724,7 @@
 
   .lagerhaltung {
     width: 12%;
+    height: 450px;
     background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
     background-position: 50% 0%;
     background-repeat: no-repeat;
@@ -744,6 +748,7 @@
 
   .fertigung {
     width: 31%;
+    height: 450px;
     background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
     background-position: 70% 100%;
     background-repeat: no-repeat;
@@ -768,12 +773,9 @@
 
   .oberflächenveredelung {
     width: 23%;
-    background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
+    height: 450px;
     background-position: 50% 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
     clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%);
-    /* transform: translateX(-10px); */
   }
 
   .oberflächenveredelung a {
@@ -797,10 +799,8 @@
 
   .montage {
     width: 12%;
-    background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
+    height: 450px;
     background-position: 70% 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   }
 
@@ -820,6 +820,7 @@
 
   .qualitätssicherung {
     width: 11%;
+    height: 450px;
     background: url(../IMAGES/Leistungen/messraum.jpg), rgba(0, 0, 0, 1);
     background-position: 30% 0%;
     background-repeat: no-repeat;
