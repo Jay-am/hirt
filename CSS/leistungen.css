@@ -242,10 +242,10 @@
   position: relative;
   z-index: 3;
   vertical-align: bottom;
-  padding: 15px 20px;
+  padding: 2em 0 1.5em 10em;
   box-sizing: border-box;
-  color: #ffffff;
-  text-shadow: 0.25px 0.25px 0.5px rgb(0, 0, 0);
+  color: rgb(58, 58, 58);
+  text-shadow: 0.25px 0.25px 0.5px rgba(255, 255, 255, 0.9);
   text-decoration: none;
   transition: all 600ms ease;
 }
@@ -253,11 +253,13 @@
 .accordion ul li div a * {
   opacity: 0;
   margin: 0;
-  width: 100%;
+  width: 75%;
+  color: rgb(58, 58, 58);
+  text-shadow: 0.25px 0.25px 0.5px rgba(255, 255, 255, 0.9);
   text-overflow: ellipsis;
   position: relative;
   z-index: 5;
-  white-space: nowrap;
+  white-space: wrap;
   overflow: hidden;
   -webkit-transform: translateX(-20px);
   transform: translateX(-20px);
@@ -266,16 +268,19 @@
 }
 
 .accordion ul li div a h2 {
-  text-overflow: clip;
-  font-size: 24px;
+  text-overflow: wrap;
+  font-size: 1.15em;
+  color: rgb(58, 58, 58);
+  text-shadow: 0.25px 0.25px 0.5px rgba(255, 255, 255, 0.9);
   text-transform: uppercase;
-  /* margin-bottom: 2px; */
+  padding-bottom: 1em;
   top: 5px;
 }
 
 .accordion ul li div a p {
+  text-overflow: wrap;
+  font-size: 0.85rem;
   top: 5px;
-  font-size: 13.5px;
 }
 
 .accordion ul li:nth-child(1) {
@@ -285,6 +290,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  font-size: 2.5em;
 }
 
 .accordion ul li:nth-child(2) {
@@ -609,7 +615,8 @@
   }
 
   .hero__title {
-    padding: 40% 0 0 5%;
+    width: 55%;
+    padding: 35% 0 0 5%;
   }
 
   /* INTRO */
@@ -627,6 +634,11 @@
     width: 80%;
     text-align: center;
     padding: 4em 0 5em 0;
+    margin: 0 auto;
+  }
+
+  .detailsleistungen__intro--text h2 {
+    width: 80%;
     margin: 0 auto;
   }
 
