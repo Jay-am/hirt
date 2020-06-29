@@ -504,20 +504,16 @@
   }
 
 
-  /* LEISTUNGEN */
-
-  /* .leistungen__content--container,
-  .leistungen__text--cards {
-    display: block;
-  } */
-
-
   /* BRANCHEN */
 
   .branchen__content {
-    display: flex;
     justify-content: space-between;
     padding: 5em 5% 2em 5%;
+  }
+
+  .branchen__header h2 {
+    text-align: left;
+    width: 70%;
   }
 
   .branchen-grid {
@@ -526,7 +522,7 @@
   }
 
   .branchen-grid img {
-    width: 100%;
+    width: 150%;
     margin: 0;
   }
 
@@ -653,7 +649,6 @@
   .leistungen__text--cards a {
     text-decoration: none;
     color: #ffffff;
-    /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
     text-shadow: 1px 1px 2px rgb(0, 0, 0),
       3px 3px 3px rgb(0, 0, 0);
     font-size: 1.5rem;
@@ -687,6 +682,7 @@
     /* transform: scale(1.01); */
     transform: scale(0.99);
     transition: scale 1.5s ease-in-out;
+    filter: drop-shadow(-2px 4px 12px rgba(0, 0, 0, 0.4)) drop-shadow(2px 6px 12px rgba(0, 0, 0, 0.6));
   }
 
   .leistungen__card {
@@ -867,7 +863,7 @@
 
   .zertifikat:hover {
     transform: scale(0.98);
-    transition: scale 0.9s ease-in-out;
+    transition: scale 1.5s ease-in-out;
     /* filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)); */
   }
 
@@ -899,25 +895,25 @@
   }
 
   .branchen-grid__title {
-    font-size: 1.5em;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.8);
-    letter-spacing: 0.01rem;
-    text-decoration: none;
-    text-align: center;
-    z-index: 1;
-    position: absolute;
-    height: 100%;
     width: 80%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity .3s;
-    clip-path: polygon(22% 0%, 78% 0%, 100% 50%, 78% 100%, 22% 100%, 0% 50%);
-    background: rgba(#94979b, 0.05);
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8), 3px 3px 6px rgba(0, 0, 0, 0.8);
+    background: rgba(#94979b, 0.05);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .6s;
+    clip-path: polygon(22% 0%, 78% 0%, 100% 50%, 78% 100%, 22% 100%, 0% 50%);
   }
 
   .branche:hover .branchen-grid__title {
@@ -929,8 +925,9 @@
   }
 
   .branche:hover {
-    transform: scale(1.1);
-    transition: scale 0.9s ease-in-out;
+    /* transform: scale(1.1); */
+    transform: scale(0.98);
+    transition: scale 1.5s ease-in-out;
     filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)) drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
   }
 
@@ -994,6 +991,7 @@
     grid-row: 3 / 5;
     justify-self: center;
     align-self: center;
+    word-wrap: break-word;
   }
 
   .motorsport {
