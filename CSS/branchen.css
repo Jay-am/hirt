@@ -117,7 +117,7 @@
 /* REHATECHNIK */
 
 .rehatechnik {
-  background: url(../IMAGES/Branchen/Rehatechnik/reha.jpeg);
+  background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-1.jpg);
   height: 650px;
   background-position: 0 25%;
   background-repeat: no-repeat;
@@ -130,14 +130,18 @@
 }
 
 .details-branchen__content--rehatechnik h2 {
-  color: #ffffff;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  /* color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
+  color: rgb(58, 58, 58);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 1px 1px 3px rgb(255, 255, 255);
   padding: 0em 0em 1em 0;
 }
 
 .details-branchen__content--rehatechnik p {
-  color: #ffffff;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  /* color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
+  color: rgb(58, 58, 58);
+  text-shadow: 0.5px 0.5px 1px rgb(255, 255, 255), 0.75px 0.75px 1px rgb(255, 255, 255);
   padding: 0em 0em 1em 0;
 }
 
@@ -229,9 +233,9 @@
 /* MOTORSPORT */
 
 .motorsport {
-  background: url(../IMAGES/Branchen/Motorsport/Porsche-911-RSR-2017-GTE-730x487.jpg);
+  background: url(../IMAGES/Branchen/Motorsport/Motorsport-1.jpg);
   height: 650px;
-  background-position: 0 25%;
+  background-position: 90% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 1em;
@@ -244,12 +248,17 @@
 .details-branchen__content--motorsport h2 {
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  /* color: rgb(58, 58, 58);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 1px 1px 3px rgb(255, 255, 255); */
   padding: 0em 0em 1em 0;
 }
 
 .details-branchen__content--motorsport p {
   color: #ffffff;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0),
+    1px 1px 3px rgb(0, 0, 0);
+  /* color: rgb(58, 58, 58);
+  text-shadow: 0.5px 0.5px 1px rgb(255, 255, 255), 0.75px 0.75px 1px rgb(255, 255, 255); */
   padding: 0em 0em 1em 0;
 }
 
@@ -486,7 +495,7 @@
   }
 
   .medizintechnik {
-    height: 800px;
+    height: 750px;
     background-position: 0 25%;
   }
 
@@ -495,12 +504,12 @@
   }
 
   .rehatechnik {
-    height: 800px;
+    height: 750px;
     background-position: 0 25%;
   }
 
   .details-branchen__content--rehatechnik {
-    padding: 10em 0em 0em 10%;
+    padding: 13em 0em 0em 5%;
   }
 
   .sensortechnik {
@@ -532,10 +541,10 @@
 
   .motorsport {
     height: 750px;
-    background-position: 0 25%;
+    background-position: -20% 100%;
   }
 
   .details-branchen__content--motorsport {
-    padding: 10em 0em 0em 10%;
+    padding: 12em 0em 0em 10%;
   }
 }
