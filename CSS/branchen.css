@@ -89,7 +89,7 @@
 /* MEDIZINTECHNIK */
 
 .medizintechnik {
-  background: url(../IMAGES/Branchen/Medizintechnik/medizin.jpeg);
+  background: url(../IMAGES/Branchen/Medizintechnik/Medizin-5.jpg);
   height: 650px;
   background-position: 0 25%;
   background-repeat: no-repeat;
@@ -496,11 +496,11 @@
 
   .medizintechnik {
     height: 750px;
-    background-position: 0 25%;
+    background-position: 90% 25%;
   }
 
   .details-branchen__content--medizintechnik {
-    padding: 10em 0em 0em 10%;
+    padding: 13em 0em 0em 10%;
   }
 
   .rehatechnik {
@@ -531,7 +531,7 @@
   }
 
   .verteidigungs-und-wehrtechnik {
-    height: 750px;
+    height: 800px;
     background-position: 0 25%;
   }
 
@@ -540,11 +540,11 @@
   }
 
   .motorsport {
-    height: 750px;
+    height: 800px;
     background-position: -20% 100%;
   }
 
   .details-branchen__content--motorsport {
-    padding: 12em 0em 0em 10%;
+    padding: 13em 0em 0em 10%;
   }
 }
