@@ -153,15 +153,15 @@
 }
 
 .details-leistungen__text--bold {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   text-transform: uppercase;
   padding: 0em 0 0.5em 0;
 }
 
 .details-leistungen__text--light {
-  font-size: 1rem;
-  font-weight: lighter;
+  font-size: 0.9rem;
+  font-weight: 300;
   padding: 0;
 }
 
@@ -247,10 +247,8 @@
   position: relative;
   z-index: 3;
   vertical-align: bottom;
-  padding: 2em 0 1.5em 6em;
+  padding: 2.5em 0 1.5em 6em;
   box-sizing: border-box;
-  color: rgb(58, 58, 58);
-  text-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 1);
   text-decoration: none;
   transition: all 600ms ease;
 }
@@ -260,7 +258,7 @@
   margin: 0;
   width: 88%;
   color: rgb(58, 58, 58);
-  text-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 1);
+  text-shadow: 0.25px 0.25px 0.5px rgba(255, 255, 255, 1), 0.5px 0.5px 1px rgba(255, 255, 255, 1);
   text-overflow: ellipsis;
   position: relative;
   z-index: 5;
@@ -274,11 +272,17 @@
 
 .accordion ul li div a h4 {
   text-overflow: wrap;
-  font-size: 1.2em;
-  color: rgb(58, 58, 58);
-  text-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 1);
+  font-size: 1.3em;
   text-transform: uppercase;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
+  top: 5px;
+}
+
+.accordion ul li div a h5 {
+  text-overflow: wrap;
+  font-size: 0.95em;
+  font-weight: 600;
+  padding: 0;
   top: 5px;
 }
 
