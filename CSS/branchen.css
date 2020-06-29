@@ -487,6 +487,7 @@
 
   .luft-und-raumfahrt {
     height: 800px;
+    height: 750px;
     background-position: 0 25%;
   }
 
@@ -495,6 +496,7 @@
   }
 
   .medizintechnik {
+    /* height: 800px; */
     height: 750px;
     background-position: 90% 25%;
   }
@@ -504,6 +506,7 @@
   }
 
   .rehatechnik {
+    /* height: 800px; */
     height: 750px;
     background-position: 0 25%;
   }
@@ -513,7 +516,8 @@
   }
 
   .sensortechnik {
-    height: 800px;
+    /* height: 800px; */
+    height: 750px;
     background-position: 40% 25%;
   }
 
@@ -522,7 +526,8 @@
   }
 
   .lebensmitteltechnik {
-    height: 800px;
+    /* height: 800px; */
+    height: 750px;
     background-position: 0% 90%;
   }
 
@@ -531,7 +536,8 @@
   }
 
   .verteidigungs-und-wehrtechnik {
-    height: 800px;
+    /* height: 800px; */
+    height: 750px;
     background-position: 0 25%;
   }
 
@@ -540,7 +546,8 @@
   }
 
   .motorsport {
-    height: 800px;
+    /* height: 800px; */
+    height: 750px;
     background-position: -20% 100%;
   }
 
