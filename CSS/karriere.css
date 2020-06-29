@@ -21,8 +21,8 @@
 /* INTRO */
 
 .karriere-intro {
-  background: #ffffff;
-  background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-2.jpg);
+  /* background: #ffffff; */
+  background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-4.jpg);
   background-position: 75% 90%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,10 +34,19 @@
 }
 
 .karriere-intro__content h2 {
+  /* color: black;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255), 1px 1px 2px rgb(255, 255, 255); */
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0), 1px 1px 2px rgb(0, 0, 0);
   padding: 2em 0 1em 0;
 }
 
 .karriere-intro__content p {
+  /* color: black;
+  text-shadow: 0.5px 0.5px 1px rgb(255, 255, 255), 1px 1px 1px rgb(255, 255, 255); */
+  color: #ffffff;
+  text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0), 1px 1px 1px rgb(0, 0, 0);
+  font-weight: 500;
   padding: 0 0 1em 0;
 }
 
@@ -95,6 +104,10 @@
 
 .bewerben__content h3 {
   padding: 0 0 1.5em 0;
+}
+
+.freuen {
+  padding: 0.75em 0 0em 0;
 }
 
 .bewerben__content a {
@@ -303,10 +316,10 @@
   /* INTRO */
 
   .karriere-intro__content {
-    /* width: 50%; */
+    width: 50%;
     height: 100vh;
     text-align: left;
-    padding: 8em 0 10em 50%;
+    padding: 13em 0 0em 10%;
     /* margin: 1em 0 1em 0; */
   }
 
