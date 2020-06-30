@@ -1,7 +1,7 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
+  background: url("../IMAGES/Heros/hero-gallerie.jpeg");
   height: 65vh;
   background-position: 0 5%;
   background-repeat: no-repeat;
@@ -456,23 +456,23 @@
 @media (min-width: 1200px) {
 
   .hero {
-    height: 100vh;
-    background-position: 0 5%;
+    height: 70vh;
+    background-position: 100% 100%;
   }
 
   .hero__title {
-    padding: 30% 0 0 5%;
+    padding: 28% 0 0 2%;
   }
 
   /* INTRO */
 
   .intro-branchen {
-    height: 750px;
+    height: 700px;
     text-align: center;
   }
 
   .intro-branchen__content {
-    padding: 10.5em 0 0 0;
+    padding: 9em 0 0 0;
   }
 
   /* BRANCHEN */
