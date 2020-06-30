@@ -56,10 +56,15 @@
 /* REALISATION */
 
 .realistaion {
-  width: 100vw;
+  /* width: 100vw;
   background: #fafafa;
   border-top: 1px solid #efeded;
-  border-bottom: 1px solid #efeded;
+  border-bottom: 1px solid #efeded; */
+  background: url("../IMAGES/Index/Realisation.jpeg");
+  /* height: 65vh; */
+  background-position: 80% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .realisation__content {
@@ -201,7 +206,7 @@
 
 .fertigung {
   height: 650px;
-  background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Leistungen/Fertigung-Hirt.jpeg), rgba(0, 0, 0, 1);
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -604,23 +609,29 @@
 
   /* REALISATION */
 
+  .realistaion {
+    height: 800px;
+  }
+
   .realisation__content {
-    display: flex;
-    justify-content: space-around;
-    padding: 9em 0 8.5em 0;
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 12.5em 0 0em 10%;
   }
 
   .realisation__content h2 {
+    text-align: left;
     padding: 0 0 0.8em 0;
   }
 
-  .realisation__image img {
+  /* .realisation__image img {
     width: 80%;
-  }
+  } */
 
   .realisation__text {
+    text-align: left;
     padding: 0 0 1em 0;
-    width: 40%;
+    /* width: 40%; */
   }
 
 
