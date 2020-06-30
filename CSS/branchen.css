@@ -467,11 +467,12 @@
   /* INTRO */
 
   .intro-branchen {
+    height: 750px;
     text-align: center;
   }
 
   .intro-branchen__content {
-    padding: 8em 0 8em 0;
+    padding: 10.5em 0 0 0;
   }
 
   /* BRANCHEN */
@@ -492,7 +493,7 @@
   }
 
   .details-branchen__content--luft-und-raumfahrt {
-    padding: 10em 0em 0em 10%;
+    padding: 9.5em 0em 0em 10%;
   }
 
   .medizintechnik {
