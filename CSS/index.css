@@ -721,7 +721,6 @@
   .entwicklung {
     width: 11%;
     height: 450px;
-    background: url(../IMAGES/Leistungen/entwicklung2.jpg);
     background-position: 55% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -745,7 +744,6 @@
   .lagerhaltung {
     width: 12%;
     height: 450px;
-    background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -769,7 +767,6 @@
   .fertigung {
     width: 31%;
     height: 450px;
-    background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -779,13 +776,13 @@
   .leistungen__card-header--fertigung {
     position: absolute;
     top: 185px;
-    left: 22px;
+    left: 20px;
   }
 
   .leistungen__card-content--fertigung {
     position: absolute;
     top: 15px;
-    left: 160px;
+    left: 145px;
   }
 
 
@@ -841,7 +838,6 @@
   .qualitätssicherung {
     width: 11%;
     height: 450px;
-    background: url(../IMAGES/Leistungen/messraum.jpg), rgba(0, 0, 0, 1);
     background-position: 30% 0%;
     background-repeat: no-repeat;
     background-size: cover;
