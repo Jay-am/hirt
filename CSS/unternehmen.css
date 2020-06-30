@@ -111,11 +111,11 @@
   .hero {
     height: 70vh;
     /* height: 100vh; */
-    background-position: 0 0;
+    background-position: 0 20%;
   }
 
   .hero__title {
-    padding: 20% 0 0 10%;
+    padding: 22% 0 0 10%;
     /* padding: 38% 0 0 10%; */
   }
 
