@@ -520,11 +520,11 @@
   .sensortechnik {
     /* height: 800px; */
     height: 750px;
-    background-position: 40% 25%;
+    background-position: 0% 25%;
   }
 
   .details-branchen__content--sensortechnik {
-    padding: 10em 0em 0em 10%;
+    padding: 13em 0em 0em 5%;
   }
 
   .lebensmitteltechnik {
