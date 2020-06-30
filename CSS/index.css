@@ -56,12 +56,8 @@
 /* REALISATION */
 
 .realistaion {
-  /* width: 100vw;
-  background: #fafafa;
-  border-top: 1px solid #efeded;
-  border-bottom: 1px solid #efeded; */
-  background: url("../IMAGES/Index/Realisation.jpeg");
   /* height: 65vh; */
+  background: url("../IMAGES/Index/Realisation.jpeg");
   background-position: 80% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,14 +112,12 @@
 .leistungen__text--cards {
   height: 450px;
   margin: 4em 5% 100em 5%;
-  filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3)) drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
 .leistungen__text--cards a {
   text-decoration: none;
   color: #ffffff;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0),
-    3px 3px 3px rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0);
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -132,6 +126,18 @@
 .leistungen__text--card {
   text-align: center;
   padding: 1em 0.5em 1em 0.5em;
+  filter: drop-shadow(-1px 1px 3px rgba(0, 0, 0, 0.3)) drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.leistungen__text--card:hover,
+.leistungen__text--card:active {
+  transform: scale(0.99);
+  transition: scale 0.9s ease-in-out;
+  filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.4)) drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
+}
+
+.leistungen__card {
+  position: relative;
 }
 
 .bold {
@@ -147,16 +153,6 @@
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0);
   font-size: 0.8rem;
   font-weight: 300;
-}
-
-.leistungen__text--card:hover,
-.leistungen__text--card:active {
-  transform: scale(0.99);
-  transition: scale 0.9s ease-in-out;
-}
-
-.leistungen__card {
-  position: relative;
 }
 
 
@@ -307,7 +303,8 @@
 /* BRANCHEN */
 
 .branchen {
-  background: #fafafa;
+  background: linear-gradient(rgba(1, 71, 121, 0.99), rgba(0, 102, 178, 0.99), rgba(0, 102, 178, 0.15));
+  /* background: linear-gradient(rgba(0, 102, 178, 0.15), rgba(0, 102, 178, 0.99)); */
   border-top: 1px solid #efeded;
   border-bottom: 1px solid #efeded;
 }
@@ -320,6 +317,10 @@
   text-align: center;
   padding: 0em 0 2em 0em;
   margin: 0 auto;
+}
+
+.branchen__header h2 {
+  color: #ffffff;
 }
 
 .zertifikat {
@@ -580,7 +581,6 @@
 
   .intro {
     width: 100vw;
-    background: #ffffff;
   }
 
   .intro__content {
@@ -643,11 +643,11 @@
 
   .leistungen {
     width: 100vw;
-    background: #ffffff;
+    height: 850px;
   }
 
   .leistungen__content {
-    padding: 6em 0 6em 0;
+    padding: 6em 0 5em 0;
   }
 
   .leistungen__content h2 {
@@ -720,7 +720,7 @@
 
   .entwicklung {
     width: 11%;
-    height: 450px;
+    height: 500px;
     background-position: 55% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -743,7 +743,7 @@
 
   .lagerhaltung {
     width: 12%;
-    height: 450px;
+    height: 500px;
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -766,7 +766,7 @@
 
   .fertigung {
     width: 31%;
-    height: 450px;
+    height: 500px;
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -790,7 +790,7 @@
 
   .oberflächenveredelung {
     width: 23%;
-    height: 450px;
+    height: 500px;
     background-position: 50% 0%;
     clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%);
   }
@@ -816,7 +816,7 @@
 
   .montage {
     width: 12%;
-    height: 450px;
+    height: 500px;
     background-position: 70% 0%;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   }
@@ -837,7 +837,7 @@
 
   .qualitätssicherung {
     width: 11%;
-    height: 450px;
+    height: 500px;
     background-position: 30% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -857,12 +857,6 @@
 
 
   /* BRANCHEN */
-
-  .branchen {
-    background: #fafafa;
-    border-top: 1px solid #efeded;
-    border-bottom: 1px solid #efeded;
-  }
 
   .branchen__content {
     padding: 3em 0% 4em 0%;
