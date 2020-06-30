@@ -2,8 +2,8 @@
 
 .hero {
   background: url(../IMAGES/Aktuelles/aktuelles-brille.jpg);
-  height: 65vh;
-  background-position: 0 10%;
+  height: 40vh;
+  background-position: 0 30%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,4 +17,10 @@
 
 .aktuelles__content h2 {
   padding: 0 0 1em 0;
+}
+
+/* KONTAKT */
+
+.kontakt {
+  padding: 15em 0 4em 0;
 }
