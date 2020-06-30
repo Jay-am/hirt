@@ -206,7 +206,7 @@
 /* VERTEIDIGUNGS- UND WEHRTECHNIK */
 
 .verteidigungs-und-wehrtechnik {
-  background: url(../IMAGES/Branchen/Verteidigings-und-Wehrtechnik/wehr.jpeg);
+  background: url(../IMAGES/Branchen/Verteidigings-und-Wehrtechnik/verteiligung-2.jpg);
   height: 650px;
   background-position: 0 25%;
   background-repeat: no-repeat;
@@ -490,7 +490,7 @@
   .luft-und-raumfahrt {
     height: 800px;
     height: 750px;
-    background-position: 0 25%;
+    background-position: 40% 25%;
   }
 
   .details-branchen__content--luft-und-raumfahrt {
@@ -545,11 +545,16 @@
   .verteidigungs-und-wehrtechnik {
     /* height: 800px; */
     height: 750px;
-    background-position: 0 25%;
+    background-position: 35% 25%;
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik {
-    padding: 10em 0em 0em 10%;
+    width: 100%;
+    padding: 13em 10% 0em 50%;
+  }
+
+  .details-branchen__content--verteidigungs-und-wehrtechnik p {
+    width: 100%;
   }
 
   .motorsport {
