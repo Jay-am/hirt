@@ -569,7 +569,6 @@
 } */
 
 .montage h3 {
-  padding: 7.5em 0 0 0;
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
@@ -699,7 +698,7 @@
 
   .hero__title {
     width: 55%;
-    padding: 20% 0 0 5%;
+    padding: 20% 5% 0 2%;
   }
 
   /* INTRO */
@@ -732,22 +731,29 @@
     padding: 0 1em 0 1em;
   }
 
+  /* Entwicklung */
+
+  .details-leistungen__entwicklung {
+    background-position: 40% 20%;
+    height: 650px;
+    margin-bottom: -5em;
+  }
+
+  .entwicklung {
+    padding: 4.5em 0 5em 0;
+  }
+
+  /* Fertigung */
+
   .fertigung {
     padding: 2.5em 0 0.5em 0;
   }
 
-  /* .details-leistungen__text--bold {
-    font-size: clamp(1.5rem, 4vw, 2rem);
-    font-weight: 400;
-    text-transform: uppercase;
-    padding: 0em 0 0.5em 0;
-  }
+  /* Montage */
 
-  .details-leistungen__text--light {
-    font-size: 0.9rem;
-    font-weight: lighter;
-    padding: 0.5em 0 0.5em 0;
-  } */
+  .montage {
+    padding: 8em 0 0em 0;
+  }
 
   /* KONTAKT */
 
