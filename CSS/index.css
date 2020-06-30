@@ -992,7 +992,7 @@
     transform: translateY(-1em); */
   }
 
-  .sensortechnik {
+  .lebensmitteltechnik {
     grid-column: 7 / 10;
     grid-row: 3 / 5;
     justify-self: center;
@@ -1001,7 +1001,7 @@
     transform: translateY(-1em); */
   }
 
-  .verteidigungs-und-wehrtechnik {
+  .sensortechnik {
     grid-column: 1 / 4;
     grid-row: 2 / 4;
     justify-self: center;
@@ -1010,7 +1010,7 @@
     transform: translateY(-1em); */
   }
 
-  .lebensmitteltechnik {
+  .verteidigungs-und-wehrtechnik {
     grid-column: 3 / 6;
     grid-row: 3 / 5;
     justify-self: center;
