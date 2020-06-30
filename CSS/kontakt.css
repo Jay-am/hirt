@@ -40,6 +40,11 @@
   margin: 0 auto;
 }
 
+.kontaktseite__text p,
+.kontaktseite__text a {
+  color: rgb(58, 58, 58);
+}
+
 .absatz {
   padding: 1.5em 0 0 0;
 }
