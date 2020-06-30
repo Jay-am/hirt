@@ -22,7 +22,7 @@
 
 .karriere-intro {
   /* background: #ffffff; */
-  background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-4.jpg);
+  background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-5.jpg);
   background-position: 75% 90%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -304,27 +304,27 @@
   .hero {
     /* height: 65vh;
     background-position: 0 5%; */
-    height: 100vh;
+    height: 70vh;
     background-position: 0 10%;
   }
 
   .hero__title {
     /* padding: 25% 0 0 5%; */
-    padding: 38% 0 0 2%;
+    padding: 27% 0 0 2%;
   }
 
   /* INTRO */
 
   .karriere-intro {
-    background-position: 15% 25%;
+    background-position: 100% 0%;
   }
 
   .karriere-intro__content {
-    width: 50%;
+    /* width: 50%; */
     /* height: 100vh;
     padding: 13em 0 0em 10%; */
-    height: 820px;
-    padding: 10em 0 0em 10%;
+    height: 850px;
+    padding: 18em 0 0em 55%;
     text-align: left;
     /* margin: 1em 0 1em 0; */
   }

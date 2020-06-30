@@ -1,7 +1,7 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
+  background: url("../IMAGES/Heros/hero-leistungen.jpeg");
   /* height: 65vh;
   background-position: 0 5%; */
   height: 65vh;
@@ -693,19 +693,19 @@
 @media (min-width: 1200px) {
 
   .hero {
-    height: 100vh;
-    background-position: 0 5%;
+    height: 70vh;
+    background-position: 90% 0%;
   }
 
   .hero__title {
     width: 55%;
-    padding: 35% 0 0 5%;
+    padding: 20% 0 0 5%;
   }
 
   /* INTRO */
 
   .details-leistungen {
-    padding: 4em 0 3em 0;
+    padding: 6.5em 0 5.5em 0;
   }
 
   .details-leistungen__section--content {
