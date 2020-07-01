@@ -135,6 +135,7 @@ border-top: 1px solid #efeded; */
 
 .stellenangebote__content h2 {
   color: #f0f0f0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.4);
   padding: 0;
   letter-spacing: 0.05rem;
   word-spacing: 0.1875rem;
@@ -142,7 +143,10 @@ border-top: 1px solid #efeded; */
 
 .stellenangebote__content h3 {
   /* color: #f2f0f0; */
+  color: black;
   font-size: clamp(0.9rem, 2vw, 1.1rem);
+  font-weight: 500;
+  text-shadow: 0.1px 0.1px 0.5px rgba(147, 204, 247, 0.6), 0.2px 0.2px 0.5px rgba(147, 204, 247, 0.6);
   letter-spacing: 0.05rem;
   padding: 4.5em 0 1em 0;
 }
@@ -173,7 +177,7 @@ border-top: 1px solid #efeded; */
 }
 
 .no-job h4 {
-  color: #d5d5d5;
+  color: #e3e2e2;
   font-weight: 200;
 }
 
@@ -183,7 +187,7 @@ border-top: 1px solid #efeded; */
 
 .no-job-ausbildung h4 {
   color: #f4f2f2;
-  border-bottom: 0.25px solid #f4f4f4;
+  border-bottom: 0.25px solid #edecec;
 }
 
 
