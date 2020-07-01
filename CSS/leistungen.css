@@ -607,9 +607,19 @@
 
 .qualitätssicherung h3 {
   padding: 4em 0 0 0;
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255),
+2px 2px 3px rgb(255, 255, 255); */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
+.qualitätssicherung p {
+  font-weight: 500;
+  /* color: rgb(58, 58, 58);
+  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255); */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+}
 
 /* QUALITÄTSMANAGEMENT */
 
