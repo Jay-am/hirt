@@ -625,13 +625,17 @@
 
 .details-leistungen__qualitätsmanagement {
   background: #f2f2f2;
-  height: 650px;
+  /* height: 650px; */
   padding: 4em 0 0 0;
   clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
 }
 
+.qualitätsmanagement {
+  padding: 8em 0 2em 0;
+}
+
 .qualitätsmanagement h3 {
-  padding: 4em 0 0 0;
+  padding: 0em 0 0 0;
 }
 
 .kontakt__content {
