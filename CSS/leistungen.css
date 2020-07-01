@@ -624,18 +624,27 @@
 /* QUALITÄTSMANAGEMENT */
 
 .details-leistungen__qualitätsmanagement {
-  background: #f2f2f2;
-  /* height: 650px; */
-  padding: 4em 0 0 0;
+  background: url(../IMAGES/Leistungen/qualitätsmanagement.jpeg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
   clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
 }
 
 .qualitätsmanagement {
-  padding: 8em 0 2em 0;
+  padding: 5em 0 2em 0;
 }
 
 .qualitätsmanagement h3 {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
   padding: 0em 0 0 0;
+}
+
+.qualitätsmanagement p {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
 .kontakt__content {
@@ -767,6 +776,24 @@
 
   .montage {
     padding: 8em 0 0em 0;
+  }
+
+  /* QUALITÄTSMANAGEMENT */
+
+  .details-leistungen__qualitätsmanagement {
+    background-position: 100% 100%;
+    height: 850px;
+  }
+
+  .qualitätsmanagement {
+    width: 70%;
+    padding: 2.5em 0 0em 2%;
+  }
+
+  /* KONTAKT */
+
+  .kontakt__content {
+    padding: 3em 0 2em 0;
   }
 
   /* KONTAKT */
