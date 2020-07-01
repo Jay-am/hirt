@@ -120,8 +120,9 @@
 /* STELLENANGEBOTE */
 
 .stellenangebote {
-  background: #fafafa;
-  border-top: 1px solid #efeded;
+  /* background: #fafafa;
+border-top: 1px solid #efeded; */
+  background: linear-gradient(rgba(1, 71, 121, 0.99), rgba(0, 102, 178, 0.99), rgba(0, 102, 178, 0.15));
 }
 
 .stellenangebote__content {
@@ -181,9 +182,7 @@
 
 
 /* ACCORDION */
-
-
-.wrapper {
+/* .wrapper {
   width: 100%;
   padding: 0 0 1em 0;
 }
@@ -191,18 +190,18 @@
 .panel-heading {
   padding: 0.75em 0 0em 0.25em;
   border: 0;
-}
+} */
 
-.panel-body {
+/* .panel-body {
   background: #ffffff;
-  border: 1px solid rgb(223, 223, 223);
-  /* border-radius: 0 0 0.3em 0.3em; */
-  box-shadow: 2px 2px 10px 0px rgb(214, 212, 212);
+  border: 1px solid rgb(223, 223, 223); */
+/* border-radius: 0 0 0.3em 0.3em; */
+/* box-shadow: 2px 2px 10px 0px rgb(214, 212, 212);
   transition: ease-in-out 300ms;
-  padding: 2em 0 2em 2.2em;
-}
+  padding: 2em 0 2em 2.2em; */
+/* } */
 
-.panel-title>a,
+/* .panel-title>a,
 .panel-title>a:active {
   display: block;
   color: #0066b2;
@@ -210,15 +209,15 @@
   letter-spacing: 0.05rem;
   word-spacing: 0.1875rem;
   text-decoration: none;
-  padding: 0.75em 0 0.75em 2em;
-  /* background: rgb(242, 241, 241);
+  padding: 0.75em 0 0.75em 2em; */
+/* background: rgb(242, 241, 241);
   border: 1px solid rgb(223, 223, 223);
   border-radius: 0.3em 0.3em 0 0; */
-  /* border-radius: 0.3em 0.3em 0.3em 0.3em; */
-  opacity: 1;
-}
+/* border-radius: 0.3em 0.3em 0.3em 0.3em; */
+/* opacity: 1; */
+/* } */
 
-.panel-heading a {
+/* .panel-heading a {
   position: relative;
 }
 
@@ -241,9 +240,10 @@
 .panel-body.panel-default {
   opacity: 0;
   overflow: hidden;
-}
+} */
 
-/* TEST */
+
+/* ACCORDION NEW */
 
 input[type='checkbox'] {
   display: none;
@@ -251,26 +251,19 @@ input[type='checkbox'] {
 
 .lbl-toggle {
   display: block;
-
-  font-weight: bold;
-  font-family: monospace;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  text-align: center;
-
+  text-align: left;
   padding: 1rem;
-
-  color: #A77B0E;
-  background: #FAE042;
-
+  color: #ffffff;
+  background: #0066b2;
   cursor: pointer;
-
-  border-radius: 7px;
-  transition: all 0.25s ease-out;
+  border-radius: 5px;
+  transition: all 0.6s ease-out;
 }
 
 .lbl-toggle:hover {
-  color: #7C5A0B;
+  background: #014779;
 }
 
 .lbl-toggle::before {
@@ -289,8 +282,8 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-  background: rgba(250, 224, 66, .2);
-  border-bottom: 1px solid rgba(250, 224, 66, .45);
+  background: linear-gradient(rgba(0, 102, 178, 0.99), rgba(0, 102, 178, 0.15), rgba(2, 122, 213, 0.15));
+  border: 1px solid rgba(2, 95, 167, 0.99);
 
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -304,15 +297,15 @@ input[type='checkbox'] {
   transition: max-height .25s ease-in-out;
 }
 
-.toggle:checked + .lbl-toggle + .collapsible-content {
+.toggle:checked+.lbl-toggle+.collapsible-content {
   max-height: 100vh;
 }
 
-.toggle:checked + .lbl-toggle::before {
+.toggle:checked+.lbl-toggle::before {
   transform: rotate(90deg) translateX(-3px);
 }
 
-.toggle:checked + .lbl-toggle {
+.toggle:checked+.lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
