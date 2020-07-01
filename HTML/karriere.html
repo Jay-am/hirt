@@ -293,11 +293,27 @@
                   <h4>CNC-Fräser (m/w)</h4>
                 </div> -->
 
+                <!-- TEST -->
+                <div class="wrap-collabsible">
+                  <input id="collapsible" class="toggle" type="checkbox">
+                  <label for="collapsible" class="lbl-toggle">CNC-Fräser (m/w)</label>
+                  <div class="collapsible-content">
+                    <div class="content-inner">
+                      <p>Aufgabengebiet</p>
+                      <ul>
+                        <li>Programmieren an der Maschine 3-5 Achsen (Siemens 840D)</li>
+                        <li>Programmieren am Programmiersystem CamWorks (Vorkenntnisse von Vorteil)</li>
+                        <li>Einrichten und fertigen von komplexen Teilen</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
               <!-- ACCORDION -->
-              <div class="wrapper center-block">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <!-- <div class="wrapper center-block">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
                 <!-- JOB-1 -->
-                <div class="panel panel-default">
+                <!-- <div class="panel panel-default">
                   <div class="panel-heading active" role="tab" id="headingOne">
                     <h4 class="panel-title">
                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -315,9 +331,9 @@
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- JOB-2 -->
-                <div class="panel panel-default">
+                <!-- <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingTwo">
                     <h4 class="panel-title">
                       <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -330,9 +346,9 @@
                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- JOB-3 -->
-                <div class="panel panel-default">
+                <!-- <div class="panel panel-default">
                   <div class="panel-heading" role="tab" id="headingThree">
                     <h4 class="panel-title">
                       <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -345,11 +361,8 @@
                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                     </div>
                   </div>
-                </div>
+                </div> -->
                 
-              </div>
-              </div>
-
               </div>
             </div>
 
@@ -560,13 +573,14 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script type="text/javascript">
   $('.panel-collapse').on('show.bs.collapse', function () {
-    $(this).siblings('.panel-heading').addClass('active');
+    $(this).siblings('.panel-heading').addClass('not:active');
   });
 
   $('.panel-collapse').on('hide.bs.collapse', function () {
     $(this).siblings('.panel-heading').removeClass('active');
   });
   </script>
+   <script src="../JS/karriere.js"></script>
 </body>
 </html>
 
