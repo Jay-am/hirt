@@ -14,7 +14,7 @@
   word-wrap: break-word;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 20% 0 0 0;
+  padding: 20% 0 0 5%;
 }
 
 
@@ -81,12 +81,12 @@
 
 @media (min-width: 900px) {
   .hero__title {
-    padding: 12% 0 0 0;
+    padding: 12% 0 0 2%;
   }
 }
 
 @media (min-width: 1200px) {
   .hero__title {
-    padding: 10% 0 0 0;
+    padding: 10% 0 0 2%;
   }
 }
