@@ -154,6 +154,10 @@
   clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
 }
 
+.details-leistungen__text {
+  color: rgb(58, 58, 58);
+}
+
 .details-leistungen__text--bold {
   font-size: clamp(1rem, 1.8vw, 1.2rem);
   font-weight: 400;
@@ -765,6 +769,19 @@
   .entwicklung {
     padding: 4.5em 0 5em 0;
   }
+
+
+  /* LAGERHALTUNG */
+
+  .details-leistungen__lagerhaltung {
+    background-position: 10% 62%;
+    height: 700px;
+  }
+
+  .lagerhaltung h3 {
+    padding: 4.5em 0 0 0;
+  }
+
 
   /* Fertigung */
 
