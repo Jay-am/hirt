@@ -125,12 +125,12 @@
   }
 
   .hero__title {
-    padding: 21% 0 0 10%;
+    padding: 21% 0 0 2%;
     /* padding: 38% 0 0 10%; */
   }
 
   .unternehmen-info__content {
-    padding: 8em 0 7.5em 0;
+    padding: 8em 0em 7.5em 0em;
     display: flex;
     justify-content: space-between;
   }
