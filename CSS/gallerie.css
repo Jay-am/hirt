@@ -138,12 +138,15 @@
   /* HERO */
 
   .hero {
-    height: 100vh;
-    background-position: 0 95%;
+    /* height: 100vh;
+background-position: 0 95%; */
+    height: 70vh;
+    background-position: 100 95%;
   }
 
   .hero__title {
-    padding: 8% 0 0 6%;
+    padding: 25% 0 0 2%;
+    /* padding: 8% 0 0 6%; */
   }
 
   /* GALLERIE */
