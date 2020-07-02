@@ -16,7 +16,7 @@
   word-wrap: break-word;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 10% 0 0 5%;
+  padding: 20% 0 0 5%;
 }
 
 /* MAIN */
@@ -202,13 +202,30 @@ p.link a:hover {
 
 /* MEDIAQUERIES */
 
+@media (min-width: 600px) {
+
+  .hero__title {
+    padding: 20% 0 0 3%;
+  }
+}
+
 @media (min-width: 900px) {
+
+  .hero__title {
+    padding: 15% 0 0 2.5%;
+  }
+
   .tabs label {
     left: -2.7em;
   }
 }
 
 @media (min-width: 1200px) {
+
+  .hero__title {
+    padding: 10% 0 0 2%;
+  }
+
   .tabs label {
     left: -2.5em;
   }
