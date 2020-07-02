@@ -524,7 +524,7 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 48%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -560,16 +560,17 @@
 }
 
 /* Number text (1/5 etc) */
-/* .numbertext {
-  color: #f2f2f2;
+.numbertext {
+  color: lightgray;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
-} */
+  bottom: 2em;
+  left: 48%
+}
 
 /* The dots/bullets/indicators */
-.dot {
+/* .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -578,7 +579,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
+} */
 
 .active,
 .dot:hover {
