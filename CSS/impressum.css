@@ -13,7 +13,7 @@
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 15% 0 0 0;
+  padding: 15% 0 0 5%;
 }
 
 
@@ -142,7 +142,7 @@
 
 @media (min-width: 900px) {
   .hero__title {
-    padding: 15% 0 0 0;
+    padding: 15% 0 0 2%;
   }
 
   .impressum__content {
