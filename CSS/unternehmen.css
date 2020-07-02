@@ -52,8 +52,8 @@
 }
 
 .unternehmen-info__image img {
-  width: 30%;
-  margin: 0 auto;
+  width: 100%;
+  padding-left: 15%;
 }
 
 /* .zertifikat {
@@ -77,8 +77,13 @@
   }
 
   .hero__title {
-    padding: 40% 0 0 0.5em;
+    padding: 40% 3% 0 3%;
     /* padding: 38% 0 0 10%; */
+  }
+
+  .unternehmen-info__image img {
+    width: 100%;
+    padding-left: 15%;
   }
 }
 
@@ -91,7 +96,7 @@
   }
 
   .hero__title {
-    padding: 28% 0 0 15%;
+    padding: 28% 3% 0 3%;
     /* padding: 38% 0 0 10%; */
   }
 
@@ -109,11 +114,15 @@
   }
 
   .unternehmen-info__image {
-    padding: 0em 0 3em 0;
+    width: 40%;
+    align-self: center;
+    justify-self: center;
   }
 
   .unternehmen-info__image img {
-    width: 25%;
+    width: 55%;
+    align-self: center;
+    justify-self: center;
   }
 }
 
@@ -125,7 +134,7 @@
   }
 
   .hero__title {
-    padding: 21% 0 0 2%;
+    padding: 21% 2% 0 2%;
     /* padding: 38% 0 0 10%; */
   }
 
@@ -148,7 +157,7 @@
   }
 
   .unternehmen-info__image img {
-    width: 40%;
+    width: 55%;
     align-self: center;
     justify-self: center;
   }
