@@ -1,5 +1,5 @@
 .hero {
-  background: url("../IMAGES/Mitarbeiter/mitarbeiter-1.jpeg");
+  background: url("../IMAGES/Index/Realisation.jpeg");
   height: 65vh;
   background-position: 0 5%;
   background-repeat: no-repeat;
@@ -149,7 +149,7 @@
 
   .hero {
     height: 65vh;
-    background-position: 0 5%;
+    background-position: 0 100%;
   }
 
   .hero__title {
