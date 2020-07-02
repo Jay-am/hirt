@@ -271,7 +271,7 @@ input[type='checkbox'] {
   padding: 1rem;
   color: #ffffff;
   /* background: #0066b2; */
-  background: #014779;
+  background: #014c82;
   border: 1px solid rgba(2, 95, 167, 0.99);
   cursor: pointer;
   border-radius: 5px;
@@ -281,9 +281,7 @@ input[type='checkbox'] {
 .lbl-toggle:hover,
 .lbl-toggle:active {
   /* background: #014779; */
-  background: #0066b2;
-  color: #014779;
-  font-weight: 500;
+  background: #00355c;
 }
 
 .lbl-toggle::before {
