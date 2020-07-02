@@ -14,7 +14,7 @@
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 70% 0 0 5%;
+  padding: 70% 5% 0 5%;
 }
 
 
@@ -274,7 +274,7 @@
   }
 
   .hero__title {
-    padding: 30% 0 0 5%;
+    padding: 45% 0 0 4.5%;
   }
 
   /* INTRO */
@@ -366,7 +366,7 @@
   }
 
   .hero__title {
-    padding: 30% 0 0 5%;
+    padding: 30% 0 0 3.5%;
   }
 
   /* INTRO */
