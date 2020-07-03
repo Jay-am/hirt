@@ -24,7 +24,7 @@
 /* INTRO */
 
 .details-leistungen {
-  padding: 2em 0 1em 0;
+  padding: 1em 0 0em 0;
   margin: 0;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .details-leistungen__text {
-  padding: 1.5em 0 0 0;
+  padding: 0em 0 0 0;
 }
 
 
@@ -47,10 +47,22 @@
   padding: 0 1em 0 1em;
 } */
 
-.detailsleistungen__intro--text {
+.details-leistungen__intro--text {
   width: 100%;
   padding: 4em 0 5em 0;
   margin: 0 auto;
+}
+
+.zertifikat {
+  display: inline-block;
+  padding: 4em 0 0 0;
+  margin: 0 auto;
+}
+
+.zertifikat:hover {
+  transform: scale(0.98);
+  transition: scale 1.5s ease-in-out;
+  /* filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)); */
 }
 
 
@@ -814,10 +826,10 @@
     padding: 4em 0 3em 0;
   }
 
-  .detailsleistungen__intro--text {
+  .details-leistungen__intro--text {
     width: 70%;
     text-align: center;
-    padding: 4em 0 5em 0;
+    padding: 2em 0 3em 0;
     margin: 0 auto;
   }
 
