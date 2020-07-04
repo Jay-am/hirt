@@ -148,7 +148,7 @@
 } */
 
 .lagerhaltung h3 {
-  padding: 6em 0 1em 0;
+  padding: 5em 0 1em 0;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
@@ -166,7 +166,7 @@
   /* background: #ffffff; */
   /* background: rgb(242, 242, 242); */
   background: linear-gradient(rgb(203, 203, 203), rgb(242, 242, 242));
-  height: 400px;
+  height: 450px;
   clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
 }
 
@@ -661,7 +661,7 @@
 } */
 
 .oberflächenveredelung h3 {
-  padding: 5em 0 1em 0;
+  padding: 4.5em 0 1em 0;
   /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
@@ -905,7 +905,7 @@
   }
 
   .entwicklung {
-    padding: 5.5em 0 5em 0;
+    padding: 4.5em 0 5em 0;
   }
 
 
@@ -917,19 +917,16 @@
   }
 
   .lagerhaltung {
-    padding: 4.5em 0 0 0;
-  }
-
-  .lagerhaltung {
-    padding: 2.5em 0 0 0;
+    padding: 0 0 0 0;
   }
 
 
   /* Fertigung */
 
   .fertigung {
-    padding: 2.5em 0 0.5em 0;
+    padding: 4.5em 0 1em 0;
   }
+
 
   /* Montage */
 
@@ -940,8 +937,8 @@
   }
 
   .montage {
-    width: 65%;
-    padding: 5em 0 0em 5%;
+    width: 85%;
+    padding: 5.5em 0 0em 0%;
   }
 
 
@@ -953,8 +950,8 @@
   }
 
   .qualitätsmanagement {
-    width: 65%;
-    padding: 1em 0 0em 5%;
+    /* width: 65%; */
+    padding: 4em 0 0em 0%;
   }
 
   /* KONTAKT */
