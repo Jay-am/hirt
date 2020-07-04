@@ -38,7 +38,7 @@
 }
 
 .details-leistungen__text {
-  padding: 0em 0 0 0;
+  padding: 0em 0 1em 0;
 }
 
 
@@ -55,7 +55,7 @@
 
 .zertifikat {
   display: inline-block;
-  padding: 4em 0 0 0;
+  padding: 3em 0 0 0;
   margin: 0 auto;
 }
 
