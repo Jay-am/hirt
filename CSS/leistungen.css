@@ -187,6 +187,10 @@
   padding: 0;
 }
 
+.text-1 {
+  padding-top: 1em;
+}
+
 /* .details-leistungen__text--light+.details-leistungen__text--light {
   margin-bottom: 0.25em;
 } */
