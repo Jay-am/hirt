@@ -163,11 +163,17 @@ p {
   text-decoration: none;
 }
 
-.nav__link:hover,
-.nav__link:active,
-.nav__item a:active {
+.nav__link:hover {
   color: #0066b2;
   transition: ease-in-out 300ms;
+}
+
+.nav__link:active,
+.nav__link.active,
+.nav__item a:active,
+.nav__item a.active,
+a.active {
+  color: #0066b2;
 }
 
 .nav__btn a,

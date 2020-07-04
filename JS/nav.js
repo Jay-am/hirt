@@ -1,4 +1,23 @@
-(function ($) {
+// ACTIVE NAV LINK
+
+jQuery(document).ready(function ($) {
+  // Get current path and find target link
+  var path = window.location.pathname.split("/").pop();
+
+  // Account for home page with empty path
+  if (path == "") {
+    path = "index.html";
+  }
+
+  var target = $('nav a[href="' + path + '"]');
+  // Add active class to target link
+  target.addClass("active");
+});
+
+
+// DROPDOWN NAV
+
+function ($) {
   // Begin jQuery
   $(function () {
     // DOM ready
@@ -22,17 +41,4 @@
       this.classList.toggle("active");
     });
   }); // end DOM ready
-})(jQuery); // end jQuery
-
-// ACTIVE NAV LINK
-
-(function () {
-  var current = location.pathname.split("/")[1];
-  if (current === "") return;
-  var menuItems = document.querySelectorAll(".menu-item a");
-  for (var i = 0, len = menuItems.length; i < len; i++) {
-    if (menuItems[i].getAttribute("href").indexOf(current) !== -1) {
-      menuItems[i].className = "is-active";
-    }
-  }
-})();
+}(jQuery); // end jQuery
