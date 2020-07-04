@@ -14,10 +14,9 @@ jQuery(document).ready(function ($) {
   target.addClass("active");
 });
 
-
 // DROPDOWN NAV
 
-function ($) {
+(function ($) {
   // Begin jQuery
   $(function () {
     // DOM ready
@@ -41,4 +40,4 @@ function ($) {
       this.classList.toggle("active");
     });
   }); // end DOM ready
-}(jQuery); // end jQuery
+})(jQuery); // end jQuery
