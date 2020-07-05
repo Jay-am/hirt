@@ -1,19 +1,3 @@
-// ACTIVE NAV LINK
-
-jQuery(document).ready(function ($) {
-  // Get current path and find target link
-  var path = window.location.pathname.split("/").pop();
-
-  // Account for home page with empty path
-  if (path == "") {
-    path = "index.html";
-  }
-
-  var target = $('nav a[href="' + path + '"]');
-  // Add active class to target link
-  target.addClass("active");
-});
-
 // DROPDOWN NAV
 
 (function ($) {
@@ -41,3 +25,19 @@ jQuery(document).ready(function ($) {
     });
   }); // end DOM ready
 })(jQuery); // end jQuery
+
+// ACTIVE NAV LINK
+
+jQuery(document).ready(function ($) {
+  // Get current path and find target link
+  var path = window.location.pathname.split("/").pop();
+
+  // Account for home page with empty path
+  if (path == "") {
+    path = "index.html";
+  }
+
+  var target = $('nav a[href="' + path + '"]');
+  // Add active class to target link
+  target.addClass("active");
+});
