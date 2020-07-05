@@ -14,11 +14,9 @@
   font-size: clamp(3rem, 5vw, 4rem);
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
-  text-shadow: 3px 3px 3px rgb(0, 0, 0),
-    6px 6px 6px rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   padding: 50% 5% 0 5%;
 }
-
 
 /* INTRO */
 
@@ -39,7 +37,7 @@
   padding: 0em 5% 0em 5%;
 }
 
-.intro__text--parapraph+.intro__text--parapraph {
+.intro__text--parapraph + .intro__text--parapraph {
   margin-bottom: 1em;
 }
 
@@ -51,7 +49,6 @@
   width: 60%;
   margin: 0 auto;
 }
-
 
 /* REALISATION */
 
@@ -92,7 +89,6 @@
   line-height: 300%;
 }
 
-
 /* LEISTUNGEN */
 
 .leistungen {
@@ -126,14 +122,16 @@
 .leistungen__text--card {
   text-align: center;
   padding: 1em 0.5em 1em 0.5em;
-  filter: drop-shadow(-1px 1px 3px rgba(0, 0, 0, 0.3)) drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(-1px 1px 3px rgba(0, 0, 0, 0.3))
+    drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .leistungen__text--card:hover,
 .leistungen__text--card:active {
   transform: scale(0.99);
   transition: scale 0.9s ease-in-out;
-  filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.4)) drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.4))
+    drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
 }
 
 .leistungen__card {
@@ -154,7 +152,6 @@
   font-size: 0.8rem;
   font-weight: 300;
 }
-
 
 /* Entwicklung */
 
@@ -178,7 +175,6 @@
   left: 0px;
 }
 
-
 /* Lagerhaltung */
 
 .lagerhaltung {
@@ -200,7 +196,6 @@
   top: -100px;
   left: 0px;
 }
-
 
 /* Fetigung */
 
@@ -225,12 +220,12 @@
   left: 160px;
 }
 
-
 /* Oberflächenveredelung */
 
 .oberflächenveredelung {
   height: 650px;
-  background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg),
+    rgba(0, 0, 0, 1);
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +247,6 @@
   top: 35px;
   left: 160px;
 }
-
 
 /* Montage */
 
@@ -276,7 +270,6 @@
   left: 0px;
 }
 
-
 /* Qualitässicherung */
 
 .qualitätssicherung {
@@ -299,11 +292,14 @@
   left: 0px;
 }
 
-
 /* BRANCHEN */
 
 .branchen {
-  background: linear-gradient(rgba(1, 71, 121, 0.99), rgba(0, 102, 178, 0.99), rgba(0, 102, 178, 0.15));
+  background: linear-gradient(
+    rgba(1, 71, 121, 0.99),
+    rgba(0, 102, 178, 0.99),
+    rgba(0, 102, 178, 0.15)
+  );
   /* background: linear-gradient(rgba(0, 102, 178, 0.15), rgba(0, 102, 178, 0.99)); */
   border-top: 1px solid #efeded;
   border-bottom: 1px solid #efeded;
@@ -341,7 +337,6 @@
   /* filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)); */
 }
 
-
 /* GRID */
 
 .branchen-grid {
@@ -353,7 +348,6 @@
   width: 100%;
   margin: 1em auto;
 }
-
 
 /* BLUR EFFECT */
 
@@ -385,7 +379,7 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
   clip-path: polygon(22% 0%, 78% 0%, 100% 50%, 78% 100%, 22% 100%, 0% 50%);
   background: rgba(#94979b, 0.05);
   display: flex;
@@ -404,14 +398,13 @@
 .branche:hover {
   transform: scale(0.99);
   transition: scale 0.9s ease-in-out;
-  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)) drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2))
+    drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
 }
-
 
 /* MEDIAQUERIES */
 
 @media (min-width: 600px) {
-
   /* HERO */
 
   .hero {
@@ -422,7 +415,6 @@
   .hero__title {
     padding: 50% 5% 0 5%;
   }
-
 
   /* INTRO */
 
@@ -439,7 +431,6 @@
     width: 40%;
   }
 
-
   /* REALISATION */
 
   .realisation__content {
@@ -454,7 +445,6 @@
     text-align: center;
     padding: 3.5em 5% 1em 5%;
   }
-
 
   /* BRANCHEN */
 
@@ -471,7 +461,6 @@
     margin: 2em auto 1em auto;
   }
 
-
   /* GRID */
 
   .branchen {
@@ -479,9 +468,7 @@
   }
 }
 
-
 @media (min-width: 900px) {
-
   /* HERO */
 
   .hero {
@@ -492,7 +479,6 @@
   .hero__title {
     padding: 40% 0 0 5%;
   }
-
 
   /* INTRO */
 
@@ -514,7 +500,6 @@
   .intro__image img {
     width: 60%;
   }
-
 
   /* BRANCHEN */
 
@@ -563,7 +548,6 @@
 }
 
 @media (min-width: 1200px) {
-
   /* HERO */
 
   .hero {
@@ -577,7 +561,6 @@
     padding: 25% 0 0 2%;
     /* padding: 10% 0 0 10%; */
   }
-
 
   /* INTRO */
 
@@ -600,7 +583,7 @@
     width: 85%;
   }
 
-  .intro__text--parapraph+.intro__text--parapraph {
+  .intro__text--parapraph + .intro__text--parapraph {
     margin-bottom: 1em;
   }
 
@@ -616,7 +599,6 @@
     width: 65%;
     margin: 0;
   }
-
 
   /* REALISATION */
 
@@ -644,7 +626,6 @@
     padding: 0 0 1em 0;
     /* width: 40%; */
   }
-
 
   /* LEISTUNGEN */
 
@@ -674,14 +655,14 @@
     justify-content: space-evenly;
     /* padding: 4em 0 1em 0; */
     margin: 4em 5% 1em 5%;
-    filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3)) drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3))
+      drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
   }
 
   .leistungen__text--cards a {
     text-decoration: none;
     color: #ffffff;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0),
-      3px 3px 3px rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -713,7 +694,8 @@
     /* transform: scale(1.01); */
     transform: scale(0.99);
     transition: scale 1.5s ease-in-out;
-    filter: drop-shadow(-2px 4px 12px rgba(0, 0, 0, 0.4)) drop-shadow(2px 6px 12px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(-2px 4px 12px rgba(0, 0, 0, 0.4))
+      drop-shadow(2px 6px 12px rgba(0, 0, 0, 0.6));
   }
 
   .leistungen__card {
@@ -721,7 +703,6 @@
     /* justify-content: space-evenly;
   align-content: center; */
   }
-
 
   /* Entwicklung */
 
@@ -746,7 +727,6 @@
     left: -30px;
   }
 
-
   /* Lagerhaltung */
 
   .lagerhaltung {
@@ -769,7 +749,6 @@
     top: 155px;
     left: -80px;
   }
-
 
   /* Fertigung */
 
@@ -794,7 +773,6 @@
     top: 35px;
     left: 145px;
   }
-
 
   /* Oberflächenveredelung */
 
@@ -822,7 +800,6 @@
     left: 160px;
   }
 
-
   /* Montage */
 
   .montage {
@@ -843,7 +820,6 @@
     top: 160px;
     left: -35px;
   }
-
 
   /* Qualitätssicherung */
 
@@ -867,7 +843,6 @@
     top: 145px;
     left: -165px;
   }
-
 
   /* BRANCHEN */
 
@@ -900,10 +875,9 @@
   }
 
   .branchen-grid img {
-    width: 100%;
+    width: 50%;
     height: 100%;
   }
-
 
   /* BLUR EFFECT */
 
@@ -939,7 +913,7 @@
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity .6s;
+    transition: opacity 0.6s;
     clip-path: polygon(22% 0%, 78% 0%, 100% 50%, 78% 100%, 22% 100%, 0% 50%);
   }
 
@@ -955,13 +929,15 @@
     /* transform: scale(1.1); */
     transform: scale(0.98);
     transition: scale 1.5s ease-in-out;
-    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)) drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2))
+      drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
   }
 
   /* GRID */
 
   .branchen-grid {
-    filter: drop-shadow(-1px 6px 3px rgba(0, 0, 0, 0.5)) drop-shadow(1px 4px 6px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(-1px 6px 3px rgba(0, 0, 0, 0.5))
+      drop-shadow(1px 4px 6px rgba(0, 0, 0, 0.2));
   }
 
   .branchen-grid__image {
@@ -1049,7 +1025,7 @@
   .kontakt__content {
     padding: 9.5em 0 0 0;
   }
-
 }
 
-@media (min-width: 1800px) {}
+@media (min-width: 1800px) {
+}
