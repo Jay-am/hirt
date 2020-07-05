@@ -17,13 +17,12 @@
   padding: 55% 0.5em 0 0.5em;
 }
 
-
 /* INTRO */
 
 .karriere-intro {
   /* background: #ffffff; */
-  background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-5.jpg);
-  background-position: 75% 90%;
+  background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-5-größer.jpg);
+  background-position: 75% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,11 +50,11 @@
   padding: 0 0 1em 0;
 }
 
-
 /* LEISTUNGEN */
 
 .karriere-leistungen {
-  background: url(../IMAGES/Branchen/branchen-collage-light.jpg), rgba(0, 102, 178, 0.99);
+  background: url(../IMAGES/Branchen/branchen-collage-light.jpg),
+    rgba(0, 102, 178, 0.99);
 }
 
 .karriere-leistungen__content {
@@ -88,10 +87,10 @@
   text-shadow: 1px 1px 3px rgb(0, 0, 0); */
   color: black;
   font-weight: 600;
-  text-shadow: 0.5px 0.5px 1px rgb(255, 255, 255), 1px 1px 1px rgb(255, 255, 255);
+  text-shadow: 0.5px 0.5px 1px rgb(255, 255, 255),
+    1px 1px 1px rgb(255, 255, 255);
   padding: 0;
 }
-
 
 /* BEWERBEN */
 
@@ -117,13 +116,16 @@
   color: #0066b2;
 }
 
-
 /* STELLENANGEBOTE */
 
 .stellenangebote {
   /* background: #fafafa;
 border-top: 1px solid #efeded; */
-  background: linear-gradient(rgba(1, 71, 121, 0.99), rgba(0, 102, 178, 0.99), rgba(0, 102, 178, 0.15));
+  background: linear-gradient(
+    rgba(1, 71, 121, 0.99),
+    rgba(0, 102, 178, 0.99),
+    rgba(0, 102, 178, 0.15)
+  );
 }
 
 .stellenangebote__content {
@@ -147,7 +149,8 @@ border-top: 1px solid #efeded; */
   color: black;
   font-size: clamp(0.9rem, 2vw, 1.1rem);
   font-weight: 500;
-  text-shadow: 0.1px 0.1px 0.5px rgba(147, 204, 247, 0.6), 0.2px 0.2px 0.5px rgba(147, 204, 247, 0.6);
+  text-shadow: 0.1px 0.1px 0.5px rgba(147, 204, 247, 0.6),
+    0.2px 0.2px 0.5px rgba(147, 204, 247, 0.6);
   letter-spacing: 0.05rem;
   padding: 4.5em 0 1em 0;
 }
@@ -190,7 +193,6 @@ border-top: 1px solid #efeded; */
   color: #f4f2f2;
   border-bottom: 0.25px solid #edecec;
 }
-
 
 /* ACCORDION */
 /* .wrapper {
@@ -253,14 +255,13 @@ border-top: 1px solid #efeded; */
   overflow: hidden;
 } */
 
-
 /* ACCORDION NEW */
 
 .wrap-collabsible {
   padding: 0.75em 0 0.75em 0;
 }
 
-input[type='checkbox'] {
+input[type="checkbox"] {
   display: none;
 }
 
@@ -286,7 +287,7 @@ input[type='checkbox'] {
 }
 
 .lbl-toggle::before {
-  content: ' ';
+  content: " ";
   display: inline-block;
 
   border-top: 5px solid transparent;
@@ -294,10 +295,10 @@ input[type='checkbox'] {
   border-left: 5px solid currentColor;
 
   vertical-align: middle;
-  margin-right: .7rem;
+  margin-right: 0.7rem;
   transform: translateY(-2px);
 
-  transition: transform .6s ease-out;
+  transition: transform 0.6s ease-out;
 }
 
 .collapsible-content .content-inner {
@@ -308,7 +309,7 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
 
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .content-inner p {
@@ -330,27 +331,25 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   max-height: 0px;
   overflow: hidden;
 
-  transition: max-height .6s ease-in-out;
+  transition: max-height 0.6s ease-in-out;
 }
 
-.toggle:checked+.lbl-toggle+.collapsible-content {
+.toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 100vh;
 }
 
-.toggle:checked+.lbl-toggle::before {
+.toggle:checked + .lbl-toggle::before {
   transform: rotate(90deg) translateX(-3px);
 }
 
-.toggle:checked+.lbl-toggle {
+.toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-
 /* MEDIAQUERIES */
 
 @media (min-width: 600px) {
-
   .hero {
     height: 65vh;
     background-position: 30% 35%;
@@ -362,7 +361,6 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
 }
 
 @media (min-width: 900px) {
-
   /* HERO */
 
   .hero {
@@ -397,11 +395,9 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   .stellenangebote__content {
     padding: 2em 5% 0em 5%;
   }
-
 }
 
 @media (min-width: 1200px) {
-
   /* HERO */
 
   .hero {
@@ -431,7 +427,6 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
     text-align: left;
     margin: 0em 0 1em 0;
   }
-
 
   /* LEISTUNGEN */
 
@@ -482,5 +477,4 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   .stellenangebote__content {
     padding: 6em 10% 5em 9.8%;
   }
-
 }
