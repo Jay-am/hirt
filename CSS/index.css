@@ -846,13 +846,18 @@
 
   /* BRANCHEN */
 
-  .branchen__content {
+  .hero {
     position: relative;
     padding: 3em 0% 4em 0%;
   }
 
   .branchen__content:after {
-    content: 
+    content: url(../IMAGES/Index/arrow_down.png);
+    position: absolute;
+    /* height: 30px;
+    width: 30px; */
+    bottom: -2em;
+    left: 46%;
   }
 
   .branchen__header {
