@@ -847,7 +847,12 @@
   /* BRANCHEN */
 
   .branchen__content {
+    position: relative;
     padding: 3em 0% 4em 0%;
+  }
+
+  .branchen__content:after {
+    content: 
   }
 
   .branchen__header {
