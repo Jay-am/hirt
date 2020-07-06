@@ -852,11 +852,11 @@
   }
 
   .branchen__content:after {
-    content: url(../IMAGES/Index/arrow_down.png);
+    content: url(../IMAGES/Index/arrow_down_light.png);
     position: absolute;
     /* height: 30px;
     width: 30px; */
-    bottom: -2em;
+    bottom: -3em;
     left: 46%;
   }
 
