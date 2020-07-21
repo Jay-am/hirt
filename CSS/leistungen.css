@@ -960,6 +960,8 @@
 
   .details-leistungen__section--content {
     backdrop-filter: blur(3px) contrast(.9) brightness(1.1);
+    border-radius: 5px;
+    padding: 2em 2em 1em 2em;
   }
 
   /* KONTAKT */
