@@ -34,7 +34,7 @@
 }
 
 .details-leistungen h3 {
-  padding: 0 0 0 0;
+  padding: 0 0 1em 0;
 }
 
 .details-leistungen__text {
@@ -72,12 +72,12 @@
   width: 100%;
   backdrop-filter: blur(3px) contrast(.9) brightness(1.1);
   border-radius: 5px;
-  padding: 2em 2em 1em 2em;
+  padding: 4em 2em 4em 2em;
 }
 
-/* .details-leistungen__section--content h3 {
+.details-leistungen__section--content h3 {
   padding: 0 0 1em 0;
-} */
+}
 
 
 /* ENTWICKLUNG */
@@ -821,7 +821,7 @@
 
   .details-leistungen__section--content {
     width: 80%;
-    padding: 0 1em 0 1em;
+    /* padding: 0 1em 0 1em; */
   }
 }
 
@@ -880,7 +880,6 @@
 
   .details-leistungen__section--content {
     width: 50%;
-    padding: 0 1em 0 1em;
   }
 
   .detailsleistungen__intro--text {
