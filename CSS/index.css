@@ -904,7 +904,7 @@
   }
 
   .branchen-grid__title {
-    width: 70%;
+    width: 75%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -947,8 +947,10 @@
   }
 
   .branchen-grid__image {
-    width: 70%;
+    width: 75%;
+    height: 50%;
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%); */
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   }
 
