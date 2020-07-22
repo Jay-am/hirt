@@ -49,8 +49,13 @@
 
 .details-leistungen__intro--text {
   width: 100%;
+  text-align: center;
   padding: 4em 0 5em 0;
   margin: 0 auto;
+}
+
+.details-leistungen__intro--text h2 {
+  text-align: center;
 }
 
 .zertifikat {
@@ -884,7 +889,6 @@
 
   .detailsleistungen__intro--text {
     width: 80%;
-    text-align: center;
     padding: 4em 0 5em 0;
     margin: 0 auto;
   }
