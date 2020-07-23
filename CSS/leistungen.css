@@ -75,7 +75,7 @@
 
 .details-leistungen__section--content {
   width: 100%;
-  backdrop-filter: blur(3px) contrast(.9) brightness(1.1);
+  backdrop-filter: blur(5px) contrast(.9) brightness(1.1);
   border-radius: 5px;
   padding: 4em 2em 4em 2em;
 }
