@@ -75,9 +75,9 @@
 
 .details-leistungen__section--content {
   width: 100%;
-  backdrop-filter: blur(5px) contrast(.9) brightness(1.1);
+  /* backdrop-filter: blur(5px) contrast(.9) brightness(1.1);
   border-radius: 5px;
-  padding: 4em 2em 4em 2em;
+  padding: 4em 2em 4em 2em; */
 }
 
 .details-leistungen__section--content h3 {
@@ -675,7 +675,7 @@
 } */
 
 .oberflächenveredelung h3 {
-  padding: 0 0 1em 0;
+  padding: 1em 0 1em 0;
   /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
