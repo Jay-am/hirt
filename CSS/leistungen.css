@@ -649,10 +649,13 @@
 /* OBERFLÄCHENVEREDELUNG */
 
 .details-leistungen__oberflächenveredelung {
-  height: 700px;
   /* position: relative; */
   /* background: rgb(242, 242, 242); */
-  background: url(../IMAGES/Leistungen/oberflächenveredelung-neu.jpeg), rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Leistungen/DSC01007.jpg);
+  height: 700px;
+  background-position: 0 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(50% 13%, 100% 0, 100% 86%, 50% 100%, 0 86%, 0 0);
   margin-bottom: -5em;
 }
