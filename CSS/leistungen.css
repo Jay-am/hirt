@@ -737,11 +737,11 @@
 /* QUALITÄTSSICHERUNG */
 
 .details-leistungen__qualitätssicherung {
-  background: url(../IMAGES/Leistungen/DSC01216.jpg), rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Leistungen/DSC01172.jpg);
   background-position: 10% 30%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 750px;
   /* position: relative; */
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
   margin-bottom: -5em;
@@ -942,7 +942,7 @@
   /* Montage */
 
   .details-leistungen__montage {
-    background-position: 0% 50%;
+    background-position: 0% 30%;
     height: 800px;
     margin-bottom: -5em;
   }
@@ -952,6 +952,12 @@
     padding: 5.5em 0 0em 0%;
   }
 
+
+  /* QUALITÄTSSICHERUNG */
+
+  .details-leistungen__qualitätssicherung {
+    background-position: 100% 80%;
+  }
 
   /* QUALITÄTSMANAGEMENT */
 
