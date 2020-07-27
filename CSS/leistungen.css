@@ -113,18 +113,17 @@
 
 .entwicklung {
   padding: 6em 0 5em 0;
-  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .entwicklung h3 {
-  color: #ffffff;
-  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .entwicklung p {
   /* color: rgb(58, 58, 58); */
-  color: #ffffff;
-  /* text-shadow: 1px 1px 3px rgb(255, 255, 255); */
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
 
