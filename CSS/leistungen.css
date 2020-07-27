@@ -130,11 +130,11 @@
 /* LAGERHALTUNG */
 
 .details-leistungen__lagerhaltung {
-  background: url(../IMAGES/Leistungen/lagerhaltung-2.jpg), rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Leistungen/DSC01338.jpg);
   background-position: 10% 62%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 750px;
   /* position: relative; */
   clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
   margin-bottom: -5em;
@@ -700,7 +700,7 @@
 /* MONTAGE */
 
 .details-leistungen__montage {
-  background: url(../IMAGES/Leistungen/montage.jpg);
+  background: url(../IMAGES/Leistungen/DSC01450.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -923,12 +923,12 @@
   /* LAGERHALTUNG */
 
   .details-leistungen__lagerhaltung {
-    background-position: 10% 62%;
-    height: 700px;
+    background-position: 10% 40%;
+    height: 750px;
   }
 
   .lagerhaltung {
-    padding: 0 0 0 0;
+    padding: 6em 0 0 0;
   }
 
 
@@ -942,7 +942,7 @@
   /* Montage */
 
   .details-leistungen__montage {
-    background-position: 0% 100%;
+    background-position: 0% 50%;
     height: 800px;
     margin-bottom: -5em;
   }
