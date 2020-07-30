@@ -136,7 +136,7 @@
     margin: 1 auto;
   }
 
-  .ansprechpartner__card+.ansprechpartner__card {
+  .ansprechpartner__card {
     margin-left: 1em;
   }
 }
