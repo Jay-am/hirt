@@ -641,11 +641,11 @@
 
   .leistungen {
     width: 100vw;
-    height: 850px;
+    /* height: 850px; */
   }
 
   .leistungen__content {
-    padding: 6em 0 5em 0;
+    padding: 10em 0 14em 0;
   }
 
   .leistungen__content h2 {
@@ -680,7 +680,7 @@
 
   .leistungen__text--card {
     text-align: center;
-    padding: 1em 0.5em 1em 0.5em;
+    padding: 2em 0.5em 1em 0.5em;
   }
 
   .bold {
