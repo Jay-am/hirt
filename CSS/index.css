@@ -778,6 +778,7 @@
 
   .leistungen__card-content--fertigung {
     position: absolute;
+    text-align: start;
     top: 35px;
     left: 145px;
   }
@@ -804,8 +805,16 @@
 
   .leistungen__card-content--oberflächenveredelung {
     position: absolute;
-    top: 55px;
-    left: 160px;
+    top: 0px;
+    left: 135px;
+  }
+
+  .lighter {
+    color: #ffffff;
+    text-align: start;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-weight: 300;
   }
 
   /* Montage */
