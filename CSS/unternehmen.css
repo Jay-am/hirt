@@ -3,7 +3,7 @@
 .hero {
   background: url("../IMAGES/Heros/DSC01419.jpg");
   height: 65vh;
-  background-position: 90% 0;
+  background-position: 90% 250%;
   background-repeat: no-repeat;
   background-size: cover;
 }
