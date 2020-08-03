@@ -41,7 +41,6 @@
   padding: 0em 0 1em 0;
 }
 
-
 /* .details-leistungen__section--img {
   width: 50%;
   padding: 0 1em 0 1em;
@@ -140,8 +139,6 @@
 /* FERTIGUNG */
 
 .details-leistungen__fertigung {
-  /* background: #ffffff; */
-  /* background: rgb(242, 242, 242); */
   background: linear-gradient(rgb(203, 203, 203), rgb(242, 242, 242));
   height: 450px;
   clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
@@ -196,23 +193,9 @@
   /* background: rgb(242, 242, 242); */
   background: linear-gradient(rgb(242, 242, 242), rgb(249, 248, 248));
   padding: 0 0 8em 0;
-  /* position: relative; */
   clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
   margin-bottom: -4em;
 }
-
-/* .section-accordion:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,255,255)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: "";
-  height: 5vw;
-  position: absolute;
-  width: 100%;
-  bottom: -3.9vw;
-  z-index: 1;
-} */
 
 .accordion {
   width: 100%;
@@ -426,7 +409,6 @@
 /* .drehen::before:hover,
 .drehen::before:active {
   opacity: 0 !important;
-  
 } */
 
 .fräsen::before {
@@ -655,23 +637,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 850px;
-  /* position: relative; */
   clip-path: polygon(50% 14%, 100% 0, 100% 87%, 50% 100%, 0 87%, 0 0);
   margin-bottom: -5em;
 }
-
-/* .details-leistungen__montage:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176,106,179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: "";
-  height: 5vw;
-  position: absolute;
-  width: 100%;
-  bottom: -3.9vw;
-  z-index: 1;
-} */
 
 .montage h3 {
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
@@ -692,23 +660,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 750px;
-  /* position: relative; */
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
   margin-bottom: -5em;
 }
-
-/* .details-leistungen__qualitätssicherung:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176,106,179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: "";
-  height: 5vw;
-  position: absolute;
-  width: 100%;
-  bottom: -3.9vw;
-  z-index: 1;
-} */
 
 .qualitätssicherung h3 {
   padding: 0 0 1em 0;
@@ -725,6 +679,7 @@
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
+
 
 /* QUALITÄTSMANAGEMENT */
 
@@ -864,7 +819,8 @@
     padding: 0 1em 0 1em;
   }
 
-  /* Entwicklung */
+
+  /* ENTWICKLUNG */
 
   .details-leistungen__entwicklung {
     background-position: 40% 20%;
@@ -889,23 +845,22 @@
   }
 
 
-  /* Fertigung */
+  /* FERTIGUNG */
 
   .fertigung {
     padding: 4.5em 0 1em 0;
   }
 
 
-  /* Montage */
+  /* MONATGE */
 
   .details-leistungen__montage {
     background-position: 0% 30%;
-    height: 800px;
+    height: 750px;
     margin-bottom: -5em;
   }
 
   .montage {
-    /* width: 85%; */
     padding: 5.5em 0 0em 0%;
   }
 
@@ -916,6 +871,7 @@
     background-position: 100% 80%;
   }
 
+
   /* QUALITÄTSMANAGEMENT */
 
   .details-leistungen__qualitätsmanagement {
@@ -924,15 +880,9 @@
   }
 
   .qualitätsmanagement {
-    /* width: 65%; */
     padding: 4em 0 0em 50%;
   }
 
-  /* KONTAKT */
-
-  .kontakt__content {
-    padding: 3em 0 2em 0;
-  }
 
   /* KONTAKT */
 
