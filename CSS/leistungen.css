@@ -1,7 +1,7 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Heros/hero-späne.jpeg");
+  background: url("../IMAGES/Heros/hero-leistungen.jpeg");
   /* height: 65vh;
   background-position: 0 5%; */
   height: 65vh;
@@ -81,7 +81,7 @@
 }
 
 .details-leistungen__section--content h3 {
-  padding: 0 0 1em 0;
+  padding: 0 0 1.5em 0;
 }
 
 
@@ -92,24 +92,10 @@
   background-position: 40% 20%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
-  /* position: relative; */
+  height: 750px;
   clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
   margin-bottom: -5em;
 }
-
-/* .details-leistungen__entwicklung:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176,106,179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: "";
-  height: 5vw;
-  position: absolute;
-  width: 100%;
-  bottom: -3.9vw;
-  z-index: 1;
-} */
 
 .entwicklung {
   padding: 6em 0 5em 0;
@@ -121,7 +107,6 @@
 }
 
 .entwicklung p {
-  /* color: rgb(58, 58, 58); */
   font-weight: 500;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
@@ -135,23 +120,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 750px;
-  /* position: relative; */
   clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
   margin-bottom: -5em;
 }
-
-/* .details-leistungen__lagerhaltung:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(176, 106, 179)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: "";
-  height: 5vw;
-  position: absolute;
-  width: 100%;
-  bottom: -3.9vw;
-  z-index: 1;
-} */
 
 .lagerhaltung h3 {
   padding: 0 0 1em 0;
@@ -331,7 +302,6 @@
 }
 
 .accordion ul li:nth-child(1) {
-  /* background: url("http://michael-ferry.com/assets/accordion1.jpg"); */
   background: url(../IMAGES/Leistungen/drehen.png);
   /* background-position: 80% 20%; */
   background-position: center;
@@ -341,7 +311,6 @@
 }
 
 .accordion ul li:nth-child(2) {
-  /* background: url("http://michael-ferry.com/assets/accordion2.jpg"); */
   background: url(../IMAGES/Leistungen/fräsen.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -350,7 +319,6 @@
 }
 
 .accordion ul li:nth-child(3) {
-  /* background: url("http://michael-ferry.com/assets/accordion3.jpg"); */
   background: url(../IMAGES/Leistungen/oberflächenveredelung-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -359,7 +327,6 @@
 }
 
 .accordion ul li:nth-child(4) {
-  /* background: url("http://michael-ferry.com/assets/accordion4.jpg"); */
   background: url(../IMAGES/Leistungen/bohren.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -368,7 +335,6 @@
 }
 
 .accordion ul li:nth-child(5) {
-  /* background: url("http://michael-ferry.com/assets/accordion5.jpg"); */
   background: url(../IMAGES/Leistungen/drahterodieren.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -648,30 +614,14 @@
 /* OBERFLÄCHENVEREDELUNG */
 
 .details-leistungen__oberflächenveredelung {
-  /* position: relative; */
-  /* background: rgb(242, 242, 242); */
   background: url(../IMAGES/Leistungen/DSC01007.jpg);
-  height: 700px;
+  height: 750px;
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 13%, 100% 0, 100% 86%, 50% 100%, 0 86%, 0 0);
   margin-bottom: -5em;
 }
-
-/* 
-.details-leistungen__oberflächenveredelung:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(242, 242, 242)' height='50' width='100'%3E%3Cpolygon points='0, 10 100, 10 50, 50' /%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: "";
-  height: 5vw;
-  position: absolute;
-  width: 100%;
-  bottom: -3.9vw;
-  z-index: 1;
-} */
 
 .oberflächenveredelung h3 {
   padding: 1em 0 1em 0;
@@ -918,7 +868,7 @@
 
   .details-leistungen__entwicklung {
     background-position: 40% 20%;
-    height: 650px;
+    height: 750px;
     margin-bottom: -5em;
   }
 
