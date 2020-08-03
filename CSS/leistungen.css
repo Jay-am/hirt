@@ -596,7 +596,7 @@
 /* OBERFLÄCHENVEREDELUNG */
 
 .details-leistungen__oberflächenveredelung {
-  background: url(../IMAGES/Leistungen/DSC01007.jpg);
+  background: url(../IMAGES/Leistungen/DSC01011.jpg);
   height: 750px;
   background-position: 0 5%;
   background-repeat: no-repeat;
@@ -606,19 +606,21 @@
 }
 
 .oberflächenveredelung h3 {
-  padding: 1em 0 1em 0;
-  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
-  color: #ffffff;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  padding: 2em 0 1em 0;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  /* color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
 }
 
 .oberflächenveredelung p {
-  /* color: rgb(58, 58, 58);
-  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255); */
-  color: #ffffff;
   font-weight: 500;
-  /* text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  color: rgb(58, 58, 58);
+  color: black;
+  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255),
+    0.5px 0.5px 1px rgb(255, 255, 255);
+  /* color: #ffffff; */
+  /* text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
 }
 
 .oberflächenveredelung img {
