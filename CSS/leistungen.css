@@ -644,13 +644,17 @@
 }
 
 .montage h3 {
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
 .montage p {
-  color: rgb(58, 58, 58);
   font-weight: 500;
-  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255);
+  /* color: rgb(58, 58, 58);
+  text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255); */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
 
@@ -853,6 +857,7 @@
     padding: 4.5em 0 1em 0;
   }
 
+
   /* OBERFLÄCHENVEREDELUNG */
 
   .details-leistungen__oberflächenveredelung {
@@ -865,16 +870,17 @@
     padding: 3em 0 0em 0%;
   }
 
+
   /* MONATGE */
 
   .details-leistungen__montage {
-    background-position: 0% 30%;
+    background-position: 0% 50%;
     height: 800px;
     margin-bottom: -5em;
   }
 
   .montage {
-    padding: 5.5em 0 0em 0%;
+    padding: 6em 0 0em 0%;
   }
 
 
@@ -882,6 +888,12 @@
 
   .details-leistungen__qualitätssicherung {
     background-position: 100% 80%;
+    height: 800px;
+    margin-bottom: -5em;
+  }
+
+  .qualitätssicherung {
+    padding: 9em 0 0em 0%;
   }
 
 
