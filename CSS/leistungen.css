@@ -87,7 +87,7 @@
 /* ENTWICKLUNG */
 
 .details-leistungen__entwicklung {
-  background-image: url(../IMAGES/Leistungen/DSC01047.jpg);
+  background-image: url(../IMAGES/Leistungen/entwicklung.jpg);
   background-position: 40% 20%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,7 +106,7 @@
 }
 
 .entwicklung p {
-  font-weight: 500;
+  font-weight: 600;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
@@ -114,11 +114,11 @@
 /* LAGERHALTUNG */
 
 .details-leistungen__lagerhaltung {
-  background: url(../IMAGES/Leistungen/DSC01338.jpg);
+  background: url(../IMAGES/Leistungen/lagerhaltung.jpg);
   background-position: 10% 62%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  height: 850px;
   clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
   margin-bottom: -5em;
 }
@@ -130,7 +130,7 @@
 
 .lagerhaltung p {
   color: rgb(58, 58, 58);
-  font-weight: 500;
+  font-weight: 600;
   /* text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255); */
   text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255);
 }
@@ -596,8 +596,8 @@
 /* OBERFLÄCHENVEREDELUNG */
 
 .details-leistungen__oberflächenveredelung {
-  background: url(../IMAGES/Leistungen/DSC01011.jpg);
-  height: 750px;
+  background: url(../IMAGES/Leistungen/oberflaechenveredelung.jpg);
+  height: 800px;
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -613,7 +613,7 @@
 }
 
 .oberflächenveredelung p {
-  font-weight: 500;
+  font-weight: 600;
   color: rgb(58, 58, 58);
   color: black;
   text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255),
@@ -634,7 +634,7 @@
 /* MONTAGE */
 
 .details-leistungen__montage {
-  background: url(../IMAGES/Leistungen/DSC01450.jpg);
+  background: url(../IMAGES/Leistungen/montage.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -657,7 +657,7 @@
 /* QUALITÄTSSICHERUNG */
 
 .details-leistungen__qualitätssicherung {
-  background: url(../IMAGES/Leistungen/DSC01172.jpg);
+  background: url(../IMAGES/Leistungen/qualitaetssicherung.jpg);
   background-position: 10% 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -686,7 +686,7 @@
 /* QUALITÄTSMANAGEMENT */
 
 .details-leistungen__qualitätsmanagement {
-  background: url(../IMAGES/Leistungen/DSC01208.jpg);
+  background: url(../IMAGES/Leistungen/qualitaetsmanagement.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -838,12 +838,12 @@
   /* LAGERHALTUNG */
 
   .details-leistungen__lagerhaltung {
-    background-position: 10% 40%;
-    height: 750px;
+    background-position: 10% 35%;
+    height: 800px;
   }
 
   .lagerhaltung {
-    padding: 6em 0 0 0;
+    padding: 10em 0 0 0;
   }
 
 
