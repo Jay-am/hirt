@@ -853,12 +853,23 @@
     padding: 4.5em 0 1em 0;
   }
 
+  /* OBERFLÄCHENVEREDELUNG */
+
+  .details-leistungen__oberflächenveredelung {
+    background-position: 0% 0%;
+    height: 800px;
+    margin-bottom: -5em;
+  }
+
+  .oberflächenveredelung {
+    padding: 3em 0 0em 0%;
+  }
 
   /* MONATGE */
 
   .details-leistungen__montage {
     background-position: 0% 30%;
-    height: 750px;
+    height: 800px;
     margin-bottom: -5em;
   }
 
