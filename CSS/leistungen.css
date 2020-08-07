@@ -1,11 +1,11 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Heros/hero-leistungen.jpeg");
+  background: url("../IMAGES/Heros/Leistungen_gestrecht.jpg");
   /* height: 65vh;
   background-position: 0 5%; */
   height: 65vh;
-  background-position: 90% 100%;
+  background-position: 0% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -837,7 +837,7 @@
   }
 
   .entwicklung {
-    padding: 4.5em 0 5em 0;
+    padding: 4.5em 0 5em 5%;
   }
 
 
