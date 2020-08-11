@@ -146,7 +146,7 @@
   height: 450px;
   /* clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
   clip-path: polygon(50% 15%, 60% 0, 100% 0, 100% 100%, 60% 100%, 50% 100%, 40% 100%, 0 100%, 0 0, 40% 0);
-   margin-bottom: -5em;
+  margin-bottom: -5em;
 }
 
 .details-leistungen__text {
@@ -704,8 +704,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
-  clip-path: polygon(50% 14%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
-  margin-bottom: -7em;
+  /* clip-path: polygon(50% 14%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
+  clip-path: polygon(50% 8%, 60% 0, 100% 0, 100% 100%, 60% 100%, 50% 100%, 40% 100%, 0 100%, 0 0, 40% 0);
+  margin-bottom: -5em;
 }
 
 .qualitätsmanagement {
