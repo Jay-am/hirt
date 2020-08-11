@@ -602,7 +602,8 @@
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path: polygon(50% 13%, 100% 0, 100% 86%, 50% 100%, 0 86%, 0 0);
+  /* clip-path: polygon(50% 13%, 100% 0, 100% 86%, 50% 100%, 0 86%, 0 0); */
+  clip-path: polygon(50% 10%, 60% 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%, 0 0, 40% 0);
   margin-bottom: -5em;
 }
 
