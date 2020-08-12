@@ -142,7 +142,8 @@
 /* FERTIGUNG */
 
 .details-leistungen__fertigung {
-  background: linear-gradient(rgb(203, 203, 203), rgb(242, 242, 242));
+  background: rgb(242, 242, 242);
+  /* background: linear-gradient(rgb(203, 203, 203), rgb(242, 242, 242)); */
   height: 450px;
   /* clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
   clip-path: polygon(50% 15%, 60% 0, 100% 0, 100% 100%, 60% 100%, 50% 100%, 40% 100%, 0 100%, 0 0, 40% 0);
@@ -195,9 +196,8 @@
 /* ACCORDION */
 
 .section-accordion {
-  /* background: #ffffff; */
-  /* background: rgb(242, 242, 242); */
-  background: linear-gradient(rgb(242, 242, 242), rgb(249, 248, 248));
+  background: rgb(242, 242, 242);
+  /* background: linear-gradient(rgb(242, 242, 242), rgb(249, 248, 248)); */
   padding: 0 0 8em 0;
   /* clip-path: polygon(50% 0%, 100% 0, 100% 84%, 50% 100%, 0 84%, 0 0); */
   clip-path: polygon(50% 0, 60% 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%, 0 0, 40% 0);
@@ -309,7 +309,7 @@
 }
 
 .accordion ul li:nth-child(3) {
-  background: url(../IMAGES/Leistungen/oberflächenveredelung-2.jpg);
+  background: url(../IMAGES/Leistungen/fräsen.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
