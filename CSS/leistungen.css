@@ -711,6 +711,7 @@
 }
 
 .qualitätsmanagement {
+  width: 100%;
   padding: 5em 0 2em 0;
 }
 
@@ -725,9 +726,10 @@
 }
 
 .qualitätsmanagement p {
-  font-weight: 500;
+  width: 100%;
+  font-weight: 300;
   color: #ffffff;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1.5px 1.5px 4px rgb(0, 0, 0);
 }
 
 
@@ -858,7 +860,7 @@
   /* LAGERHALTUNG */
 
   .details-leistungen__lagerhaltung {
-    background-position: 10% 35%;
+    background-position: 10% 60%;
     height: 800px;
   }
 
@@ -871,7 +873,19 @@
   /* FERTIGUNG */
 
   .fertigung {
-    padding: 4.5em 0 1em 0;
+    padding: 4.5em 0 5em 0;
+  }
+
+  .details-leistungen__fertigung {
+    padding: 4.5em 0 3em 0;
+  }
+
+  .section-accordion {
+    padding: 3em 0 10em 0;
+  }
+
+  .accordion {
+    padding: 0 0 10em 0;
   }
 
 
@@ -885,7 +899,7 @@
 
   .oberflächenveredelung {
     width: 90%;
-    padding: 2em 0 0em 5%;
+    padding: 1em 0 0em 5%;
   }
 
 
@@ -899,7 +913,7 @@
 
   .montage {
     width: 90%;
-    padding: 4.5em 0 0em 5%;
+    padding: 5.5em 0 0em 5%;
   }
 
 
@@ -913,7 +927,7 @@
 
   .qualitätssicherung {
     width: 75%;
-    padding: 9em 0 0em 5%;
+    padding: 7.5em 0 0em 5%;
   }
 
 
@@ -926,7 +940,7 @@
 
   .qualitätsmanagement {
     width: 100%;
-    padding: 4em 0% 0em 40%;
+    padding: 5em 5% 0em 25%;
   }
 
 
