@@ -482,6 +482,8 @@
     width: 50%;
   }
 
+  /* LUFT- UND RAUMFAHRT */
+
   .luft-und-raumfahrt {
     height: 600px;
     background-position: 40% 25%;
@@ -500,14 +502,29 @@
     padding: 4em 10% 0 0%;
   }
 
+
+  /* MEDIZINTECHNIK */
+
   .medizintechnik {
     height: 600px;
     background-position: 90% 25%;
   }
 
   .details-branchen__content--medizintechnik {
-    padding: 13em 0em 0em 10%;
+    width: 100%;
+    padding: 2em 0em 0em 10%;
   }
+
+  .details-branchen__content--medizintechnik p {
+    width: 100%;
+  }
+
+  .details-branchen__image--medizintechnik {
+    padding: 4em 10% 0 0%;
+  }
+
+
+  /* REHATECHNIK */
 
   .rehatechnik {
     height: 600px;
@@ -517,6 +534,8 @@
   .details-branchen__content--rehatechnik {
     padding: 13em 0em 0em 5%;
   }
+
+  /* SENSORTECHNIK */
 
   .sensortechnik {
     height: 600px;
