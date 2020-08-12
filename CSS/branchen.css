@@ -532,7 +532,16 @@
   }
 
   .details-branchen__content--rehatechnik {
-    padding: 13em 0em 0em 5%;
+    width: 100%;
+    padding: 2em 0em 0em 10%;
+  }
+
+  .details-branchen__content--rehatechnik p {
+    width: 100%;
+  }
+
+  .details-branchen__image--rehatechnik {
+    padding: 4em 10% 0 0%;
   }
 
   /* SENSORTECHNIK */
