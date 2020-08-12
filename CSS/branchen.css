@@ -544,6 +544,7 @@
     padding: 4em 10% 0 0%;
   }
 
+
   /* SENSORTECHNIK */
 
   .sensortechnik {
@@ -552,8 +553,20 @@
   }
 
   .details-branchen__content--sensortechnik {
-    padding: 13em 0em 0em 5%;
+    width: 100%;
+    padding: 2em 0em 0em 10%;
   }
+
+  .details-branchen__content--sensortechnik p {
+    width: 100%;
+  }
+
+  .details-branchen__image--sensortechnik {
+    padding: 4em 10% 0 0%;
+  }
+
+
+  /* LEBENSMITTELTECHNIK */
 
   .lebensmitteltechnik {
     height: 600px;
@@ -562,12 +575,19 @@
 
   .details-branchen__content--lebensmitteltechnik {
     width: 100%;
-    padding: 12em 5% 0em 58%;
+    padding: 2em 0em 0em 10%;
   }
 
   .details-branchen__content--lebensmitteltechnik p {
     width: 100%;
   }
+
+  .details-branchen__image--lebensmitteltechnik {
+    padding: 4em 10% 0 0%;
+  }
+
+
+  /* VERTEIDIGUNGS- UND WEHRTECHNIK */
 
   .verteidigungs-und-wehrtechnik {
     height: 600px;
