@@ -671,7 +671,7 @@
 
 .details-leistungen__qualitätssicherung {
   background: url(../IMAGES/Leistungen/QS_weit.jpg);
-  background-position: 0% 40%;
+  background-position: 0% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 750px;
@@ -689,7 +689,7 @@
 }
 
 .qualitätssicherung p {
-  font-weight: 500;
+  font-weight: 300;
   /* color: rgb(58, 58, 58);
   text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255); */
   color: #ffffff;
