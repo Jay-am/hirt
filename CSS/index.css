@@ -110,7 +110,7 @@
   margin: 4em 5% 100em 5%;
 }
 
-.leistungen__text--cards a {
+.card-header {
   text-decoration: none;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0);
@@ -233,10 +233,6 @@
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 }
 
-.oberflächenveredelung a {
-  padding: 0 0 0.5em 0;
-}
-
 .leistungen__card-header--oberflächenveredelung {
   position: absolute;
   top: 185px;
@@ -249,12 +245,13 @@
   left: 160px;
 }
 
-.mehr {
-  color: blue;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0);
+#mehr {
+  color: #0066b2;
+  text-decoration: none;
+  /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0); */
   font-size: 0.8rem;
-  font-weight: 300;
-  text-transform: lowercase;
+  font-weight: 400;
+  text-align: left;
 }
 
 /* Montage */
@@ -680,7 +677,7 @@
     filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3)) drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
   }
 
-  .leistungen__text--cards a {
+  .card-header {
     text-decoration: none;
     color: #ffffff;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0);
