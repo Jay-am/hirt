@@ -203,6 +203,10 @@ a.active {
   transition: ease-in-out 600ms;
 }
 
+.navbar #nav>.active>a {
+  color: red;
+}
+
 /* SUBNAV DROPDOWN */
 
 .nav-dropdown {
