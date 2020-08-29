@@ -572,7 +572,7 @@
   }
 
   .hero__content:after {
-    content: url(../IMAGES/Index/arrow_down_light.png);
+    content: url(../IMAGES/Index/Pfeil-Hero-hell.png);
     position: absolute;
     /* height: 30px;
     width: 30px; */
