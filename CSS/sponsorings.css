@@ -20,6 +20,7 @@
 .sponsoring-info {
   width: 100vw;
   background: #ffffff;
+  text-align: center;
 }
 
 .sponsoring-info__content {
@@ -31,8 +32,8 @@
 }
 
 .sponsoring-info__text {
-  padding: 1em 2em 3em 2em;
   width: 100%;
+  margin: 0 auto;
 }
 
 .sponsoring-info__text h2 {
@@ -47,11 +48,124 @@
   margin-bottom: 1em;
 }
 
-.sponsoring-info__image {
+/* SPONSORINGS */
+
+/* CURE */
+
+.sponsoring-cure-mannheim {
+  background: rgb(243, 243, 243);
+  padding: 8em 0 8em 0;
+  justify-content: space-between;
+}
+
+.sponsoring-cure-mannheim-text {
+  width: 400%;
+}
+
+.sponsoring-cure-mannheim-text h3 {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-cure-mannheim-text p {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-cure-mannheim-image {
+  align-self: center;
+}
+
+.image-cure-mannheim {
+  width: 85%;
+}
+
+/* WERZ */
+
+.sponsoring-martin-werz {
+  padding: 10em 0 10em 0;
+  justify-content: space-between;
+}
+
+.sponsoring-martin-werz-text {
+  width: 50%;
+}
+
+.sponsoring-martin-werz-text h3 {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-martin-werz-text p {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-martin-werz-image {
+  align-self: center;
+}
+
+.image-martin-werz {
   width: 100%;
 }
 
-.sponsoring-info__image img {
-  width: 100%;
-  padding-left: 15%;
+
+/* MEDIAQUERIES */
+
+@media (min-width: 600px) {
+  .hero {
+    height: 65vh;
+    /* height: 100vh; */
+    background-position: 0 0;
+  }
+
+  .hero__title {
+    padding: 40% 3% 0 3%;
+    /* padding: 38% 0 0 10%; */
+  }
+}
+
+@media (min-width: 900px) {
+
+  .hero {
+    height: 65vh;
+    background-position: 0 0;
+  }
+
+  .hero__title {
+    padding: 28% 3% 0 3%;
+  }
+
+  .sponsoring-info__content {
+    padding: 4em 0 3.5em 0;
+  }
+
+  .sponsoring-info__text {
+    padding: 1em 0 3em 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    height: 70vh;
+    background-position: 45 10%;
+  }
+
+  .hero__title {
+    padding: 21% 2% 0 2%;
+  }
+
+  .sponsoring-info__content {
+    padding: 8em 0em 7.5em 0em;
+  }
+
+  .sponsoring-info__text {
+    width: 50%;
+    padding: 1em 0 1em 0;
+  }
+
+}
+
+@media (min-width: 1800px) {
+
+  .sponsoring-info__text {
+    width: 50%;
+    max-width: 500px;
+  }
 }
