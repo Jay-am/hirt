@@ -1,0 +1,57 @@
+/* GENERAL */
+
+.hero {
+  background: url("../IMAGES/Heros/Unternehmen_weit_hero.jpg");
+  height: 65vh;
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
+  font-weight: lighter;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
+  padding: 65% 0 0 0.5em;
+}
+
+.sponsoring-info {
+  width: 100vw;
+  background: #ffffff;
+}
+
+.sponsoring-info__content {
+  padding: 3em 0 5em 0;
+}
+
+.sponsoring-info__title {
+  margin: 0 0 1em 0;
+}
+
+.sponsoring-info__text {
+  padding: 1em 2em 3em 2em;
+  width: 100%;
+}
+
+.sponsoring-info__text h2 {
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
+}
+
+.text-1 {
+  margin-bottom: 1em;
+}
+
+.sponsoring-info__text--paragraph+.sponsoring-info__text--paragraph {
+  margin-bottom: 1em;
+}
+
+.sponsoring-info__image {
+  width: 100%;
+}
+
+.sponsoring-info__image img {
+  width: 100%;
+  padding-left: 15%;
+}
