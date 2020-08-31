@@ -352,8 +352,8 @@
     margin: 0;
   }
 
-  .details-branchen__content p {
-    width: 70%;
+  .details-branchen__content {
+    width: 80%;
   }
 
   .luft-und-raumfahrt {
@@ -455,20 +455,24 @@
     justify-content: space-between;
   }
 
-  .details-branchen__content p {
-    width: 50%;
+  /* .details-branchen__content {
+    width: 70%;
+  } */
+
+  .details-branchen__image {
+    width: 90%;
   }
 
   /* LUFT- UND RAUMFAHRT */
 
   .luft-und-raumfahrt {
-    height: 600px;
+    height: 650px;
     background-position: 40% 25%;
   }
 
   .details-branchen__content--luft-und-raumfahrt {
     width: 100%;
-    padding: 2em 0em 0em 10%;
+    padding: 5em 0em 5em 10%;
   }
 
   .details-branchen__content--luft-und-raumfahrt p {
@@ -476,20 +480,20 @@
   }
 
   .details-branchen__image--luft-und-raumfahrt {
-    padding: 4em 10% 0 0%;
+    padding: 4em 0% 0 0%;
   }
 
 
   /* MEDIZINTECHNIK */
 
   .medizintechnik {
-    height: 600px;
+    height: 650px;
     background-position: 90% 25%;
   }
 
   .details-branchen__content--medizintechnik {
     width: 100%;
-    padding: 2em 0em 0em 10%;
+    padding: 5em 0em 5em 10%;
   }
 
   .details-branchen__content--medizintechnik p {
@@ -497,7 +501,7 @@
   }
 
   .details-branchen__image--medizintechnik {
-    padding: 4em 10% 0 0%;
+    padding: 4em 0% 0 0%;
   }
 
 
