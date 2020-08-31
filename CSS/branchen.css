@@ -508,13 +508,13 @@
   /* REHATECHNIK */
 
   .rehatechnik {
-    height: 600px;
+    height: 650px;
     background-position: 0 25%;
   }
 
   .details-branchen__content--rehatechnik {
     width: 100%;
-    padding: 2em 0em 0em 10%;
+    padding: 5em 0em 5em 10%;
   }
 
   .details-branchen__content--rehatechnik p {
@@ -522,7 +522,7 @@
   }
 
   .details-branchen__image--rehatechnik {
-    padding: 4em 10% 0 0%;
+    padding: 4em 0% 0 0%;
   }
 
 
