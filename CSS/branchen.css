@@ -592,13 +592,13 @@
   /* MOTORSPORT */
 
   .motorsport {
-    height: 600px;
+    height: 650px;
     background-position: 0% 75%;
   }
 
   .details-branchen__content--motorsport {
     width: 100%;
-    padding: 2em 0em 0em 10%;
+    padding: 5em 0em 5em 10%;
     justify-items: space-between;
   }
 
@@ -607,7 +607,7 @@
   }
 
   .details-branchen__image--motorsport {
-    padding: 4em 10% 0 0%;
+    padding: 4em 0% 0 0%;
   }
 
   /* KONTAKT */
