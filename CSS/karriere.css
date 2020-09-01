@@ -119,7 +119,7 @@
 }
 
 .stellenangebote__content {
-  padding: 6em 2em 2em 2em;
+  padding: 10em 2em 10em 2em;
 }
 
 .stellenangebote__title {
@@ -172,6 +172,10 @@
 .no-job h4 {
   color: #e3e2e2;
   font-weight: 200;
+}
+
+.berufterfahrene {
+  margin-bottom: -1em;
 }
 
 .berufseinsteiger {
@@ -390,14 +394,11 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   /* HERO */
 
   .hero {
-    /* height: 65vh;
-    background-position: 0 5%; */
     height: 70vh;
     background-position: 0 10%;
   }
 
   .hero__title {
-    /* padding: 25% 0 0 5%; */
     padding: 25% 0 0 2%;
   }
 
@@ -462,6 +463,6 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   /* STELLENANGEBOTE */
 
   .stellenangebote__content {
-    padding: 6em 10% 5em 9.8%;
+    padding: 8em 10% 10em 9.8%;
   }
 }
