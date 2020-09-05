@@ -1,7 +1,7 @@
 /* GENERAL */
 
 .hero {
-  background: url("../IMAGES/Heros/hero-cure-mannheim-sponsoring.jpeg");
+  background: url("../IMAGES/Heros/hero-cure-mannheim-sponsoring_ohne\ flagge.jpg");
   height: 65vh;
   background-position: 90% 70%;
   background-repeat: no-repeat;
@@ -144,7 +144,7 @@
 @media (min-width: 1200px) {
   .hero {
     height: 70vh;
-    background-position: 45 100%;
+    background-position: 45 0%;
   }
 
   .hero__title {
