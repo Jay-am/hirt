@@ -166,6 +166,7 @@ p {
 .nav__link:hover {
   color: #0066b2;
   transition: ease-in-out 300ms;
+  text-shadow: none;
 }
 
 .nav__link:active,
@@ -174,6 +175,24 @@ p {
 .nav__item a.active,
 a.active {
   color: #0066b2 !important;
+  text-shadow: 0.5px 0.5px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
+}
+
+.nav__link a:active {
+  color: #0066b2;
+  /* text-shadow: none !important; */
+  text-shadow: 0.5px 0.5px 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
+}
+
+.nav__item a:hover,
+.nav__item a:active,
+.nav__link:active,
+.nav__link.active,
+.a:active,
+.active {
+  color: #0066b2;
+  text-shadow: none;
+  transition: ease-in-out 300ms;
 }
 
 .nav__btn a,
@@ -201,10 +220,6 @@ a.active {
 .flag:active {
   transform: scale(0.9);
   transition: ease-in-out 600ms;
-}
-
-.navbar #nav>.active>a {
-  color: red;
 }
 
 /* SUBNAV DROPDOWN */
@@ -235,6 +250,7 @@ a.active {
 .nav-dropdown__link:hover,
 .nav-dropdown__link:active {
   color: #004980;
+  text-shadow: none;
 }
 
 nav ul li a:not(:only-child):after,
@@ -544,11 +560,8 @@ nav ul {
   .nav__list--primary .nav__link:active {
     color: #004980;
     transition: ease-in-out 600ms;
-    text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0), 1px 1px 4px rgb(255, 255, 255);
-  }
-
-  .nav__link a:active {
-    color: #0066b2;
+    /* text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0), 1px 1px 4px rgb(255, 255, 255); */
+    text-shadow: 0.5px 0.5px 2px rgb(255, 255, 255);
   }
 
   .nav__btn a,
@@ -565,8 +578,26 @@ nav ul {
     color: #004980;
     border-radius: 0.5em;
     transition: ease-in-out 800ms;
-    text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0), 1px 1px 4px rgb(255, 255, 255);
+    text-shadow: 0.5px 0.5px 2px rgb(255, 255, 255);
   }
+
+  .nav__link a:active {
+    color: #0066b2;
+    text-shadow: 0.5px 0.5px 2px rgb(255, 255, 255);
+  }
+
+  .nav__item a:hover,
+  .nav__item a:active,
+  .nav__link:active,
+  .nav__link.active,
+  .a:active,
+  .active {
+    color: #0066b2;
+    text-shadow: 0.5px 0.5px 2px rgb(255, 255, 255) !important;
+    transition: ease-in-out 300ms;
+  }
+
+  /* NAV STICKY */
 
   .nav.sticky {
     background: #ffffff;
