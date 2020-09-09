@@ -173,7 +173,7 @@ p {
 .nav__item a:active,
 .nav__item a.active,
 a.active {
-  color: #0066b2;
+  color: #0066b2 !important;
 }
 
 .nav__btn a,
