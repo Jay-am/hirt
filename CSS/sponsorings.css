@@ -1,7 +1,7 @@
 /* GENERAL */
 
 .hero {
-  background: url("../IMAGES/Heros/hero-cure-mannheim-sponsoring_ohne\ flagge.jpg");
+  background: url("../IMAGES/Heros/hero-cure-mannheim-sponsoring_side\ darker.jpg");
   height: 65vh;
   background-position: 90% 70%;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@
   }
 
   .hero__title {
-    padding: 30% 2% 0 2%;
+    padding: 25% 2% 0 2%;
   }
 
   .sponsoring-info__content {
