@@ -37,7 +37,7 @@
   padding: 0em 5% 0em 5%;
 }
 
-.intro__text--parapraph+.intro__text--parapraph {
+.intro__text--parapraph + .intro__text--parapraph {
   margin-bottom: 1em;
 }
 
@@ -122,14 +122,16 @@
 .leistungen__text--card {
   text-align: center;
   padding: 1em 0.5em 1em 0.5em;
-  filter: drop-shadow(-1px 1px 3px rgba(0, 0, 0, 0.3)) drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(-1px 1px 3px rgba(0, 0, 0, 0.3))
+    drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .leistungen__text--card:hover,
 .leistungen__text--card:active {
   transform: scale(0.99);
   transition: scale 0.9s ease-in-out;
-  filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.4)) drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.4))
+    drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.4));
 }
 
 .leistungen__card {
@@ -183,7 +185,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-
 }
 
 .lagerhaltung a {
@@ -201,8 +202,7 @@
 
 .fertigung {
   height: 650px;
-  background: url(../IMAGES/Heros/hero-schrauben.jpeg),
-    rgba(0, 0, 0, 1);
+  background: url(../IMAGES/Heros/hero-schrauben.jpeg), rgba(0, 0, 0, 1);
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -302,9 +302,11 @@
 /* BRANCHEN */
 
 .branchen {
-  background: linear-gradient(rgba(1, 71, 121, 0.99),
-      rgba(0, 102, 178, 0.99),
-      rgba(0, 102, 178, 0.15));
+  background: linear-gradient(
+    rgba(1, 71, 121, 0.99),
+    rgba(0, 102, 178, 0.99),
+    rgba(0, 102, 178, 0.15)
+  );
   /* background: linear-gradient(rgba(0, 102, 178, 0.15), rgba(0, 102, 178, 0.99)); */
   border-top: 1px solid #efeded;
   border-bottom: 1px solid #efeded;
@@ -403,7 +405,8 @@
 .branche:hover {
   transform: scale(0.99);
   transition: scale 0.9s ease-in-out;
-  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)) drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2))
+    drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
 /* MEDIAQUERIES */
@@ -580,7 +583,6 @@
     left: 43.25%;
   }
 
-
   /* INTRO */
 
   .intro {
@@ -602,7 +604,7 @@
     width: 85%;
   }
 
-  .intro__text--parapraph+.intro__text--parapraph {
+  .intro__text--parapraph + .intro__text--parapraph {
     margin-bottom: 1em;
   }
 
@@ -674,7 +676,8 @@
     justify-content: space-evenly;
     /* padding: 4em 0 1em 0; */
     margin: 4em 5% 1em 5%;
-    filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3)) drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3))
+      drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
   }
 
   .card-header {
@@ -712,7 +715,8 @@
     /* transform: scale(1.01); */
     transform: scale(0.99);
     transition: scale 1.5s ease-in-out;
-    filter: drop-shadow(-2px 4px 12px rgba(0, 0, 0, 0.4)) drop-shadow(2px 6px 12px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(-2px 4px 12px rgba(0, 0, 0, 0.4))
+      drop-shadow(2px 6px 12px rgba(0, 0, 0, 0.6));
   }
 
   .leistungen__card {
@@ -730,7 +734,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%); */
-    clip-path: polygon(85% 0, 85% 35%, 100% 50%, 85% 65%, 85% 100%, 0 100%, 0 0);
+    clip-path: polygon(
+      85% 0,
+      85% 35%,
+      100% 50%,
+      85% 65%,
+      85% 100%,
+      0 100%,
+      0 0
+    );
     cursor: pointer;
   }
 
@@ -754,7 +766,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 20% 50%, 0% 0%); */
-    clip-path: polygon(0 0, 85% 0, 85% 35%, 100% 50%, 85% 65%, 85% 100%, 0 100%, 0 65%, 15% 50%, 0 35%);
+    clip-path: polygon(
+      0 0,
+      85% 0,
+      85% 35%,
+      100% 50%,
+      85% 65%,
+      85% 100%,
+      0 100%,
+      0 65%,
+      15% 50%,
+      0 35%
+    );
     cursor: pointer;
   }
 
@@ -778,7 +801,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 8% 50%, 0% 0%); */
-    clip-path: polygon(0 0, 94% 0, 94% 35%, 100% 50%, 94% 65%, 94% 100%, 0 100%, 0 65%, 6% 50%, 0 35%);
+    clip-path: polygon(
+      0 0,
+      94% 0,
+      94% 35%,
+      100% 50%,
+      94% 65%,
+      94% 100%,
+      0 100%,
+      0 65%,
+      6% 50%,
+      0 35%
+    );
     cursor: pointer;
   }
 
@@ -802,7 +836,18 @@
     height: 500px;
     background-position: 50% 0%;
     /* clip-path: polygon(88% 0%, 100% 50%, 88% 100%, 0% 100%, 13% 50%, 0% 0%); */
-    clip-path: polygon(0 0, 92% 0, 92% 35%, 100% 50%, 92% 65%, 92% 100%, 0 100%, 0 65%, 8% 50%, 0 35%);
+    clip-path: polygon(
+      0 0,
+      92% 0,
+      92% 35%,
+      100% 50%,
+      92% 65%,
+      92% 100%,
+      0 100%,
+      0 65%,
+      8% 50%,
+      0 35%
+    );
     cursor: pointer;
   }
 
@@ -838,7 +883,18 @@
     background-position: 70% 100%;
     /* clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%); */
     /* clip-path: polygon(0 0, 88% 0, 88% 40%, 100% 50%, 88% 60%, 88% 100%, 0 100%, 0 60%, 12% 50%, 0 40%); */
-    clip-path: polygon(0 0, 85% 0, 85% 35%, 100% 50%, 85% 65%, 85% 100%, 0 100%, 0 65%, 15% 50%, 0 35%);
+    clip-path: polygon(
+      0 0,
+      85% 0,
+      85% 35%,
+      100% 50%,
+      85% 65%,
+      85% 100%,
+      0 100%,
+      0 65%,
+      15% 50%,
+      0 35%
+    );
     cursor: pointer;
   }
 
@@ -962,20 +1018,29 @@
     /* transform: scale(1.1); */
     transform: scale(0.98);
     transition: scale 1.5s ease-in-out;
-    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)) drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2))
+      drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
   }
 
   /* GRID */
 
   .branchen-grid {
-    filter: drop-shadow(-1px 6px 3px rgba(0, 0, 0, 0.5)) drop-shadow(1px 4px 6px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(-1px 6px 3px rgba(0, 0, 0, 0.5))
+      drop-shadow(1px 4px 6px rgba(0, 0, 0, 0.2));
   }
 
   .branchen-grid__image {
     width: 75%;
     height: 50%;
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%); */
-    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    -webkit-clip-path: polygon(
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%,
+      0% 50%
+    );
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   }
 
@@ -1063,4 +1128,5 @@
   }
 }
 
-@media (min-width: 1800px) {}
+@media (min-width: 1800px) {
+}
