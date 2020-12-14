@@ -82,7 +82,7 @@ div,
 ul,
 li,
 article {
-  font-size: clamp(0.9rem, 1.3vw, 1rem);
+  font-size: clamp(0.9rem, 1.3vw, 1.1rem);
   color: #8c8c8c;
   letter-spacing: 0.05rem;
   margin: 0;
