@@ -109,7 +109,7 @@
 }
 
 .entwicklung p {
-  font-weight: 600;
+  font-weight: 400;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
@@ -133,7 +133,7 @@
 }
 
 .lagerhaltung p {
-  font-weight: 600;
+  font-weight: 400;
   text-shadow: 0.25px 0.25px 1px rgb(255, 255, 255), 0.5px 0.5px 1px rgb(255, 255, 255);
 }
 
@@ -192,7 +192,7 @@
 }
 
 .fertigung p {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 
@@ -624,7 +624,7 @@
 }
 
 .oberflächenveredelung p {
-  font-weight: 600;
+  font-weight: 400;
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
@@ -656,9 +656,10 @@
 }
 
 .montage p {
-  font-weight: 500;
+  font-weight: 300;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  width: 80%;
 }
 
 
@@ -684,9 +685,10 @@
 }
 
 .qualitätssicherung p {
-  font-weight: 500;
+  font-weight: 300;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+  width: 80%;
 }
 
 
@@ -720,7 +722,7 @@
 
 .qualitätsmanagement p {
   width: 100%;
-  font-weight: 500;
+  font-weight: 300;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
