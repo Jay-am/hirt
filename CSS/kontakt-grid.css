@@ -1,0 +1,162 @@
+/* HERO */
+
+.hero {
+  background: url("../IMAGES/Heros/hero-kontakt.png");
+  height: 65vh;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: lighter;
+  line-height: 4rem;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  padding: 10% 0 0 5%;
+}
+
+
+/* CARDS */
+
+.ansprechpartner__cards > * + *  {
+  margin: 2rem 0 0 0;
+}
+
+.ansprechpartner__card {
+  width: 80%;
+  min-width: 36ch;
+  background: #ffffff;
+  border-radius: 0 0 0.25em 0.25em;
+  box-shadow: 0.5px 0.5px 10px 0px rgb(209, 208, 208);
+}
+
+.ansprechpartner__card img {
+  width: 100%;
+  box-shadow: 0.5px 0.5px 10px 0px rgb(209, 208, 208);
+}
+
+.ansprechpartner__card--text {
+  min-width: 36ch;
+}
+
+.name {
+  color: rgb(58, 58, 58);
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+  font-weight: 500;
+  padding: 1rem 0.75rem 0.25rem 0.75rem;
+}
+
+.title {
+  color: #94979b;
+  font-size: clamp(0.6rem, 1vw, 0.8rem);
+  font-weight: 300;
+  padding: 0rem 0.75rem 0.5rem 0.75rem;
+}
+
+.number {
+  padding: 1rem 0.75rem 0rem 0.75rem;
+}
+
+.number,
+.email {
+  color: #94979b;
+  font-size: clamp(0.7rem, 1.1vw, 0.9rem);
+  font-weight: 300;
+}
+
+.email {
+  text-decoration: none;
+  padding: 0rem 0.75rem 1rem 0.75rem;
+}
+
+
+/* GRID */
+
+.kontakt {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.kontakt__content {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner-intro {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner__card {
+  grid-column: span 1;
+}
+
+
+/* MEDIAQUERIES */
+
+
+@media (min-width: 600px) {
+  /* GRID */
+
+.kontakt {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.kontakt__content {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner-intro {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner__card {
+  grid-column: span 1;
+}
+}
+
+@media (min-width: 900px) {
+    /* GRID */
+
+.kontakt {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.kontakt__content {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner-intro {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner__card {
+  grid-column: span 1;
+}
+}
+
+@media (min-width: 1200px) {
+    /* GRID */
+
+.kontakt {
+  display: grid;
+  grid-template-columns: 4fr;
+}
+
+.kontakt__content {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner-intro {
+  grid-column: 1 / -1;
+}
+
+.ansprechpartner__card {
+  grid-column: span 1;
+}
+}
+
+@media (min-width: 1800px) {}
