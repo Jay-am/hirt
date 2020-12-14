@@ -50,12 +50,46 @@
 
 /* SPONSORINGS */
 
-/* CURE */
+.sponsorings {
+  flex-basis: 100%;
+  justify-content: space-between;
+  padding-bottom: 10rem;
+}
+
+.image {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.sponsoring {
+  flex-basis: 100%;
+  background: rgb(248, 248, 248);
+  padding: 0 2rem;
+}
+
+.sponsoring-text h3  {
+  min-width: 34ch;
+  margin: 2rem 0 2rem 0;
+}
+
+.sponsoring-text > * + *  {
+  margin: 0 0 1rem 0;
+}
 
 .sponsoring-cure-mannheim {
+  margin: 0 2rem 0 4rem;
+}
+
+.sponsoring-martin-werz {
+  margin: 0 4rem 0 2rem;
+}
+
+/* CURE */
+
+/* .sponsoring-cure-mannheim {
   background: rgb(243, 243, 243);
   padding: 8em 0 8em 0;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .sponsoring-cure-mannheim-text {
@@ -76,11 +110,11 @@
 
 .image-cure-mannheim {
   width: 85%;
-}
+} */
 
 /* WERZ */
 
-.sponsoring-martin-werz {
+/* .sponsoring-martin-werz {
   padding: 10em 0 10em 0;
   justify-content: space-between;
 }
@@ -103,7 +137,7 @@
 
 .image-martin-werz {
   width: 100%;
-}
+} */
 
 
 /* MEDIAQUERIES */
@@ -111,13 +145,11 @@
 @media (min-width: 600px) {
   .hero {
     height: 65vh;
-    /* height: 100vh; */
     background-position: 0 0;
   }
 
   .hero__title {
     padding: 40% 3% 0 3%;
-    /* padding: 38% 0 0 10%; */
   }
 }
 
