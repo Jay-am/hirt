@@ -37,5 +37,6 @@
   --clr-link-visited: var(--clr-purple-800);
 
   --clr-br-light: #fafafa;
-  --clr-br-dark: darkblue;
+  --clr-br-medium: #0066b2;
+  --clr-br-dark: #00355c;
 }
