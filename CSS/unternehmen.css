@@ -1,174 +1,174 @@
 /* GENERAL */
 
 .hero {
-  background-image: url("../IMAGES/Heros/hero-unternehmen-lang.jpg";
-      background-color: hsla(0, 0%, 0%, .95);
-      /* background-color: hsla(0, 0%, 0%, .25); */
-      height: 65vh;
-      background-position: 90% 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
+  background-image: url("../IMAGES/Heros/hero-unternehmen-lang.jpg");
+  /* background-color: hsla(0, 0%, 0%, .15);
+  background-blend-mode: multiply; */
+  height: 65vh;
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
+  font-weight: lighter;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
+  padding: 65% 0 0 0.5em;
+}
+
+.unternehmen-info {
+  width: 100vw;
+  background: #ffffff;
+}
+
+.unternehmen-info__content {
+  padding: 3em 0 5em 0;
+}
+
+.unternehmen-info__title {
+  margin: 0 0 1em 0;
+}
+
+.unternehmen-info__text {
+  padding: 1em 2em 3em 2em;
+  width: 100%;
+}
+
+.unternehmen-info__text h2 {
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
+}
+
+.text-1 {
+  margin-bottom: 1em;
+}
+
+.unternehmen-info__text--paragraph+.unternehmen-info__text--paragraph {
+  margin-bottom: 1em;
+}
+
+.unternehmen-info__image {
+  width: 100%;
+}
+
+.unternehmen-info__image img {
+  width: 100%;
+  padding-left: 15%;
+}
+
+/* .zertifikat {
+display: inline-block;
+} */
+
+.zertifikat:hover {
+  transform: scale(0.98);
+  transition: scale 1.5s ease-in-out;
+  /* filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)); */
+}
+
+
+/* MEDIAQUERIES */
+
+@media (min-width: 600px) {
+  .hero {
+    height: 65vh;
+    /* height: 100vh; */
+    background-position: 0 0;
   }
 
   .hero__title {
-    color: #ffffff;
-    font-size: clamp(3rem, 5vw, 4rem);
-    line-height: clamp(2vw, 120%, 4.5rem);
-    font-weight: lighter;
-    text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-    padding: 65% 0 0 0.5em;
-  }
-
-  .unternehmen-info {
-    width: 100vw;
-    background: #ffffff;
-  }
-
-  .unternehmen-info__content {
-    padding: 3em 0 5em 0;
-  }
-
-  .unternehmen-info__title {
-    margin: 0 0 1em 0;
-  }
-
-  .unternehmen-info__text {
-    padding: 1em 2em 3em 2em;
-    width: 100%;
-  }
-
-  .unternehmen-info__text h2 {
-    font-size: clamp(1.2rem, 3vw, 1.7rem);
-  }
-
-  .text-1 {
-    margin-bottom: 1em;
-  }
-
-  .unternehmen-info__text--paragraph+.unternehmen-info__text--paragraph {
-    margin-bottom: 1em;
-  }
-
-  .unternehmen-info__image {
-    width: 100%;
+    padding: 40% 3% 0 3%;
+    /* padding: 38% 0 0 10%; */
   }
 
   .unternehmen-info__image img {
     width: 100%;
     padding-left: 15%;
   }
+}
 
-  /* .zertifikat {
-  display: inline-block;
-} */
+@media (min-width: 900px) {
 
-  .zertifikat:hover {
-    transform: scale(0.98);
-    transition: scale 1.5s ease-in-out;
-    /* filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)); */
+  .hero {
+     height: 65vh;
+    /* height: 100vh; */
+    background-position: 0 0;
   }
 
-
-  /* MEDIAQUERIES */
-
-  @media (min-width: 600px) {
-    .hero {
-      height: 65vh;
-      /* height: 100vh; */
-      background-position: 0 0;
-    }
-
-    .hero__title {
-      padding: 40% 3% 0 3%;
-      /* padding: 38% 0 0 10%; */
-    }
-
-    .unternehmen-info__image img {
-      width: 100%;
-      padding-left: 15%;
-    }
+  .hero__title {
+    padding: 28% 3% 0 3%;
+    /* padding: 38% 0 0 10%; */
   }
 
-  @media (min-width: 900px) {
-
-    .hero {
-      height: 65vh;
-      /* height: 100vh; */
-      background-position: 0 0;
-    }
-
-    .hero__title {
-      padding: 28% 3% 0 3%;
-      /* padding: 38% 0 0 10%; */
-    }
-
-    .unternehmen-info__content {
-      padding: 4em 0 3.5em 0;
-      display: block;
-    }
-
-    .unternehmen-info__text h2 {
-      /* font-size: 2.5rem; */
-    }
-
-    .unternehmen-info__text {
-      padding: 1em 15% 3em 15%;
-    }
-
-    .unternehmen-info__image {
-      width: 40%;
-      align-self: center;
-      justify-self: center;
-    }
-
-    .unternehmen-info__image img {
-      width: 55%;
-      align-self: center;
-      justify-self: center;
-    }
+  .unternehmen-info__content {
+    padding: 4em 0 3.5em 0;
+    display: block;
   }
 
-  @media (min-width: 1200px) {
-    .hero {
-      height: 70vh;
-      /* height: 100vh; */
-      background-position: 0 20%;
-    }
-
-    .hero__title {
-      padding: 21% 2% 0 2%;
-      /* padding: 38% 0 0 10%; */
-    }
-
-    .unternehmen-info__content {
-      padding: 8em 0em 7.5em 0em;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .unternehmen-info__text {
-      width: 54%;
-      padding: 1em 0 1em 10%;
-      margin-right: 1em;
-    }
-
-    .unternehmen-info__image {
-      width: 40%;
-      align-self: center;
-      justify-self: center;
-    }
-
-    .unternehmen-info__image img {
-      width: 55%;
-      align-self: center;
-      justify-self: center;
-    }
+  .unternehmen-info__text h2 {
+    /* font-size: 2.5rem; */
   }
 
-  @media (min-width: 1800px) {
-
-    .unternehmen-info__text {
-      width: 50%;
-      max-width: 500px;
-    }
+  .unternehmen-info__text {
+    padding: 1em 15% 3em 15%;
   }
+
+  .unternehmen-info__image {
+    width: 40%;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .unternehmen-info__image img {
+    width: 55%;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    height: 70vh;
+    /* height: 100vh; */
+    background-position: 0 20%;
+  }
+
+  .hero__title {
+    padding: 21% 2% 0 2%;
+    /* padding: 38% 0 0 10%; */
+  }
+
+  .unternehmen-info__content {
+    padding: 8em 0em 7.5em 0em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .unternehmen-info__text {
+    width: 54%;
+    padding: 1em 0 1em 10%;
+    margin-right: 1em;
+  }
+
+  .unternehmen-info__image {
+    width: 40%;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .unternehmen-info__image img {
+    width: 55%;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media (min-width: 1800px) {
+
+  .unternehmen-info__text {
+    width: 50%;
+    max-width: 500px;
+  }
+0

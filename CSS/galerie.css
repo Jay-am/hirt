@@ -19,20 +19,20 @@
 
 /* GALLERIE */
 
-.gallerie__content {
+.galerie__content {
   text-align: center;
   padding: 3em 2em 3em 2em;
   margin: 0 auto;
 }
 
-.gallerie__content h2 {
+.galerie__content h2 {
   padding: 0;
   text-transform: none;
 }
 
 /* GRID */
 
-.gallerie__grid {
+.galerie__grid {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 2em;
@@ -41,13 +41,13 @@
   margin: 0 0.5em 0 0.5em;
 }
 
-.gallerie__grid--content {
+.galerie__grid--content {
   position: relative;
   justify-items: center;
   margin: 0 auto;
 }
 
-.gallerie__grid--image {
+.galerie__grid--image {
   width: 100%;
   margin-bottom: 3em;
   margin: 0 auto;
@@ -55,7 +55,7 @@
 
 /* HOVER EFFECT IMAGE TITLE */
 
-.gallerie__grid--title {
+.galerie__grid--title {
   font-size: clamp(0.9rem, 1.3vw, 1rem);
   color: #94979b;
   text-shadow: 1px 1px 1px rgb(255, 255, 255);
@@ -75,11 +75,11 @@
   transition: opacity 0.8s;
 }
 
-.gallerie__grid--content:hover .gallerie__grid--title {
+.galerie__grid--content:hover .galerie__grid--title {
   opacity: 1;
 }
 
-.gallerie__grid--content:hover .gallerie__grid--image {
+.galerie__grid--content:hover .galerie__grid--image {
   transform: scale(1.2);
   transition: transform 0.6s;
 }
@@ -119,14 +119,14 @@
 
   /* GALLERIE */
 
-  .gallerie__content {
+  .galerie__content {
     width: 60%;
     padding: 4em 0 4em 0;
   }
 
   /* GRID */
 
-  .gallerie__grid {
+  .galerie__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -155,7 +155,7 @@ background-position: 0 95%; */
 
   /* GALLERIE */
 
-  .gallerie__content {
+  .galerie__content {
     width: 45%;
     text-align: center;
     padding: 6em 0 8em 0;
@@ -163,7 +163,7 @@ background-position: 0 95%; */
 
   /* GRID */
 
-  .gallerie__grid {
+  .galerie__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 4em;
@@ -173,12 +173,12 @@ background-position: 0 95%; */
     justify-items: center;
   }
 
-  .gallerie__grid--content {
+  .galerie__grid--content {
     position: relative;
     justify-items: center;
   }
 
-  .gallerie__grid--image {
+  .galerie__grid--image {
     width: 100%;
     /* width: 90%; */
     margin-bottom: 1em;
