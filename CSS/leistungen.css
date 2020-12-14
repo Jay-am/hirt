@@ -192,7 +192,7 @@
 }
 
 .fertigung p {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
@@ -659,7 +659,6 @@
   font-weight: 300;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
-  width: 80%;
 }
 
 
@@ -688,7 +687,7 @@
   font-weight: 300;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
-  width: 80%;
+  width: 95%;
 }
 
 
@@ -942,6 +941,6 @@
   /* KONTAKT */
 
   .kontakt__content {
-    padding: 16.5em 0 9em 0;
+    padding: 16.5em 0 15em 0;
   }
 }
