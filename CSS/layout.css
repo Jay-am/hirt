@@ -35,4 +35,7 @@
   --clr-link-focus: var(--clr-blue-800);
   --clr-link-active: var(--clr-blue-800);
   --clr-link-visited: var(--clr-purple-800);
+
+  --clr-br-light: #fafafa;
+  --clr-br-dark: darkblue;
 }
