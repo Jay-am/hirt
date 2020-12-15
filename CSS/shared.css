@@ -557,7 +557,7 @@ nav ul {
 
   /* FOOTER */
 
-  .footer__main-content {
+  /* .footer__main-content {
     padding: 4em 3em 3em 3em;
     margin: 0;
   }
@@ -612,19 +612,19 @@ nav ul {
     max-width: 80%;
     align-self: flex-end;
     margin: 0 0 0 auto;
-  }
+  } */
 
   /* .legal__item+.legal__item {
     margin-left: 1em;
   } */
 
-  .zertifiziert img {
+  /* .zertifiziert img {
     align-self: flex-end;
   }
 
   .copyright {
     padding: 0 0 2em 0;
-  }
+  } */
 
 }
 
@@ -645,9 +645,9 @@ nav ul {
 
   /* FOOTER */
 
-  .leistungsspektrum+.leistungsspektrum {
+  /* .leistungsspektrum+.leistungsspektrum {
     margin-left: 3em;
-  }
+  } */
 }
 
 @media (min-width: 1800px) {
