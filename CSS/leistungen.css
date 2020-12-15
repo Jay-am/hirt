@@ -57,6 +57,10 @@
   text-align: center;
 }
 
+.details-leistungen__intro--text p {
+  color: #94979b;
+}
+
 .zertifikat {
   display: inline-block;
   padding: 3em 0 0 0;
@@ -860,7 +864,7 @@
 
   .lagerhaltung {
     width: 80%;
-    padding: 10em 0 5em 5%;
+    padding: 6em 0 5em 5%;
   }
 
 
