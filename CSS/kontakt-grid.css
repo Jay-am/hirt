@@ -19,6 +19,26 @@
 }
 
 
+/* KONTAKT */
+
+.kontakt__info h3 {
+  font-size: 1.25rem;
+  min-width: 23ch;
+}
+
+.kontakt__info--daten {
+  padding-top: 2rem;
+}
+
+.kontakt__info--erreichbarkeit {
+  padding-top: 1rem;
+}
+
+.e-mail {
+  text-decoration: none;
+  color: #94979b;
+}
+
 /* CARDS */
 
 .ansprechpartner__cards > * + *  {
@@ -77,34 +97,39 @@
 .kontakt {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
-}
-
-.kontakt__name {
-  grid-column: 1 / -1;
+  row-gap: 4rem;
+  margin: 6rem 2rem;
 }
 
 .kontakt__info {
   grid-column: 1 / -1;
 }
 
+.kontakt__info h3 {
+  padding-bottom: 2rem;
+}
+
 .ansprechpartner-intro {
   grid-column: 1 / -1;
 }
 
+.ansprechpartner-intro h3 {
+  padding-bottom: 2rem;
+}
+
 .card-1 {
   grid-column: 1 / -1;
-  justify-self: center;
+  /* justify-self: center; */
 }
 
 .card-2 {
   grid-column: 1 / -1;
-  justify-self: center;
+  /* justify-self: center; */
 }
 
 .card-3 {
   grid-column: 1 / -1;
-  justify-self: center;
+  /* justify-self: center; */
 }
 
 
@@ -122,37 +147,38 @@
   .kontakt {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-  }
-
-  .kontakt__name {
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
+    grid-template-rows: repeat(2, min-content) repeat(2, 1fr);
+    gap: 2rem;
   }
 
   .kontakt__info {
     grid-column: 1 / -1;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
 
   .ansprechpartner-intro {
     grid-column: 1 / -1;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
+    align-self: start;
+  }
+
+  .ansprechpartner-intro h3 {
+    padding-top: 2rem;
   }
 
   .card-1 {
     grid-column: 1 / 2;
-    grid-row: 4 / 5;
+    grid-row: 3 / 4;
   }
 
   .card-2 {
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    grid-row: 3 / 4;
   }
 
   .card-3 {
     grid-column: 1 / 2;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
   }
 }
 
@@ -162,22 +188,29 @@
   .kontakt {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  }
-
-  .kontakt__name {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-template-rows: min-content repeat(2, 1fr);
   }
 
   .kontakt__info {
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 1 / 3;
+    background: #fafafa;
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+
+  .kontakt__info h3 {
+    padding-top: 2rem;
   }
 
   .ansprechpartner-intro {
     grid-column: 2 / 5;
     grid-row: 1 / 2;
+    align-self: start;
+  }
+
+  .ansprechpartner-intro h3 {
+    padding-top: 2rem;
   }
 
   .card-1 {
@@ -202,22 +235,20 @@
   .kontakt {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-
-  .kontakt__name {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-template-rows: min-content 1fr;
+    column-gap: 2rem;
   }
 
   .kontakt__info {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 1 / 3;
+    align-content: space-between;
   }
 
   .ansprechpartner-intro {
     grid-column: 2 / 5;
     grid-row: 1 / 2;
+    align-self: start;
   }
 
   .card-1 {

@@ -1,0 +1,98 @@
+/* FOOTER */
+
+.footer {
+  background: #00355c;
+}
+
+.footer__main-content {
+  margin: 3em 0em 0em 2em;
+}
+
+.footer__main-content h3 {
+  color: lightgrey;
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  font-weight: 400;
+  margin: 0.5em 0 0.75em 0em;
+}
+
+.footer__item {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+  text-decoration: none;
+  color: lightgrey;
+  font-size: clamp(0.7rem, 0.9vw, 9rem);
+}
+
+.footer__links,
+.legal__links {
+  padding: 0.5em 0 1.5em 0em;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer__link,
+.legal__link {
+  padding: 0 0 0.5em 0;
+}
+
+.footer__link:link,
+.footer__link:visited,
+.legal__link:link,
+.legal__link:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.footer__na {
+  color: #00355c;
+}
+
+.footer__bold {
+  font-weight: 500;
+}
+
+.footer__link:hover,
+.footer__link:active,
+.legal__link:link,
+.legal__link:visited {
+  color: grey;
+  transition: ease-in-out 600ms;
+}
+
+.legal {
+  margin-bottom: 1em;
+  font-size: clamp(0.7rem, 0.9vw, 9rem);
+}
+
+.footer__image {
+  display: block;
+  max-width: 60%;
+  margin: 0;
+}
+
+.zertifiziert img:hover {
+  transform: scale(0.98);
+  transition: scale 0.6s ease-in-out;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  font-size: clamp(0.65rem, 0.8vw, 7rem);
+  text-align: right;
+  color: grey;
+  padding: 2em 2em 2em 0;
+}
+
+
+/* MEDIAQUERIES */
+
+@media (min-width: 600px) {}
+@media (min-width: 900px) {}
+@media (min-width: 1200px) {
+
+  .leistungsspektrum+.leistungsspektrum {
+    margin-left: 3em;
+  }
+}
+
+@media (min-width: 1800px) {}
