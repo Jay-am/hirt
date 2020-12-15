@@ -47,7 +47,7 @@
 
 .intro__image img {
   width: 60%;
-  margin: 0 auto;
+  margin: 4rem auto;
 }
 
 /* REALISATION */
@@ -101,8 +101,7 @@
 }
 
 .leistungen__content h2 {
-  text-align: center;
-  padding: 0 0 0 0;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .leistungen__text--cards {
@@ -161,8 +160,8 @@
   background-position: 0% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0); */
-  clip-path: polygon(90% 0, 90% 35%, 100% 50%, 90% 65%, 90% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 78%, 50% 100%, 0 78%, 0 0);
+  /* clip-path: polygon(90% 0, 90% 35%, 100% 50%, 90% 65%, 90% 100%, 0 100%, 0 0); */
 }
 
 .entwicklung a {
@@ -184,7 +183,7 @@
   background-position: 90% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  clip-path: polygon(50% 25%, 100% 0, 100% 78%, 50% 100%, 0 78%, 0 0);
 }
 
 .lagerhaltung a {
@@ -206,7 +205,7 @@
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  clip-path: polygon(50% 6%, 100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);
 }
 
 .leistungen__card-header--fertigung {
@@ -230,7 +229,7 @@
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  clip-path: polygon(50% 6%, 100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);
 }
 
 .leistungen__card-header--oberflächenveredelung {
@@ -262,7 +261,7 @@
   background-position: 70% 80%;
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path: polygon(50% 14%, 100% 0, 100% 86%, 50% 100%, 0 86%, 0 0);
+  clip-path: polygon(50% 25%, 100% 0, 100% 78%, 50% 100%, 0 78%, 0 0);
 }
 
 .montage a {
@@ -284,8 +283,8 @@
   background-position: 30% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0); */
-  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 65%, 10% 50%, 0 35%, 0 0);
+  clip-path: polygon(50% 22%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+  /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 65%, 10% 50%, 0 35%, 0 0); */
 }
 
 .qualitätssicherung a {
@@ -317,8 +316,7 @@
 }
 
 .branchen__header {
-  text-align: center;
-  padding: 0em 0em 0em 0em;
+  padding: 0em 0rem 0em 0rem;
   margin: 0 auto;
 }
 
@@ -333,8 +331,8 @@
 }
 
 .zertifikat img {
-  width: 100%;
-  padding: 0;
+  width: 80%;
+  padding: 0 0 4rem 0;
   margin: 0 auto;
 }
 
@@ -408,6 +406,13 @@
   filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2))
     drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
 }
+
+/* KONTAKT */
+
+.kontakt__content {
+  text-align: left;
+}
+
 
 /* MEDIAQUERIES */
 
