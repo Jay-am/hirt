@@ -65,6 +65,10 @@
   margin: 5rem 2rem 5rem 2rem;
 }
 
+.image {
+  width: 100%;
+}
+
 /* CURE */
 
 /* .sponsoring-cure-mannheim {
@@ -151,11 +155,6 @@
     padding-bottom: 10rem;
   }
   
-  .image {
-    width: 100%;
-    padding-top: 2rem;
-  }
-  
   .sponsoring {
     flex-basis: 100%;
     background: rgb(248, 248, 248);
@@ -188,6 +187,7 @@
 
   .sponsoring-info__content {
     padding: 8em 0em 7.5em 0em;
+    text-align: center;
   }
 
   .sponsoring-info__text {
@@ -201,6 +201,10 @@
   
   .sponsoring-martin-werz {
     margin: 0 4rem 0 2rem;
+  }
+
+  .image {
+    padding-top: 2rem;
   }
 
 }
