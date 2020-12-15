@@ -19,25 +19,24 @@
 
 /* INTRO */
 
+.karriere-intro {
+  padding: 6rem 2rem 6rem 2rem;
+}
+
 .karriere-intro__content {
   width: 100%;
-  padding: 0em 10% 0em 0em;
-  text-align: center;
+  /* padding: 0em 10% 0em 0em; */
 }
 
 .karriere-intro__content h2 {
-  padding: 0em 0 1em 0;
+  padding: 0rem 0 1rem 0rem;
 }
 
 .karriere-intro__content p {
   font-weight: 300;
-  padding: 0 0 1em 0;
+  /* padding: 0 0 1em 0; */
   width: 80%;
-  margin: 0 auto;
-}
-
-.karriere-intro {
-  padding-bottom: 6rem;
+  margin: 0;
 }
 
 
