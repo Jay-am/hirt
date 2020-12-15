@@ -162,16 +162,29 @@
   }
   
   .sponsoring-text h3  {
-    min-width: 34ch;
     margin: 2rem 0 2rem 0;
   }
 
   .sponsoring-info__content {
-    padding: 4em 0 3.5em 0;
+    padding: 6em 0 3.5em 0;
+    text-align: center;
   }
 
   .sponsoring-info__text {
+    width: 70%;
     padding: 1em 0 3em 0;
+  }
+
+  .image {
+    padding-top: 2rem;
+  }
+
+  .sponsoring-cure-mannheim {
+    margin: 0 1rem 0 2rem;
+  }
+  
+  .sponsoring-martin-werz {
+    margin: 0 2rem 0 1rem;
   }
 }
 
@@ -187,12 +200,15 @@
 
   .sponsoring-info__content {
     padding: 8em 0em 7.5em 0em;
-    text-align: center;
   }
 
   .sponsoring-info__text {
     width: 50%;
     padding: 1em 0 1em 0;
+  }
+
+  .sponsoring-text h3  {
+    min-width: 34ch;
   }
 
   .sponsoring-cure-mannheim {
@@ -201,10 +217,6 @@
   
   .sponsoring-martin-werz {
     margin: 0 4rem 0 2rem;
-  }
-
-  .image {
-    padding-top: 2rem;
   }
 
 }
