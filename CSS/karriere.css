@@ -29,13 +29,12 @@
 }
 
 .karriere-intro__content h2 {
-  padding: 0rem 0 1rem 0rem;
+  padding: 0rem 0 2rem 0rem;
 }
 
 .karriere-intro__content p {
   font-weight: 300;
   /* padding: 0 0 1em 0; */
-  width: 80%;
   margin: 0;
 }
 
@@ -368,15 +367,15 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
 
   /* INTRO */
 
-  .karriere-intro__content {
-    padding: 2em 5% 5em 5%;
+  .karriere-intro {
+    padding: 5em 5% 5em 5%;
   }
 
   /* LEISTUNGEN */
 
-  .karriere-leistungen__content {
+  /* .karriere-leistungen__content {
     padding: 8em 5% 8em 5%;
-  }
+  } */
 
   /* BEWERBEN */
 
@@ -386,9 +385,9 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
 
   /* STELLENANGEBOTE */
 
-  .stellenangebote__content {
-    padding: 2em 5% 0em 5%;
-  }
+  /* .stellenangebote__content {
+    padding: 0em 5% 12em 5%;
+  } */
 }
 
 @media (min-width: 1200px) {
@@ -408,7 +407,7 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   .karriere-intro__content {
     height: 600px;
     width: 60%;
-    padding: 9em 0 0em 0%;
+    padding: 8em 0 0em 0%;
     text-align: center;
     margin: 0 auto;
   }
