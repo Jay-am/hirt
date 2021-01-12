@@ -407,10 +407,25 @@
     drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.2));
 }
 
+
 /* KONTAKT */
 
 .kontakt__content {
   text-align: left;
+  padding: 4em 0 4em 0;
+}
+
+.kontakt__content h3 {
+  padding: 2em 0 1em 0;
+}
+
+.kontakt__content p {
+  padding: 0 0 2em 0;
+}
+
+.kontakt__content a {
+  text-decoration: none;
+  margin: 0 0 4em 0;
 }
 
 
@@ -1124,12 +1139,23 @@
     /* transform: translateY(-1em); */
   }
 
-  .kontakt {
-    height: 600px;
-  }
+  /* KONTAKT */
 
   .kontakt__content {
-    padding: 9.5em 0 0 0;
+    text-align: center;
+    padding: 10em 0 8em 0;
+  }
+  
+  .kontakt__content h3 {
+    padding: 2em 0 1em 0;
+  }
+  
+  .kontakt__content p {
+    padding: 0 0 2em 0;
+   }
+  
+  .kontakt__content a {
+    margin: 0 0 4em 0;
   }
 }
 
