@@ -31,12 +31,17 @@
 }
 
 .kontakt__info--erreichbarkeit {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .e-mail {
   text-decoration: none;
   color: #94979b;
+}
+
+.e-mail-info,
+.e-mail-rechnungen {
+  padding-top: 2rem;
 }
 
 /* CARDS */
