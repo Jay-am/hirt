@@ -698,7 +698,9 @@
 /* QUALITÄTSMANAGEMENT */
 
 .details-leistungen__qualitätsmanagement {
-  background: url(../IMAGES/Leistungen/QM_weit.jpg);
+  background-image: url(../IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer.jpg);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: multiply;
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
