@@ -10,29 +10,6 @@ section {
 	scroll-snap-align: center;
 }
 
-/** section colors */
-.red {
-	background: #f44336;
-}
-.orange {
-	background: #ff9800;
-}
-.yellow {
-	background: #ffd600;
-}
-.green {
-	background: #4caf50;
-}
-.blue {
-	background: #2196f3;
-}
-.indigo {
-	background: #3f51b5;
-}
-.violet {
-	background: #673ab7;
-}
-
 /** Section inner layout */
 section {
 	padding-left: 4em;
