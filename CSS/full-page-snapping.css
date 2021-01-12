@@ -1,0 +1,58 @@
+/** Full Page Scroll-Snapping HTML Sections */
+main {
+	height: 100vh;
+	overflow-y: auto;
+	scroll-snap-type: y mandatory;
+}
+
+section {
+	height: 100vh;
+	scroll-snap-align: center;
+}
+
+/** section colors */
+.red {
+	background: #f44336;
+}
+.orange {
+	background: #ff9800;
+}
+.yellow {
+	background: #ffd600;
+}
+.green {
+	background: #4caf50;
+}
+.blue {
+	background: #2196f3;
+}
+.indigo {
+	background: #3f51b5;
+}
+.violet {
+	background: #673ab7;
+}
+
+/** Section inner layout */
+section {
+	padding-left: 4em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/** Reset / Basic styling */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #fff;
+	font-size: 2vmax;
+}
+
+h1 {
+	font-size: 4em;
+}
