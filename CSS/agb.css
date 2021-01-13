@@ -1,7 +1,7 @@
 .hero {
   /* background: url("../IMAGES/Heros/impressum.jpg"), linear-gradient(rgba(0, 102, 178, 0.99),
       rgba(0, 102, 178, 0.15)); */
-  background: url("../IMAGES/Heros/hero-rechtliches.jpg");
+  background-image: url("../IMAGES/Heros/hero-rechtliches.jpg");
   height: 40vh;
   background-position: 0 50%;
   background-repeat: no-repeat;
@@ -103,7 +103,8 @@
 
 .tablist__items {
   padding-top: 2.5em;
-  padding-bottom: clamp(6850px, 2500em, 7150px);
+  /* padding-bottom: clamp(7000px, 2500em, 7350px); */
+  padding-bottom: 7250px;
   margin: 0 auto;
 }
 
