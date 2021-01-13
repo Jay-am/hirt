@@ -90,9 +90,9 @@
 /* MEDIZINTECHNIK */
 
 .medizintechnik {
-  background: url(../IMAGES/Branchen/Medizintechnik/Medizin-5.jpg);
+  background: url(../IMAGES/Branchen/Medizintechnik/AdobeStock_266136824.jpg);
   height: 500px;
-  background-position: 0 25%;
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 1em;
@@ -140,7 +140,7 @@
 /* SENSORTECHNIK */
 
 .sensortechnik {
-  background: url(../IMAGES/Branchen/Sensortechnik/sensor.jpeg);
+  background: url(../IMAGES/Branchen/Sensortechnik/Sensortechnik.jpg);
   height: 500px;
   background-position: 40% 25%;
   background-repeat: no-repeat;
