@@ -675,7 +675,9 @@
 /* QUALITÄTSSICHERUNG */
 
 .details-leistungen__qualitätssicherung {
-  background: url(../IMAGES/Leistungen/QS_weit.jpg);
+  /* background: url(../IMAGES/Leistungen/QS_weit.jpg); */
+  background: linear-gradient(to left, rgba(151, 151, 151, 0) 10%,
+  rgba(151, 151, 151, 0.4)), url(../IMAGES/Leistungen/QS_weit.jpg);
   background-position: 0% 0%;
   background-repeat: no-repeat;
   background-size: cover;
