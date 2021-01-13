@@ -97,7 +97,7 @@
   background-position: 40% 20%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  min-height: 750px;
   /* clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0); */
   clip-path: polygon(50% 0, 60% 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%, 0 0, 40% 0);
   /* margin-bottom: -5em; */
@@ -127,7 +127,7 @@
   background-position: 10% 62%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 850px;
+  min-height: 850px;
   /* clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0); */
   clip-path: polygon(50% 10%, 60% 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%, 0 0, 40% 0);
   /* margin-bottom: -5em; */
@@ -149,7 +149,7 @@
 .details-leistungen__fertigung {
   background: rgb(242, 242, 242);
   /* background: linear-gradient(rgb(203, 203, 203), rgb(242, 242, 242)); */
-  height: 450px;
+  min-height: 450px;
   /* clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
   clip-path: polygon(50% 15%, 60% 0, 100% 0, 100% 100%, 60% 100%, 50% 100%, 40% 100%, 0 100%, 0 0, 40% 0);
   margin-top: -5em;
@@ -216,7 +216,7 @@
 .accordion {
   width: 100%;
   max-width: 1400px;
-  height: 400px;
+  min-height: 400px;
   overflow: hidden;
   border: 1px solid #f2f2f2;
   margin: 0 auto;
@@ -235,7 +235,7 @@
   vertical-align: bottom;
   position: relative;
   width: 20%;
-  height: 500px;
+  min-height: 500px;
   background-repeat: no-repeat;
   background-position: center center;
   transition: all 600ms ease;
@@ -249,7 +249,7 @@
 
 .accordion ul li div a {
   display: block;
-  height: 500px;
+  min-height: 500px;
   width: 100%;
   position: relative;
   z-index: 3;
@@ -306,7 +306,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
 }
 
 .accordion ul li:nth-child(2) {
@@ -314,7 +314,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
 }
 
 .accordion ul li:nth-child(3) {
@@ -322,7 +322,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
 }
 
 .accordion ul li:nth-child(4) {
@@ -330,7 +330,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
 }
 
 .accordion ul li:nth-child(5) {
@@ -338,7 +338,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
 }
 
 /* .accordion ul li:nth-child(1):active:not(.focus-within),
@@ -615,7 +615,7 @@
   /* background: url(../IMAGES/Leistungen/oberflaechenveredelung.jpg); */
   background: linear-gradient(to left, rgba(255,255,255,0) 10%,
               rgba(255,255,255,0.8)), url(../IMAGES/Leistungen/oberflaechenveredelung.jpg);
-  height: 800px;
+  min-height: 800px;
   background-position: 0 5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -681,7 +681,7 @@
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 850px;
+  min-height: 850px;
   /* clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0); */
   clip-path: polygon(50% 10%, 60% 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%, 0 0, 40% 0);
   margin-bottom: -5em;
@@ -711,7 +711,7 @@
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 950px;
+  min-height: 950px;
   /* clip-path: polygon(50% 14%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
   clip-path: polygon(50% 8%, 60% 0, 100% 0, 100% 100%, 60% 100%, 50% 100%, 40% 100%, 0 100%, 0 0, 40% 0);
   margin-bottom: -5em;
@@ -871,7 +871,7 @@
 
   .details-leistungen__entwicklung {
     background-position: 40% 20%;
-    height: 750px;
+    min-height: 750px;
     margin-bottom: -5em;
   }
 
@@ -884,7 +884,7 @@
 
   .details-leistungen__lagerhaltung {
     background-position: 10% 60%;
-    height: 800px;
+    min-height: 800px;
   }
 
   .lagerhaltung {
@@ -916,7 +916,7 @@
 
   .details-leistungen__oberflächenveredelung {
     background-position: 0% 0%;
-    height: 800px;
+    min-height: 800px;
     margin-bottom: -5em;
   }
 
@@ -930,7 +930,7 @@
 
   .details-leistungen__montage {
     background-position: 0% 50%;
-    height: 800px;
+    min-height: 800px;
     margin-bottom: -5em;
   }
 
@@ -944,7 +944,7 @@
 
   .details-leistungen__qualitätssicherung {
     background-position: 100% 80%;
-    height: 800px;
+    min-height: 800px;
     margin-bottom: -5em;
   }
 
@@ -958,7 +958,7 @@
 
   .details-leistungen__qualitätsmanagement {
     background-position: 10% 100%;
-    height: 900px;
+    min-height: 900px;
   }
 
   .qualitätsmanagement {
