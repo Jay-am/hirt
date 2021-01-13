@@ -50,6 +50,7 @@
   margin: 4rem auto;
 }
 
+
 /* REALISATION */
 
 .realistaion {
@@ -87,6 +88,7 @@
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
   line-height: 300%;
 }
+
 
 /* LEISTUNGEN */
 
@@ -151,6 +153,7 @@
   font-weight: 300;
 }
 
+
 /* Entwicklung */
 
 .entwicklung {
@@ -174,6 +177,7 @@
   left: 0px;
 }
 
+
 /* Lagerhaltung */
 
 .lagerhaltung {
@@ -195,6 +199,7 @@
   top: -100px;
   left: 0px;
 }
+
 
 /* Fetigung */
 
@@ -218,6 +223,7 @@
   top: 15px;
   left: 160px;
 }
+
 
 /* Oberflächenveredelung */
 
@@ -252,6 +258,7 @@
   text-align: left;
 }
 
+
 /* Montage */
 
 .montage {
@@ -273,6 +280,7 @@
   top: -100px;
   left: 0px;
 }
+
 
 /* Qualitässicherung */
 
@@ -297,9 +305,10 @@
   left: 0px;
 }
 
+
 /* BRANCHEN */
 
-.branchen {
+.branchen__index {
   background: linear-gradient(
     rgba(1, 71, 121, 0.99),
     rgba(0, 102, 178, 0.99),
@@ -341,6 +350,7 @@
   /* filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)); */
 }
 
+
 /* GRID */
 
 .branchen-grid {
@@ -352,6 +362,7 @@
   width: 100%;
   margin: 1em auto;
 }
+
 
 /* BLUR EFFECT */
 
@@ -489,7 +500,7 @@
 
   /* GRID */
 
-  .branchen {
+  .branchen__index {
     min-width: 100vw;
   }
 }
@@ -1043,7 +1054,7 @@
 
   /* GRID */
 
-  .branchen {
+  .branchen__index {
     height: 100vh;
   }
   
