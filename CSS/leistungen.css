@@ -676,12 +676,12 @@
 
 .details-leistungen__qualitätssicherung {
   /* background: url(../IMAGES/Leistungen/QS_weit.jpg); */
-  background: linear-gradient(to left, rgba(151, 151, 151, 0) 10%,
-  rgba(151, 151, 151, 0.4)), url(../IMAGES/Leistungen/QS_weit.jpg);
-  background-position: 0% 0%;
+  background: linear-gradient(to left, rgba(151, 151, 151, 0.4) 25%,
+  rgba(151, 151, 151, 0.8)), url(../IMAGES/Leistungen/QS_weit.jpg);
+  background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  height: 850px;
   /* clip-path: polygon(50% 14%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0); */
   clip-path: polygon(50% 10%, 60% 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%, 0 0, 40% 0);
   margin-bottom: -5em;
@@ -711,7 +711,7 @@
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  height: 950px;
   /* clip-path: polygon(50% 14%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
   clip-path: polygon(50% 8%, 60% 0, 100% 0, 100% 100%, 60% 100%, 50% 100%, 40% 100%, 0 100%, 0 0, 40% 0);
   margin-bottom: -5em;
