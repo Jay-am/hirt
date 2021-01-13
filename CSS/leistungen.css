@@ -698,10 +698,9 @@
 /* QUALITÄTSMANAGEMENT */
 
 .details-leistungen__qualitätsmanagement {
-  background-image: url(../IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer.jpg);
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: multiply;
-  background-position: 100% 100%;
+  background: linear-gradient(to left, rgba(0, 102, 178,0.1) 5%,
+              rgba(0, 102, 178,1)), url(../IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer.jpg);
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
@@ -720,15 +719,15 @@
 }
 
 .qualitätsmanagement h3 {
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
   /* color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
   padding: 0em 0 1em 0;
 }
 
 .qualitätsmanagement p {
-  font-weight: 400;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  font-weight: 500;
+  /* text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255); */
   width: 100%;
   /* font-weight: 300;
   color: #ffffff;
