@@ -68,7 +68,7 @@
 .luft-und-raumfahrt {
   background: url(../IMAGES/Branchen/Luft-und-Raumfahrt/Raumfahrt.jpg);
   height: 500px;
-  background-position: 0 100%;
+  background-position: 30% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 1em;
@@ -118,7 +118,7 @@
 .rehatechnik {
   background: url(../IMAGES/Branchen/Rehatechnik/Wheelchair-1.jpg);
   height: 500px;
-  background-position: 0 25%;
+  background-position: 40% 25%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 1em;
@@ -168,7 +168,7 @@
 .lebensmitteltechnik {
   background: url(../IMAGES/Branchen/Lebensmitteltechnik/lebensmitteltechnik.jpg);
   height: 500px;
-  background-position: 30% 90%;
+  background-position: 30% 70%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 1em;
@@ -218,7 +218,7 @@
 .motorsport {
   background: url(../IMAGES/Branchen/Motorsport/Motorsport_Sponsoring_Cure_Mannheim.jpeg);
   height: 500px;
-  background-position: 90% 100%;
+  background-position: 60% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 1em;
@@ -271,7 +271,7 @@
 
   .luft-und-raumfahrt {
     height: 800px;
-    background-position: 0 25%;
+    background-position: 50% 25%;
   }
 
   .details-branchen__content--luft-und-raumfahrt {
@@ -280,7 +280,7 @@
 
   .medizintechnik {
     height: 800px;
-    background-position: 0 25%;
+    background-position: 50% 90%;
   }
 
   .details-branchen__content--medizintechnik {
@@ -289,7 +289,7 @@
 
   .rehatechnik {
     height: 800px;
-    background-position: 0 25%;
+    background-position: 60% 25%;
   }
 
   .details-branchen__content--rehatechnik {
@@ -307,7 +307,7 @@
 
   .lebensmitteltechnik {
     height: 800px;
-    background-position: 0% 90%;
+    background-position: 20% 90%;
   }
 
   .details-branchen__content--lebensmitteltechnik {
@@ -316,7 +316,7 @@
 
   .verteidigungs-und-wehrtechnik {
     height: 750px;
-    background-position: 0 25%;
+    background-position: 20% 25%;
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik {
@@ -325,7 +325,7 @@
 
   .motorsport {
     height: 750px;
-    background-position: 0 25%;
+    background-position: 55% 25%;
   }
 
   .details-branchen__content--motorsport {
