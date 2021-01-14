@@ -93,7 +93,7 @@
 .medizintechnik {
   background: url(../IMAGES/Branchen/Medizintechnik/AdobeStock_266136824.jpg);
   height: 500px;
-  background-position: 50% 100%;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 1em;
@@ -401,7 +401,7 @@
 
   .medizintechnik {
     height: 650px;
-    background-position: 90% 25%;
+    background-position: 90% 65%;
   }
 
   .details-branchen__content--medizintechnik {
@@ -443,7 +443,7 @@
 
   .sensortechnik {
     height: 650px;
-    background-position: 0% 25%;
+    background-position: 0% 65%;
   }
 
   .details-branchen__content--sensortechnik {
@@ -485,7 +485,7 @@
 
   .verteidigungs-und-wehrtechnik {
     height: 650px;
-    background-position: 35% 25%;
+    background-position: 35% 55%;
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik {
@@ -506,7 +506,7 @@
 
   .motorsport {
     height: 650px;
-    background-position: 0% 75%;
+    background-position: 0% 80%;
   }
 
   .details-branchen__content--motorsport {

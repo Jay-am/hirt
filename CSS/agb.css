@@ -104,8 +104,11 @@
 .tablist__items {
   padding-top: 2.5em;
   /* padding-bottom: clamp(7000px, 2500em, 7350px); */
-  padding-bottom: 7250px;
+  padding-bottom: 14250px;
   margin: 0 auto;
+  display: block;
+  /* overflow: hidden; */
+  white-space: wrap;
 }
 
 .tabs {
@@ -208,6 +211,10 @@ p.link a:hover {
   .hero__title {
     padding: 20% 0 0 3%;
   }
+
+  .tablist__items {
+    padding-bottom: 12250px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -218,6 +225,10 @@ p.link a:hover {
 
   .tabs label {
     left: -2.7em;
+  }
+
+  .tablist__items {
+    padding-bottom: 7700px;
   }
 }
 
@@ -232,6 +243,6 @@ p.link a:hover {
   }
 
   .tablist__items {
-    padding-bottom: 6700px;
+    padding-bottom: 7600px;
   }
 }
