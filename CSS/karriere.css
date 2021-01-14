@@ -93,7 +93,14 @@
 /* BEWERBEN */
 
 .bewerben {
-  background: #ffffff;
+  /* background: url("../IMAGES/Branchen/Rehatechnik/rollstuhl.jpg"); */
+  background: linear-gradient(to left, rgba(255,255,255,0.2) 10%,
+            rgba(255,255,255,0.9)), url("../IMAGES/Branchen/Rehatechnik/rollstuhl.jpg");
+  height: 100vh;
+  background-position: 80% 42%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .bewerben__content {
@@ -368,7 +375,8 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   /* INTRO */
 
   .karriere-intro {
-    padding: 5em 5% 5em 5%;
+    padding: 8em 5% 0em 5%;
+    min-height: 100vh;
   }
 
   /* LEISTUNGEN */
@@ -400,9 +408,9 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   /* INTRO */
 
   .karriere-intro__content {
-    height: 600px;
+    min-height: 60vh;
     width: 60%;
-    padding: 8em 0 0em 0%;
+    padding: 5em 0 5em 0%;
     text-align: center;
     margin: 0 auto;
   }
@@ -411,8 +419,8 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   /* IMAGE */
 
   /* .karriere-image {
-    background-position: 100% 0%;
-  } */
+    background-position: 100% 50%;
+  }  */
 
 
   /* LEISTUNGEN */
@@ -451,8 +459,9 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   /* BEWERBEN */
 
   .bewerben__content {
-    padding: 1em 0 11em 0;
-    text-align: center;
+    padding: 10em 10% 0em 10%;
+    align-items: center;
+    /* text-align: center; */
   }
 
   /* STELLENANGEBOTE */
