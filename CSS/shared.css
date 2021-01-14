@@ -83,7 +83,7 @@ a.active {
 
 .nav__btn a,
 .nav__btn--link {
-  color: var(--clr-nav);
+  color: #94979b;
   font-size: clamp(0.9rem, 1.3vw, 1rem);
   padding: 0.25em 0 1.5em 0;
   /* border: 1px solid #0066b2;
@@ -333,7 +333,8 @@ nav ul {
   .nav__list--primary .nav__link:link,
   .nav__list--primary .nav__link:visited {
     text-decoration: none;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #94979b;
     /* text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0), 1px 1px 4px rgb(0, 0, 0); */
   }
 
