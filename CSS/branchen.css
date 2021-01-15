@@ -1,10 +1,10 @@
 /* HERO */
 
 .hero {
-  background: linear-gradient(to left, rgba(255,255,255,0.4) 20%,
-              rgba(0,0,0,0.9)), url("../IMAGES/Heros/hero-branchen.jpeg");
+  background: linear-gradient(to left, rgba(0,0,0,0) 60%,
+              rgba(0,0,0,1)), url("../IMAGES/Heros/hero-präzision-long-streched-test-2.jpg");
   height: 65vh;
-  background-position: 0 5%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -535,5 +535,17 @@
 
   .btn__kontakt-branchen {
     padding: 3em 0 0 0;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .hero {
+    height: 70vh;
+    background-position: 100% 80%;
+  }
+
+  .hero__title {
+    padding: 25% 0 0 2%;
   }
 }
