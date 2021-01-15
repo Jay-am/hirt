@@ -7,7 +7,7 @@
 /* HERO */
 
 .hero {
-  background: url("../IMAGES/Heros/hero-landingpage.jpeg");
+  background: url("../IMAGES/Heros/hero-landingpage-long-dark-2.jpg");
   height: 65vh;
   background-position: 80% 42%;
   background-repeat: no-repeat;
@@ -608,7 +608,7 @@
   }
 
   .hero__title {
-    padding: 25% 0 0 2%;
+    padding: 35% 0 0 2%;
     /* padding: 10% 0 0 10%; */
   }
 
