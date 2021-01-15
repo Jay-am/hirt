@@ -671,8 +671,10 @@
 /* QUALITÄTSMANAGEMENT */
 
 .details-leistungen__qualitätsmanagement {
-  background: linear-gradient(to left, rgba(0, 102, 178,0.1) 5%,
-              rgba(0, 102, 178,1)), url(../IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer.jpg);
+  /* background: linear-gradient(to left, rgba(0, 102, 178,0.1) 5%,
+              rgba(0, 102, 178,1)), url("../IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer-longer-test.jpg"); */
+  background: linear-gradient(to left, rgba(255, 255, 255,0.8) 5%,
+              rgba(0, 102, 178,1)), url("../IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer-longer-test.jpg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
