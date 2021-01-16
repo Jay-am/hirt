@@ -52,7 +52,6 @@
   margin: 0 0 1em 0;
 }
 
-
 .intro__image {
   display: block;
   width: 100%;
@@ -620,7 +619,7 @@
   .hero__content:after {
     content: url(../IMAGES/Index/Pfeil-Hero-hell.png);
     position: absolute;
-    bottom: -3em;
+    bottom: -1em;
     left: 43.25%;
   }
 
