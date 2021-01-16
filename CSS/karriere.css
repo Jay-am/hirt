@@ -4,7 +4,7 @@
   background: linear-gradient(to left, rgba(0,0,0,0.3) 70%,
   rgba(0,0,0,1)), url("../IMAGES/Heros/hero-mitarbeiter-long-2.jpg");
   height: 65vh;
-  background-position: 100% 0%;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -97,19 +97,24 @@
   /* background: url("../IMAGES/Branchen/Rehatechnik/rollstuhl.jpg"); */
   background: linear-gradient(to left, rgba(255,255,255,0.2) 10%,
             rgba(255,255,255,0.9)), url("../IMAGES/Branchen/Rehatechnik/rollstuhl.jpg");
-  height: 100vh;
+  height: 60vh;
   background-position: 80% 42%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .bewerben__content {
-  padding: 6em 2em 6em 2em;
+  padding: 6em 2em 0em 2em;
+  align-self: baseline;
 }
 
 .bewerben__content h3 {
   padding: 0 0 1.5em 0;
+}
+
+.bewerben__content p {
+  color: rgb(58, 58, 58);
+  width: 85%;
 }
 
 .freuen {
@@ -353,11 +358,17 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
 @media (min-width: 600px) {
   .hero {
     height: 65vh;
-    background-position: 30% 35%;
+    background-position: 60% 35%;
   }
 
   .hero__title {
     padding: 40% 0.5em 0 0.5em;
+  }
+
+  /* BEWERBEN */
+
+  .bewerben__content {
+    padding: 8em 3.5% 0em 3.5%;
   }
 }
 
@@ -376,8 +387,8 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   /* INTRO */
 
   .karriere-intro {
-    padding: 8em 5% 0em 5%;
-    min-height: 100vh;
+    padding: 12em 3.5% 0em 3.5%;
+    min-height: 80vh;
   }
 
   /* LEISTUNGEN */
@@ -388,8 +399,13 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
 
   /* BEWERBEN */
 
+  .bewerben {
+    height: 80vh;
+  }
+
   .bewerben__content {
-    padding: 5em 5% 5em 5%;
+    padding: 0em 3.5% 0em 3.5%;
+    align-self: center;
   }
 
 }
@@ -411,7 +427,7 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   .karriere-intro__content {
     min-height: 60vh;
     width: 60%;
-    padding: 5em 0 5em 0%;
+    padding: 0em 0% 5em 0%;
     text-align: center;
     margin: 0 auto;
   }
@@ -459,10 +475,13 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
 
   /* BEWERBEN */
 
+  .bewerben {
+    height: 100vh;
+  }
+
   .bewerben__content {
-    padding: 10em 10% 0em 10%;
-    align-items: center;
-    /* text-align: center; */
+    padding: 0em 10% 0em 10%;
+    align-self: center;
   }
 
   /* STELLENANGEBOTE */
