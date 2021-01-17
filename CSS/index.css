@@ -276,7 +276,7 @@
 
 .montage {
   height: 150px;
-  background: url(../IMAGES/Leistungen/montage.jpg), rgba(0, 0, 0, 1);
+  background: url("../IMAGES/Leistungen/montage.jpg"), rgba(0, 0, 0, 1);
   background-position: 70% 80%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -299,7 +299,7 @@
 
 .qualitätssicherung {
   height: 150px;
-  background: url(../IMAGES/Leistungen/DSC01092.jpg), rgba(0, 0, 0, 1);
+  background: url("../IMAGES/Leistungen/DSC01092.jpg"), rgba(0, 0, 0, 1);
   background-position: 30% 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -327,7 +327,6 @@
     rgba(0, 102, 178, 0.99),
     rgba(0, 102, 178, 0.15)
   );
-  /* background: linear-gradient(rgba(0, 102, 178, 0.15), rgba(0, 102, 178, 0.99)); */
   border-top: 1px solid #efeded;
   border-bottom: 1px solid #efeded;
 }
@@ -342,7 +341,6 @@
 }
 
 .branchen__header h2 {
-  /* color: #ffffff; */
   color: #f0f0f0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
@@ -620,7 +618,7 @@
   }
 
   .hero__content:after {
-    content: url(../IMAGES/Index/Pfeil-Hero-hell.png);
+    content: url("../IMAGES/Index/Pfeil-Hero-hell.png");
     position: absolute;
     bottom: -1em;
     left: 43.25%;
