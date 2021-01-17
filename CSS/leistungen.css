@@ -63,7 +63,6 @@
 .zertifikat:hover {
   transform: scale(0.98);
   transition: scale 1.5s ease-in-out;
-  /* filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2)); */
 }
 
 
@@ -92,7 +91,7 @@
 
 .details-leistungen__entwicklung {
   background: linear-gradient(to left, rgba(255,255,255,0) 5%,
-  rgba(255,255,255,0.8)), url(../IMAGES/Leistungen/entwicklung.jpg);
+  rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/entwicklung.jpg");
   background-position: 60% 20%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +113,7 @@
 /* LAGERHALTUNG */
 
 .details-leistungen__lagerhaltung {
-  background: url(../IMAGES/Leistungen/lagerhaltung.jpg);
+  background: url("../IMAGES/Leistungen/lagerhaltung.jpg");
   background-position: 10% 62%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,7 +226,7 @@
   width: 100%;
   position: relative;
   z-index: 3;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
   padding: 2.5em 0 1.5em 6em;
   box-sizing: border-box;
   text-decoration: none;
@@ -275,7 +274,7 @@
 }
 
 .accordion ul li:nth-child(1) {
-  background: url(../IMAGES/Leistungen/drehen.png);
+  background: url("../IMAGES/Leistungen/drehen.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -283,7 +282,7 @@
 }
 
 .accordion ul li:nth-child(2) {
-  background: url(../IMAGES/Leistungen/fräsen.jpg);
+  background: url("../IMAGES/Leistungen/fräsen.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +290,7 @@
 }
 
 .accordion ul li:nth-child(3) {
-  background: url(../IMAGES/Leistungen/fräsen.jpg);
+  background: url("../IMAGES/Leistungen/fräsen.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -299,7 +298,7 @@
 }
 
 .accordion ul li:nth-child(4) {
-  background: url(../IMAGES/Leistungen/bohren.jpg);
+  background: url("../IMAGES/Leistungen/bohren.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,7 +306,7 @@
 }
 
 .accordion ul li:nth-child(5) {
-  background: url(../IMAGES/Leistungen/drahterodieren.jpg);
+  background: url("../IMAGES/Leistungen/drahterodieren.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,11 +336,11 @@
   width: 60%;
 }
 
-.accordion ul:hover li:hover a,
+/* .accordion ul:hover li:hover a,
 .accordion ul li:focus a,
 .accordion ul:focus-within li:focus a {
-  /* background: rgba(0, 0, 0, 0.1); */
-}
+  background: rgba(0, 0, 0, 0.1);
+} */
 
 .accordion ul:hover li:hover a *,
 .accordion ul li:focus a *,
@@ -467,7 +466,6 @@
   box-sizing: border-box
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   /* max-height: 600px; */
@@ -475,7 +473,6 @@
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
@@ -484,7 +481,6 @@
   width: 100%;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -501,19 +497,16 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -524,7 +517,6 @@
   text-align: left;
 }
 
-/* Number text (1/5 etc) */
 .numbertext {
   color: lightgray;
   font-size: 12px;
@@ -534,7 +526,6 @@
   left: 48%
 }
 
-/* The dots/bullets/indicators */
 /* .dot {
   cursor: pointer;
   height: 15px;
@@ -551,7 +542,6 @@
   /*background-color: #717171;*/
 /*}*/
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -584,7 +574,7 @@
 
 .details-leistungen__oberflächenveredelung {
   background: linear-gradient(to left, rgba(255,255,255,0) 10%,
-  rgba(255,255,255,0.8)), url(../IMAGES/Leistungen/oberflaechenveredelung.jpg);
+  rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
   background-position: 80% 5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -607,7 +597,7 @@
 
 .details-leistungen__montage {
   background: linear-gradient(to left, rgba(0,0,0,0) 10%,
-  rgba(0,0,0,0.4)), url(../IMAGES/Leistungen/montage.jpg);
+  rgba(0,0,0,0.4)), url("../IMAGES/Leistungen/montage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -632,7 +622,7 @@
 
 .details-leistungen__qualitätssicherung {
   background: linear-gradient(to left, rgba(151, 151, 151, 0.4) 25%,
-  rgba(151, 151, 151, 0.8)), url(../IMAGES/Leistungen/QS_weit.jpg);
+  rgba(151, 151, 151, 0.8)), url("../IMAGES/Leistungen/QS_weit.jpg");
   background-position: 80% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -903,7 +893,6 @@
   .qualitätssicherung__content p {
     color: #ffffff;
   }
-
 
 
   /* QUALITÄTSMANAGEMENT */
