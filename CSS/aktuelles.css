@@ -1,7 +1,7 @@
 /* HERO */
 
 .hero {
-  background: url(../IMAGES/Aktuelles/Aktuelles.jpg);
+  background: url(IMAGES/Aktuelles/Aktuelles.jpg);
   height: 45vh;
   background-position: 0 28.5%;
   background-repeat: no-repeat;
