@@ -2,7 +2,7 @@
 
 .hero {
   background: linear-gradient(to left, rgba(0,0,0,0) 60%,
-              rgba(0,0,0,1)), url("IMAGES/Heros/hero-präzision-long-streched-test-2.jpg");
+              rgba(0,0,0,1)), url("../IMAGES/Heros/hero-präzision-long-streched-test-2.jpg");
   height: 65vh;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@
 /* LUFT- UND RAUMFAHRT */
 
 .luft-und-raumfahrt {
-  background: url("IMAGES/Branchen/Luft-und-Raumfahrt/Raumfahrt.jpg");
+  background: url("../IMAGES/Branchen/Luft-und-Raumfahrt/Raumfahrt.jpg");
   height: 500px;
   background-position: 30% 100%;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@
 /* MEDIZINTECHNIK */
 
 .medizintechnik {
-  background: url("IMAGES/Branchen/Medizintechnik/AdobeStock_266136824.jpg");
+  background: url("../IMAGES/Branchen/Medizintechnik/AdobeStock_266136824.jpg");
   height: 500px;
   background-position: top;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@
 /* REHATECHNIK */
 
 .rehatechnik {
-  background: url("IMAGES/Branchen/Rehatechnik/Wheelchair-1.jpg");
+  background: url("../IMAGES/Branchen/Rehatechnik/Wheelchair-1.jpg");
   height: 500px;
   background-position: 40% 25%;
   background-repeat: no-repeat;
@@ -141,7 +141,7 @@
 /* SENSORTECHNIK */
 
 .sensortechnik {
-  background: url("IMAGES/Branchen/Sensortechnik/Sensortechnik.jpg");
+  background: url("../IMAGES/Branchen/Sensortechnik/Sensortechnik.jpg");
   height: 500px;
   background-position: 40% 25%;
   background-repeat: no-repeat;
@@ -166,7 +166,7 @@
 /* LEBENSMITTELTECHNIK */
 
 .lebensmitteltechnik {
-  background: url("IMAGES/Branchen/Lebensmitteltechnik/lebensmitteltechnik.jpg");
+  background: url("../IMAGES/Branchen/Lebensmitteltechnik/lebensmitteltechnik.jpg");
   height: 500px;
   background-position: 30% 70%;
   background-repeat: no-repeat;
@@ -191,7 +191,7 @@
 /* VERTEIDIGUNGS- UND WEHRTECHNIK */
 
 .verteidigungs-und-wehrtechnik {
-  background: url("IMAGES/Branchen/Verteidigings-und-Wehrtechnik/Bild\ ASSTA.jpg");
+  background: url("../IMAGES/Branchen/Verteidigings-und-Wehrtechnik/Bild\ ASSTA.jpg");
   height: 500px;
   background-position: 50% 30%;
   background-repeat: no-repeat;
@@ -216,7 +216,7 @@
 /* MOTORSPORT */
 
 .motorsport {
-  background: url("IMAGES/Branchen/Motorsport/Motorsport_Sponsoring_Cure_Mannheim.jpeg");
+  background: url("../IMAGES/Branchen/Motorsport/Motorsport_Sponsoring_Cure_Mannheim.jpeg");
   height: 500px;
   background-position: 60% 100%;
   background-repeat: no-repeat;

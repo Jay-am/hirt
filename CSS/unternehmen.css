@@ -1,7 +1,7 @@
 /* GENERAL */
 
 .hero {
-  background-image: url("IMAGES/Heros/hero-unternehmen-lang-done.jpg");
+  background-image: url("../IMAGES/Heros/hero-unternehmen-lang-done.jpg");
   /* background-color: hsla(0, 0%, 0%, .15);
   background-blend-mode: multiply; */
   height: 65vh;
