@@ -136,6 +136,67 @@
 
 /* FERTIGUNG */
 
+.slider {
+  display: flex;
+  /* scroll-snap-type: x mandatory;  
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll; */
+}
+
+section {
+  border-right: 0px solid white;
+  padding: 1rem;
+  min-width: 100vw;
+  height: 100vh;
+  /* scroll-snap-align: start;
+  position: relative; */
+}
+
+.details-leistungen__section--fertigung {
+  background: linear-gradient(to left, rgba(0,0,0,0.6) 5%,
+  rgba(0,0,0,0.9)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.fertigung__content h3,
+.fertigung__content p {
+  color: #ffffff;
+}
+
+.fertigung__headlines {
+  display: inline;
+  /* text-align: right; */
+  /* line-height: 2; */
+  white-space: pre;
+}
+
+.fertigung__headlines a {
+  text-decoration: none;
+  color: #0066b2;
+  /* text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255); */
+}
+
+.fertigung__headlines a:hover {
+  color: #014779;
+  /* text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255); */
+  text-shadow: none;
+}
+
+.fertigung__arrow:after {
+  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+.details-leistungen__section--details img {
+  display: block;
+  width: 50%;
+  height: auto;
+}
 
 
 /* OBERFLÄCHENVEREDELUNG */
@@ -405,7 +466,7 @@
 
   /* FERTIGUNG */
 
-  .fertigung {
+  /* .fertigung {
     padding: 4.5em 0 5em 0;
   }
 
@@ -419,7 +480,52 @@
 
   .accordion {
     padding: 0 0 10em 0;
-  }
+  } */
+
+    /* FERTIGUNG */
+
+    .fertigung {
+      display: flex;
+      align-self: center;
+      justify-content: space-between;
+    }
+  
+    .fertigung__content {
+      width: 70%;
+      padding: 0 6rem 0 0;
+    }
+  
+    .fertigung__content h3 {
+      padding-bottom: 0rem;
+    }
+  
+    .fertigung__content p {
+      padding-bottom: 1rem;
+    }
+  
+    /* DETAILS */
+  
+    .details-leistungen__section--details {
+      display: flex;
+      align-items: center;
+      padding: 0 10rem;
+    }
+  
+    .details-leistungen {
+      width: 60%;
+    }
+  
+    .details-leistungen h3 {
+      padding-bottom: 1rem;
+    }
+  
+    .text-1 {
+      padding-top: 1rem;
+    }
+  
+    .details-leistungen p {
+      padding-bottom: 1rem;
+    }
 
 
   /* OBERFLÄCHENVEREDELUNG */
