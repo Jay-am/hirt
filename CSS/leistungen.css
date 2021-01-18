@@ -18,6 +18,12 @@
   padding: 20% 0 0 5%;
 }
 
+.scroller {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
 
 /* INTRO */
 
@@ -138,9 +144,9 @@
 
 .slider {
   display: flex;
-  /* scroll-snap-type: x mandatory;  
+  scroll-snap-type: x mandatory;  
   -webkit-overflow-scrolling: touch;
-  overflow-x: scroll; */
+  overflow-x: scroll;
 }
 
 section {
@@ -148,8 +154,9 @@ section {
   padding: 1rem;
   min-width: 100vw;
   height: 100vh;
-  /* scroll-snap-align: start;
-  position: relative; */
+  scroll-snap-align: start;
+  position: relative;
+  overflow-y: hidden;
 }
 
 .details-leistungen__section--fertigung {
@@ -449,7 +456,7 @@ section {
   }
 
   .entwicklung__content {
-    padding-top: 18rem;
+    padding-top: 16rem;
   }
 
 
@@ -492,7 +499,7 @@ section {
   
     .fertigung__content {
       width: 70%;
-      padding: 0 6rem 0 0;
+      padding: 16rem 6rem 0 0;
     }
   
     .fertigung__content h3 {
@@ -535,7 +542,7 @@ section {
   }
 
   .oberflächenveredelung__content {
-    padding-top: 12rem;
+    padding-top: 10rem;
   }
 
 
