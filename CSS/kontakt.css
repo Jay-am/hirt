@@ -32,7 +32,7 @@
 
 .e-mail {
   text-decoration: none;
-  color: #94979b;
+  color: rgb(0, 0, 0);
 }
 
 .e-mail-info {
@@ -68,14 +68,14 @@
 }
 
 .name {
-  color: rgb(58, 58, 58);
+  color: rgb(0, 0, 0);
   font-size: clamp(0.9rem, 1.2vw, 1.1rem);
   font-weight: 500;
   padding: 1rem 0.75rem 0.25rem 0.75rem;
 }
 
 .title {
-  color: #94979b;
+  color: rgb(0, 0, 0);
   font-size: clamp(0.6rem, 1vw, 0.8rem);
   font-weight: 300;
   padding: 0rem 0.75rem 0.5rem 0.75rem;
@@ -87,7 +87,7 @@
 
 .number,
 .email {
-  color: #94979b;
+  color: rgb(0, 0, 0);
   font-size: clamp(0.7rem, 1.1vw, 0.9rem);
   font-weight: 300;
 }
