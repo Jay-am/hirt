@@ -30,10 +30,6 @@
   padding-top: 2rem;
 }
 
-.kontakt__info--erreichbarkeit {
-  padding-top: 2rem;
-}
-
 .e-mail {
   text-decoration: none;
   color: #94979b;
@@ -42,6 +38,12 @@
 .e-mail-info {
   padding-top: 2rem;
 }
+
+
+.kontakt__info--erreichbarkeit {
+  padding-top: 2rem;
+}
+
 
 /* CARDS */
 
