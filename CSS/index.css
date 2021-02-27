@@ -12,7 +12,17 @@
   background-position: 80% 42%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  /* position: relative; */
+}
+
+.hero__content {
+  position: absolute
+}
+
+.hero__logo {
+  width: 5rem;
+  display: block;
+  margin: 0;
 }
 
 .hero__title {
@@ -21,7 +31,7 @@
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 50% 5% 0 5%;
+  padding: 2rem 5% 0 5%;
 }
 
 /* INTRO */
@@ -217,8 +227,8 @@
   height: 650px;
   /* background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
   rgba(255,255,255,0.8)), url("IMAGES/Heros/hero-schrauben.jpeg"); */
-  background: linear-gradient(to left, rgba(0,0,0,0.3) 10%,
-  rgba(0,0,0,0.6)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+  background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
+  rgba(0,0,0,0.8)), url("../IMAGES/Heros/hero-schrauben.jpeg");
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -260,6 +270,7 @@
   position: absolute;
   top: 35px;
   left: 160px;
+  color: #000000;
 }
 
 .mehr {
@@ -525,8 +536,20 @@
     background-position: 80% 42%;
   }
 
+  .hero__content {
+    /* position: absolute */
+    padding: 20% 0 0 2.5%;
+  }
+  
+  .hero__logo {
+    width: 10rem;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
   .hero__title {
-    padding: 40% 0 0 5%;
+    padding: 2rem 0 0 2.5%;
   }
 
   /* INTRO */
@@ -605,23 +628,30 @@
     /* height: 65vh; */
     background-position: 70% 100%;
     /* background-position: 80% 42%; */
+    position: relative;
+    padding: 3em 0% 4em 0%;
+  }
+
+  .hero__content {
+    padding: 20% 0 0 2.5%;
+  }
+  
+  .hero__logo {
+    width: 10rem;
+    display: block;
+    margin: 0;
+    padding: 0;
   }
 
   .hero__title {
-    padding: 35% 0 0 2%;
-    /* padding: 10% 0 0 10%; */
-  }
-
-  .hero {
-    position: relative;
-    padding: 3em 0% 4em 0%;
+    padding: 4rem 0 0 0;
   }
 
   .hero__content:after {
     content: url("../IMAGES/Index/Pfeil-Hero-hell.png");
     position: absolute;
-    bottom: -1em;
-    left: 43.25%;
+    bottom: -15em;
+    left: 85%;
   }
 
   /* INTRO */
@@ -901,9 +931,10 @@
   }
 
   .lighter {
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #000000;
     text-align: start;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0);
+    /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0); */
     font-size: 0.8rem;
     font-weight: 300;
   }
