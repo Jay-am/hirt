@@ -1,6 +1,6 @@
 /* HERO */
 
-.map {
+.hero {
   background: url("../IMAGES/Heros/hero-kontakt.png");
   height: 65vh;
   background-position: 50% 0%;
@@ -20,10 +20,6 @@
 
 
 /* KONTAKT */
-
-.kontakt {
-  padding-top: 4rem;
-}
 
 .kontakt__info h3 {
   font-size: 1.25rem;
