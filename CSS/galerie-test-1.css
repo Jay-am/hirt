@@ -4,14 +4,14 @@
   text-rendering: optimizeLegibility;
 }
 
-.container {
+.container-g {
   width: 100vw;
   height: 100vh;
-  padding: 11rem 0rem;
-  margin: auto 0;
+  padding: 6rem 0 4rem 0;
+  /* margin: auto 0; */
 }
 
-.main .container .swiper-container .swiper-wrapper .swiper-slide .card-image {
+.main .container-g .swiper-container .swiper-wrapper .swiper-slide .card-image {
   background: #ffffff;
   border: none;
   outline: none;
@@ -19,32 +19,32 @@
   border-radius: 2px;
 
 }
-.main .container .swiper-container .swiper-wrapper .swiper-slide .card-image img {
+.main .container-g .swiper-container .swiper-wrapper .swiper-slide .card-image img {
   display: block;
   position: relative;
   left: 0;
   bottom: 0;
   width: 100vh;
-  height: auto;
+  height: 85vh;
   object-fit: cover;
 }
-.main .container .swiper-container .swiper-pagination-bullet {
+.main .container-g .swiper-container .swiper-pagination-bullet {
   opacity: 0.8;
   background: #252a32;
 }
-.main .container .swiper-container .swiper-pagination-bullet-active {
+.main .container-g .swiper-container .swiper-pagination-bullet-active {
   background: #ffffff;
 }
-.main .container .swiper-container .swiper-button-next,
-.main .container .swiper-container .swiper-button-prev {
+.main .container-g .swiper-container .swiper-button-next,
+.main .container-g .swiper-container .swiper-button-prev {
   background-image: none;
-  background-size: 0;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 0;
-  margin-top: -1rem;
+  /* margin-top: -1rem; */
 }
-.main .container .swiper-container .swiper-button-next .arrow-icon,
-.main .container .swiper-container .swiper-button-prev .arrow-icon {
+.main .container-g .swiper-container .swiper-button-next .arrow-icon,
+.main .container-g .swiper-container .swiper-button-prev .arrow-icon {
   font-size: 2rem;
   color: #ffffff;
 }

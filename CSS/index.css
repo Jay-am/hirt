@@ -751,6 +751,9 @@
     font-weight: 300;
     text-transform: uppercase;
     transform: rotate(-90deg);
+    /* writing-mode: vertical-lr;
+  -webkit-text-orientation: upright;
+  text-orientation: upright */
   }
 
   .leistungen__text--card {
@@ -818,6 +821,8 @@
     position: absolute;
     top: 230px;
     left: -30px;
+    /* top: 30px;
+    left: 30px; */
   }
 
   /* Lagerhaltung */
