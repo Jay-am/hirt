@@ -1,0 +1,125 @@
+HTML CSSResult Skip Results Iframe
+/* On the quest for responsiveness, I can use nth child to push cells along*/
+
+#one{
+background-color: #d2b4de;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.2), rgba(255,255,255,.2) 5%, transparent 6%, transparent 50%),
+repeating-linear-gradient(60deg, rgba(255,255,255,.2), rgba(255,255,255,.2) 5%, transparent 6%, transparent 50%),
+repeating-linear-gradient(0deg, rgba(255,255,255,.2), rgba(255,255,255,.2) 5%, transparent 6%, transparent 50%);
+background-size: 93px 160px;
+}
+
+#two{
+background:
+  radial-gradient(#d2b4de 25px, transparent 10px),
+  /*inner triangles*/
+  linear-gradient(45deg, #7fb3d5 21px, transparent 22px) 16px 110px, linear-gradient(135deg, #7fb3d5 21px, transparent 22px) 17px 17px,
+  linear-gradient(225deg, #7fb3d5 21px, transparent 22px) 110px 17px, linear-gradient(-45deg, #7fb3d5 21px, transparent 22px) 110px 110px,
+  /*outer triangles*/
+  linear-gradient(45deg, #d2b4de 45px, transparent 46px), linear-gradient(135deg, #d2b4de 45px, transparent 46px),
+  linear-gradient(225deg, #d2b4de 45px, transparent 46px), linear-gradient(-45deg, #d2b4de 45px, transparent 46px);
+background-color:#7fb3d5;
+background-size: 128px 128px;
+}
+
+#three{
+background:
+  linear-gradient(0deg, #a2d9ce 1px, transparent 3px, transparent 125px, #a2d9ce 127px),
+  linear-gradient(90deg, #a2d9ce 1px, transparent 3px, transparent 125px, #a2d9ce 127px),
+  /*outer triangles*/
+  linear-gradient(45deg, #a2d9ce 30px, transparent 31px) 0px 128px, linear-gradient(135deg, #a2d9ce 30px, transparent 31px) 0px 128px,
+  linear-gradient(225deg, #a2d9ce 30px, transparent 31px) 0px 0px, linear-gradient(-45deg, #a2d9ce 30px, transparent 31px) 0px 0px,
+  /*inner triangles*/
+  linear-gradient(45deg, #a2d9ce 30px, transparent 31px) 64px 64px, linear-gradient(135deg, #a2d9ce 30px, transparent 31px) 64px 64px,
+  linear-gradient(225deg, #a2d9ce 30px, transparent 31px) 64px 64px, linear-gradient(-45deg, #a2d9ce 30px, transparent 31px) 64px 64px;
+background-color: #d6eaf8 ;
+background-size: 128px 128px;
+}
+
+
+/********** honeycomb grid **********/
+body{
+  background:  #ebdef0;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 140px);
+  grid-column-gap: 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.item{
+  grid-column: span 2;
+  width: 280px;
+  padding: 0 0 323px 0;
+  -o-transform: rotate(-60deg) skewY(30deg);
+  -moz-transform: rotate(-60deg) skewY(30deg);
+  -webkit-transform: rotate(-60deg) skewY(30deg);
+  -ms-transform: rotate(-60deg) skewY(30deg);
+  transform: rotate(-60deg) skewY(30deg);
+  background: #fd005f;
+  overflow: hidden;
+  visibility: hidden;
+  margin-top: -70px;
+}
+
+.item:nth-child(7n+1){ grid-column-start: 1;}
+.item:nth-child(7n+2){ grid-column-start: 3;}
+.item:nth-child(7n+3){ grid-column-start: 5;}
+.item:nth-child(7n+4){ grid-column-start: 7;}
+.item:nth-child(7n+5){ grid-column-start: 2;}
+.item:nth-child(7n+6){ grid-column-start: 4;}
+.item:nth-child(7n){ grid-column-start: 6;}
+
+.hexagon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  #eaf2f8;
+    -o-transform: skewY(-30deg) rotate(60deg);
+    -moz-transform: skewY(-30deg) rotate(60deg);
+    -webkit-transform: skewY(-30deg) rotate(60deg);
+    -ms-transform: skewY(-30deg) rotate(60deg);
+    transform: skewY(-30deg) rotate(60deg);
+    overflow: hidden;
+}
+    
+.item *{
+    visibility: visible
+}
+
+/**** Responsive wizardry ****/
+
+@media(max-width: 1200px){
+  .wrapper{
+    grid-template-columns: repeat(6, 140px);
+  }
+.item:nth-child(5n+1){ grid-column-start: 1;}
+.item:nth-child(5n+2){ grid-column-start: 3;}
+.item:nth-child(5n+3){ grid-column-start: 5;}
+.item:nth-child(5n+4){ grid-column-start: 2;}
+.item:nth-child(5n){ grid-column-start: 4;}
+
+}
+
+@media(max-width: 900px){
+  .wrapper{
+  grid-template-columns: repeat(5, 140px);
+  }
+.item:nth-child(4n+1){ grid-column-start: 1;}
+.item:nth-child(4n+2){ grid-column-start: 3;}
+.item:nth-child(4n+3){ grid-column-start: 2;}
+.item:nth-child(4n){ grid-column-start: 4;}
+}
+
+@media(max-width: 720px){
+  .wrapper{
+  grid-template-columns: repeat(3, 140px);
+  }
+  .item:nth-child(2n+1){ grid-column-start: 1;}
+  .item:nth-child(2n){ grid-column-start: 2;}
+}
