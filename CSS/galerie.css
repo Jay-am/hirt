@@ -123,6 +123,7 @@ body {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  background-color: aqua;
 }
 .slideshow .slide-content {
   display: none;
