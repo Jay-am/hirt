@@ -1,0 +1,661 @@
+/* HERO */
+
+.hero {
+  background: linear-gradient(to left, rgba(0,0,0,0.3) 10%,
+  rgba(0,0,0,0.6)), url("../IMAGES/Heros/hero_leistungen_lightroom.jpg");
+  height: 65vh;
+  background-position: 90% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: clamp(2vw, 120%, 4.5rem);
+  font-weight: lighter;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
+  padding: 20% 0 0 5%;
+}
+
+.full-scroll {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.full-section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  scroll-snap-align: start;
+}
+
+
+/* INTRO */
+
+.details-leistungen {
+  padding: 1em 0 0em 0;
+  margin: 0;
+}
+
+.details-leistungen h2 {
+  padding: 0 0 1em 0;
+  word-wrap: break-word;
+}
+
+.details-leistungen h3 {
+  padding: 0 0 1em 0;
+}
+
+.details-leistungen__text {
+  padding: 0em 0 1em 0;
+}
+
+.details-leistungen__intro--text {
+  width: 100%;
+  padding: 4em 0 5em 0;
+  margin: 0 auto;
+}
+
+.details-leistungen__intro--text h2 {
+  padding-bottom: 1rem;
+}
+
+.details-leistungen__intro--text p {
+  width: 100%;
+}
+
+.zertifikat {
+  display: inline-block;
+  padding: 3em 0 0 0;
+  margin: 0 auto;
+}
+
+.zertifikat:hover {
+  transform: scale(0.98);
+  transition: scale 1.5s ease-in-out;
+}
+
+
+/* LEISTUNGEN */
+
+.details-leistungen__section {
+  min-height: 50vh;
+  padding: 0 5%;
+}
+
+.details-leistungen__section--content {
+  width: 100%;
+}
+
+.details-leistungen__section--content h3 {
+  padding: 0 0 1em 0;
+}
+
+.details-leistungen__section--content p {
+  color: rgb(58, 58, 58);
+  font-weight: 500;
+}
+
+
+/* ENTWICKLUNG */
+
+.details-leistungen__entwicklung {
+  background: linear-gradient(to left, rgba(255,255,255,0) 5%,
+  rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/entwicklung.jpg");
+  background-position: 60% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.entwicklung__content {
+  padding: 4rem 0;
+}
+
+.entwicklung__content h3 {
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.entwicklung__content p {
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+
+/* LAGERHALTUNG */
+
+.details-leistungen__lagerhaltung {
+  background: linear-gradient(to right, rgba(0,0,0,0.7) 15%,
+  rgba(0,0,0,0)), url("../IMAGES/Leistungen/Patanosta.JPG");
+  background-position: 10% 62%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lagerhaltung__content {
+  padding: 4rem 0;
+}
+
+.lagerhaltung__content h3 {
+  color: rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 3px rgb(255, 255, 255); */
+}
+
+.lagerhaltung__content p {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-shadow: 0.25px 0.25px 75px rgb(20, 20, 20), 0.35px 0.35px 1px rgb(20, 20, 20);
+}
+
+
+/* FERTIGUNG */
+
+.slider {
+  display: flex;
+  scroll-snap-type: x mandatory;  
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+}
+
+section {
+  border-right: 0px solid white;
+  padding: 1rem;
+  min-width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.details-leistungen__section--fertigung {
+  background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
+  rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.fertigung__content h3,
+.fertigung__content p {
+  color: #ffffff;
+}
+
+.fertigung__headlines {
+  display: inline;
+  /* text-align: right; */
+  /* line-height: 2; */
+  white-space: pre;
+}
+
+.fertigung__headlines a {
+  text-decoration: none;
+  color: #0066b2;
+  text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+}
+
+.fertigung__headlines a:hover {
+  color: #014779;
+  text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+  text-shadow: none;
+}
+
+.fertigung__arrow:after {
+  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+.details-leistungen__section--details img {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.drehen:after {
+  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+.fräsen:after {
+  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+.schleifen:after {
+  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+.drahterodieren:after {
+  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+
+/* OBERFLÄCHENVEREDELUNG */
+
+.details-leistungen__oberflächenveredelung {
+  background: linear-gradient(to left, rgba(255,255,255,0) 10%,
+  rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
+  background-position: 80% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.oberflächenveredelung__content {
+  padding: 4rem 0;
+}
+
+.oberflächenveredelung__content h3 {
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.oberflächenveredelung__content p {
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+
+/* MONTAGE */
+
+.details-leistungen__montage {
+  background: linear-gradient(to left, rgba(0,0,0,0) 10%,
+  rgba(0,0,0,0.4)), url("../IMAGES/Leistungen/montage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.montage__content {
+  padding: 4rem 0;
+}
+
+.montage__content h3 {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+}
+
+.montage__content p {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+}
+
+
+/* QUALITÄTSSICHERUNG */
+
+.details-leistungen__qualitätssicherung {
+  /* background: linear-gradient(to left, rgba(151, 151, 151, 0.4) 25%,
+  rgba(151, 151, 151, 0.8)), url("../IMAGES/Index/Realisation.jpeg"); */
+  /* background-image: url("../IMAGES/Index/Realisation.jpeg");
+  background-position: 80% 100%;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
+  rgba(0,0,0,0.9)), url("../IMAGES/Index/Realisation.jpeg");
+  background-position: 80% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.qualitätssicherung__content {
+  padding: 4rem 0;
+}
+
+.qualitätssicherung__content h3 {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+}
+
+.qualitätssicherung__content p {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+}
+
+
+/* QUALITÄTSMANAGEMENT */
+
+.details-leistungen__qualitätsmanagement {
+  /* background: linear-gradient(to left, rgba(255, 255, 255,0.8) 5%,
+  rgba(0, 102, 178,1)), url("IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer-longer-test.jpg"); */
+  /* background: linear-gradient(to left, rgba(255, 255, 255,0.8) 0%,
+   rgba(0,0,0,0.7)), url("../IMAGES/Branchen/Qualitätsmanagement/DSC01119.JPG"); */
+  background: url("../IMAGES/Leistungen/QM-straight-wide.png");
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.qualitätsmanagement__content {
+  padding: 4rem 0;
+}
+
+.qualitätsmanagement__content h3 {
+  color: rgb(58, 58, 58);
+  font-weight: 500;
+  /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
+}
+
+.qualitätsmanagement__content p {
+  color: rgb(58, 58, 58);
+  font-weight: 500;
+  /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
+}
+
+
+/* KONTAKT */
+
+.kontakt__content {
+  text-align: left;
+  padding: 4em 0 4em 0;
+}
+
+.kontakt__content h3 {
+  padding: 2em 0 1em 0;
+}
+
+.kontakt__content p {
+  padding: 0 0 2em 0;
+}
+
+.kontakt__content a {
+  text-decoration: none;
+  margin: 0 0 4em 0;
+}
+
+
+/* MEDIAQUERIES */
+
+@media (min-width: 600px) {
+
+  .hero {
+    height: 65vh;
+    background-position: 80% 5%;
+  }
+
+  .hero__title {
+    padding: 20% 0 0 5%;
+  }
+
+  .details-leistungen {
+    padding: 2.5em 0 1.5em 0;
+  }
+
+  /* LEISTUNGEN */
+
+  .details-leistungen__section--content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .hero {
+    height: 65vh;
+    background-position: 60% 5%;
+  }
+
+  .hero__title {
+    padding: 35% 5% 0 5%;
+  }
+
+  .details-leistungen {
+    padding: 4em 0 3em 0;
+  }
+
+  .details-leistungen__intro--text {
+    width: 70%;
+    text-align: center;
+    padding: 2em 0 3em 0;
+    margin: 0 auto;
+  }
+
+  /* LEISTUNGEN */
+
+  .details-leistungen__section--content {
+    width: 80%;
+    padding: 0 1em 0 1em;
+  }
+
+  /* KONTAKT */
+
+  .kontakt__content {
+    text-align: center;
+    padding: 5em 0 5em 0;
+  }
+    
+  .kontakt__content h3 {
+    padding: 2em 0 1em 0;
+  }
+    
+  .kontakt__content p {
+    width: 80%;
+    margin: 0 auto;
+  }
+    
+  .kontakt__content a {
+    margin: 0 0 4em 0;
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .hero {
+    background: url("../IMAGES/Heros/hero_leistungen_lightroom.jpg");
+    height: 70vh;
+    background-position: 68% 70%;
+  }
+
+  .hero__title {
+    width: 55%;
+    padding: 20.5% 5% 0 2%;
+  }
+
+  /* INTRO */
+
+  .details-leistungen__intro {
+    padding: 8em 0 8em 0;
+  }
+
+  .detailsleistungen__intro--text {
+    padding: 4em 0 5em 0;
+    margin: 0 auto;
+  }
+
+  .detailsleistungen__intro--text h2 {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .details-leistungen__text {
+    width: 100%;
+  }
+
+
+  /* LEISTUNGEN */
+
+  .details-leistungen__section {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .details-leistungen__section--content {
+    width: 65%;
+    padding: 0 5rem;
+  }
+
+
+  /* ENTWICKLUNG */
+
+  .details-leistungen__entwicklung {
+    background-position: 40% 20%;
+  }
+
+  .entwicklung__content {
+    padding-top: 16rem;
+  }
+
+
+  /* LAGERHALTUNG */
+
+  .details-leistungen__lagerhaltung {
+    background-position: 10% 60%;
+  }
+
+  .lagerhaltung__content {
+    padding-top: 16rem;
+  }
+
+
+  /* FERTIGUNG */
+
+  /* .fertigung {
+    padding: 4.5em 0 5em 0;
+  }
+
+  .details-leistungen__fertigung {
+    padding: 4.5em 0 3em 0;
+  }
+
+  .section-accordion {
+    padding: 3em 0 10em 0;
+  }
+
+  .accordion {
+    padding: 0 0 10em 0;
+  } */
+
+    /* FERTIGUNG */
+
+    .fertigung {
+      display: flex;
+      /* align-self: center; */
+      /* justify-content: space-between; */
+    }
+
+    .fertigung__content {
+      width: 70%;
+      padding: 16rem 5rem 0 9rem;
+    }
+  
+    .fertigung__content h3 {
+      padding-bottom: 0rem;
+    }
+  
+    .fertigung__content p {
+      padding-bottom: 1rem;
+    }
+  
+    /* DETAILS */
+  
+    .details-leistungen__section--details {
+      display: flex;
+      align-items: center;
+      padding: 0 10rem;
+    }
+  
+    .details-leistungen {
+      width: 60%;
+    }
+  
+    .details-leistungen h3 {
+      padding-bottom: 1rem;
+    }
+  
+    .text-1 {
+      padding-top: 1rem;
+    }
+  
+    .details-leistungen p {
+      padding-bottom: 1rem;
+    }
+
+
+  /* OBERFLÄCHENVEREDELUNG */
+
+  .details-leistungen__oberflächenveredelung {
+    background-position: 0% 0%;
+  }
+
+  .oberflächenveredelung__content {
+    padding-top: 10rem;
+  }
+
+
+  /* MONATGE */
+
+  .details-leistungen__montage {
+    background-position: 0% 50%;
+  }
+
+  .montage__content {
+    padding-top: 14rem;
+  }
+
+  .montage__content p {
+    color: #ffffff;
+  }
+
+
+  /* QUALITÄTSSICHERUNG */
+
+  .details-leistungen__qualitätssicherung {
+    background-position: 0% 80%;
+  }
+
+  .qualitätssicherung__content {
+    padding-top: 16rem;
+  }
+
+  .qualitätssicherung__content p {
+    color: #ffffff;
+  }
+
+
+  /* QUALITÄTSMANAGEMENT */
+
+  .details-leistungen__qualitätsmanagement {
+    background-position: 70% 50%;
+  }
+
+  .qualitätsmanagement__content {
+    padding-top: 5rem;
+  }
+
+  /* .qualitätsmanagement__content p {
+    width: 80%;
+  } */
+
+
+  /* KONTAKT */
+
+  .kontakt__content {
+    text-align: center;
+    padding: 10em 0 8em 0;
+  }
+  
+  .kontakt__content h3 {
+    padding: 2em 0 1em 0;
+  }
+  
+  .kontakt__content p {
+    padding: 0 0 2em 0;
+  }
+  
+  .kontakt__content a {
+    margin: 0 0 4em 0;
+  }
+}
