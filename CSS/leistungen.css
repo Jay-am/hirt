@@ -118,7 +118,8 @@
 /* LAGERHALTUNG */
 
 .details-leistungen__lagerhaltung {
-  background: url("../IMAGES/Leistungen/lagerhaltung.jpg");
+  background: linear-gradient(to right, rgba(0,0,0,0.7) 15%,
+  rgba(0,0,0,0)), url("../IMAGES/Leistungen/Patanosta.JPG");
   background-position: 10% 62%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,13 +130,14 @@
 }
 
 .lagerhaltung__content h3 {
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 3px rgb(255, 255, 255); */
 }
 
 .lagerhaltung__content p {
-  color: rgb(58, 58, 58);
+  color: rgb(255, 255, 255);
   font-weight: 500;
-  text-shadow: 0.25px 0.25px 75px rgb(255, 255, 255), 0.35px 0.35px 1px rgb(255, 255, 255);
+  text-shadow: 0.25px 0.25px 75px rgb(20, 20, 20), 0.35px 0.35px 1px rgb(20, 20, 20);
 }
 
 
