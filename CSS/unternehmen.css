@@ -5,7 +5,7 @@
   /* background-color: hsla(0, 0%, 0%, .15);
   background-blend-mode: multiply; */
   height: 65vh;
-  background-position: 90% 100%;
+  background-position: 60% 20%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -75,7 +75,7 @@ display: inline-block;
   .hero {
     height: 65vh;
     /* height: 100vh; */
-    background-position: 0 0;
+    background-position: 60% 20%;
   }
 
   .hero__title {
@@ -94,7 +94,7 @@ display: inline-block;
   .hero {
      height: 65vh;
     /* height: 100vh; */
-    background-position: 0 0;
+    background-position: 60% 20%;
   }
 
   .hero__title {

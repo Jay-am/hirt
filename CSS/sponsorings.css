@@ -5,7 +5,7 @@
   background: linear-gradient(to left, rgba(0,0,0,0) 10%,
   rgba(0,0,0,0.4)), url("../IMAGES/Sponsorings/hero-cure-mannheim-sponsoring-long.jpg");
   height: 65vh;
-  background-position: 100% 70%;
+  background-position: 70% 70%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,7 +16,7 @@
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 65% 0 0 0.5em;
+  padding: 85% 0 0 0.5em;
 }
 
 .sponsoring-info {
@@ -69,6 +69,10 @@
 
 .image {
   width: 100%;
+}
+
+.sponsoring-martin-werz-image {
+  padding-top: 2rem;
 }
 
 /* CURE */
@@ -132,11 +136,15 @@
 @media (min-width: 600px) {
   .hero {
     height: 65vh;
-    background-position: 0 0;
+    background-position: 80% 70%;
   }
 
   .hero__title {
-    padding: 40% 3% 0 3%;
+    padding: 55% 3% 0 3%;
+  }
+
+  .sponsoring-martin-werz-image {
+    padding-top: 4rem;
   }
 }
 
@@ -144,11 +152,11 @@
 
   .hero {
     height: 65vh;
-    background-position: 0 0;
+    background-position: 70% 70%;
   }
 
   .hero__title {
-    padding: 28% 3% 0 3%;
+    padding: 35% 3% 0 3%;
   }
 
   .sponsorings {
@@ -184,6 +192,10 @@
   .sponsoring-cure-mannheim {
     margin: 0 1rem 0 2rem;
   }
+
+  .sponsoring-martin-werz-image {
+    padding-top: 0rem;
+  }
   
   .sponsoring-martin-werz {
     margin: 0 2rem 0 1rem;
@@ -193,7 +205,7 @@
 @media (min-width: 1200px) {
   .hero {
     height: 70vh;
-    background-position: 45 0%;
+    background-position: 45 90%;
   }
 
   .hero__title {

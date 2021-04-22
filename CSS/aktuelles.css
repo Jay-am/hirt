@@ -2,7 +2,7 @@
 
 .hero {
   background: url("../IMAGES/Aktuelles/Aktuelles.jpg");
-  height: 65vh;
+  height: 60vh;
   background-position: 0 28.5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +73,7 @@
 @media (min-width: 900px) {
 
   .hero {
-    height: 70vh;
+    height: 65vh;
     background-position: 0 28.5%;
   }
 
