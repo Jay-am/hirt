@@ -26,7 +26,7 @@
 }
 
 .kontakt__info h3 {
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   min-width: 23ch;
 }
 
@@ -123,6 +123,10 @@
   grid-column: 1 / -1;
 }
 
+.ansprechpartner-intro {
+  padding-top: 2rem;
+}
+
 .ansprechpartner-intro h3 {
   padding-bottom: 2rem;
 }
@@ -167,8 +171,8 @@
     align-self: start;
   }
 
-  .ansprechpartner-intro h3 {
-    padding-top: 2rem;
+  .ansprechpartner-intro {
+    padding-top: 4rem;
   }
 
   .card-1 {
@@ -205,6 +209,8 @@
   }
 
   .kontakt__info h3 {
+    font-size: 1.25rem;
+    min-width: 23ch;
     padding-top: 2rem;
   }
 
@@ -212,10 +218,15 @@
     grid-column: 2 / 5;
     grid-row: 1 / 2;
     align-self: start;
+    padding-top: 0rem;
   }
 
   .ansprechpartner-intro h3 {
     padding-top: 2rem;
+  }
+
+  .ansprechpartner__card .email {
+    min-width: 38ch;
   }
 
   .card-1 {
