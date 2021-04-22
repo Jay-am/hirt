@@ -2,7 +2,7 @@
 
 .hero {
   background: url("../IMAGES/Aktuelles/Aktuelles.jpg");
-  height: 45vh;
+  height: 65vh;
   background-position: 0 28.5%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,6 +72,11 @@
 
 @media (min-width: 900px) {
 
+  .hero {
+    height: 70vh;
+    background-position: 0 28.5%;
+  }
+
   .aktuelles__header {
     padding: 4rem 0 1.5rem 0;
   }
@@ -96,6 +101,11 @@
 }
 
 @media (min-width: 1200px) {
+
+  .hero {
+    height: 70vh;
+    background-position: 0 15%;
+  }
 
   .aktuelles__header {
     padding: 6rem 0 3rem 0;
