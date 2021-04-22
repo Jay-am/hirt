@@ -22,7 +22,7 @@
 /* INTRO */
 
 .intro-branchen {
-  text-align: center;
+  text-align: left;
 }
 
 .intro-branchen__content {
@@ -341,7 +341,7 @@
   }
 
   .hero__title {
-    padding: 25% 0 0 2%;
+    padding: 45% 0 0 2%;
   }
 
   /* INTRO */
