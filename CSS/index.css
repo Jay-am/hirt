@@ -93,7 +93,7 @@
 
 .realistaion {
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
-  background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
+  background: linear-gradient(to left, rgba(0,0,0,0.3) 10%,
   rgba(0,0,0,0.9)), url("../IMAGES/Index/Realisation.jpeg");
   background-position: 95% 100%;
   background-repeat: no-repeat;
@@ -120,7 +120,7 @@
 }
 
 .realisation__text {
-  padding: 3.5em 5% 1em 5%;
+  padding: 3.5em 0 1em 0;
 }
 
 .realisation__text p {
@@ -143,25 +143,27 @@
 
 .leistungen__content h2 {
   padding: 0 1.5rem 0 1.5rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 600;
 }
 
 .leistungen__text--cards {
   height: 450px;
-  margin: 4em 5% 100em 5%;
+  margin: 4em 5% 108em 5%;
 }
 
 .card-header {
   text-decoration: none;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 300;
   text-transform: uppercase;
 }
 
 .leistungen__text--card {
   text-align: center;
-  padding: 1em 0.5em 1em 0.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   filter: drop-shadow(-1px 1px 3px rgba(0, 0, 0, 0.3))
     drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
 }
@@ -213,8 +215,8 @@
 
 .leistungen__card-header--entwicklung {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 30%;
+  left: 15%;
 }
 
 
@@ -223,7 +225,7 @@
 .lagerhaltung {
   height: 150px;
   background: url("../IMAGES/Leistungen/lagerhaltung.jpg"), rgba(0, 0, 0, 1);
-  background-position: 90% 0%;
+  background-position: 90% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 25%, 100% 0, 100% 78%, 50% 100%, 0 78%, 0 0);
@@ -236,8 +238,8 @@
 
 .leistungen__card-header--lagerhaltung {
   position: absolute;
-  top: -100px;
-  left: 0px;
+  top: -60px;
+  left: 5%;
 }
 
 
@@ -257,21 +259,22 @@
 
 .leistungen__card-header--fertigung {
   position: absolute;
-  top: 180px;
-  left: 22px;
+  top: 75px;
+  left: 12%;
 }
 
 .leistungen__card-content--fertigung {
   position: absolute;
-  top: 15px;
-  left: 160px;
+  top: 130px;
+  left: 12%;
+  text-align: left;
 }
 
 
 /* Oberflächenveredelung */
 
 .oberflächenveredelung {
-  height: 650px;
+  height: 700px;
   background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
   rgba(255,255,255,0.6)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
   background-position: 50% 0%;
@@ -282,24 +285,29 @@
 
 .leistungen__card-header--oberflächenveredelung {
   position: absolute;
-  top: 185px;
-  left: -65px;
+  top: 65px;
+  left: 10%;
 }
 
 .leistungen__card-content--oberflächenveredelung {
   position: absolute;
-  top: 35px;
-  left: 160px;
+  top: 120px;
+  left: 10%;
   color: #000000;
+  text-align: left;
 }
 
 .mehr {
   color: #0066b2;
   text-decoration: none;
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0); */
-  font-size: 0.8rem;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 300;
   text-align: left;
+}
+
+.plus {
+  display: none;
 }
 
 
@@ -321,8 +329,8 @@
 
 .leistungen__card-header--montage {
   position: absolute;
-  top: -100px;
-  left: 0px;
+  top: -60px;
+  left: 5%;
 }
 
 
@@ -331,7 +339,7 @@
 .qualitätssicherung {
   height: 150px;
   background: url("../IMAGES/Leistungen/qualitaetsmanagement.jpg"), rgba(0, 0, 0, 1);
-  background-position: 30% 0%;
+  background-position: 30% 80%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 22%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
@@ -340,13 +348,13 @@
 
 .qualitätssicherung a {
   padding: 55% 0% 0 14%;
-  text-align: center;
+  text-align: left;
 }
 
 .leistungen__card-header--qualitätssicherung {
   position: absolute;
-  top: -120px;
-  left: 0px;
+  top: -80px;
+  left: 1%;
 }
 
 
