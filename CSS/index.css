@@ -95,7 +95,7 @@
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
   background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
   rgba(0,0,0,0.9)), url("../IMAGES/Index/Realisation.jpeg");
-  background-position: 80% 100%;
+  background-position: 95% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
