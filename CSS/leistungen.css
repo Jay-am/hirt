@@ -107,7 +107,7 @@
 .details-leistungen__entwicklung {
   background: linear-gradient(to left, rgba(255,255,255,0) 5%,
   rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/entwicklung.jpg");
-  background-position: 60% 20%;
+  background-position: 80% 20%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -130,7 +130,7 @@
 .details-leistungen__lagerhaltung {
   background: linear-gradient(to right, rgba(0,0,0,0.7) 15%,
   rgba(0,0,0,0)), url("../IMAGES/Leistungen/Patanosta.JPG");
-  background-position: 10% 62%;
+  background-position: 60% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
