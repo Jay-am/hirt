@@ -9,7 +9,7 @@
 .hero {
   background: url("../IMAGES/Heros/hero-landingpage-long-dark-2.jpg");
   height: 65vh;
-  background-position: 80% 42%;
+  background-position: 70% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   /* position: relative; */
@@ -20,8 +20,9 @@
 }
 
 .hero__logo {
-  width: 5rem;
+  width: 15rem;
   display: block;
+  padding: 4rem 5% 0 5%;
   margin: 0;
 }
 
@@ -31,8 +32,9 @@
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 2rem 5% 0 5%;
+  padding: 8rem 5% 0 5%;
 }
+
 
 /* INTRO */
 
