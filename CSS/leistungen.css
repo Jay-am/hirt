@@ -89,8 +89,8 @@
 /* ENTWICKLUNG */
 
 .details-leistungen__entwicklung {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(to left, rgba(255,255,255,0) 5%,
   rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/entwicklung.jpg");
   background-position: 80% 20%;
@@ -114,8 +114,8 @@
 /* LAGERHALTUNG */
 
 .details-leistungen__lagerhaltung {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(to right, rgba(0,0,0,0.7) 15%,
   rgba(0,0,0,0)), url("../IMAGES/Leistungen/Patanosta.JPG");
   background-position: 60% 100%;
@@ -201,16 +201,15 @@ section {
 }
 
 .fertigung__arrow:after {
-  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  content: url("../IMAGES/Index/Pfeil-Fertigung-hell_small.png");
   position: absolute;
-  top: 70%;
-  left: 60%;
+  top: 75%;
+  left: 80%;
 }
 
 .details-leistungen__section--details img {
   display: block;
   width: 90%;
-  margin-left: auto;
 }
 
 .drehen h3 {
@@ -224,33 +223,37 @@ section {
 .drehen::before {
   content: url("../IMAGES/Index/arrow_left_small.jpg");
   position: absolute;
-  top: 70%;
-  left: 2%;
+  top: 80%;
+  left: 5%;
 }
 
 .drehen::after {
   content: url("../IMAGES/Index/arrow_right_small.jpg");
   position: absolute;
-  top: 2.5%;
-  right: 2%;
+  top: 80%;
+  right: 5%;
 }
 
 .fräsen h3 {
   padding: 2rem 0 2rem 0;
 }
 
+.text-2 {
+  padding: 0 0 6rem 0;
+}
+
 .fräsen:before {
   content: url("../IMAGES/Index/arrow_left_small.jpg");
   position: absolute;
-  top: 70%;
-  left: 2%;
+  top: 80%;
+  left: 5%;
 }
 
 .fräsen:after {
   content: url("../IMAGES/Index/arrow_right_small.jpg");
   position: absolute;
-  top: 2.5%;
-  right: 2%;
+  top: 80%;
+  right: 5%;
 }
 
 .schleifen h3 {
@@ -260,15 +263,15 @@ section {
 .schleifen:before {
   content: url("../IMAGES/Index/arrow_left_small.jpg");
   position: absolute;
-  top: 70%;
-  left: 2%;
+  top: 80%;
+  left: 5%;
 }
 
 .schleifen:after {
   content: url("../IMAGES/Index/arrow_right_small.jpg");
   position: absolute;
-  top: 2.5%;
-  right: 2%;
+  top: 80%;
+  right: 5%;
 }
 
 .drahterodieren h3 {
@@ -278,16 +281,16 @@ section {
 .drahterodieren:before {
   content: url("../IMAGES/Index/arrow_left_small.jpg");
   position: absolute;
-  top: 70%;
-  left: 2%;
+  top: 80%;
+  left: 5%;
 }
 
 
 /* OBERFLÄCHENVEREDELUNG */
 
 .details-leistungen__oberflächenveredelung {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(to left, rgba(255,255,255,0) 10%,
   rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
   background-position: 80% 5%;
@@ -311,8 +314,8 @@ section {
 /* MONTAGE */
 
 .details-leistungen__montage {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(to left, rgba(0,0,0,0) 10%,
   rgba(0,0,0,0.4)), url("../IMAGES/Leistungen/montage.jpg");
   background-position: center;
@@ -345,11 +348,11 @@ section {
   background-repeat: no-repeat;
   background-size: cover; */
 
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
   rgba(0,0,0,0.9)), url("../IMAGES/Index/Realisation.jpeg");
-  background-position: 80% 100%;
+  background-position: 85% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -375,7 +378,7 @@ section {
   width: 100%;
   height: auto;
   background: linear-gradient(to left, rgba(0,0,0,0.8) 0%,
-   rgba(0,0,0,0.7)), url("../IMAGES/Leistungen/QM-straight-wide.png");
+   rgba(0,0,0,0.7)), url("../IMAGES/Leistungen/QM_schräg.jpg");
   /* background: url("../IMAGES/Leistungen/QM-straight-wide.png"); */
   background-position: 70% 50%;
   background-repeat: no-repeat;
@@ -387,15 +390,19 @@ section {
 }
 
 .qualitätsmanagement__content h3 {
-  color: rgb(58, 58, 58);
   font-weight: 500;
+  /* color: rgb(58, 58, 58); */
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
 .qualitätsmanagement__content p {
-  color: rgb(58, 58, 58);
   font-weight: 500;
+  /* color: rgb(58, 58, 58); */
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
 
