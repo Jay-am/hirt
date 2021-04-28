@@ -4,7 +4,7 @@
   background: linear-gradient(to left, rgba(0,0,0,0.3) 10%,
   rgba(0,0,0,0.6)), url("../IMAGES/Heros/hero_leistungen_lightroom.jpg");
   height: 65vh;
-  background-position: 90% 0%;
+  background-position: 80% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,23 +15,7 @@
   line-height: clamp(2vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 20% 0 0 5%;
-}
-
-.full-scroll {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-
-.full-section {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  scroll-snap-align: start;
+  padding: 20% 0 0 2%;
 }
 
 
@@ -105,6 +89,8 @@
 /* ENTWICKLUNG */
 
 .details-leistungen__entwicklung {
+  width: 100%;
+  height: auto;
   background: linear-gradient(to left, rgba(255,255,255,0) 5%,
   rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/entwicklung.jpg");
   background-position: 80% 20%;
@@ -128,6 +114,8 @@
 /* LAGERHALTUNG */
 
 .details-leistungen__lagerhaltung {
+  width: 100%;
+  height: auto;
   background: linear-gradient(to right, rgba(0,0,0,0.7) 15%,
   rgba(0,0,0,0)), url("../IMAGES/Leistungen/Patanosta.JPG");
   background-position: 60% 100%;
@@ -184,11 +172,20 @@ section {
   color: #ffffff;
 }
 
+.fertigung__content h3 {
+  padding: 2rem 0 2rem 0;
+}
+
+.fertigung__content p {
+  padding: 2rem 0 0 0;
+}
+
 .fertigung__headlines {
   display: inline;
   /* text-align: right; */
   /* line-height: 2; */
-  white-space: pre;
+  /* white-space: pre; */
+  overflow-wrap: break-word
 }
 
 .fertigung__headlines a {
@@ -204,64 +201,93 @@ section {
 }
 
 .fertigung__arrow:after {
-  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  content: "";
+  background-image: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  background-size: 70%;
   position: absolute;
-  top: 35%;
-  right: 1%;
+  top: 70%;
+  left: 60%;
 }
 
 .details-leistungen__section--details img {
   display: block;
-  width: 50%;
-  height: auto;
+  width: 90%;
+  margin-left: auto;
 }
 
-.drehen:before {
+.drehen h3 {
+  padding: 2rem 0 2rem 0;
+}
+
+.text-1 {
+  padding: 2rem 0 1rem 0;
+}
+
+.drehen::before {
   content: url("../IMAGES/Index/arrow_left.jpg");
+  width: 70%;
   position: absolute;
-  top: 35%;
+  top: 70%;
   left: 2%;
 }
 
-.drehen:after {
+.drehen::after {
   content: url("../IMAGES/Index/arrow_right.jpg");
+  width: 70%;
   position: absolute;
-  top: 35%;
+  top: 2.5%;
   right: 2%;
+}
+
+.fräsen h3 {
+  padding: 2rem 0 2rem 0;
 }
 
 .fräsen:before {
   content: url("../IMAGES/Index/arrow_left.jpg");
+  background-size: 70%;
   position: absolute;
-  top: 35%;
+  top: 70%;
   left: 2%;
 }
 
 .fräsen:after {
   content: url("../IMAGES/Index/arrow_right.jpg");
+  background-size: 70%;
   position: absolute;
-  top: 35%;
-  right: 3%;
+  top: 2.5%;
+  right: 2%;
+}
+
+.schleifen h3 {
+  padding: 2rem 0 2rem 0;
 }
 
 .schleifen:before {
   content: url("../IMAGES/Index/arrow_left.jpg");
+  background-size: 70%;
   position: absolute;
-  top: 35%;
+  top: 70%;
   left: 2%;
 }
 
 .schleifen:after {
   content: url("../IMAGES/Index/arrow_right.jpg");
+  background-size: 70%;
   position: absolute;
-  top: 35%;
-  right: 3%;
+  top: 2.5%;
+  right: 2%;
+}
+
+.drahterodieren h3 {
+  padding: 2rem 0 2rem 0;
 }
 
 .drahterodieren:before {
   content: url("../IMAGES/Index/arrow_left.jpg");
+  background-size: 70%;
   position: absolute;
-  top: 35%;
+  top: 70%;
   left: 2%;
 }
 
@@ -269,6 +295,8 @@ section {
 /* OBERFLÄCHENVEREDELUNG */
 
 .details-leistungen__oberflächenveredelung {
+  width: 100%;
+  height: auto;
   background: linear-gradient(to left, rgba(255,255,255,0) 10%,
   rgba(255,255,255,0.8)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
   background-position: 80% 5%;
@@ -292,6 +320,8 @@ section {
 /* MONTAGE */
 
 .details-leistungen__montage {
+  width: 100%;
+  height: auto;
   background: linear-gradient(to left, rgba(0,0,0,0) 10%,
   rgba(0,0,0,0.4)), url("../IMAGES/Leistungen/montage.jpg");
   background-position: center;
@@ -324,6 +354,8 @@ section {
   background-repeat: no-repeat;
   background-size: cover; */
 
+  width: 100%;
+  height: auto;
   background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
   rgba(0,0,0,0.9)), url("../IMAGES/Index/Realisation.jpeg");
   background-position: 80% 100%;
@@ -349,11 +381,11 @@ section {
 /* QUALITÄTSMANAGEMENT */
 
 .details-leistungen__qualitätsmanagement {
-  /* background: linear-gradient(to left, rgba(255, 255, 255,0.8) 5%,
-  rgba(0, 102, 178,1)), url("IMAGES/Leistungen/Qualitätsmanagement_Zertifikat_quer-longer-test.jpg"); */
-  /* background: linear-gradient(to left, rgba(255, 255, 255,0.8) 0%,
-   rgba(0,0,0,0.7)), url("../IMAGES/Branchen/Qualitätsmanagement/DSC01119.JPG"); */
-  background: url("../IMAGES/Leistungen/QM-straight-wide.png");
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to left, rgba(0,0,0,0.8) 0%,
+   rgba(0,0,0,0.7)), url("../IMAGES/Leistungen/QM-straight-wide.png");
+  /* background: url("../IMAGES/Leistungen/QM-straight-wide.png"); */
   background-position: 70% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -419,6 +451,129 @@ section {
   .details-leistungen__section--content {
     width: 100%;
   }
+
+  /* FERTIGUNG */
+
+  .slider {
+    display: flex;
+    scroll-snap-type: x mandatory;  
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+  }
+
+  section {
+    border-right: 0px solid white;
+    padding: 1rem;
+    min-width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .details-leistungen__section--fertigung {
+    background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
+    rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .fertigung__content h3,
+  .fertigung__content p {
+    color: #ffffff;
+  }
+
+  .fertigung__content h3 {
+    padding: 2rem 0 2rem 0;
+  }
+
+  .fertigung__content p {
+    padding: 2rem 0 0 0;
+  }
+
+  .fertigung__headlines {
+    display: inline;
+    /* text-align: right; */
+    /* line-height: 2; */
+    /* white-space: pre; */
+    overflow-wrap: break-word
+  }
+
+  .fertigung__headlines a {
+    text-decoration: none;
+    color: #0066b2;
+    text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+  }
+
+  .fertigung__headlines a:hover {
+    color: #014779;
+    text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+    text-shadow: none;
+  }
+
+  .fertigung__arrow:after {
+    content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+    position: absolute;
+    top: 70%;
+    left: 60%;
+  }
+
+  .details-leistungen__section--details img {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+
+  .drehen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .drehen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 2%;
+  }
+
+  .fräsen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .fräsen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 3%;
+  }
+
+  .schleifen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .schleifen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 3%;
+  }
+
+  .drahterodieren:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
 }
 
 @media (min-width: 900px) {
@@ -448,6 +603,129 @@ section {
   .details-leistungen__section--content {
     width: 80%;
     padding: 0 1em 0 1em;
+  }
+
+  /* FERTIGUNG */
+
+  .slider {
+    display: flex;
+    scroll-snap-type: x mandatory;  
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+  }
+
+  section {
+    border-right: 0px solid white;
+    padding: 1rem;
+    min-width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .details-leistungen__section--fertigung {
+    background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
+    rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .fertigung__content h3,
+  .fertigung__content p {
+    color: #ffffff;
+  }
+
+  .fertigung__content h3 {
+    padding: 2rem 0 2rem 0;
+  }
+
+  .fertigung__content p {
+    padding: 2rem 0 0 0;
+  }
+
+  .fertigung__headlines {
+    display: inline;
+    /* text-align: right; */
+    /* line-height: 2; */
+    /* white-space: pre; */
+    overflow-wrap: break-word
+  }
+
+  .fertigung__headlines a {
+    text-decoration: none;
+    color: #0066b2;
+    text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+  }
+
+  .fertigung__headlines a:hover {
+    color: #014779;
+    text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+    text-shadow: none;
+  }
+
+  .fertigung__arrow:after {
+    content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+    position: absolute;
+    top: 70%;
+    left: 60%;
+  }
+
+  .details-leistungen__section--details img {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+
+  .drehen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .drehen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 2%;
+  }
+
+  .fräsen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .fräsen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 3%;
+  }
+
+  .schleifen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .schleifen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 3%;
+  }
+
+  .drahterodieren:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
   }
 
   /* KONTAKT */
@@ -516,6 +794,24 @@ section {
   .details-leistungen__section--content {
     width: 65%;
     padding: 0 5rem;
+  }
+
+  /* SCROLL */
+
+  .full-scroll {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .full-section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-snap-align: start;
   }
 
 
@@ -603,6 +899,129 @@ section {
     .details-leistungen p {
       padding-bottom: 1rem;
     }
+
+  /* FERTIGUNG */
+
+  .slider {
+    display: flex;
+    scroll-snap-type: x mandatory;  
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+  }
+
+  section {
+    border-right: 0px solid white;
+    padding: 1rem;
+    min-width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .details-leistungen__section--fertigung {
+    background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
+    rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .fertigung__content h3,
+  .fertigung__content p {
+    color: #ffffff;
+  }
+
+  .fertigung__content h3 {
+    padding: 2rem 0 2rem 0;
+  }
+
+  .fertigung__content p {
+    padding: 2rem 0 0 0;
+  }
+
+  .fertigung__headlines {
+    display: inline;
+    /* text-align: right; */
+    /* line-height: 2; */
+    /* white-space: pre; */
+    overflow-wrap: break-word
+  }
+
+  .fertigung__headlines a {
+    text-decoration: none;
+    color: #0066b2;
+    text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+  }
+
+  .fertigung__headlines a:hover {
+    color: #014779;
+    text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+    text-shadow: none;
+  }
+
+  .fertigung__arrow:after {
+    content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+    position: absolute;
+    top: 70%;
+    left: 60%;
+  }
+
+  .details-leistungen__section--details img {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+
+  .drehen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .drehen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 2%;
+  }
+
+  .fräsen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .fräsen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 3%;
+  }
+
+  .schleifen:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
+
+  .schleifen:after {
+    content: url("../IMAGES/Index/arrow_right.jpg");
+    position: absolute;
+    top: 35%;
+    right: 3%;
+  }
+
+  .drahterodieren:before {
+    content: url("../IMAGES/Index/arrow_left.jpg");
+    position: absolute;
+    top: 35%;
+    left: 2%;
+  }
 
 
   /* OBERFLÄCHENVEREDELUNG */
