@@ -224,15 +224,14 @@ section {
 }
 
 .drehen::before {
-  content: url("../IMAGES/Index/arrow_left.jpg");
-  width: 70%;
+  content: url("../IMAGES/Index/arrow_left_small.jpg");
   position: absolute;
   top: 70%;
   left: 2%;
 }
 
 .drehen::after {
-  content: url("../IMAGES/Index/arrow_right.jpg");
+  content: url("../IMAGES/Index/arrow_right_small.jpg");
   width: 70%;
   position: absolute;
   top: 2.5%;
