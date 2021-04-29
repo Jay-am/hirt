@@ -523,6 +523,25 @@ section {
     margin: 0 auto;
   }
 
+  /* SCROLL */
+
+  .full-scroll {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .full-section {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    scroll-snap-align: start;
+    overflow: hidden;
+  }
+
   /* LEISTUNGEN */
 
   .details-leistungen__section--content {
@@ -650,9 +669,9 @@ section {
 
   /* SCROLL */
 
-  /* .full-scroll {
+  .full-scroll {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
     overflow: auto;
@@ -660,11 +679,11 @@ section {
   }
   
   .full-section {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
-  } */
+  }
 
 
   /* ENTWICKLUNG */
@@ -689,68 +708,51 @@ section {
   }
 
 
-  /* FERTIGUNG */
+ /* FERTIGUNG */
 
-  /* .fertigung {
-    padding: 4.5em 0 5em 0;
+  .fertigung {
+    display: flex;
+    /* align-self: center; */
+    /* justify-content: space-between; */
   }
 
-  .details-leistungen__fertigung {
-    padding: 4.5em 0 3em 0;
+  .fertigung__content {
+    width: 70%;
+    padding: 16rem 5rem 0 9rem;
+  }
+  
+  .fertigung__content h3 {
+    padding-bottom: 0rem;
+  }
+  
+  .fertigung__content p {
+    padding-bottom: 1rem;
+  }
+  
+  /* DETAILS */
+  
+  .details-leistungen__section--details {
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+  }
+  
+  .details-leistungen {
+    width: 60%;
+  }
+  
+  .details-leistungen h3 {
+    padding-bottom: 1rem;
+  }
+  
+  .text-1 {
+    padding-top: 1rem;
+  }
+  
+  .details-leistungen p {
+    padding-bottom: 1rem;
   }
 
-  .section-accordion {
-    padding: 3em 0 10em 0;
-  }
-
-  .accordion {
-    padding: 0 0 10em 0;
-  } */
-
-    /* FERTIGUNG */
-
-    .fertigung {
-      display: flex;
-      /* align-self: center; */
-      /* justify-content: space-between; */
-    }
-
-    .fertigung__content {
-      width: 70%;
-      padding: 16rem 5rem 0 9rem;
-    }
-  
-    .fertigung__content h3 {
-      padding-bottom: 0rem;
-    }
-  
-    .fertigung__content p {
-      padding-bottom: 1rem;
-    }
-  
-    /* DETAILS */
-  
-    .details-leistungen__section--details {
-      display: flex;
-      align-items: center;
-      padding: 0 10rem;
-    }
-  
-    .details-leistungen {
-      width: 60%;
-    }
-  
-    .details-leistungen h3 {
-      padding-bottom: 1rem;
-    }
-  
-    .text-1 {
-      padding-top: 1rem;
-    }
-  
-    .details-leistungen p {
-      padding-bottom: 1rem;
-    }
 
   /* FERTIGUNG */
 
@@ -786,7 +788,7 @@ section {
   }
 
   .fertigung__content h3 {
-    padding: 2rem 0 2rem 0;
+    padding: 0rem 0 2rem 0;
   }
 
   .fertigung__content p {
@@ -816,7 +818,7 @@ section {
   .fertigung__arrow:after {
     content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 80%;
   }
 
@@ -836,49 +838,49 @@ section {
   .drehen:before {
     content: url("../IMAGES/Index/arrow_left.jpg");
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 2%;
   }
 
   .drehen:after {
     content: url("../IMAGES/Index/arrow_right.jpg");
     position: absolute;
-    top: 45%;
+    top: 35%;
     right: 2%;
   }
 
   .fräsen:before {
     content: url("../IMAGES/Index/arrow_left.jpg");
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 2%;
   }
 
   .fräsen:after {
     content: url("../IMAGES/Index/arrow_right.jpg");
     position: absolute;
-    top: 45%;
+    top: 35%;
     right: 2%;
   }
 
   .schleifen:before {
     content: url("../IMAGES/Index/arrow_left.jpg");
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 2%;
   }
 
   .schleifen:after {
     content: url("../IMAGES/Index/arrow_right.jpg");
     position: absolute;
-    top: 45%;
+    top: 35%;
     right: 2%;
   }
 
   .drahterodieren:before {
     content: url("../IMAGES/Index/arrow_left.jpg");
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 2%;
   }
 
