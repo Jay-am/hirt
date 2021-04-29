@@ -829,11 +829,9 @@ section {
   .drehen h3,
   .fräsen h3,
   .schleifen h3,
-  .drahterodieren h3,
- {
+  .drahterodieren h3 {
     padding-top: 0;
   }
-
 
   .drehen:before {
     content: url("../IMAGES/Index/arrow_left.jpg");
