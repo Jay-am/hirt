@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+section, header, footer {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  display: table;
+  text-align: center;
+  color: grey;
+}
+
+.container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container {
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.show .container {
+  opacity: 1;
+}
+
+h1, h2 {
+  margin: 0;
+  font: 600 6vw sans-serif;
+}
+
+h2 {
+  font: italic normal 1.5rem serif;
+}
+
+header {
+  background: linear-gradient(to top, grey, lightsalmon) fixed;
+  color: white;
+}
+
+section:nth-of-type(odd) {
+  background: linear-gradient(to top, wheat, cornsilk) fixed;
+}
+
+section:nth-of-type(even) {
+  background: linear-gradient(to top, tan, cornsilk) fixed;
+}

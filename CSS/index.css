@@ -96,7 +96,7 @@
 .realistaion {
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
   background: linear-gradient(to left, rgba(0,0,0,0.3) 10%,
-  rgba(0,0,0,0.9)), url("../IMAGES/Index/Realisation.jpg");
+  rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation.jpg");
   background-position: 95% 100%;
   background-repeat: no-repeat;
   background-size: cover;
