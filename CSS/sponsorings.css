@@ -3,7 +3,7 @@
 .hero {
   /* background: url("IMAGES/Sponsorings/hero-cure-mannheim-sponsoring_undone.jpg"); */
   background: linear-gradient(to left, rgba(0,0,0,0) 10%,
-  rgba(0,0,0,0.4)), url("../IMAGES/Sponsorings/hero-cure-mannheim-sponsoring-long.jpg");
+  rgba(0,0,0,0.4)), url("../IMAGES/Heros/hero-cure-mannheim-sponsoring-long.jpg");
   height: 65vh;
   background-position: 70% 70%;
   background-repeat: no-repeat;
