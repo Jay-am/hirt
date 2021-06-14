@@ -36,7 +36,7 @@
 }
 
 .hero__content:after {
-  content: url("../IMAGES/Index/pfeil-hero-index-hell.png");
+  content: url("../IMAGES/Index/arrow_hero.png");
   position: absolute;
   bottom: 15%;
   left: 50%;
@@ -103,7 +103,7 @@
 .realistaion {
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
   background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
-  rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation_lang.png");
+  rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation.png");
   background-position: 95% 40%;
   background-repeat: no-repeat;
   background-size: cover;

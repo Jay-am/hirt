@@ -201,7 +201,7 @@ section {
 }
 
 .fertigung__arrow:after {
-  content: url("../IMAGES/Index/pfeil-fertigung-hell_small.png");
+  content: url("../IMAGES/Leistungen/arrow_fertigung.png");
   position: absolute;
   top: 75%;
   left: 80%;
@@ -221,14 +221,14 @@ section {
 }
 
 .drehen::before {
-  content: url("../IMAGES/Index/arrow_left_small.jpg");
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
   left: 5%;
 }
 
 .drehen::after {
-  content: url("../IMAGES/Index/arrow_right_small.jpg");
+  content: url("../IMAGES/Leistungen/arrow_right.jpg");
   position: absolute;
   top: 80%;
   right: 5%;
@@ -243,14 +243,14 @@ section {
 }
 
 .fräsen:before {
-  content: url("../IMAGES/Index/arrow_left_small.jpg");
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
   left: 5%;
 }
 
 .fräsen:after {
-  content: url("../IMAGES/Index/arrow_right_small.jpg");
+  content: url("../IMAGES/Leistungen/arrow_right.jpg");
   position: absolute;
   top: 80%;
   right: 5%;
@@ -261,14 +261,14 @@ section {
 }
 
 .schleifen:before {
-  content: url("../IMAGES/Index/arrow_left_small.jpg");
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
   left: 5%;
 }
 
 .schleifen:after {
-  content: url("../IMAGES/Index/arrow_right_small.jpg");
+  content: url("../IMAGES/Leistungen/arrow_right.jpg");
   position: absolute;
   top: 80%;
   right: 5%;
@@ -279,7 +279,7 @@ section {
 }
 
 .drahterodieren:before {
-  content: url("../IMAGES/Index/arrow_left_small.jpg");
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
   left: 5%;
