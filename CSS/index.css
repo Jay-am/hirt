@@ -735,7 +735,7 @@
     /* background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
     rgba(255,255,255,0.8)), url("IMAGES/Heros/hero-schrauben.jpeg"); */
     background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
-    rgba(0,0,0,0.8)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+    rgba(0,0,0,0.8)), url("../IMAGES/Leistungen/fertigung.jpeg");
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -824,7 +824,7 @@
   .qualitätssicherung {
     height: 150px;
     background: url("../IMAGES/Leistungen/qualitaetsmanagement.jpg"), rgba(0, 0, 0, 1);
-    background-position: 30% 80%;
+    background-position: 90% 80%;
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(50% 22%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
