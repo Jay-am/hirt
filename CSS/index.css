@@ -35,6 +35,13 @@
   padding: 8rem 5% 0 5%;
 }
 
+.hero__content:after {
+  content: url("../IMAGES/Index/pfeil-hero-index-hell.png");
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+}
+
 
 /* INTRO */
 
@@ -95,9 +102,9 @@
 
 .realistaion {
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
-  background: linear-gradient(to left, rgba(0,0,0,0) 20%,
-  rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation.jpg");
-  background-position: 95% 0%;
+  background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
+  rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation_lang.png");
+  background-position: 95% 40%;
   background-repeat: no-repeat;
   background-size: cover;
 }
