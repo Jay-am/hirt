@@ -95,9 +95,9 @@
 
 .realistaion {
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
-  background: linear-gradient(to left, rgba(0,0,0,0.3) 10%,
+  background: linear-gradient(to left, rgba(0,0,0,0) 20%,
   rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation.jpg");
-  background-position: 95% 100%;
+  background-position: 95% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -225,8 +225,9 @@
 
 .lagerhaltung {
   height: 150px;
-  background: url("../IMAGES/Leistungen/lagerhaltung.jpg"), rgba(0, 0, 0, 1);
-  background-position: 90% 50%;
+  background: linear-gradient(to left, rgba(0,0,0,0) 20%,
+  rgba(0,0,0,0.9)), url("../IMAGES/Leistungen/lagerhaltung.jpg");
+  background-position: 100% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 25%, 100% 0, 100% 78%, 50% 100%, 0 78%, 0 0);
@@ -316,7 +317,8 @@
 
 .montage {
   height: 150px;
-  background: url("../IMAGES/Leistungen/montage.jpg"), rgba(0, 0, 0, 1);
+  background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
+  rgba(0,0,0,0.8)), url("../IMAGES/Leistungen/montage.jpg");
   background-position: 70% 80%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,7 +341,7 @@
 
 .qualitätssicherung {
   height: 150px;
-  background: url("../IMAGES/Leistungen/qualitaetsmanagement.jpg"), rgba(0, 0, 0, 1);
+  background: url("../IMAGES/Leistungen/qualitaetssicherung.jpeg"), rgba(0, 0, 0, 1);
   background-position: 30% 80%;
   background-repeat: no-repeat;
   background-size: cover;

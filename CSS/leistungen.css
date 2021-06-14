@@ -201,7 +201,7 @@ section {
 }
 
 .fertigung__arrow:after {
-  content: url("../IMAGES/Index/Pfeil-Fertigung-hell_small.png");
+  content: url("../IMAGES/Index/pfeil-fertigung-hell_small.png");
   position: absolute;
   top: 75%;
   left: 80%;
@@ -317,8 +317,8 @@ section {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to left, rgba(0,0,0,0) 10%,
-  rgba(0,0,0,0.4)), url("../IMAGES/Leistungen/montage.jpg");
-  background-position: center;
+  rgba(0,0,0,0.9)), url("../IMAGES/Leistungen/montage.jpg");
+  background-position: 50% 40%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -351,7 +351,7 @@ section {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
-  rgba(0,0,0,0.9)), url("../IMAGES/Leistungen/qualitaetssicherung.jpg");
+  rgba(0,0,0,0.9)), url("../IMAGES/Leistungen/qualitaetssicherung.jpeg");
   background-position: 85% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -377,8 +377,8 @@ section {
 .details-leistungen__qualitätsmanagement {
   width: 100%;
   height: auto;
-  background: linear-gradient(to left, rgba(0,0,0,0.8) 0%,
-   rgba(0,0,0,0.7)), url("../IMAGES/Leistungen/qualitaetsmanagement.jpg");
+  background: linear-gradient(to left, rgba(0,0,0,0.2) 0%,
+   rgba(0,0,0,0.8)), url("../IMAGES/Leistungen/qualitaetsmanagement.jpg");
   /* background: url("../IMAGES/Leistungen/QM-straight-wide.png"); */
   background-position: 70% 50%;
   background-repeat: no-repeat;
