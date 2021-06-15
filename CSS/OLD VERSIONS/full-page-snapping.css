@@ -1,11 +1,13 @@
 /** Full Page Scroll-Snapping HTML Sections */
 main {
+	min-height: 800px;
 	height: 100vh;
 	overflow-y: auto;
 	scroll-snap-type: y mandatory;
 }
 
 section {
+	min-height: 800px;
 	height: 100vh;
 	scroll-snap-align: center;
 }

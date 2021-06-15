@@ -2,7 +2,7 @@
 
 .hero {
   background: linear-gradient(to left, rgba(0,0,0,0.3) 10%,
-  rgba(0,0,0,0.6)), url("../IMAGES/Heros/hero_leistungen_lightroom.jpg");
+  rgba(0,0,0,0.6)), url("../IMAGES/Heros/hero_leistungen.jpg");
   height: 65vh;
   background-position: 90% 0%;
   background-repeat: no-repeat;
@@ -161,8 +161,11 @@ section {
 }
 
 .details-leistungen__section--fertigung {
+  /* TODO FIX hero-schrauben.jpeg is missing, I commented it out - Lars */
+  /* background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
+  rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg"); */
   background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
-  rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+  rgba(0,0,0,0.7));
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,7 +197,7 @@ section {
 }
 
 .fertigung__arrow:after {
-  content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+  content: url("../IMAGES/Leistungen/arrow_fertigung.png");
   position: absolute;
   top: 40%;
   right: 3%;
@@ -416,7 +419,7 @@ section {
 @media (min-width: 1200px) {
 
   .hero {
-    background: url("../IMAGES/Heros/hero_leistungen_lightroom.jpg");
+    background: url("../IMAGES/Heros/hero_leistungen.jpg");
     height: 70vh;
     background-position: 68% 70%;
   }

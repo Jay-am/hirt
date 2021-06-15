@@ -624,7 +624,7 @@ section {
 @media (min-width: 1200px) {
 
   .hero {
-    background: url("../IMAGES/Heros/hero_leistungen_lightroom.jpg");
+    background: url("../IMAGES/Heros/hero_leistungen.jpg");
     height: 70vh;
     background-position: 68% 70%;
   }
@@ -774,8 +774,11 @@ section {
   }
 
   .details-leistungen__section--fertigung {
+    /* TODO FIX hero-schrauben.jpeg is missing, I commented it out - Lars */
+    /* background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
+    rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg"); */
     background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
-    rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg");
+    rgba(0,0,0,0.7));
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -816,7 +819,7 @@ section {
   }
 
   .fertigung__arrow:after {
-    content: url("../IMAGES/Leistungen/Pfeil-Fertigung-hell.png");
+    content: url("../IMAGES/Leistungen/arrow_fertigung.png");
     position: absolute;
     top: 35%;
     left: 80%;
@@ -836,49 +839,49 @@ section {
   }
 
   .drehen:before {
-    content: url("../IMAGES/Index/arrow_left.jpg");
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
     top: 35%;
     left: 2%;
   }
 
   .drehen:after {
-    content: url("../IMAGES/Index/arrow_right.jpg");
+    content: url("../IMAGES/Leistungen/arrow_right.jpg");
     position: absolute;
     top: 35%;
     right: 2%;
   }
 
   .fräsen:before {
-    content: url("../IMAGES/Index/arrow_left.jpg");
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
     top: 35%;
     left: 2%;
   }
 
   .fräsen:after {
-    content: url("../IMAGES/Index/arrow_right.jpg");
+    content: url("../IMAGES/Leistungen/arrow_right.jpg");
     position: absolute;
     top: 35%;
     right: 2%;
   }
 
   .schleifen:before {
-    content: url("../IMAGES/Index/arrow_left.jpg");
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
     top: 35%;
     left: 2%;
   }
 
   .schleifen:after {
-    content: url("../IMAGES/Index/arrow_right.jpg");
+    content: url("../IMAGES/Leistungen/arrow_right.jpg");
     position: absolute;
     top: 35%;
     right: 2%;
   }
 
   .drahterodieren:before {
-    content: url("../IMAGES/Index/arrow_left.jpg");
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
     top: 35%;
     left: 2%;

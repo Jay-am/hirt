@@ -212,7 +212,8 @@
 
 .fertigung {
   height: 650px;
-  background: url(../IMAGES/Heros/hero-schrauben.jpeg), rgba(0, 0, 0, 1);
+  /* TODO FIX hero-schrauben.jpeg is missing, I commented it out - Lars */
+  /* background: url(../IMAGES/Heros/hero-schrauben.jpeg), rgba(0, 0, 0, 1); */
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -612,7 +613,7 @@
   }
 
   .hero__content:after {
-    content: url(../IMAGES/Index/Pfeil-Hero-hell.png);
+    content: url(../IMAGES/Index/arrow_hero.png);
     position: absolute;
     /* height: 30px;
     width: 30px; */
