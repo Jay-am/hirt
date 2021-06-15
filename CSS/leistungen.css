@@ -160,7 +160,7 @@ section {
 
 .details-leistungen__section--fertigung {
   background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
-  rgba(0,0,0,0.7)), url("../IMAGES/Leistungen/fertigung.jpeg");
+  rgba(0,0,0,0.7)), url("../IMAGES/Leistungen/fertigung.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -351,7 +351,7 @@ section {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
-  rgba(0,0,0,0.9)), url("../IMAGES/Leistungen/qualitaetssicherung.jpeg");
+  rgba(0,0,0,0.9)), url("../IMAGES/Leistungen/qualitaetssicherung.jpg");
   background-position: 85% 100%;
   background-repeat: no-repeat;
   background-size: cover;
