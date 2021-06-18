@@ -31,7 +31,7 @@
 				hold = false;
 			}, 1000);
 		}
-		console.log(scdir + ':' + slength + ':' + plength + ':' + (plength - plength / pnls));
+		// console.log(scdir + ':' + slength + ':' + plength + ':' + (plength - plength / pnls));
 	}
 	/*[swipe detection on touchscreen devices]*/
 	function _swipe(obj) {

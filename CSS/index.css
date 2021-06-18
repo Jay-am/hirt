@@ -203,13 +203,20 @@
   font-weight: 300;
 }
 
+.no-style {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0), 2px 2px 3px rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 
 /* Entwicklung */
 
 .entwicklung {
   height: 150px;
   background: url("../IMAGES/Leistungen/entwicklung.jpg");
-  background-position: 0% 0%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(50% 0%, 100% 0, 100% 78%, 50% 100%, 0 78%, 0 0);
