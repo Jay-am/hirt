@@ -534,14 +534,26 @@ section {
     overflow: auto;
     scroll-snap-type: y mandatory;
   }
+
+  main {
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+
+  main > * {
+    scroll-snap-align: start;
+  }
   
-  .full-section {
+  /* .full-section {
     width: 100vw;
     height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
     overflow: hidden;
-  }
+  } */
 
   /* LEISTUNGEN */
 
@@ -679,12 +691,12 @@ section {
     scroll-snap-type: y mandatory;
   }
   
-  .full-section {
+  /* .full-section {
     width: 100vw;
     height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
-  }
+  } */
 
 
   /* ENTWICKLUNG */
