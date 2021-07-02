@@ -402,8 +402,8 @@
 }
 
 .zertifikat img {
-  width: 25%;
-  padding: 0 0 2rem 0;
+  width: 50%;
+  padding: 0 0 4rem 0;
   margin: 0 auto;
 }
 
@@ -422,7 +422,7 @@
 }
 
 .branchen-grid img {
-  width: 100%;
+  width: 70%;
   margin: 1em auto;
 }
 
@@ -723,7 +723,7 @@
 
   .leistungen__card-header--entwicklung {
     position: absolute;
-    top: 30%;
+    top: 55px;
     left: 10%;
   }
 
@@ -746,7 +746,7 @@
 
   .leistungen__card-header--lagerhaltung {
     position: absolute;
-    top: -60px;
+    top: -55px;
     left: 5%;
   }
 
@@ -837,7 +837,7 @@
 
   .leistungen__card-header--montage {
     position: absolute;
-    top: -60px;
+    top: -55px;
     left: 5%;
   }
 
@@ -861,7 +861,7 @@
 
   .leistungen__card-header--qualitätssicherung {
     position: absolute;
-    top: -80px;
+    top: -70px;
     left: 2%;
   }
 
@@ -872,7 +872,9 @@
   }
 
   .zertifikat img {
-    width: 100%;
+    width: 60%;
+    padding: 0 0 4rem 0;
+    margin: 0 auto;
   }
 
   .branchen__header {
@@ -1277,6 +1279,7 @@
   }
 
   .zertifikat img {
+    width: 50%;
     justify-self: baseline;
     align-self: baseline;
   }
@@ -1720,7 +1723,7 @@
   }
 
   .zertifikat img {
-    width: 100%;
+    width: 50%;
     align-self: center;
     justify-self: center;
     padding: 0 3em 0em 0;
