@@ -105,7 +105,7 @@
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
   background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
   rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation.png");
-  background-position: 95% 40%;
+  background-position: 55% 40%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -124,10 +124,10 @@
   line-height: 250%;
 }
 
-.realisation__image img {
+/* .realisation__image img {
   width: 50%;
   margin: 0 auto;
-}
+} */
 
 .realisation__text {
   padding: 3.5em 0 1em 0;
@@ -627,13 +627,18 @@
 
   /* REALISATION */
 
+  .realistaion {
+    background-position: 65% 50%;
+  }
+
   .realisation__content {
     padding: 5em 0 4.5em 0;
   }
 
-  .realisation__image img {
+  /* .realisation__image img {
     width: 40%;
-  }
+    background-position: 80% 50%;
+  } */
 
   .realisation__text {
     text-align: left;
@@ -1016,6 +1021,13 @@
   }
 
 
+ /* REALISATION */
+
+  .realistaion {
+    background-position: 95% 40%;
+  }
+
+
   /* LEISTUNGEN */
 
   .leistungen {
@@ -1389,6 +1401,7 @@
 
   .realistaion {
     height: 100vh;
+    background-position: 95% 40%;
   }
 
   .realisation__content {
