@@ -3,6 +3,7 @@
       rgba(0, 102, 178, 0.15)); */
   background-image: url("../IMAGES/Heros/hero-rechtliches.jpg");
   height: 40vh;
+  min-height: 400px;
   background-position: 0 50%;
   background-repeat: no-repeat;
   background-size: cover;
