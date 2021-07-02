@@ -12,10 +12,10 @@
 .hero__title {
   color: #ffffff;
   font-size: clamp(3rem, 5vw, 4rem);
-  line-height: clamp(2vw, 120%, 4.5rem);
+  line-height: clamp(50%, 120%, 150%);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 20% 0 0 2%;
+  padding: 15% 0 0 2%;
 }
 
 
@@ -438,7 +438,7 @@ section {
   }
 
   .hero__title {
-    padding: 20% 0 0 5%;
+    padding: 15% 0 0 5%;
   }
 
   .details-leistungen {
@@ -637,7 +637,6 @@ section {
 @media (min-width: 1200px) {
 
   .hero {
-    background: url("../IMAGES/Heros/hero_leistungen.jpg");
     height: 70vh;
     background-position: 68% 70%;
   }
