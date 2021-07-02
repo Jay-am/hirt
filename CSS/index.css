@@ -224,7 +224,7 @@
 
 .leistungen__card-header--entwicklung {
   position: absolute;
-  top: -55px;
+  top: -35px;
   left: 5%;
 }
 
@@ -364,7 +364,7 @@
 
 .leistungen__card-header--qualitätssicherung {
   position: absolute;
-  top: -40px;
+  top: -55px;
   left: 1%;
 }
 
@@ -723,7 +723,7 @@
 
   .leistungen__card-header--entwicklung {
     position: absolute;
-    top: -55px;
+    top: -35px;
     left: 10%;
   }
 
@@ -861,7 +861,7 @@
 
   .leistungen__card-header--qualitätssicherung {
     position: absolute;
-    top: -40px;
+    top: -55px;
     left: 2%;
   }
 
