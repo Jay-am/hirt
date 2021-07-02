@@ -20,9 +20,9 @@
 }
 
 .hero__logo {
-  width: 15rem;
+  width: 5rem;
   display: block;
-  padding: 4rem 5% 0 5%;
+  padding: 2rem 5% 0 5%;
   margin: 0;
 }
 
@@ -596,6 +596,13 @@
     background-position: 80% 50%;
   }
 
+  .hero__logo {
+    width: 5rem;
+    display: block;
+    padding: 2rem 5% 0 5%;
+    margin: 0;
+  }
+
   .hero__title {
     padding: 25% 5% 0 5%;
   }
@@ -976,8 +983,8 @@
   .hero__logo {
     width: 10rem;
     display: block;
+    padding: 2rem 5% 0 5%;
     margin: 0;
-    padding: 0;
   }
 
   .hero__title {
@@ -1304,8 +1311,8 @@
   .hero__logo {
     width: 30rem;
     display: block;
+    padding: 4rem 5% 0 5%;
     margin: 0;
-    padding: 0;
   }
 
   .hero__title {
