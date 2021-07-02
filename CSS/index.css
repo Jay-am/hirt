@@ -217,13 +217,13 @@
 }
 
 .entwicklung a {
-  padding: -10% 0 0 -10%;
+  /* padding: -10% 0 0 -10%; */
   text-align: center;
 }
 
 .leistungen__card-header--entwicklung {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 5%;
 }
 
@@ -716,13 +716,13 @@
   }
 
   .entwicklung a {
-    padding: 70% 0 0 20%;
+    /* padding: 70% 0 0 20%; */
     text-align: left;
   }
 
   .leistungen__card-header--entwicklung {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 5%;
   }
 
