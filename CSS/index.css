@@ -224,8 +224,8 @@
 
 .leistungen__card-header--entwicklung {
   position: absolute;
-  top: 30%;
-  left: 15%;
+  top: 55px;
+  left: 5%;
 }
 
 
@@ -248,8 +248,8 @@
 
 .leistungen__card-header--lagerhaltung {
   position: absolute;
-  top: -60px;
-  left: 5%;
+  top: -55px;
+  left: 4%;
 }
 
 
@@ -986,7 +986,7 @@
     bottom: 15%;
     left: 50%;
   }
-  
+
   .hero__logo {
     width: 10rem;
     display: block;
