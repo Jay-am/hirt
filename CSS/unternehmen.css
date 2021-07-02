@@ -107,9 +107,9 @@ display: inline-block;
     display: block;
   }
 
-  .unternehmen-info__text h2 {
-    /* font-size: 2.5rem; */
-  }
+  /* .unternehmen-info__text h2 {
+    font-size: 2.5rem;
+  } */
 
   .unternehmen-info__text {
     padding: 1em 15% 3em 15%;
