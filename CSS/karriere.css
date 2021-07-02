@@ -12,10 +12,10 @@
 .hero__title {
   color: #ffffff;
   font-size: clamp(3rem, 5vw, 4rem);
-  line-height: clamp(2vw, 120%, 4.5rem);
+  line-height: clamp(30%, 120%, 150%);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 55% 0.5em 0 0.5em;
+  padding: 25% 0.5em 0 0.5em;
 }
 
 /* INTRO */
@@ -362,7 +362,7 @@ border: 1px solid rgba(2, 95, 167, 0.99); */
   }
 
   .hero__title {
-    padding: 40% 0.5em 0 0.5em;
+    padding: 30% 0.5em 0 0.5em;
   }
 
   /* BEWERBEN */
