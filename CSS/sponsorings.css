@@ -13,10 +13,10 @@
 .hero__title {
   color: #ffffff;
   font-size: clamp(3rem, 5vw, 4rem);
-  line-height: clamp(2vw, 120%, 4.5rem);
+  line-height: clamp(0.5vw, 120%, 4.5rem);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 85% 0 0 0.5em;
+  padding: 35% 0 0 0.5em;
 }
 
 .sponsoring-info {
@@ -140,7 +140,7 @@
   }
 
   .hero__title {
-    padding: 55% 3% 0 3%;
+    padding: 45% 3% 0 3%;
   }
 
   .sponsoring-martin-werz-image {
