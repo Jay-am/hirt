@@ -9,11 +9,11 @@
 .hero__title {
   color: #ffffff;
   font-size: clamp(3rem, 5vw, 4rem);
-  line-height: clamp(2vw, 120%, 4.5rem);
+  line-height: clamp(15%, 100%, 120%);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
-  padding: 75% 0 0 5%;
+  padding: 35% 0 0 5%;
 }
 
 
@@ -83,7 +83,7 @@
   }
 
   .hero__title {
-    padding: 50% 0 0 4%;
+    padding: 40% 0 0 4%;
   }
 
   .zertifizierung__text {
