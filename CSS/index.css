@@ -29,10 +29,10 @@
 .hero__title {
   color: #ffffff;
   font-size: clamp(3rem, 5vw, 4rem);
-  line-height: clamp(2vw, 120%, 4.5rem);
+  line-height: clamp(30%, 120%, 150%);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 8rem 5% 0 5%;
+  padding: 20% 5% 0 5%;
 }
 
 .hero__content:after {
@@ -597,7 +597,7 @@
   }
 
   .hero__title {
-    padding: 30% 5% 0 5%;
+    padding: 25% 5% 0 5%;
   }
 
   /* INTRO */
