@@ -33,14 +33,7 @@
   line-height: clamp(15%, 100%, 120%);
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 20% 5% 0 5%;
-}
-
-.hero__content:after {
-  content: url("../IMAGES/Index/arrow_hero.png");
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
+  padding: 25% 5% 0 5%;
 }
 
 
@@ -105,7 +98,7 @@
   /* background: url("IMAGES/Index/Realisation.jpeg"); */
   background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
   rgba(0,0,0,0.9)), url("../IMAGES/Index/realisation.png");
-  background-position: 55% 40%;
+  background-position: 65% 40%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -628,7 +621,7 @@
   /* REALISATION */
 
   .realistaion {
-    background-position: 65% 50%;
+    background-position: 75% 50%;
   }
 
   .realisation__content {
@@ -987,6 +980,13 @@
     padding: 20% 0 0 2.5%;
   }
   
+  .hero__content:after {
+    content: url("../IMAGES/Index/arrow_hero.png");
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+  }
+  
   .hero__logo {
     width: 10rem;
     display: block;
@@ -997,6 +997,7 @@
   .hero__title {
     padding: 2rem 0 0 2.5%;
   }
+
 
   /* INTRO */
 
