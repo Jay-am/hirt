@@ -790,11 +790,6 @@ section {
   }
 
   .details-leistungen__section--fertigung {
-    /* TODO FIX hero-schrauben.jpeg is missing, I commented it out - Lars */
-    /* background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
-    rgba(0,0,0,0.7)), url("../IMAGES/Heros/hero-schrauben.jpeg"); */
-    background: linear-gradient(to left, rgba(0,0,0,0.4) 5%,
-    rgba(0,0,0,0.7));
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
