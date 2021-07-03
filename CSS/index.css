@@ -223,8 +223,8 @@
 
 .leistungen__card-header--entwicklung {
   position: absolute;
-  top: 70%;
-  left: 5%;
+  top: 50%;
+  left: 10%;
 }
 
 
@@ -722,8 +722,8 @@
 
   .leistungen__card-header--entwicklung {
     position: absolute;
-    top: 70%;
-    left: 5%;
+    top: 50%;
+    left: 10%;
   }
 
 
