@@ -582,37 +582,37 @@ section {
   }
 
   .drehen:before {
-    top: 80%;
+    top: 50%;
     left: 5%;
   }
 
   .drehen:after {
-    top: 80%;
+    top: 50%;
     right: 5%;
   }
 
   .fräsen:before {
-    top: 80%;
+    top: 50%;
     left: 5%;
   }
 
   .fräsen:after {
-    top: 80%;
+    top: 50%;
     right: 5%;
   }
 
   .schleifen:before {
-    top: 80%;
+    top: 50%;
     left: 5%;
   }
 
   .schleifen:after {
-    top: 80%;
+    top: 50%;
     right: 5%;
   }
 
   .drahterodieren:before {
-    top: 80%;
+    top: 50%;
     left: 5%;
   }
 
@@ -837,7 +837,7 @@ section {
   .fertigung__arrow:after {
     content: url("../IMAGES/Leistungen/arrow_fertigung.png");
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 80%;
   }
 
@@ -857,49 +857,49 @@ section {
   .drehen:before {
     content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 2%;
   }
 
   .drehen:after {
     content: url("../IMAGES/Leistungen/arrow_right.jpg");
     position: absolute;
-    top: 35%;
+    top: 50%;
     right: 2%;
   }
 
   .fräsen:before {
     content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 2%;
   }
 
   .fräsen:after {
     content: url("../IMAGES/Leistungen/arrow_right.jpg");
     position: absolute;
-    top: 35%;
+    top: 50%;
     right: 2%;
   }
 
   .schleifen:before {
     content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 2%;
   }
 
   .schleifen:after {
     content: url("../IMAGES/Leistungen/arrow_right.jpg");
     position: absolute;
-    top: 35%;
+    top: 50%;
     right: 2%;
   }
 
   .drahterodieren:before {
     content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 2%;
   }
 
