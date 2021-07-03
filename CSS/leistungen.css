@@ -511,7 +511,7 @@ section {
   }
 
   .hero__title {
-    line-height: 1.1;
+    line-height: 1;
     padding: 35% 5% 0 5%;
   }
 
@@ -644,7 +644,7 @@ section {
   }
 
   .hero__title {
-    line-height: 1.1;
+    line-height: 0.9;
     width: 60%;
     padding: 20.5% 5% 0 2%;
   }
