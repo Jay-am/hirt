@@ -9,7 +9,7 @@
 .hero__title {
   color: #ffffff;
   font-size: clamp(3rem, 5vw, 4rem);
-  line-height: clamp(0.5vw, 120%, 4.5rem);
+  line-height: 1;
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0),
     6px 6px 6px rgb(0, 0, 0);
