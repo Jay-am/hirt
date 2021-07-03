@@ -259,7 +259,7 @@
   /* background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
   rgba(255,255,255,0.8)), url("IMAGES/Heros/hero-schrauben.jpeg"); */
   background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
-  rgba(0,0,0,0.8)), url("../IMAGES/Leistungen/fertigung.jpg");
+  rgba(0,0,0,0.8)), url("../IMAGES/Leistungen/fertigung.png");
   background-position: 70% 100%;
   background-repeat: no-repeat;
   background-size: cover;
