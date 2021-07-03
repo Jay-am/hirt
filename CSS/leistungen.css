@@ -12,7 +12,7 @@
 .hero__title {
   color: #ffffff;
   font-size: clamp(3rem, 5vw, 4rem);
-  line-height: 90%;
+  line-height: 120%;
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   padding: 1.5% 0 0 2%;
@@ -438,7 +438,7 @@ section {
   }
 
   .hero__title {
-    line-height: 90%;
+    line-height: 120%;
     padding: 10% 0 0 5%;
   }
 
@@ -511,7 +511,7 @@ section {
   }
 
   .hero__title {
-    line-height: 110%;
+    line-height: 150%;
     padding: 35% 5% 0 5%;
   }
 
@@ -644,7 +644,7 @@ section {
   }
 
   .hero__title {
-    line-height: 120%;
+    line-height: 150%;
     width: 60%;
     padding: 20.5% 5% 0 2%;
   }
