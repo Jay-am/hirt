@@ -208,9 +208,7 @@ section {
 }
 
 .details-leistungen__section--details img {
-  display: block;
-  width: 90%;
-  padding-left: 4rem;
+  display: none;
 }
 
 .drehen h3 {
@@ -560,6 +558,12 @@ section {
   .details-leistungen__section--content {
     width: 80%;
     padding: 0 1em 0 1em;
+  }
+
+  .details-leistungen__section--details img {
+    display: block;
+    width: 90%;
+    padding-left: 4rem;
   }
 
   /* FERTIGUNG */
