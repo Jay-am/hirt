@@ -705,7 +705,6 @@
 
   .entwicklung {
     height: 150px;
-    background: url("../IMAGES/Leistungen/entwicklung.jpg");
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -729,7 +728,6 @@
 
   .lagerhaltung {
     height: 150px;
-    background: url("../IMAGES/Leistungen/lagerhaltung.jpg"), rgba(0, 0, 0, 1);
     background-position: 90% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -752,10 +750,6 @@
 
   .fertigung {
     height: 650px;
-    /* background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
-    rgba(255,255,255,0.8)), url("IMAGES/Heros/hero-schrauben.jpeg"); */
-    background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
-    rgba(0,0,0,0.8)), url("../IMAGES/Leistungen/fertigung.jpeg");
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -780,8 +774,6 @@
 
   .oberflächenveredelung {
     height: 700px;
-    background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
-    rgba(255,255,255,0.6)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -820,7 +812,6 @@
 
   .montage {
     height: 150px;
-    background: url("../IMAGES/Leistungen/montage.jpg"), rgba(0, 0, 0, 1);
     background-position: 70% 80%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -843,7 +834,6 @@
 
   .qualitätssicherung {
     height: 150px;
-    background: url("../IMAGES/Leistungen/qualitaetsmanagement.jpg"), rgba(0, 0, 0, 1);
     background-position: 90% 80%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1099,7 +1089,6 @@
 
   .entwicklung {
     height: 150px;
-    background: url("../IMAGES/Leistungen/entwicklung.jpg");
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1123,7 +1112,6 @@
 
   .lagerhaltung {
     height: 150px;
-    background: url("../IMAGES/Leistungen/lagerhaltung.jpg"), rgba(0, 0, 0, 1);
     background-position: 90% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1146,13 +1134,6 @@
 
   .fertigung {
     height: 650px;
-    /* background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
-    rgba(255,255,255,0.8)), url("IMAGES/Heros/hero-schrauben.jpeg"); */
-    /* TODO FIX hero-schrauben.jpeg is missing, I commented it out - Lars */
-    /* background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
-    rgba(0,0,0,0.8)), url("../IMAGES/Heros/hero-schrauben.jpeg"); */
-    background: linear-gradient(to left, rgba(0,0,0,0.4) 10%,
-    rgba(0,0,0,0.8));
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1177,8 +1158,6 @@
 
   .oberflächenveredelung {
     height: 700px;
-    background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
-    rgba(255,255,255,0.6)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1217,7 +1196,6 @@
 
   .montage {
     height: 150px;
-    background: url("../IMAGES/Leistungen/montage.jpg"), rgba(0, 0, 0, 1);
     background-position: 70% 80%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1240,7 +1218,6 @@
 
   .qualitätssicherung {
     height: 150px;
-    background: url("../IMAGES/Leistungen/qualitaetsmanagement.jpg"), rgba(0, 0, 0, 1);
     background-position: 30% 80%;
     background-repeat: no-repeat;
     background-size: cover;
