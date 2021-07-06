@@ -147,7 +147,7 @@ display: inline-block;
   }
 
   .unternehmen-info__text {
-    width: 54%;
+    width: 60%;
     padding: 1em 0 1em 10%;
     margin-right: 1em;
   }
@@ -159,7 +159,7 @@ display: inline-block;
   }
 
   .unternehmen-info__image img {
-    width: 55%;
+    width: 40%;
     align-self: center;
     justify-self: center;
   }
