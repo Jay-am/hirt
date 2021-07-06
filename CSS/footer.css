@@ -23,8 +23,7 @@
 }
 
 .footer__links,
-.legal__links,
-.footer__oeffnungszeiten {
+.legal__links {
   padding: 0.5em 0 1.5em 0em;
   list-style: none;
   text-decoration: none;
@@ -203,6 +202,8 @@
     grid-row: 2 / 3;
     justify-self: end;
     text-align: right;
+    display: flex;
+    flex-direction: column;
   }
 
   /* .footer {
