@@ -202,8 +202,6 @@
     grid-row: 2 / 3;
     justify-self: end;
     text-align: right;
-    display: flex;
-    flex-direction: column;
   }
 
   /* .footer {
