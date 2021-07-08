@@ -66,14 +66,14 @@
   color: #0066b2;
 }
 
-.small {
+.bcontent {
   /* font-size: 1rem; */
   font-weight: 100;
   color: #94979b;
   padding-bottom: 0.25em;
 }
 
-.small-last {
+.bcontent-last {
   padding-bottom: 1.5em;
 }
 
