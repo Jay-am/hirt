@@ -121,7 +121,7 @@ a.active {
 .nav-dropdown__item {
   list-style: none;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
 }
