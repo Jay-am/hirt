@@ -191,7 +191,7 @@ section {
 .fertigung__headlines a {
   text-decoration: none;
   color: #ffffff;
-  text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+  /* text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255); */
 }
 
 .fertigung__headlines a:hover {
@@ -819,8 +819,8 @@ section {
 
   .fertigung__headlines a {
     text-decoration: none;
-    color: #0066b2;
-    text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
+    color: #ffffff;
+    /* text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255); */
   }
 
   .fertigung__headlines a:hover {
