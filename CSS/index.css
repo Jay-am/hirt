@@ -148,6 +148,10 @@
   padding: 0 5% 0 5%;
 }
 
+.fullclick {
+  display: block;
+}
+
 .leistungen__text--cards {
   height: 450px;
   margin: 4em 5% 108em 5%;
