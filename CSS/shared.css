@@ -467,6 +467,10 @@ nav ul {
   .flag {
     margin-left: 3em;
   }
+
+  .zurueck {
+    padding: 0.5rem 0 0.5rem 0;
+  }
 }
 
 @media (min-width: 1800px) {
