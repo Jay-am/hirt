@@ -157,7 +157,7 @@ display: inline-block;
     padding: 0;
     margin-left: auto;
     align-self: center;
-    justify-self: flex-end;
+    justify-self: flex-start;
   }
 
   .unternehmen-info__image img {
@@ -165,7 +165,7 @@ display: inline-block;
     padding: 0;
     margin-left: auto;
     align-self: center;
-    justify-self: flex-end;
+    justify-self: flex-start;
   }
 }
 
