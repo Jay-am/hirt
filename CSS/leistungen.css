@@ -233,7 +233,7 @@ section {
   right: 5%;
 }
 
-.fräsen h3 {
+.fraesen h3 {
   padding: 2rem 0 2rem 0;
 }
 
@@ -241,14 +241,14 @@ section {
   padding: 0 0 6rem 0;
 }
 
-.fräsen:before {
+.fraesen:before {
   content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
   left: 5%;
 }
 
-.fräsen:after {
+.fraesen:after {
   content: url("../IMAGES/Leistungen/arrow_right.jpg");
   position: absolute;
   top: 80%;
@@ -287,7 +287,7 @@ section {
 
 /* OBERFLÄCHENVEREDELUNG */
 
-.details-leistungen__oberflächenveredelung {
+.details-leistungen__oberflaechenveredelung {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to left, rgba(255,255,255,0) 10%,
@@ -297,15 +297,15 @@ section {
   background-size: cover;
 }
 
-.oberflächenveredelung__content {
+.oberflaechenveredelung__content {
   padding: 4rem 0;
 }
 
-.oberflächenveredelung__content h3 {
+.oberflaechenveredelung__content h3 {
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
-.oberflächenveredelung__content p {
+.oberflaechenveredelung__content p {
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
@@ -339,7 +339,7 @@ section {
 
 /* QUALITÄTSSICHERUNG */
 
-.details-leistungen__qualitätssicherung {
+.details-leistungen__qualitaetssicherung {
   /* background: linear-gradient(to left, rgba(151, 151, 151, 0.4) 25%,
   rgba(151, 151, 151, 0.8)), url("../IMAGES/Index/Realisation.jpeg"); */
   /* background-image: url("../IMAGES/Index/Realisation.jpeg");
@@ -356,16 +356,16 @@ section {
   background-size: cover;
 }
 
-.qualitätssicherung__content {
+.qualitaetssicherung__content {
   padding: 4rem 0;
 }
 
-.qualitätssicherung__content h3 {
+.qualitaetssicherung__content h3 {
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
-.qualitätssicherung__content p {
+.qualitaetssicherung__content p {
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
@@ -373,7 +373,7 @@ section {
 
 /* QUALITÄTSMANAGEMENT */
 
-.details-leistungen__qualitätsmanagement {
+.details-leistungen__qualitaetsmanagement {
   width: 100%;
   height: auto;
   background: linear-gradient(to left, rgba(0,0,0,0.2) 0%,
@@ -384,11 +384,11 @@ section {
   background-size: cover;
 }
 
-.qualitätsmanagement__content {
+.qualitaetsmanagement__content {
   padding: 4rem 0;
 }
 
-.qualitätsmanagement__content h3 {
+.qualitaetsmanagement__content h3 {
   font-weight: 500;
   /* color: rgb(58, 58, 58); */
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
@@ -396,7 +396,7 @@ section {
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
 }
 
-.qualitätsmanagement__content p {
+.qualitaetsmanagement__content p {
   font-weight: 500;
   /* color: rgb(58, 58, 58); */
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0); */
@@ -474,12 +474,12 @@ section {
     right: 5%;
   }
 
-  .fräsen:before {
+  .fraesen:before {
     top: 80%;
     left: 5%;
   }
 
-  .fräsen:after {
+  .fraesen:after {
     top: 80%;
     right: 5%;
   }
@@ -591,12 +591,12 @@ section {
     right: 5%;
   }
 
-  .fräsen:before {
+  .fraesen:before {
     top: 50%;
     left: 5%;
   }
 
-  .fräsen:after {
+  .fraesen:after {
     top: 50%;
     right: 5%;
   }
@@ -843,7 +843,7 @@ section {
   }
 
   .drehen h3,
-  .fräsen h3,
+  .fraesen h3,
   .schleifen h3,
   .drahterodieren h3 {
     padding-top: 0;
@@ -863,14 +863,14 @@ section {
     right: 2%;
   }
 
-  .fräsen:before {
+  .fraesen:before {
     content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
     top: 50%;
     left: 2%;
   }
 
-  .fräsen:after {
+  .fraesen:after {
     content: url("../IMAGES/Leistungen/arrow_right.jpg");
     position: absolute;
     top: 50%;
@@ -901,11 +901,11 @@ section {
 
   /* OBERFLÄCHENVEREDELUNG */
 
-  .details-leistungen__oberflächenveredelung {
+  .details-leistungen__oberflaechenveredelung {
     background-position: 0% 0%;
   }
 
-  .oberflächenveredelung__content {
+  .oberflaechenveredelung__content {
     padding-top: 10rem;
   }
 
@@ -927,30 +927,30 @@ section {
 
   /* QUALITÄTSSICHERUNG */
 
-  .details-leistungen__qualitätssicherung {
+  .details-leistungen__qualiaetssicherung {
     background-position: 0% 80%;
   }
 
-  .qualitätssicherung__content {
+  .qualitaetssicherung__content {
     padding-top: 16rem;
   }
 
-  .qualitätssicherung__content p {
+  .qualitaetssicherung__content p {
     color: #ffffff;
   }
 
 
   /* QUALITÄTSMANAGEMENT */
 
-  .details-leistungen__qualitätsmanagement {
+  .details-leistungen__qualitaetsmanagement {
     background-position: 70% 50%;
   }
 
-  .qualitätsmanagement__content {
+  .qualitaetsmanagement__content {
     padding-top: 5rem;
   }
 
-  /* .qualitätsmanagement__content p {
+  /* .qualitaetsmanagement__content p {
     width: 80%;
   } */
 

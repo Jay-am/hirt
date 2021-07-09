@@ -280,7 +280,7 @@
 
 /* Oberflächenveredelung */
 
-.oberflächenveredelung {
+.oberflaechenveredelung {
   height: 700px;
   background: linear-gradient(to left, rgba(255,255,255,0.3) 10%,
   rgba(255,255,255,0.6)), url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
@@ -290,13 +290,13 @@
   clip-path: polygon(50% 6%, 100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);
 }
 
-.leistungen__card-header--oberflächenveredelung {
+.leistungen__card-header--oberflaechenveredelung {
   position: absolute;
   top: 65px;
   left: 10%;
 }
 
-.leistungen__card-content--oberflächenveredelung {
+.leistungen__card-content--oberflaechenveredelung {
   position: absolute;
   top: 120px;
   left: 10%;
@@ -344,7 +344,7 @@
 
 /* Qualitässicherung */
 
-.qualitätssicherung {
+.qualitaetssicherung {
   height: 150px;
   background: url("../IMAGES/Leistungen/qualitaetssicherung.jpg"), rgba(0, 0, 0, 1);
   background-position: 30% 80%;
@@ -354,12 +354,12 @@
   /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 65%, 10% 50%, 0 35%, 0 0); */
 }
 
-.qualitätssicherung a {
+.qualitaetssicherung a {
   padding: 55% 0% 0 14%;
   text-align: left;
 }
 
-.leistungen__card-header--qualitätssicherung {
+.leistungen__card-header--qualitaetssicherung {
   position: absolute;
   top: -80px;
   left: 1%;
@@ -772,7 +772,7 @@
 
   /* Oberflächenveredelung */
 
-  .oberflächenveredelung {
+  .oberflaechenveredelung {
     height: 700px;
     background-position: 50% 0%;
     background-repeat: no-repeat;
@@ -780,13 +780,13 @@
     clip-path: polygon(50% 6%, 100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);
   }
 
-  .leistungen__card-header--oberflächenveredelung {
+  .leistungen__card-header--oberflaechenveredelung {
     position: absolute;
     top: 65px;
     left: 8%;
   }
 
-  .leistungen__card-content--oberflächenveredelung {
+  .leistungen__card-content--oberflaechenveredelung {
     position: absolute;
     top: 120px;
     left: 8%;
@@ -832,7 +832,7 @@
 
   /* Qualitässicherung */
 
-  .qualitätssicherung {
+  .qualitaetssicherung {
     height: 150px;
     background-position: 90% 80%;
     background-repeat: no-repeat;
@@ -841,12 +841,12 @@
     /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 65%, 10% 50%, 0 35%, 0 0); */
   }
 
-  .qualitätssicherung a {
+  .qualitaetssicherung a {
     padding: 55% 0% 0 14%;
     text-align: left;
   }
 
-  .leistungen__card-header--qualitätssicherung {
+  .leistungen__card-header--qualitaetssicherung {
     position: absolute;
     top: -80px;
     left: 2%;
@@ -1156,7 +1156,7 @@
 
   /* Oberflächenveredelung */
 
-  .oberflächenveredelung {
+  .oberflaechenveredelung {
     height: 700px;
     background-position: 50% 0%;
     background-repeat: no-repeat;
@@ -1164,13 +1164,13 @@
     clip-path: polygon(50% 6%, 100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);
   }
 
-  .leistungen__card-header--oberflächenveredelung {
+  .leistungen__card-header--oberflaechenveredelung {
     position: absolute;
     top: 65px;
     left: 8%;
   }
 
-  .leistungen__card-content--oberflächenveredelung {
+  .leistungen__card-content--oberflaechenveredelung {
     position: absolute;
     top: 120px;
     left: 8%;
@@ -1216,7 +1216,7 @@
 
   /* Qualitässicherung */
 
-  .qualitätssicherung {
+  .qualitaetssicherung {
     height: 150px;
     background-position: 30% 80%;
     background-repeat: no-repeat;
@@ -1225,12 +1225,12 @@
     /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 65%, 10% 50%, 0 35%, 0 0); */
   }
 
-  .qualitätssicherung a {
+  .qualitaetssicherung a {
     padding: 55% 0% 0 14%;
     text-align: left;
   }
 
-  .leistungen__card-header--qualitätssicherung {
+  .leistungen__card-header--qualitaetssicherung {
     position: absolute;
     top: -80px;
     left: 3%;
@@ -1585,7 +1585,7 @@
 
   /* Oberflächenveredelung */
 
-  .oberflächenveredelung {
+  .oberflaechenveredelung {
     width: 23%;
     height: 500px;
     background-position: 50% 0%;
@@ -1605,17 +1605,17 @@
     cursor: pointer;
   }
 
-  .oberflächenveredelung a {
+  .oberflaechenveredelung a {
     padding: 0 0 0.5em 0;
   }
 
-  .leistungen__card-header--oberflächenveredelung {
+  .leistungen__card-header--oberflaechenveredelung {
     position: absolute;
     top: 195px;
     left: -95px;
   }
 
-  .leistungen__card-content--oberflächenveredelung {
+  .leistungen__card-content--oberflaechenveredelung {
     position: absolute;
     top: -5px;
     left: 115px;
@@ -1666,7 +1666,7 @@
 
   /* Qualitätssicherung */
 
-  .qualitätssicherung {
+  .qualitaetssicherung {
     width: 11%;
     height: 500px;
     background-position: 30% 50%;
@@ -1677,12 +1677,12 @@
     cursor: pointer;
   }
 
-  .qualitätssicherung a {
+  .qualitaetssicherung a {
     padding: 55% 0% 0 14%;
     text-align: center;
   }
 
-  .leistungen__card-header--qualitätssicherung {
+  .leistungen__card-header--qualitaetssicherung {
     position: absolute;
     top: 135px;
     left: -165px;
