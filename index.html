@@ -265,16 +265,14 @@
 
               <div class="leistungen__text--cards">
 
-                <a href="./leistungen#entwicklung" class="fullclick">
-                  <div class="leistungen__text--card entwicklung">
-                    <div class="leistungen__card-header--entwicklung">
-                      <a href="./leistungen#entwicklung" class="card-header"
-                        >Entwicklung</a
-                      >
-                    </div>
+                <div class="leistungen__text--card entwicklung full-click">
+                  <div class="leistungen__card-header--entwicklung">
+                    <a href="./leistungen#entwicklung" class="card-header"
+                      >Entwicklung</a
+                    >
                   </div>
-                </a>
-
+                </div>
+  
                 <div class="leistungen__text--card lagerhaltung">
                   <div class="leistungen__card">
                     <div class="leistungen__card-header--lagerhaltung">
@@ -608,6 +606,9 @@
         var nav = document.querySelector("nav");
         nav.classList.toggle("sticky", window.scrollY > 0);
       });
+    </script>
+     <script type="text/javascript">
+      window.location = $(".full-click").data("location");
     </script>
   </body>
 </html>
