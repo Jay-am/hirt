@@ -482,6 +482,19 @@ nav ul {
   .zurueck:active {
     color: #004980;
   }
+
+  .zurueck-light,
+  .zurueck-light:link,
+  .zurueck-light:visited {
+    color: #3b9eea;
+  }
+
+  .zurueck-light:hover,
+  .zurueck-light:active {
+    color: #004980;
+  }
+
+  
 }
 
 @media (min-width: 1800px) {
