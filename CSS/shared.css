@@ -471,6 +471,17 @@ nav ul {
   .zurueck {
     padding: 0.75rem 0 0.5rem 0;
   }
+
+  .zurueck,
+  .zurueck:link,
+  .zurueck:visited {
+    color: #0066b2;
+  }
+
+  .zurueck:hover,
+  .zurueck:active {
+    color: #004980;
+  }
 }
 
 @media (min-width: 1800px) {
