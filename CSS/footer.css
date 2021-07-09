@@ -31,6 +31,8 @@
 .legal__links {
   list-style: none;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__link:link,
