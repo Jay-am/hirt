@@ -203,10 +203,11 @@
     grid-row: 2 / 3;
     justify-self: flex-end;
     text-align: right;
+    padding: 2rem 0 0 0;
   }
 
-  .legal a {
-    padding: 0em 0.875em 0em 0.875em;
+  .legal a > * + * {
+    padding: 0 0 0 0.875em;
   }
 }
 
