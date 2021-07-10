@@ -253,6 +253,14 @@
     padding: 1.5rem 0 0 0;
     margin-left: auto;
   }
+
+  .impressum {
+    padding: 0 0.875rem 0 0;
+  }
+
+  .datenschutz {
+    padding: 0 0.875rem 0 0;
+  }
 }
 
 @media (min-width: 1800px) {}
