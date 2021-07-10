@@ -399,12 +399,11 @@ nav ul {
   } 
       
   nav ul li:hover > ul {
-    display:contents;
+    display:block;
   }
       
   nav ul ul li {
     width: 250px;
-    float:none;
     display: list-item;
     position: relative;
     top: 155px;
@@ -420,8 +419,8 @@ nav ul {
     position: relative;
   }
   
-  li > a:after { content:  ' +'; }
-  li > a:only-child:after { content: ''; }
+  /* li > a:after { content:  ' +'; }
+  li > a:only-child:after { content: ''; } */
 
 
   /* NAV STICKY */
