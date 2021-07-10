@@ -499,13 +499,13 @@ nav ul {
     float:none;
     display: list-item;
     position: relative;
+    top: 0px;
+    left: 0px;  
+    background-color: #ff0101;
   }
 
   nav ul ul ul li {
     position: relative;
-    top: 0px;
-    left: 0px;  
-    background-color: #ff0101;
   }
 
   li > a:after { content:  ' +'; }
