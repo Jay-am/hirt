@@ -491,23 +491,23 @@ nav ul {
     
   /* Display Dropdowns on Hover */
   nav ul li:hover > ul {
-    display:inherit;
+    display: inherit;
   }
     
   nav ul ul li {
-    width:120px;
-    /* float:none; */
-    display:list-item;
+    width: 120px;
+    float:none;
+    display: list-item;
     position: relative;
-    top:-160px;
-    left:140px; 
+    top: -160px;
+    left: 140px; 
     background-color: #ff0101;
   }
 
   nav ul ul ul li {
     position: relative;
-    top:-160px;
-    left:140px; 
+    top: -160px;
+    left: 140px; 
     background-color: #ff0101;
   }
 
@@ -555,8 +555,6 @@ nav ul {
   .zurueck-light:active {
     color: #004980;
   }
-
-  
 }
 
 @media (min-width: 1800px) {
