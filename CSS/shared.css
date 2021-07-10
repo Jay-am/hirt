@@ -411,6 +411,7 @@ nav ul {
     top: -80px;
     left: 0px;  
     background-color: #ff0101;
+    padding: 0.5rem;
   }
   
   nav ul ul ul li {
@@ -418,6 +419,7 @@ nav ul {
     top: -80px;
     left: 0px;  
     background-color: #ff0101;
+    padding: 0.5rem;
   }
   
   li > a:after { content:  ' +'; }
