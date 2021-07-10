@@ -192,7 +192,7 @@ nav ul ul li {
 	/* float:none; */
 	display:list-item;
 	position: relative;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 nav ul ul ul li {
