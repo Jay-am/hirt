@@ -73,6 +73,39 @@
   display: flex;
 }
 
+/* GRID */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr) repeat(2, min-content);
+}
+
+.footer__kontakt {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.footer__oeffnungszeiten {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.zertifiziert {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.legal {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.rights {
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+}
+
 
 /* MEDIAQUERIES */
 
@@ -200,13 +233,13 @@
     grid-column: 5 / 6;
     grid-row: 2 / 3;
     align-self: flex-end;
-    /* text-align: right; */
-    /* justify-content: space-between; */
+    text-align: right;
     padding: 1.5rem 0 0 0;
+    margin-left: auto;
   }
 
   .legal a > * + * {
-    padding: 0 0 0 0.875rem;
+    padding: 0 0.875rem 0 0;
   }
 }
 
