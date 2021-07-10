@@ -117,12 +117,13 @@ a.active {
   position: static;
   padding: 0;
   z-index: 10;
+  background-color: #ffffff;
 }
 
 .nav-dropdown__item {
   list-style: none;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
 }
