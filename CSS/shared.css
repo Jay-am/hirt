@@ -499,15 +499,15 @@ nav ul {
     float:none;
     display: list-item;
     position: relative;
-    top: -160px;
-    left: 140px; 
+    top: 160px;
+    left: 20px; 
     background-color: #ff0101;
   }
 
   nav ul ul ul li {
     position: relative;
-    top: -160px;
-    left: 140px; 
+    top: 160px;
+    left: 20px;  
     background-color: #ff0101;
   }
 
