@@ -159,58 +159,6 @@ nav ul {
   display: none;
 }
 
-.toggle,
-[id^=drop] {
-	display: none;
-}
-
- /* nav:after {
-	content:"";
-	display:table;
-	clear:both;
-}
-
-nav ul {
-	float: right;
-	padding:0;
-	margin:0;
-	list-style: none;
-	position: relative;
-	}*/
-
-/* nav ul ul {
-	display: none;
-	position: absolute; 
-	top: 60px; 
-}  */
-/* has to be the same number as the "line-height" of "nav a" */
-	
-/* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-	display:inherit;
-}
-	
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-	width:170px;
-	/* float:none; */
-	display:list-item;
-	position: relative;
-  /* background-color: #ffffff; */
-}
-
-nav ul ul ul li {
-	position: relative;
-	top:-60px;
-	left:170px; 
-}
-/* has to be the same number as the "width" of "nav ul ul li" */ 
-
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
-
-
-
 /* NAV HAMBURGER */
 
 .nav-mobile {
@@ -509,6 +457,62 @@ li > a:only-child:after { content: ''; }
     transform: scale(0.9);
     transition: ease-in-out 600ms;
   }
+
+  /* DROPDOWN */
+
+
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+ /* nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+nav ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}*/
+
+/* nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+}  */
+/* has to be the same number as the "line-height" of "nav a" */
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	/* float:none; */
+	display:list-item;
+	position: relative;
+  /* background-color: #ffffff; */
+}
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	left:170px; 
+}
+/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
 }
 
 @media (min-width: 1200px) {
