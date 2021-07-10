@@ -392,37 +392,35 @@ nav ul {
   
   /* DROPDOWN */
 
-
-    nav ul ul {
-      display: none;
-      position: absolute; 
-      top: 70px; 
-    } 
+  nav ul ul {
+    display: none;
+    position: absolute; 
+    top: 70px; 
+  } 
       
-  
-    nav ul li:hover > ul {
-      display: inherit;
-    }
+  nav ul li:hover > ul {
+    display: inherit;
+  }
       
-    nav ul ul li {
-      width: 120px;
-      float:none;
-      display: list-item;
-      position: relative;
-      top: 0px;
-      left: 0px;  
-      background-color: #ff0101;
-    }
+  nav ul ul li {
+    width: 120px;
+    float:none;
+    display: list-item;
+    position: relative;
+    top: 0px;
+    left: 0px;  
+    background-color: #ff0101;
+  }
   
-    nav ul ul ul li {
-      position: relative;
-      top: 0px;
-      left: 0px;  
-      background-color: #ff0101;
-    }
+  nav ul ul ul li {
+    position: relative;
+    top: 0px;
+    left: 0px;  
+    background-color: #ff0101;
+  }
   
-    li > a:after { content:  ' +'; }
-    li > a:only-child:after { content: ''; }
+  li > a:after { content:  ' +'; }
+  li > a:only-child:after { content: ''; }
 
 
   /* NAV STICKY */
