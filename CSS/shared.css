@@ -287,10 +287,11 @@ nav ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-content: top;
     align-items: center;
     visibility: visible;
     background-color: #ffffff;
-    height: 60px;
+    height: 65px;
     top: 0;
     left: 0;
     padding: 0.25em 2.25em 0.25em 2.25em;
@@ -462,8 +463,6 @@ nav ul {
 
   /* DROPDOWN */
 
-
-
 .toggle,
 [id^=drop] {
 	display: none;
@@ -506,7 +505,7 @@ nav ul ul li {
 
 nav ul ul ul li {
 	position: relative;
-	top:-60px;
+	top:-65px;
 	left:120px; 
 }
 /* has to be the same number as the "width" of "nav ul ul li" */ 
