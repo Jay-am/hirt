@@ -119,6 +119,7 @@ a.active {
   z-index: 10;
 }
 
+.nav-drop__item,
 .nav-dropdown__item {
   list-style: none;
   text-decoration: none;
@@ -127,6 +128,8 @@ a.active {
   padding: 0;
 }
 
+.nav-drop__link:link,
+.nav-drop__link:visited,
 .nav-dropdown__link:link,
 .nav-dropdown__link:visited {
   text-decoration: none;
@@ -134,6 +137,8 @@ a.active {
   font-size: 0.9rem;
 }
 
+.nav-drop__link:hover,
+.nav-drop__link:active,
 .nav-dropdown__link:hover,
 .nav-dropdown__link:active {
   color: #004980;
@@ -159,7 +164,6 @@ nav ul {
 	display: none;
 }
 
-
  /* nav:after {
 	content:"";
 	display:table;
@@ -172,13 +176,13 @@ nav ul {
 	margin:0;
 	list-style: none;
 	position: relative;
-	}
+	}*/
 
 nav ul ul {
 	display: none;
 	position: absolute; 
 	top: 60px; 
-} */
+} 
 /* has to be the same number as the "line-height" of "nav a" */
 	
 /* Display Dropdowns on Hover */
