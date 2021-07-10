@@ -393,33 +393,31 @@ nav ul {
   /* DROPDOWN */
 
   nav ul ul {
-    display: none;
+    display: inherit;
     position: absolute; 
     top: 70px; 
   } 
       
   nav ul li:hover > ul {
-    display: inherit;
-    /* background-color: #0101ff; */
+    display:contents;
   }
       
   nav ul ul li {
-    width: 150px;
+    width: 250px;
     float:none;
     display: list-item;
     position: relative;
-    top: -80px;
-    left: 0px;  
-    background-color: #ff0101;
+    top: 155px;
+    left: 155px;  
+    background-color: #ffffff;
+  }
+
+  .nav-drop__link {
     padding: 0.5rem;
   }
   
   nav ul ul ul li {
     position: relative;
-    top: -80px;
-    left: 0px;  
-    background-color: #ff0101;
-    padding: 0.5rem;
   }
   
   li > a:after { content:  ' +'; }
