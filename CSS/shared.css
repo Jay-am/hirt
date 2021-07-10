@@ -9,6 +9,7 @@
 .nav__logo {
   width: 5em;
   margin: 15% 0em 15% 2em;
+  justify-content: flex-start;
 }
 
 .nav__logo:hover,
@@ -121,7 +122,7 @@ a.active {
 .nav-dropdown__item {
   list-style: none;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
