@@ -463,57 +463,56 @@ nav ul {
 
   /* DROPDOWN */
 
-.toggle,
-[id^=drop] {
-	display: none;
-}
+  .toggle,
+  [id^=drop] {
+    display: none;
+  }
 
- /* nav:after {
-	content:"";
-	display:table;
-	clear:both;
-}
+  /* nav:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
 
-nav ul {
-	float: right;
-	padding:0;
-	margin:0;
-	list-style: none;
-	position: relative;
-	}*/
+  nav ul {
+    float: right;
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }*/
 
-/* nav ul ul {
-	display: none;
-	position: absolute; 
-	top: 60px; 
-}  */
-/* has to be the same number as the "line-height" of "nav a" */
-	
-/* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-	display:inherit;
-}
-	
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-	width:120px;
-	/* float:none; */
-	display:list-item;
-	position: relative;
-}
+  /* nav ul ul {
+    display: none;
+    position: absolute; 
+    top: 60px; 
+  }  */
+  /* has to be the same number as the "line-height" of "nav a" */
+    
+  /* Display Dropdowns on Hover */
+  nav ul li:hover > ul {
+    display:inherit;
+  }
+    
+  nav ul ul li {
+    width:120px;
+    /* float:none; */
+    display:list-item;
+    position: relative;
+    top:-160px;
+    left:140px; 
+    background-color: #ff0101;
+  }
 
-nav ul ul ul li {
-	position: relative;
-	top:-160px;
-	left:140px; 
-  background-color: #ff0101;
-}
-/* has to be the same number as the "width" of "nav ul ul li" */ 
+  nav ul ul ul li {
+    position: relative;
+    top:-160px;
+    left:140px; 
+    background-color: #ff0101;
+  }
 
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
-
-
+  li > a:after { content:  ' +'; }
+  li > a:only-child:after { content: ''; }
 }
 
 @media (min-width: 1200px) {
