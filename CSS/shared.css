@@ -392,22 +392,26 @@ nav ul {
   
   /* DROPDOWN */
 
-  nav ul ul {
+  /* nav ul ul {
     display: inherit;
     position: absolute; 
     top: 70px; 
-  } 
+  }  */
       
   nav ul li:hover > ul {
-    display:block;
+    display: contents;
   }
       
   nav ul ul li {
     width: 250px;
+    height: auto;
     display: list-item;
-    position: relative;
-    top: 155px;
-    left: 155px;  
+    position: absolute;
+    /* position: relative; */
+    top: 60px;
+    left: 0px;  
+    /* top: 155px;
+    left: 155px;   */
     background-color: #ffffff;
   }
 
@@ -417,6 +421,7 @@ nav ul {
   
   nav ul ul ul li {
     position: relative;
+    display: block;
   }
   
   /* li > a:after { content:  ' +'; }

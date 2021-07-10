@@ -1294,9 +1294,7 @@
   .hero {
     height: 100vh;
     min-height: 800px;
-    /* height: 65vh; */
     background-position: 70% 100%;
-    /* background-position: 80% 42%; */
     position: relative;
     padding: 3em 0% 4em 0%;
   }
@@ -1323,6 +1321,7 @@
     left: 85%;
   }
 
+
   /* SCROLL */
 
   .full-scroll {
@@ -1343,6 +1342,7 @@
     overflow: hidden;
   }
 
+
   /* INTRO */
 
   .intro {
@@ -1362,7 +1362,7 @@
 
   .intro__text {
     padding: 0em 0 0em 10%;
-    width: 65%;
+    width: 60%;
   }
 
   .intro__text--parapraph + .intro__text--parapraph {
@@ -1375,7 +1375,7 @@
 
   .intro__image {
     display: block;
-    width: 35%;
+    width: 40%;
     margin-right: 2em;
   }
 
@@ -1405,6 +1405,7 @@
     padding: 0 0 1em 0;
   }
 
+
   /* LEISTUNGEN */
 
   .full-click {
@@ -1423,19 +1424,17 @@
   .leistungen__content h2 {
     text-align: center;
     padding: 0 0 0 0;
-    /* margin: 0 5% 0 5%; */
   }
 
-  /* .leistungen__text--header p {
-  padding: 0 0 0 4em;
-  width: 60%;
-} */
+  .leistungen__text--header p {
+    padding: 0 0 0 4em;
+    width: 60%;
+  }
 
   .leistungen__text--cards {
     height: 450px;
     display: flex;
     justify-content: space-evenly;
-    /* padding: 4em 0 1em 0; */
     margin: 4em 5% 1em 5%;
     filter: drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.3))
       drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.2));
@@ -1448,7 +1447,6 @@
 
   .leistungen__text--card:hover,
   .leistungen__text--card:active {
-    /* transform: scale(1.01); */
     transform: scale(0.99);
     transition: scale 1.5s ease-in-out;
     filter: drop-shadow(-2px 4px 12px rgba(0, 0, 0, 0.4))
@@ -1457,8 +1455,6 @@
 
   .leistungen__card {
     position: relative;
-    /* justify-content: space-evenly;
-  align-content: center; */
   }
 
   .card-header {
@@ -1469,9 +1465,6 @@
     font-weight: 300;
     text-transform: uppercase;
     transform: rotate(-90deg);
-    /* writing-mode: vertical-lr;
-  -webkit-text-orientation: upright;
-  text-orientation: upright */
   }
 
   .bold {
@@ -1511,8 +1504,8 @@
 
   .leistungen__card-header--entwicklung {
     position: absolute;
-    top: 210px;
-    left: -90px;
+    top: 170px;
+    left: -105px;
   }
 
   /* Lagerhaltung */
@@ -1557,7 +1550,6 @@
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 8% 50%, 0% 0%); */
     clip-path: polygon(
       0 0,
       94% 0,
@@ -1607,9 +1599,9 @@
     cursor: pointer;
   }
 
-  /* .oberflaechenveredelung a {
+  .oberflaechenveredelung a {
     padding: 0 0 0.5em 0;
-  } */
+  }
 
   .leistungen__card-header--oberflaechenveredelung {
     position: absolute;
@@ -1652,10 +1644,10 @@
     cursor: pointer;
   }
 
-  /* .montage a {
+  .montage a {
     padding: 110% 0 0 20%;
     text-align: center;
-  } */
+  }
 
   .leistungen__card-header--montage {
     position: absolute;
@@ -1676,10 +1668,10 @@
     cursor: pointer;
   }
 
-  /* .qualitaetssicherung a {
+  .qualitaetssicherung a {
     padding: 55% 0% 0 14%;
     text-align: center;
-  } */
+  }
 
   .leistungen__card-header--qualitaetssicherung {
     position: absolute;
