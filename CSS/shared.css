@@ -497,7 +497,7 @@ nav ul li:hover > ul {
 	
 /* Fisrt Tier Dropdown */
 nav ul ul li {
-	width:170px;
+	width:120px;
 	/* float:none; */
 	display:list-item;
 	position: relative;
@@ -507,7 +507,7 @@ nav ul ul li {
 nav ul ul ul li {
 	position: relative;
 	top:-60px;
-	left:170px; 
+	left:120px; 
 }
 /* has to be the same number as the "width" of "nav ul ul li" */ 
 
