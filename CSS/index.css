@@ -1599,9 +1599,9 @@
     cursor: pointer;
   }
 
-  .oberflaechenveredelung a {
+  /* .oberflaechenveredelung a {
     padding: 0 0 0.5em 0;
-  }
+  } */
 
   .leistungen__card-header--oberflaechenveredelung {
     position: absolute;
@@ -1644,10 +1644,10 @@
     cursor: pointer;
   }
 
-  .montage a {
+  /* .montage a {
     padding: 110% 0 0 20%;
     text-align: center;
-  }
+  } */
 
   .leistungen__card-header--montage {
     position: absolute;
@@ -1668,10 +1668,10 @@
     cursor: pointer;
   }
 
-  .qualitaetssicherung a {
+  /* .qualitaetssicherung a {
     padding: 55% 0% 0 14%;
     text-align: center;
-  }
+  } */
 
   .leistungen__card-header--qualitaetssicherung {
     position: absolute;
