@@ -183,7 +183,7 @@ nav ul ul {
 	
 /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
-	display:contents;
+	display:inherit;
 }
 	
 /* Fisrt Tier Dropdown */
