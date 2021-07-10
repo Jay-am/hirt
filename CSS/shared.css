@@ -291,7 +291,7 @@ nav ul {
     align-items: center;
     visibility: visible;
     background-color: #ffffff;
-    height: 65px;
+    height: 70px;
     top: 0;
     left: 0;
     padding: 0.25em 2.25em 0.25em 2.25em;
@@ -507,7 +507,7 @@ nav ul ul li {
 
 nav ul ul ul li {
 	position: relative;
-	top:-65px;
+	top:-70px;
 	left:120px; 
 }
 /* has to be the same number as the "width" of "nav ul ul li" */ 
