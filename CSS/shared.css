@@ -36,12 +36,14 @@
   text-decoration: none;
   color: #94979b;
   font-size: clamp(0.9rem, 1.3vw, 1rem);
+  text-align: left;
 }
 
 .nav__item {
   margin: 0 auto 0.5em auto;
   padding: 0.375em 0 0 0;
   padding-bottom: 0.5em;
+  text-align: left;
 }
 
 .nav__btn,
