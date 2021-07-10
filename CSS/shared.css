@@ -500,15 +500,13 @@ nav ul ul li {
 	/* float:none; */
 	display:list-item;
 	position: relative;
-  top: -160px;
-  left: 20px;
-  background-color: #ff0101;
 }
 
 nav ul ul ul li {
 	position: relative;
-	top:-70px;
-	left:120px; 
+	top:-160px;
+	left:140px; 
+  background-color: #ff0101;
 }
 /* has to be the same number as the "width" of "nav ul ul li" */ 
 
