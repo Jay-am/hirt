@@ -19,7 +19,7 @@
 }
 
 .nav__text {
-  text-align: center;
+  text-align: left;
   list-style: none;
   font-size: clamp(0.9rem, 1.3vw, 1rem);
   padding: 1em 0 5% 0;
