@@ -83,17 +83,17 @@
   grid-template-rows: repeat(5, 1fr) repeat(2, min-content);
 }
 
-.footer__unternehmen {
+.footer__kontakt {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
-.footer__kontakt {
+.footer__oeffnungszeiten {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 
-.footer__oeffnungszeiten {
+.footer__unternehmen {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
@@ -125,17 +125,17 @@
     grid-template-rows: repeat(5, 1fr) repeat(2, min-content);
   }
 
-  .footer__unternehmen {
+  .footer__kontakt {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
 
-  .footer__kontakt {
+  .footer__oeffnungszeiten {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
 
-  .footer__oeffnungszeiten {
+  .footer__unternehmen {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
   }
