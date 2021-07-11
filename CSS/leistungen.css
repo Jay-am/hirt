@@ -110,35 +110,6 @@
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
-
-/* LAGERHALTUNG */
-
-.details-leistungen__lagerhaltung {
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to right, rgba(0,0,0,0.7) 15%,
-  rgba(0,0,0,0)), url("../IMAGES/Leistungen/lagerhaltung.jpg");
-  background-position: 60% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.lagerhaltung__content {
-  padding: 4rem 0;
-}
-
-.lagerhaltung__content h3 {
-  color: rgb(255, 255, 255);
-  /* text-shadow: 1px 1px 3px rgb(255, 255, 255); */
-}
-
-.lagerhaltung__content p {
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  text-shadow: 0.25px 0.25px 75px rgb(20, 20, 20), 0.35px 0.35px 1px rgb(20, 20, 20);
-}
-
-
 /* FERTIGUNG */
 
 .slider {
@@ -200,11 +171,11 @@ section {
   text-shadow: none;
 }
 
-.fertigung__arrow:after {
+.fertigung:after {
   content: url("../IMAGES/Leistungen/arrow_fertigung.png");
   position: absolute;
-  top: 75%;
-  left: 80%;
+  top: 47%;
+  left: 90%;
 }
 
 .details-leistungen__section--details img {
@@ -368,6 +339,34 @@ section {
 .qualitaetssicherung__content p {
   color: #ffffff;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 1px 1px 3px rgb(0, 0, 0);
+}
+
+
+/* LAGERHALTUNG */
+
+.details-leistungen__lagerhaltung {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0,0,0,0.7) 15%,
+  rgba(0,0,0,0)), url("../IMAGES/Leistungen/lagerhaltung.jpg");
+  background-position: 60% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lagerhaltung__content {
+  padding: 4rem 0;
+}
+
+.lagerhaltung__content h3 {
+  color: rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 3px rgb(255, 255, 255); */
+}
+
+.lagerhaltung__content p {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-shadow: 0.25px 0.25px 75px rgb(20, 20, 20), 0.35px 0.35px 1px rgb(20, 20, 20);
 }
 
 

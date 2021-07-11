@@ -517,6 +517,9 @@ nav ul {
   }
 
   .zurueck {
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    letter-spacing: 0.05rem;
+    margin: 0;
     padding: 0.75rem 0 1rem 0;
   }
 
@@ -524,6 +527,10 @@ nav ul {
   .zurueck:link,
   .zurueck:visited {
     color: #0066b2;
+  }
+
+  .zurueck-light {
+    color: #ffffff;
   }
 
   .zurueck:hover,
