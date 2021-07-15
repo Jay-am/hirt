@@ -385,7 +385,7 @@ nav ul {
   nav ul li {
     /* margin: 0px; */
     display:inline-block;
-    }
+  }
 
   nav ul ul {
     display: none;
@@ -431,9 +431,7 @@ nav ul {
 	/* nav ul ul ul li {
 		position: static;
 	} */
-
-}
-
+  
 
   /* NAV STICKY */
 
