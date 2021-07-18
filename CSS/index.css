@@ -973,13 +973,6 @@
     /* position: absolute */
     padding: 20% 0 0 2.5%;
   }
-  
-  /* .hero__content:after {
-    content: url("../IMAGES/Index/arrow_hero.png");
-    position: absolute;
-    bottom: 15%;
-    left: 50%;
-  } */
 
   .hero__logo {
     width: 10rem;
@@ -990,6 +983,19 @@
 
   .hero__title {
     padding: 2rem 0 0 2.5%;
+  }
+
+  /* .hero__content:after {
+    content: url("../IMAGES/Index/arrow_hero.png");
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+  } */
+
+  .down-click {
+    width: 100vw;
+    padding-top: 2rem;
+    padding-left: 40%;
   }
 
 
@@ -1323,7 +1329,6 @@
 
   .down-click {
     width: 100vw;
-    /* margin: 0 auto; */
     padding-top: 2rem;
     padding-left: 40%;
   }

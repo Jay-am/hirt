@@ -110,6 +110,7 @@
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
+
 /* FERTIGUNG */
 
 .slider {
@@ -171,14 +172,20 @@ section {
   text-shadow: none;
 }
 
-.fertigung:after {
+/* .fertigung:after {
   content: url("../IMAGES/Leistungen/arrow_fertigung.png");
   position: absolute;
   top: 47%;
   left: 90%;
-}
+} */
 
-.details-leistungen__section--details img {
+/* 
+.fertigung-arrow {
+  justify-content: center;
+  align-items: center;
+} */
+
+.img__fertigung--details img {
   display: none;
 }
 
@@ -190,7 +197,7 @@ section {
   padding: 2rem 0 1rem 0;
 }
 
-.drehen::before {
+/* .drehen::before {
   content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
@@ -202,7 +209,7 @@ section {
   position: absolute;
   top: 80%;
   right: 5%;
-}
+} */
 
 .fraesen h3 {
   padding: 2rem 0 2rem 0;
@@ -212,7 +219,7 @@ section {
   padding: 0 0 6rem 0;
 }
 
-.fraesen:before {
+/* .fraesen:before {
   content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
@@ -224,13 +231,13 @@ section {
   position: absolute;
   top: 80%;
   right: 5%;
-}
+} */
 
 .schleifen h3 {
   padding: 2rem 0 2rem 0;
 }
 
-.schleifen:before {
+/* .schleifen:before {
   content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
@@ -242,18 +249,18 @@ section {
   position: absolute;
   top: 80%;
   right: 5%;
-}
+} */
 
 .drahterodieren h3 {
   padding: 2rem 0 2rem 0;
 }
 
-.drahterodieren:before {
+/* .drahterodieren:before {
   content: url("../IMAGES/Leistungen/arrow_left.jpg");
   position: absolute;
   top: 80%;
   left: 5%;
-}
+} */
 
 
 /* OBERFLÄCHENVEREDELUNG */
@@ -458,6 +465,7 @@ section {
     padding: 2rem 0 0 0;
   }
 
+/* 
   .fertigung__arrow:after {
     top: 70%;
     left: 80%;
@@ -496,7 +504,7 @@ section {
   .drahterodieren:before {
     top: 80%;
     left: 5%;
-  }
+  } */
 }
 
 @media (min-width: 900px) {
@@ -559,9 +567,9 @@ section {
     padding: 0 1em 0 1em;
   }
 
-  .details-leistungen__section--details img {
+  .img__fertigung--details img {
     display: block;
-    width: 90%;
+    width: 80%;
     padding-left: 4rem;
   }
 
@@ -575,12 +583,21 @@ section {
     padding: 2rem 0 0 0;
   }
 
-  .fertigung__arrow:after {
+  /* .fertigung__arrow:after {
     top: 50%;
     left: 80%;
-  }
+  } */
 
-  .drehen:before {
+  /* .fertigung__content {
+    flex-direction: column;
+  }
+  
+  .fertigung-arrow {
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* .drehen:before {
     top: 50%;
     left: 5%;
   }
@@ -613,7 +630,7 @@ section {
   .drahterodieren:before {
     top: 50%;
     left: 5%;
-  }
+  } */
 
   /* KONTAKT */
 
@@ -725,53 +742,9 @@ section {
 
  /* FERTIGUNG */
 
-  .fertigung {
-    display: flex;
-    /* align-self: center; */
-    /* justify-content: space-between; */
-  }
+   /* SLIDER */
 
-  .fertigung__content {
-    width: 70%;
-    padding: 16rem 5rem 0 9rem;
-  }
-  
-  .fertigung__content h3 {
-    padding-bottom: 0rem;
-  }
-  
-  .fertigung__content p {
-    padding-bottom: 1rem;
-  }
-  
-  /* DETAILS */
-  
-  .details-leistungen__section--details {
-    display: flex;
-    align-items: center;
-    padding: 0 10rem;
-  }
-  
-  .details-leistungen {
-    width: 60%;
-  }
-  
-  .details-leistungen h3 {
-    padding-bottom: 1rem;
-  }
-  
-  .text-1 {
-    padding-top: 1rem;
-  }
-  
-  .details-leistungen p {
-    padding-bottom: 1rem;
-  }
-
-
-  /* FERTIGUNG */
-
-  .slider {
+   .slider {
     display: flex;
     scroll-snap-type: x mandatory;  
     -webkit-overflow-scrolling: touch;
@@ -795,6 +768,16 @@ section {
     min-height: 100vh;
   }
 
+  .fertigung {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fertigung__content {
+    width: 70%;
+    padding: 16rem 5rem 0 9rem;
+  }
+  
   .fertigung__content h3,
   .fertigung__content p {
     color: #ffffff;
@@ -828,17 +811,50 @@ section {
     text-shadow: none;
   }
 
-  .fertigung__arrow:after {
+  /* .fertigung__arrow:after {
     content: url("../IMAGES/Leistungen/arrow_fertigung.png");
     position: absolute;
     top: 50%;
     left: 80%;
+  } */
+
+  .fertigung-arrow {
+    padding-top:25%;
+    padding-right: 6rem;
+    margin-left:auto;
+  }
+  
+
+  /* DETAILS */
+  
+  .details-leistungen__section--details {
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+  }
+  
+  .details-leistungen {
+    width: 60%;
+  }
+  
+  .details-leistungen h3 {
+    padding-bottom: 1rem;
+  }
+  
+  .text-1 {
+    padding-top: 1rem;
+  }
+  
+  .details-leistungen p {
+    padding-bottom: 1rem;
   }
 
-  .details-leistungen__section--details img {
+  .img__fertigung--details img {
     display: block;
-    width: 50%;
+    width: 80%;
     height: auto;
+    margin-left: auto;
+    padding: 0;
   }
 
   .drehen h3,
@@ -848,7 +864,30 @@ section {
     padding-top: 0;
   }
 
-  .drehen:before {
+  .arrow-left,
+  .arrow-right {
+    width: 5%;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .arrow-left a,
+  .arrow-right a {
+    display: block;
+  }
+
+  .arrow-left img {
+    margin: 0;
+    padding: 0 4rem 0 0;
+  }
+
+  .arrow-right img {
+    padding: 0 0 0 4rem;
+    margin: 0;
+  }
+
+  /* .drehen:before {
     content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
     top: 50%;
@@ -860,9 +899,9 @@ section {
     position: absolute;
     top: 50%;
     right: 2%;
-  }
+  } */
 
-  .fraesen:before {
+  /* .fraesen:before {
     content: url("../IMAGES/Leistungen/arrow_left.jpg");
     position: absolute;
     top: 50%;
@@ -895,7 +934,7 @@ section {
     position: absolute;
     top: 50%;
     left: 2%;
-  }
+  } */
 
 
   /* OBERFLÄCHENVEREDELUNG */
