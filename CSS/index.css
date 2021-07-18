@@ -37,6 +37,38 @@
 }
 
 
+/* SCROLL */
+
+.full-scroll {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+main > * {
+  scroll-snap-align: start;
+}
+
+/* .full-section {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  scroll-snap-align: start;
+  overflow: hidden;
+} */
+
+
 /* INTRO */
 
 .intro {
@@ -70,26 +102,6 @@
   width: 90%;
   margin: 0;
 }
-
-
-/* SCROLL */
-
-/* .full-scroll {
-  position: relative;
-  width: 100%;
-  height: auto;
-  scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-
-.full-section {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  scroll-snap-align: start;
-  overflow: hidden;
-} */
 
 
 /* REALISATION */
