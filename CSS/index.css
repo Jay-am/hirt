@@ -974,12 +974,12 @@
     padding: 20% 0 0 2.5%;
   }
   
-  .hero__content:after {
+  /* .hero__content:after {
     content: url("../IMAGES/Index/arrow_hero.png");
     position: absolute;
     bottom: 15%;
     left: 50%;
-  }
+  } */
 
   .hero__logo {
     width: 10rem;
@@ -1314,11 +1314,18 @@
     padding: 4rem 0 0 0;
   }
 
-  .hero__content:after {
+  /* .hero__content:after {
     content: url("../IMAGES/Index/arrow_hero.png");
     position: absolute;
     bottom: -15em;
     left: 85%;
+  } */
+
+  .down-click {
+    width: 100vw;
+    /* margin: 0 auto; */
+    padding-top: 2rem;
+    padding-left: 40%;
   }
 
 
