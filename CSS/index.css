@@ -950,7 +950,6 @@
   }
 
   .hero__content {
-    /* position: absolute */
     padding: 20% 0 0 2.5%;
   }
 
@@ -964,13 +963,6 @@
   .hero__title {
     padding: 2rem 0 0 2.5%;
   }
-
-  /* .hero__content:after {
-    content: url("../IMAGES/Index/arrow_hero.png");
-    position: absolute;
-    bottom: 15%;
-    left: 50%;
-  } */
 
   .down-click {
     display: block;

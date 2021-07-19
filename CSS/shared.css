@@ -112,7 +112,6 @@ a.active {
 .nav-dropdown {
   position: absolute;
   display: none;
-  /* position: static; */
   padding: 0;
   z-index: 10;
 }
@@ -138,6 +137,32 @@ a.active {
   text-shadow: none;
 } 
 
+
+/* xxxx */
+
+/* nav ul ul {
+  display: inherit;
+  position: absolute; 
+  top: 70px; 
+} 
+    
+nav ul li:hover > ul {
+  display: contents;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; 
+} */
+
+/* xxxxx */
+
+
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
   /* content: " ▾"; */
@@ -155,6 +180,14 @@ nav ul {
 nav ul ul li:hover > ul,
 nav ul li:hover > ul {
   display: none;
+}
+
+nav ul ul li {
+  width: 100;
+  height: auto;
+  display: list-item;
+  position: relative;
+  background-color: rgba(255,255,255,100%);
 }
 
 
