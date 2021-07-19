@@ -139,6 +139,11 @@ section {
   min-height: 100vh;
 }
 
+.fertigung {
+  display: flex;
+  flex-direction: row;
+}
+
 .fertigung__content h3,
 .fertigung__content p {
   color: #ffffff;
@@ -171,10 +176,21 @@ section {
 .fertigung-arrow {
   justify-content: center;
   align-items: center;
+  padding-top: 100%;
 }
 
 
 /* FERTIGUNG DETAILS */
+
+.details-leistungen__section--details {
+  display: flex;
+  align-items: center;
+  /* padding: 0 5rem; */
+}
+
+.details-leistungen {
+  padding: 0 2rem;
+}
 
 .img__fertigung--details img {
   display: none;
@@ -182,8 +198,8 @@ section {
 
 .arrow-left,
 .arrow-right {
-  display: contents;
-  width: 5%;
+  /* display: contents; */
+  width: 25%;
   height: auto;
   align-content: center;
   justify-content: center;
@@ -408,7 +424,14 @@ section {
   .fertigung__content p {
     padding: 2rem 0 0 0;
   }
+
+  .fertigung-arrow {
+    justify-content: center;
+    align-items: center;
+    padding-top: 50%;
+  }
 }
+
 
 @media (min-width: 900px) {
 
@@ -472,6 +495,7 @@ section {
     padding: 2rem 0 0 0;
   }
 
+
   /* FERTIGUNG DETAILS */
 
   .details-leistungen {
@@ -479,18 +503,20 @@ section {
   }
 
   .img__fertigung--details img {
-    display: block;
-    width: 80%;
-    padding-left: 0 2rem;
+    display: none;
+    /* display: block;
+    width: 50%;
+    padding: 0 2rem 0 0; */
   }
 
   .arrow-left,
   .arrow-right {
-    width: 5%;
+    width: 80%;
     height: auto;
     align-content: center;
     justify-content: center;
   }
+
 
   /* KONTAKT */
 
@@ -525,6 +551,7 @@ section {
     width: 60%;
     padding: 20.5% 5% 0 2%;
   }
+
 
   /* INTRO */
 
@@ -584,9 +611,9 @@ section {
 
  /* FERTIGUNG */
 
-   /* SLIDER */
+  /* SLIDER */
 
-   .slider {
+  .slider {
     display: flex;
     scroll-snap-type: x mandatory;  
     -webkit-overflow-scrolling: touch;
@@ -699,7 +726,7 @@ section {
   .arrow-left,
   .arrow-right {
     display: contents;
-    width: 5%;
+    width: 100%;
     height: auto;
     align-content: center;
     justify-content: center;
