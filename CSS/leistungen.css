@@ -189,21 +189,6 @@ section {
   justify-content: center;
 }
 
-.arrow-left a,
-.arrow-right a {
-  display: block;
-}
-
-.arrow-left img {
-  margin: 0;
-  padding: 0 4rem 0 0;
-}
-
-.arrow-right img {
-  padding: 0 0 0 4rem;
-  margin: 0;
-}
-
 .drehen h3 {
   padding: 2rem 0 2rem 0;
 }
@@ -489,36 +474,23 @@ section {
 
   /* FERTIGUNG DETAILS */
 
+  .details-leistungen {
+    padding: 0 0 0 2rem;
+  }
+
   .img__fertigung--details img {
     display: block;
     width: 80%;
-    padding-left: 4rem;
+    padding-left: 0 2rem;
   }
 
   .arrow-left,
   .arrow-right {
-    display: contents;
     width: 5%;
     height: auto;
     align-content: center;
     justify-content: center;
   }
-
-  .arrow-left a,
-  .arrow-right a {
-    display: block;
-  }
-
-  .arrow-left img {
-    margin: 0;
-    padding: 0 4rem 0 0;
-  }
-
-  .arrow-right img {
-    padding: 0 0 0 4rem;
-    margin: 0;
-  }
-
 
   /* KONTAKT */
 
@@ -694,6 +666,7 @@ section {
   
   .details-leistungen {
     width: 60%;
+    padding: 0 0 0 4rem;
   }
   
   .details-leistungen h3 {
@@ -713,7 +686,7 @@ section {
     width: 80%;
     height: auto;
     margin-left: auto;
-    padding: 0;
+    padding: 0 4rem 0 0;
   }
 
   .drehen h3,
@@ -731,22 +704,6 @@ section {
     align-content: center;
     justify-content: center;
   }
-
-  .arrow-left a,
-  .arrow-right a {
-    display: block;
-  }
-
-  .arrow-left img {
-    margin: 0;
-    padding: 0 4rem 0 0;
-  }
-
-  .arrow-right img {
-    padding: 0 0 0 4rem;
-    margin: 0;
-  }
-
 
 
   /* OBERFLÄCHENVEREDELUNG */
@@ -810,7 +767,6 @@ section {
   .qualitaetsmanagement__content {
     padding-top: 5rem;
   }
-
 
 
   /* KONTAKT */
