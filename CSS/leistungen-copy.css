@@ -154,12 +154,16 @@ section {
 
 .fertigung__headlines {
   display: inline;
+  /* text-align: right; */
+  /* line-height: 2; */
+  /* white-space: pre; */
   overflow-wrap: break-word
 }
 
 .fertigung__headlines a {
   text-decoration: none;
   color: #ffffff;
+  /* text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255); */
 }
 
 .fertigung__headlines a:hover {
@@ -168,40 +172,21 @@ section {
   text-shadow: none;
 }
 
+/* .fertigung:after {
+  content: url("../IMAGES/Leistungen/arrow_fertigung.png");
+  position: absolute;
+  top: 47%;
+  left: 90%;
+} */
+
+/* 
 .fertigung-arrow {
   justify-content: center;
   align-items: center;
-}
-
-
-/* FERTIGUNG DETAILS */
+} */
 
 .img__fertigung--details img {
   display: none;
-}
-
-.arrow-left,
-.arrow-right {
-  display: contents;
-  width: 5%;
-  height: auto;
-  align-content: center;
-  justify-content: center;
-}
-
-.arrow-left a,
-.arrow-right a {
-  display: block;
-}
-
-.arrow-left img {
-  margin: 0;
-  padding: 0 4rem 0 0;
-}
-
-.arrow-right img {
-  padding: 0 0 0 4rem;
-  margin: 0;
 }
 
 .drehen h3 {
@@ -212,6 +197,20 @@ section {
   padding: 2rem 0 1rem 0;
 }
 
+/* .drehen::before {
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
+
+.drehen::after {
+  content: url("../IMAGES/Leistungen/arrow_right.jpg");
+  position: absolute;
+  top: 80%;
+  right: 5%;
+} */
+
 .fraesen h3 {
   padding: 2rem 0 2rem 0;
 }
@@ -220,13 +219,48 @@ section {
   padding: 0 0 6rem 0;
 }
 
+/* .fraesen:before {
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
+
+.fraesen:after {
+  content: url("../IMAGES/Leistungen/arrow_right.jpg");
+  position: absolute;
+  top: 80%;
+  right: 5%;
+} */
+
 .schleifen h3 {
   padding: 2rem 0 2rem 0;
 }
 
+/* .schleifen:before {
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
+
+.schleifen:after {
+  content: url("../IMAGES/Leistungen/arrow_right.jpg");
+  position: absolute;
+  top: 80%;
+  right: 5%;
+} */
+
 .drahterodieren h3 {
   padding: 2rem 0 2rem 0;
 }
+
+/* .drahterodieren:before {
+  content: url("../IMAGES/Leistungen/arrow_left.jpg");
+  position: absolute;
+  top: 80%;
+  left: 5%;
+} */
 
 
 /* OBERFLÄCHENVEREDELUNG */
@@ -284,6 +318,13 @@ section {
 /* QUALITÄTSSICHERUNG */
 
 .details-leistungen__qualitaetssicherung {
+  /* background: linear-gradient(to left, rgba(151, 151, 151, 0.4) 25%,
+  rgba(151, 151, 151, 0.8)), url("../IMAGES/Index/Realisation.jpeg"); */
+  /* background-image: url("../IMAGES/Index/Realisation.jpeg");
+  background-position: 80% 100%;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to left, rgba(0,0,0,0.1) 20%,
@@ -423,6 +464,47 @@ section {
   .fertigung__content p {
     padding: 2rem 0 0 0;
   }
+
+/* 
+  .fertigung__arrow:after {
+    top: 70%;
+    left: 80%;
+  }
+
+  .drehen:before {
+    top: 80%;
+    left: 5%;
+  }
+
+  .drehen:after {
+    top: 80%;
+    right: 5%;
+  }
+
+  .fraesen:before {
+    top: 80%;
+    left: 5%;
+  }
+
+  .fraesen:after {
+    top: 80%;
+    right: 5%;
+  }
+
+  .schleifen:before {
+    top: 80%;
+    left: 5%;
+  }
+
+  .schleifen:after {
+    top: 80%;
+    right: 5%;
+  }
+
+  .drahterodieren:before {
+    top: 80%;
+    left: 5%;
+  } */
 }
 
 @media (min-width: 900px) {
@@ -447,12 +529,6 @@ section {
     margin: 0 auto;
   }
 
-  .details-leistungen__section--content {
-    width: 80%;
-    padding: 0 1em 0 1em;
-  }
-
-
   /* SCROLL */
 
   .full-scroll {
@@ -475,7 +551,27 @@ section {
   main > * {
     scroll-snap-align: start;
   }
+  
+  /* .full-section {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    scroll-snap-align: start;
+    overflow: hidden;
+  } */
 
+  /* LEISTUNGEN */
+
+  .details-leistungen__section--content {
+    width: 80%;
+    padding: 0 1em 0 1em;
+  }
+
+  .img__fertigung--details img {
+    display: block;
+    width: 80%;
+    padding-left: 4rem;
+  }
 
   /* FERTIGUNG */
 
@@ -487,38 +583,54 @@ section {
     padding: 2rem 0 0 0;
   }
 
-  /* FERTIGUNG DETAILS */
+  /* .fertigung__arrow:after {
+    top: 50%;
+    left: 80%;
+  } */
 
-  .img__fertigung--details img {
-    display: block;
-    width: 80%;
-    padding-left: 4rem;
+  /* .fertigung__content {
+    flex-direction: column;
   }
-
-  .arrow-left,
-  .arrow-right {
-    display: contents;
-    width: 5%;
-    height: auto;
-    align-content: center;
+  
+  .fertigung-arrow {
     justify-content: center;
+    align-items: center;
+  } */
+
+  /* .drehen:before {
+    top: 50%;
+    left: 5%;
   }
 
-  .arrow-left a,
-  .arrow-right a {
-    display: block;
+  .drehen:after {
+    top: 50%;
+    right: 5%;
   }
 
-  .arrow-left img {
-    margin: 0;
-    padding: 0 4rem 0 0;
+  .fraesen:before {
+    top: 50%;
+    left: 5%;
   }
 
-  .arrow-right img {
-    padding: 0 0 0 4rem;
-    margin: 0;
+  .fraesen:after {
+    top: 50%;
+    right: 5%;
   }
 
+  .schleifen:before {
+    top: 50%;
+    left: 5%;
+  }
+
+  .schleifen:after {
+    top: 50%;
+    right: 5%;
+  }
+
+  .drahterodieren:before {
+    top: 50%;
+    left: 5%;
+  } */
 
   /* KONTAKT */
 
@@ -597,6 +709,13 @@ section {
     overflow: auto;
     scroll-snap-type: y mandatory;
   }
+  
+  /* .full-section {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    scroll-snap-align: start;
+  } */
 
 
   /* ENTWICKLUNG */
@@ -606,6 +725,17 @@ section {
   }
 
   .entwicklung__content {
+    padding-top: 16rem;
+  }
+
+
+  /* LAGERHALTUNG */
+
+  .details-leistungen__lagerhaltung {
+    background-position: 10% 60%;
+  }
+
+  .lagerhaltung__content {
     padding-top: 16rem;
   }
 
@@ -663,12 +793,16 @@ section {
 
   .fertigung__headlines {
     display: inline;
+    /* text-align: right; */
+    /* line-height: 2; */
+    /* white-space: pre; */
     overflow-wrap: break-word
   }
 
   .fertigung__headlines a {
     text-decoration: none;
     color: #ffffff;
+    /* text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255); */
   }
 
   .fertigung__headlines a:hover {
@@ -676,6 +810,13 @@ section {
     text-shadow: 0.25px 0.25px 0.5px rgb(255, 255, 255);
     text-shadow: none;
   }
+
+  /* .fertigung__arrow:after {
+    content: url("../IMAGES/Leistungen/arrow_fertigung.png");
+    position: absolute;
+    top: 50%;
+    left: 80%;
+  } */
 
   .fertigung-arrow {
     padding-top:25%;
@@ -725,7 +866,6 @@ section {
 
   .arrow-left,
   .arrow-right {
-    display: contents;
     width: 5%;
     height: auto;
     align-content: center;
@@ -747,6 +887,54 @@ section {
     margin: 0;
   }
 
+  /* .drehen:before {
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
+    position: absolute;
+    top: 50%;
+    left: 2%;
+  }
+
+  .drehen:after {
+    content: url("../IMAGES/Leistungen/arrow_right.jpg");
+    position: absolute;
+    top: 50%;
+    right: 2%;
+  } */
+
+  /* .fraesen:before {
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
+    position: absolute;
+    top: 50%;
+    left: 2%;
+  }
+
+  .fraesen:after {
+    content: url("../IMAGES/Leistungen/arrow_right.jpg");
+    position: absolute;
+    top: 50%;
+    right: 2%;
+  }
+
+  .schleifen:before {
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
+    position: absolute;
+    top: 50%;
+    left: 2%;
+  }
+
+  .schleifen:after {
+    content: url("../IMAGES/Leistungen/arrow_right.jpg");
+    position: absolute;
+    top: 50%;
+    right: 2%;
+  }
+
+  .drahterodieren:before {
+    content: url("../IMAGES/Leistungen/arrow_left.jpg");
+    position: absolute;
+    top: 50%;
+    left: 2%;
+  } */
 
 
   /* OBERFLÄCHENVEREDELUNG */
@@ -790,17 +978,6 @@ section {
   }
 
 
-  /* LAGERHALTUNG */
-
-  .details-leistungen__lagerhaltung {
-    background-position: 10% 60%;
-  }
-
-  .lagerhaltung__content {
-    padding-top: 16rem;
-  }
-
-
   /* QUALITÄTSMANAGEMENT */
 
   .details-leistungen__qualitaetsmanagement {
@@ -811,6 +988,9 @@ section {
     padding-top: 5rem;
   }
 
+  /* .qualitaetsmanagement__content p {
+    width: 80%;
+  } */
 
 
   /* KONTAKT */
