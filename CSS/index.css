@@ -37,38 +37,6 @@
 }
 
 
-/* SCROLL */
-
-.full-scroll {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-
-main {
-  width: 100vw;
-  height: 100vh;
-  scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-
-main > * {
-  scroll-snap-align: start;
-}
-
-/* .full-section {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  scroll-snap-align: start;
-  overflow: hidden;
-} */
-
-
 /* INTRO */
 
 .intro {
@@ -128,11 +96,6 @@ main > * {
 .realisation__content p {
   line-height: 250%;
 }
-
-/* .realisation__image img {
-  width: 50%;
-  margin: 0 auto;
-} */
 
 .realisation__text {
   padding: 3.5em 0 1em 0;
@@ -974,6 +937,7 @@ main > * {
 }
 
 @media (min-width: 900px) {
+
   /* HERO */
 
   .hero {
@@ -1008,6 +972,29 @@ main > * {
     width: 100vw;
     padding-top: 2rem;
     padding-left: 40%;
+  }
+
+  /* SCROLL */
+
+  .full-scroll {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+
+  main {
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+
+  main > * {
+    scroll-snap-align: start;
   }
 
 
