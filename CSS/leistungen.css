@@ -260,7 +260,7 @@ section {
 .details-leistungen__montage {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to left, rgba(0,0,0,0) 10%,
+  background: linear-gradient(to left, rgba(0,0,0,0.2) 10%,
   rgba(0,0,0,0.9)), url("../IMAGES/Leistungen/montage.jpg");
   background-position: 50% 40%;
   background-repeat: no-repeat;
