@@ -719,8 +719,17 @@ section {
   .drehen h3,
   .fraesen h3,
   .schleifen h3,
-  .drahterodieren h3 {
+  .drahterodieren h3,
+  .laserbeschriften h3 {
     padding-top: 0;
+  }
+
+  .laserbeschriften {
+    width: 80%;
+  }
+
+  .laserbeschriften h3 {
+    padding-bottom: 2rem;
   }
 
   .arrow-left,
