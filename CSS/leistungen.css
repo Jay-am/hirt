@@ -802,6 +802,11 @@ section {
 
   .qualitaetsmanagement__content {
     padding-top: 5rem;
+    width: 70%;
+  }
+
+  .qualitaetsmanagement__content h3 {
+    padding-top: 4rem;
   }
 
 
