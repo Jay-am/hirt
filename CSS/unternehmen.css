@@ -35,6 +35,7 @@
 .unternehmen-info__text {
   padding: 1em 2em 3em 2em;
   width: 100%;
+  flex-basis: 75%;
 }
 
 .unternehmen-info__text h2 {
@@ -51,6 +52,7 @@
 
 .unternehmen-info__image {
   width: 100%;
+  flex-basis: 25%;
 }
 
 .unternehmen-info__image img {
