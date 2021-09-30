@@ -281,6 +281,13 @@
     grid-column: 4 / 5;
     grid-row: 2 / 3;
   } */
+
+  #map {
+    height: 50vh;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
 }
 
 @media (min-width: 1800px) {}
