@@ -113,7 +113,7 @@ display: inline-block;
 
   .unternehmen-info__text {
     padding: 1em 15% 3em 15%;
-    flex-basis: 75%;
+    flex-basis: 100%;
   }
 
   .unternehmen-info__image {
