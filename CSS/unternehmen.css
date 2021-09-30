@@ -35,7 +35,6 @@
 .unternehmen-info__text {
   padding: 1em 2em 3em 2em;
   width: 100%;
-  flex-basis: 75%;
 }
 
 .unternehmen-info__text h2 {
@@ -52,7 +51,6 @@
 
 .unternehmen-info__image {
   width: 100%;
-  flex-basis: 25%;
 }
 
 .unternehmen-info__image img {
@@ -107,6 +105,7 @@ display: inline-block;
   .unternehmen-info__content {
     padding: 4em 0 3.5em 0;
     display: block;
+    flex-basis: 100%;
   }
 
   /* .unternehmen-info__text h2 {
@@ -115,16 +114,18 @@ display: inline-block;
 
   .unternehmen-info__text {
     padding: 1em 15% 3em 15%;
+    flex-basis: 75%;
   }
 
   .unternehmen-info__image {
-    width: 40%;
+    /* width: 40%; */
     align-self: center;
     justify-self: center;
+    flex-basis: 25%;
   }
 
   .unternehmen-info__image img {
-    width: 55%;
+    /* width: 55%; */
     align-self: center;
     justify-self: center;
   }
@@ -145,7 +146,7 @@ display: inline-block;
   .unternehmen-info__content {
     padding: 8em 0em 7.5em 0em;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .unternehmen-info__text {
