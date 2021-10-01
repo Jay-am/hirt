@@ -33,8 +33,11 @@
 }
 
 .sponsoring-info__text {
-  width: 100%;
   margin: 0 auto;
+}
+
+.sponsoring-info__text--paragraph {
+  width: 100%;
 }
 
 .sponsoring-info__text h2 {
@@ -180,7 +183,7 @@
     text-align: center;
   }
 
-  .sponsoring-info__text {
+  .sponsoring-info__text--paragraph {
     width: 70%;
     padding: 1em 0 3em 0;
   }
