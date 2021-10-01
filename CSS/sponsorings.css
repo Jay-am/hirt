@@ -217,7 +217,7 @@
   }
 
   .sponsoring-info__text {
-    width: 50%;
+    width: 65%;
     padding: 1em 0 1em 0;
   }
 
@@ -238,7 +238,7 @@
 @media (min-width: 1800px) {
 
   .sponsoring-info__text {
-    width: 50%;
+    width: 55%;
     max-width: 500px;
   }
 }
