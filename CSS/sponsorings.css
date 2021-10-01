@@ -26,6 +26,8 @@
 
 .sponsoring-info__content {
   padding: 5rem 2rem 5rem 2rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .sponsoring-info__title {
@@ -36,10 +38,10 @@
   margin: 0 auto;
 } */
 
-.sponsoring-info__text--paragraph {
+/* .sponsoring-info__text--paragraph {
   width: 100%;
   margin: 0 auto;
-}
+} */
 
 .sponsoring-info__text h2 {
   font-size: clamp(1.2rem, 3vw, 1.7rem);
@@ -182,10 +184,10 @@
   .sponsoring-info__content {
     padding: 6em 0 3.5em 0;
     text-align: center;
+    width: 70%;
   }
 
   .sponsoring-info__text--paragraph {
-    width: 70%;
     padding: 1em 0 3em 0;
   }
 
@@ -218,10 +220,10 @@
 
   .sponsoring-info__content {
     padding: 8em 0em 7.5em 0em;
+    width: 65%;
   }
 
   .sponsoring-info__text--paragraph {
-    width: 65%;
     padding: 1em 0 1em 0;
   }
 
@@ -241,8 +243,11 @@
 
 @media (min-width: 1800px) {
 
-  .sponsoring-info__text--paragraph {
+  .sponsoring-info__content {
     width: 55%;
+  }
+
+  .sponsoring-info__text--paragraph {
     max-width: 500px;
   }
 }
