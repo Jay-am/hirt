@@ -1434,6 +1434,7 @@
   }
 
   .leistungen__content h2 {
+    color: red;
     text-align: center;
     padding: 0 0 0 0;
   }
@@ -1531,7 +1532,7 @@
     position: relative;
     top: 0;
     left: -230px;
-    width: 31%;
+    width: 29%;
     height: 500px;
     background-position: 70% 100%;
     background-repeat: no-repeat;
@@ -1570,7 +1571,7 @@
     position: relative;
     top: 0;
     left: 0px;
-    width: 23%;
+    width: 20%;
     height: 500px;
     background-position: 50% 0%;
     clip-path: polygon(
@@ -1898,7 +1899,6 @@
   }
 
   .leistungen__content h2 {
-    color: red;
     text-align: center;
     padding: 0 0 0 0;
   }
