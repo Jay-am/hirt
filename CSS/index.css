@@ -1898,6 +1898,7 @@
   }
 
   .leistungen__content h2 {
+    color: red;
     text-align: center;
     padding: 0 0 0 0;
   }
