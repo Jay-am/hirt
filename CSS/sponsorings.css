@@ -32,12 +32,13 @@
   margin: 0 0 2rem 0;
 }
 
-.sponsoring-info__text {
+/* .sponsoring-info__text {
   margin: 0 auto;
-}
+} */
 
 .sponsoring-info__text--paragraph {
   width: 100%;
+  margin: 0 auto;
 }
 
 .sponsoring-info__text h2 {
