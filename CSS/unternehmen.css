@@ -16,7 +16,7 @@
   line-height: 1;
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 35% 0 0 0.5em;
+  padding: 35% 0 0 0.5rem;
 }
 
 .unternehmen-info {
@@ -25,15 +25,15 @@
 }
 
 .unternehmen-info__content {
-  padding: 3em 0 5em 0;
+  padding: 3rem 0 5rem 0;
 }
 
 .unternehmen-info__title {
-  margin: 0 0 1em 0;
+  margin: 0 0 1rem 0;
 }
 
 .unternehmen-info__text {
-  padding: 1em 2em 3em 2em;
+  padding: 1rem 2rem 3rem 2rem;
   width: 100%;
 }
 
@@ -42,11 +42,11 @@
 }
 
 .text-1 {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .unternehmen-info__text--paragraph+.unternehmen-info__text--paragraph {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .unternehmen-info__image {
@@ -103,7 +103,7 @@ display: inline-block;
   }
 
   .unternehmen-info__content {
-    padding: 4em 10% 3.5em 10%;
+    padding: 4rem 10% 3.5rem 10%;
     display: block;
   }
 
@@ -112,7 +112,7 @@ display: inline-block;
   } */
 
   .unternehmen-info__text {
-    padding: 1em 15% 3em 15%;
+    padding: 1rem 15% 3rem 15%;
   }
 
   .unternehmen-info__image {
@@ -138,13 +138,13 @@ display: inline-block;
   }
 
   .unternehmen-info__content {
-    padding: 8em 0% 7.5em 10%;
+    padding: 8rem 0% 7.5rem 10%;
     min-height: 100vh;
   }
 
   .unternehmen-info__text {
-    padding: 1em 0rem 1em 4rem;
-    margin-right: 1em;
+    padding: 1rem 0rem 1rem 4rem;
+    margin-right: 1rem;
   }
 
   .unternehmen-info__image {

@@ -19,7 +19,7 @@
 }
 
 .aktuelles__grid--content h3 {
-  padding: 0.75em 0 0.25em 0;
+  padding: 0.75rem 0 0.25rem 0;
 }
 
 
@@ -29,8 +29,8 @@
 .aktuelles__grid_2020 {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 3em;
-  margin: 0 0.5em 0 0.5em;
+  row-gap: 3rem;
+  margin: 0 0.5rem 0 0.5rem;
 }
 
 .aktuelles__grid--content {
@@ -86,7 +86,7 @@
   }
   
   .aktuelles__grid--content h3 {
-    padding: 1em 0 0.5em 0;
+    padding: 1rem 0 0.5rem 0;
   }
 
   /* GRID */
@@ -95,8 +95,8 @@
   .aktuelles__grid_2020 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 4em;
-    column-gap: 2em;
+    row-gap: 4rem;
+    column-gap: 2rem;
   }
 }
 
@@ -121,8 +121,8 @@
   .aktuelles__grid_2020 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 5em;
-    column-gap: 2.5em;
+    row-gap: 5rem;
+    column-gap: 2.5rem;
     justify-items: center;
   }
   
@@ -133,7 +133,7 @@
   
   .aktuelles__grid--image {
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     margin: 0 auto;
   }
 

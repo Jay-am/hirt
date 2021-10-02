@@ -22,26 +22,26 @@
 /* INTRO */
 
 .details-leistungen {
-  padding: 1em 0 0em 0;
+  padding: 1rem 0 0rem 0;
   margin: 0;
 }
 
 .details-leistungen h2 {
-  padding: 0 0 1em 0;
+  padding: 0 0 1rem 0;
   word-wrap: break-word;
 }
 
 .details-leistungen h3 {
-  padding: 0 0 1em 0;
+  padding: 0 0 1rem 0;
 }
 
 .details-leistungen__text {
-  padding: 0em 0 1em 0;
+  padding: 0rem 0 1rem 0;
 }
 
 .details-leistungen__intro--text {
   width: 100%;
-  padding: 4em 0 5em 0;
+  padding: 4rem 0 5rem 0;
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@
 
 .zertifikat {
   display: inline-block;
-  padding: 3em 0 0 0;
+  padding: 3rem 0 0 0;
   margin: 0 auto;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .details-leistungen__section--content h3 {
-  padding: 0 0 1em 0;
+  padding: 0 0 1rem 0;
 }
 
 .details-leistungen__section--content p {
@@ -415,20 +415,20 @@ section {
 
 .kontakt__content {
   text-align: left;
-  padding: 4em 0 4em 0;
+  padding: 4rem 0 4rem 0;
 }
 
 .kontakt__content h3 {
-  padding: 2em 0 1em 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .kontakt__content p {
-  padding: 0 0 2em 0;
+  padding: 0 0 2rem 0;
 }
 
 .kontakt__content a {
   text-decoration: none;
-  margin: 0 0 4em 0;
+  margin: 0 0 4rem 0;
 }
 
 
@@ -446,7 +446,7 @@ section {
   }
 
   .details-leistungen {
-    padding: 1.5em 0 1.5em 0;
+    padding: 1.5rem 0 1.5rem 0;
   }
 
   /* LEISTUNGEN */
@@ -519,13 +519,13 @@ section {
   }
 
   .details-leistungen {
-    padding: 4em 0 3em 0;
+    padding: 4rem 0 3rem 0;
   }
 
   .details-leistungen__intro--text {
     width: 70%;
     text-align: center;
-    padding: 2em 0 3em 0;
+    padding: 2rem 0 3rem 0;
     margin: 0 auto;
   }
 
@@ -564,7 +564,7 @@ section {
 
   .details-leistungen__section--content {
     width: 80%;
-    padding: 0 1em 0 1em;
+    padding: 0 1rem 0 1rem;
   }
 
   .img__fertigung--details img {
@@ -636,11 +636,11 @@ section {
 
   .kontakt__content {
     text-align: center;
-    padding: 5em 0 5em 0;
+    padding: 5rem 0 5rem 0;
   }
     
   .kontakt__content h3 {
-    padding: 2em 0 1em 0;
+    padding: 2rem 0 1rem 0;
   }
     
   .kontakt__content p {
@@ -649,7 +649,7 @@ section {
   }
     
   .kontakt__content a {
-    margin: 0 0 4em 0;
+    margin: 0 0 4rem 0;
   }
 }
 
@@ -669,11 +669,11 @@ section {
   /* INTRO */
 
   .details-leistungen__intro {
-    padding: 8em 0 8em 0;
+    padding: 8rem 0 8rem 0;
   }
 
   .detailsleistungen__intro--text {
-    padding: 4em 0 5em 0;
+    padding: 4rem 0 5rem 0;
     margin: 0 auto;
   }
 
@@ -997,18 +997,18 @@ section {
 
   .kontakt__content {
     text-align: center;
-    padding: 10em 0 8em 0;
+    padding: 10rem 0 8rem 0;
   }
   
   .kontakt__content h3 {
-    padding: 2em 0 1em 0;
+    padding: 2rem 0 1rem 0;
   }
   
   .kontakt__content p {
-    padding: 0 0 2em 0;
+    padding: 0 0 2rem 0;
   }
   
   .kontakt__content a {
-    margin: 0 0 4em 0;
+    margin: 0 0 4rem 0;
   }
 }

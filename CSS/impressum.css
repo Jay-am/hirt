@@ -20,34 +20,34 @@
 /* IMPRESSUM */
 
 .impressum__content {
-  padding: 2em 0em 4em 0em;
+  padding: 2rem 0rem 4rem 0rem;
 }
 
 .impressum__content h2 {
-  padding: 2em 0em 0.5em 0em;
+  padding: 2rem 0rem 0.5rem 0rem;
 }
 
 .impressum__content h3 {
-  padding: 2em 0em 1em 0em;
+  padding: 2rem 0rem 1rem 0rem;
   font-size: 1.2rem;
   font-weight: 300;
 }
 
 .impressum__content h4 {
-  padding: 2em 0em 1em 0em;
+  padding: 2rem 0rem 1rem 0rem;
   font-weight: 400;
   color: rgb(58, 58, 58);
 }
 
 .impressum__content .h4 {
-  padding: 1.5em 0em 1.5em 0em;
+  padding: 1.5rem 0rem 1.5rem 0rem;
   font-size: 1rem;
   font-weight: 300;
   color: rgb(58, 58, 58);
 }
 
 .impressum__content p {
-  padding: 0em 0em 1em 0em;
+  padding: 0rem 0rem 1rem 0rem;
 }
 
 .address {
@@ -56,7 +56,7 @@
 }
 
 .impressum__text a {
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 .impressum__content ul {
@@ -83,38 +83,38 @@
 /* DISCLAIMER */
 
 .disclaimer__content {
-  padding: 0em 0em 8em 0em;
+  padding: 0rem 0rem 8rem 0rem;
 }
 
 .disclaimer__content h2 {
-  padding: 2em 0em 0.5em 0em;
+  padding: 2rem 0rem 0.5rem 0rem;
 }
 
 .disclaimer__content h3 {
-  padding: 2em 0em 1em 0em;
+  padding: 2rem 0rem 1rem 0rem;
   font-size: 1.2rem;
   font-weight: 300;
 }
 
 .disclaimer__content h4 {
-  padding: 2em 0em 1em 0em;
+  padding: 2rem 0rem 1rem 0rem;
   font-weight: 400;
   color: rgb(58, 58, 58);
 }
 
 .disclaimer__content .h4 {
-  padding: 1.5em 0em 1.5em 0em;
+  padding: 1.5rem 0rem 1.5rem 0rem;
   font-size: 1rem;
   font-weight: 300;
   color: rgb(58, 58, 58);
 }
 
 .disclaimer__content p {
-  padding: 0em 0em 1em 0em;
+  padding: 0rem 0rem 1rem 0rem;
 }
 
 .disclaimer__text a {
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 .disclaimer__content ul {
@@ -146,7 +146,7 @@
   }
 
   .impressum__content {
-    padding: 3em 0em 4em 0em;
+    padding: 3rem 0rem 4rem 0rem;
   }
 }
 
@@ -156,6 +156,6 @@
   }
 
   .impressum__content {
-    padding: 4em 0em 4em 0em;
+    padding: 4rem 0rem 4rem 0rem;
   }
 }

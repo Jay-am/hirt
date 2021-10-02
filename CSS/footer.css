@@ -11,11 +11,11 @@
   color: lightgrey;
   font-size: clamp(0.85rem, 1.2vw, 1rem);
   font-weight: 400;
-  margin: 0.5em 0 0.75em 0em;
+  margin: 0.5rem 0 0.75rem 0rem;
 }
 
 .footer__item {
-  padding: 0 0 0.5em 0;
+  padding: 0 0 0.5rem 0;
   margin: 0;
   text-decoration: none;
   color: lightgrey;
@@ -23,7 +23,7 @@
 }
 
 .footer__links {
-  padding: 0.5em 0 1.5em 0em;
+  padding: 0.5rem 0 1.5rem 0rem;
   list-style: none;
   text-decoration: none;
 }
