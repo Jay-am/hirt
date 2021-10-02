@@ -114,6 +114,14 @@
   .aktuelles__grid_2020 {
     padding: 0rem 0 8rem 0;
   }
+  
+  .folgt {
+    padding-bottom: 6rem;
+  }
+
+  .aktuelles__2021 {
+    min-height: 50vh;
+  }
 
   /* GRID */
 
