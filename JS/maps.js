@@ -13,3 +13,23 @@ function initMap() {
     map: map,
   });
 }
+
+// let autocomplete = new google.maps.places.Autocomplete(DOM_NODE);
+// autocomplete.bindTo('bounds', map);
+// autocomplete.addListener('place_changed', () => {
+//   const place = autocomplete.getPlace();
+// };
+
+// const calculteAndRenderDirections = (origin, destination) => {
+//   let directionsService = new google.maps.DirectionsService (),
+//   directionsDisplay = new google.maps.DirectionsRenderer (),
+//   request = { origin: origin,
+//   destination: destination,
+//   }
+//   directionsDisplay.setMap(map);
+//   directionsService.route(request, (result, status) => {
+//     if (status == 'OK') {
+//       directionsDisplay.setDirections(result);
+//     }
+//   }
+// }
