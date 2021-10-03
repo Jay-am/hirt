@@ -42,7 +42,7 @@ body {
   bottom: 0;
   overflow-y: auto;
   background: #FAFAFA;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.5em 0.5em 0.5em 0em;
   box-sizing: border-box;
 }
 
