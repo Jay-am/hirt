@@ -118,7 +118,7 @@ function LocatorPlus(configuration) {
         return getLocationDistance(a) - getLocationDistance(b);
       });
     } else {
-      sectionNameEl.textContent = `All locations (${locations.length})`;
+      sectionNameEl.textContent = `Standorte (${locations.length})`;
     }
     const resultItemContext = {
       locations: locations,
