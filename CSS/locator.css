@@ -195,6 +195,9 @@ body {
   font-weight: 500;
   color: #7e7efd;
   display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   text-decoration: none;
   background: none;
   border: none;
@@ -238,18 +241,25 @@ body {
 }
 
 #locations-panel-details .atmosphere {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
   font-size: 0.9em;
-  margin: 0.8em 0;
+  margin: 0.8em auto;
 }
 
 #locations-panel-details .star-rating-numeric {
   color: #555;
 }
 
-#locations-panel-details .star-icon {
+#locations-panel-details .atmosphere span {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+#locations-panel-details .star-icon {
   width: 1.2em;
   height: 1.2em;
   margin-right: -0.3em;
