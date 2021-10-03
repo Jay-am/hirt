@@ -32,7 +32,7 @@
 
 .sponsoring-info__title {
   margin: 0 0 2rem 0;
-  color: red;
+  color: blue;
 }
 
 /* .sponsoring-info__text {
@@ -168,9 +168,11 @@
 
   .sponsoring-info__content {
     padding: 6rem 0 3.5rem 0;
-    text-align: center;
-    margin: 0 auto;
     width: 70%;
+  }
+
+  .sponsoring-info__text {
+    text-align: center;
   }
 
   .sponsoring-info__text--paragraph {
