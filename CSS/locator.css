@@ -17,7 +17,7 @@ body {
   background: none;
   color: inherit;
   border: none;
-  padding: 0;
+  padding: 0 0 0 0;
   font: inherit;
   font-size: inherit;
   cursor: pointer;
@@ -42,7 +42,7 @@ body {
   bottom: 0;
   overflow-y: auto;
   background: #FAFAFA;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 0.5em 2.5rem;
   box-sizing: border-box;
 }
 
