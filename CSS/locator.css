@@ -1,14 +1,15 @@
-html,
+/* html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
+} */
 
 #map-container {
   width: 100%;
   height: 100%;
   position: relative;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
@@ -24,12 +25,12 @@ body {
 
 #map {
   position: absolute;
+  width: 100%;
+  height: 60vh;
   left: 27.5em;
   top: 0;
   right: 0;
   bottom: 0;
-  height: 60vh;
-  width: 100%;
 }
 
 #locations-panel {
