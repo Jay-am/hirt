@@ -24,10 +24,12 @@ body {
 
 #map {
   position: absolute;
-  left: 22em;
+  left: 27.5em;
   top: 0;
   right: 0;
   bottom: 0;
+  height: 60vh;
+  width: 100%;
 }
 
 #locations-panel {
