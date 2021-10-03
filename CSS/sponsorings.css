@@ -27,22 +27,22 @@
 .sponsoring-info__content {
   padding: 5rem 2rem 5rem 2rem;
   width: 100%;
-  margin: 0 auto;
-}
-
-.sponsoring-info__title {
-  margin: 0 0 2rem 0;
-  color: blue;
+  /* margin: 0 auto; */
 }
 
 /* .sponsoring-info__text {
   margin: 0 auto;
-} */
+}  */
 
-/* .sponsoring-info__text--paragraph {
+.sponsoring-info__title {
+  padding: 0 0 2rem 0;
+  color: green;
+}
+
+.sponsoring-info__text--paragraph {
   width: 100%;
   margin: 0 auto;
-} */
+}
 
 .sponsoring-info__text h2 {
   font-size: clamp(1.2rem, 3vw, 1.7rem);
@@ -169,6 +169,7 @@
   .sponsoring-info__content {
     padding: 6rem 0 3.5rem 0;
     width: 70%;
+    margin: 0 auto;
   }
 
   .sponsoring-info__text {
@@ -225,6 +226,7 @@
   .sponsoring-info__content {
     padding: 8rem 0rem 7.5rem 0rem;
     width: 65%;
+    margin: 0 auto;
   }
 
   .sponsoring-info__text--paragraph {
