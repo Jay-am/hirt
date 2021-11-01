@@ -154,7 +154,8 @@ input[type="checkbox"] {
 .lbl-toggle-1,
 .lbl-toggle-2,
 .lbl-toggle-3,
-.lbl-toggle-4 {
+.lbl-toggle-4,
+.lbl-toggle-5 {
   display: block;
   font-size: clamp(0.9rem, 1.3vw, 1rem);
   text-transform: uppercase;
@@ -176,7 +177,8 @@ input[type="checkbox"] {
 .lbl-toggle-1::before,
 .lbl-toggle-2::before,
 .lbl-toggle-3::before,
-.lbl-toggle-4::before {
+.lbl-toggle-4::before,
+.lbl-toggle-5::before {
   content: " ";
   display: inline-block;
 
@@ -194,7 +196,8 @@ input[type="checkbox"] {
 .collapsible-content-1 .content-inner-1,
 .collapsible-content-2 .content-inner-2,
 .collapsible-content-3 .content-inner-3,
-.collapsible-content-4 .content-inner-4 {
+.collapsible-content-4 .content-inner-4,
+.collapsible-content-5 .content-inner-5 {
   background: #ffffff;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -204,7 +207,8 @@ input[type="checkbox"] {
 .content-inner-1 p,
 .content-inner-2 p,
 .content-inner-3 p,
-.content-inner-4 p  {
+.content-inner-4 p,
+.content-inner-5 p   {
   padding: 2.5rem 0rem 1rem 1rem;
   font-weight: 600;
 }
@@ -212,14 +216,16 @@ input[type="checkbox"] {
 .content-inner-1 ul,
 .content-inner-2 ul,
 .content-inner-3 ul,
-.content-inner-4 ul {
+.content-inner-4 ul,
+.content-inner-5 ul {
   padding: 0.5rem 0rem 2.5rem 2rem;
 }
 
 .content-inner-1 li,
 .content-inner-2 li,
 .content-inner-3 li,
-.content-inner-4 li {
+.content-inner-4 li,
+.content-inner-5 li {
   font-size: clamp(0.8rem, 1.2vw, 0.9rem);
   padding: 0.5rem 0rem 0.25rem 0rem;
 }
@@ -227,7 +233,8 @@ input[type="checkbox"] {
 .collapsible-content-1,
 .collapsible-content-2,
 .collapsible-content-3,
-.collapsible-content-4 {
+.collapsible-content-4,
+.collapsible-content-5 {
   max-height: 0px;
   overflow: hidden;
 
@@ -250,17 +257,23 @@ input[type="checkbox"] {
   max-height: 100vh;
 }
 
+.toggle-5:checked+.lbl-toggle-5+.collapsible-content-5 {
+  max-height: 100vh;
+}
+
 .toggle-1:checked+.lbl-toggle-1::before,
 .toggle-2:checked+.lbl-toggle-2::before,
 .toggle-3:checked+.lbl-toggle-3::before,
-.toggle-4:checked+.lbl-toggle-4::before {
+.toggle-4:checked+.lbl-toggle-4::before,
+.toggle-5:checked+.lbl-toggle-5::before {
   transform: rotate(90deg) translateX(-3px);
 }
 
 .toggle-1:checked+.lbl-toggle-1,
 .toggle-2:checked+.lbl-toggle-2,
 .toggle-3:checked+.lbl-toggle-3,
-.toggle-4:checked+.lbl-toggle-4 {
+.toggle-4:checked+.lbl-toggle-4,
+.toggle-5:checked+.lbl-toggle-5 {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
