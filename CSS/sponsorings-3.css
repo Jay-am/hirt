@@ -94,11 +94,13 @@
     padding: 35% 3% 0 3%;
   }
 
+  /* INFO */
+
   .sponsoring-info__content {
     padding: 6rem 0 3.5rem 0;
     width: 70%;
     text-align: center;
-    margin-left: auto;
+    margin: 0 auto;
   }
 
   .sponsoring-info__text {
@@ -108,6 +110,48 @@
   .sponsoring-info__text--paragraph {
     padding: 1rem 0 3rem 0;
   }
+
+    /* SPONSORING */
+  
+    .sponsoring {
+      display: flex;
+      flex-basis: 100%;
+      justify-content: space-between;
+      padding: 5rem 2%;
+    }
+    
+    .sponsoring-text {
+      flex-basis: 90%;
+    }
+    
+    .sponsoring-cure-mannheim {
+      margin: 0;
+    }
+      
+    .sponsoring-martin-werz {
+      margin: 0;
+    }
+    
+    .sponsoring-martin-werz-image {
+      padding-top: 0rem;
+    }
+    
+    .sponsoring-tom-viehl-text {
+      padding-bottom: 5rem;
+    }
+      
+    .sponsoring-text h3  {
+      margin: 0rem 0 2rem 0;
+      min-width: 34ch;
+    }
+    
+    .image {
+      flex-basis: 10%;
+      padding-right: 3rem;
+      align-self: center;
+      justify-self: center;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -135,6 +179,7 @@
   /* SPONSORING */
   
   .sponsoring {
+    display: flex;
     flex-basis: 100%;
     justify-content: space-between;
     padding: 5rem 2%;
