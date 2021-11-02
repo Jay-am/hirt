@@ -1,0 +1,185 @@
+/* GENERAL */
+
+.hero {
+  /* background: url("IMAGES/Sponsorings/hero-cure-mannheim-sponsoring_undone.jpg"); */
+  background: linear-gradient(to left, rgba(0,0,0,0) 10%,
+  rgba(0,0,0,0.4)), url("../IMAGES/Heros/hero-sponsorings.jpg");
+  height: 65vh;
+  background-position: 70% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: 1;
+  font-weight: lighter;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
+  padding: 35% 0 0 2%;
+}
+
+.sponsoring-info {
+  width: 100vw;
+  background: #ffffff;
+}
+
+.sponsoring-info__content {
+  padding: 5rem 2rem 5rem 2rem;
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.sponsoring-info__title {
+  padding: 0 0 2rem 0;
+}
+
+.sponsoring-info__text--paragraph {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sponsoring-info__text h2 {
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
+}
+
+.text-1 {
+  margin-bottom: 1em;
+}
+
+.sponsoring-info__text--paragraph+.sponsoring-info__text--paragraph {
+  margin-bottom: 1em;
+}
+
+/* SPONSORINGS */
+
+.sponsoring {
+  padding: 0rem 2% 5rem 2%;
+}
+
+.sponsoring-text h3  {
+  margin: 2rem 0 2rem 0;
+}
+
+.sponsoring-text > * + * {
+  margin: 0 0 1rem 0;
+}
+
+.image {
+  width: 100%;
+}
+
+
+/* MEDIAQUERIES */
+
+@media (min-width: 600px) {
+  .hero {
+    height: 65vh;
+    background-position: 80% 70%;
+  }
+
+  .hero__title {
+    padding: 45% 3% 0 3%;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .hero {
+    height: 65vh;
+    background-position: 70% 70%;
+  }
+
+  .hero__title {
+    padding: 35% 3% 0 3%;
+  }
+
+  .sponsoring-info__content {
+    padding: 6rem 0 3.5rem 0;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+  }
+
+  .sponsoring-info__text {
+    text-align: center;
+  }
+
+  .sponsoring-info__text--paragraph {
+    padding: 1rem 0 3rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  .hero {
+    height: 70vh;
+    background-position: 45 90%;
+  }
+
+  .hero__title {
+    padding: 25% 2% 0 2%;
+  }
+
+  .sponsoring-info__content {
+    padding: 8rem 0rem 7.5rem 0rem;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .sponsoring-info__text--paragraph {
+    padding: 1rem 0 1rem 0;
+  }
+
+
+  /* SPONSORING */
+  
+  .sponsoring {
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 5rem 2%;
+  }
+  
+  .sponsoring-text {
+    flex-basis: 70%;
+  }
+  
+  .sponsoring-cure-mannheim {
+    margin: 0;
+  }
+    
+  .sponsoring-martin-werz {
+    margin: 0;
+  }
+  
+  .sponsoring-martin-werz-image {
+    padding-top: 0rem;
+  }
+  
+  .sponsoring-tom-viehl-text {
+    padding-bottom: 5rem;
+  }
+    
+  .sponsoring-text h3  {
+    margin: 0rem 0 2rem 0;
+    min-width: 34ch;
+  }
+  
+  .image {
+    flex-basis: 30%;
+    padding-right: 3rem;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media (min-width: 1800px) {
+
+  .sponsoring-info__content {
+    width: 55%;
+  }
+
+  .sponsoring-info__text--paragraph {
+    max-width: 500px;
+  }
+}
