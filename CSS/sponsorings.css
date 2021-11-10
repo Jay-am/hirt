@@ -114,14 +114,14 @@
     /* SPONSORING */
   
     .sponsoring {
-      display: flex;
-      flex-basis: 100%;
+      /* display: flex;
+      flex-basis: 100%; */
       justify-content: space-between;
       padding: 5rem 2%;
     }
     
     .sponsoring-text {
-      flex-basis: 90%;
+      flex-basis: 70%;
     }
     
     .sponsoring-cure-mannheim {
@@ -146,7 +146,7 @@
     }
     
     .image {
-      flex-basis: 10%;
+      flex-basis: 30%;
       padding-right: 3rem;
       align-self: center;
       justify-self: center;
@@ -179,8 +179,8 @@
   /* SPONSORING */
   
   .sponsoring {
-    display: flex;
-    flex-basis: 100%;
+    /* display: flex;
+    flex-basis: 100%; */
     justify-content: space-between;
     padding: 5rem 2%;
   }
