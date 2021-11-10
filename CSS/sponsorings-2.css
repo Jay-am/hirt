@@ -30,6 +30,10 @@
   /* margin: 0 auto; */
 }
 
+/* .sponsoring-info__text {
+  margin: 0 auto;
+}  */
+
 .sponsoring-info__title {
   padding: 0 0 2rem 0;
 }
@@ -53,21 +57,84 @@
 
 /* SPONSORINGS */
 
-.sponsoring {
-  padding: 0rem 2% 5rem 2%;
-}
-
 .sponsoring-text h3  {
   margin: 2rem 0 2rem 0;
 }
 
-.sponsoring-text > * + * {
+.sponsoring-text > * + *  {
   margin: 0 0 1rem 0;
+}
+
+.sponsoring-cure-mannheim {
+  margin: 0 2rem 0 2rem;
+}
+
+.sponsoring-martin-werz {
+  margin: 5rem 2rem 5rem 2rem;
 }
 
 .image {
   width: 100%;
 }
+
+.sponsoring-martin-werz-image {
+  padding-top: 2rem;
+}
+
+/* CURE */
+
+/* .sponsoring-cure-mannheim {
+  background: rgb(243, 243, 243);
+  padding: 8em 0 8em 0;
+  justify-content: space-evenly;
+}
+
+.sponsoring-cure-mannheim-text {
+  width: 400%;
+}
+
+.sponsoring-cure-mannheim-text h3 {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-cure-mannheim-text p {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-cure-mannheim-image {
+  align-self: center;
+}
+
+.image-cure-mannheim {
+  width: 85%;
+} */
+
+/* WERZ */
+
+/* .sponsoring-martin-werz {
+  padding: 10em 0 10em 0;
+  justify-content: space-between;
+}
+
+.sponsoring-martin-werz-text {
+  width: 50%;
+}
+
+.sponsoring-martin-werz-text h3 {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-martin-werz-text p {
+  padding: 0 0 1em 0;
+}
+
+.sponsoring-martin-werz-image {
+  align-self: center;
+}
+
+.image-martin-werz {
+  width: 100%;
+} */
 
 
 /* MEDIAQUERIES */
@@ -80,6 +147,10 @@
 
   .hero__title {
     padding: 45% 3% 0 3%;
+  }
+
+  .sponsoring-martin-werz-image {
+    padding-top: 4rem;
   }
 }
 
@@ -94,13 +165,11 @@
     padding: 35% 3% 0 3%;
   }
 
-  /* INFO */
-
   .sponsoring-info__content {
     padding: 6rem 0 3.5rem 0;
     width: 70%;
     text-align: center;
-    margin: 0 auto;
+    margin-left: auto;
   }
 
   .sponsoring-info__text {
@@ -111,51 +180,40 @@
     padding: 1rem 0 3rem 0;
   }
 
-    /* SPONSORING */
+  .sponsorings {
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding-bottom: 10rem;
+  }
   
-    .sponsoring {
-      display: flex;
-      flex-basis: 100%;
-      justify-content: space-between;
-      padding: 5rem 2%;
-    }
-    
-    .sponsoring-text {
-      flex-basis: 90%;
-    }
-    
-    .sponsoring-cure-mannheim {
-      margin: 0;
-    }
-      
-    .sponsoring-martin-werz {
-      margin: 0;
-    }
-    
-    .sponsoring-martin-werz-image {
-      padding-top: 0rem;
-    }
-    
-    .sponsoring-tom-viehl-text {
-      padding-bottom: 5rem;
-    }
-      
-    .sponsoring-text h3  {
-      margin: 0rem 0 2rem 0;
-      min-width: 34ch;
-    }
-    
-    .image {
-      flex-basis: 10%;
-      padding-right: 3rem;
-      align-self: center;
-      justify-self: center;
-    }
+  .sponsoring {
+    flex-basis: 100%;
+    background: rgb(248, 248, 248);
+    padding: 0 2rem;
+  }
+  
+  .sponsoring-text h3  {
+    margin: 2rem 0 2rem 0;
+  }
 
+  .image {
+    padding-top: 2rem;
+  }
+
+  .sponsoring-cure-mannheim {
+    margin: 0 1rem 0 2rem;
+  }
+
+  .sponsoring-martin-werz-image {
+    padding-top: 0rem;
+  }
+  
+  .sponsoring-martin-werz {
+    margin: 0 2rem 0 1rem;
+  }
 }
 
 @media (min-width: 1200px) {
-  
   .hero {
     height: 70vh;
     background-position: 45 90%;
@@ -175,47 +233,18 @@
     padding: 1rem 0 1rem 0;
   }
 
-
-  /* SPONSORING */
-  
-  .sponsoring {
-    display: flex;
-    flex-basis: 100%;
-    justify-content: space-between;
-    padding: 5rem 2%;
-  }
-  
-  .sponsoring-text {
-    flex-basis: 70%;
-  }
-  
-  .sponsoring-cure-mannheim {
-    margin: 0;
-  }
-    
-  .sponsoring-martin-werz {
-    margin: 0;
-  }
-  
-  .sponsoring-martin-werz-image {
-    padding-top: 0rem;
-  }
-  
-  .sponsoring-tom-viehl-text {
-    padding-bottom: 5rem;
-  }
-    
   .sponsoring-text h3  {
-    margin: 0rem 0 2rem 0;
     min-width: 34ch;
   }
-  
-  .image {
-    flex-basis: 30%;
-    padding-right: 3rem;
-    align-self: center;
-    justify-self: center;
+
+  .sponsoring-cure-mannheim {
+    margin: 0 2rem 0 4rem;
   }
+  
+  .sponsoring-martin-werz {
+    margin: 0 4rem 0 2rem;
+  }
+
 }
 
 @media (min-width: 1800px) {
