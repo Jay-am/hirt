@@ -22,6 +22,13 @@
   font-size: clamp(0.7rem, 0.9vw, 9rem);
 }
 
+.footer__kontakt a {
+  list-style: none;
+  text-decoration: none;
+  color: lightgrey;
+  font-size: clamp(0.7rem, 0.9vw, 9rem);
+}
+
 .footer__links {
   padding: 0.5rem 0 1.5rem 0rem;
   list-style: none;
