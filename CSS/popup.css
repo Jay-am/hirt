@@ -12,16 +12,17 @@
 
 .content-box {
   position: relative;
-  width: 700px;
+  width: 400px;
   background: white;
   display: flex;
+  flex-direction: row;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   overflow: hidden;
 }
 
 .content-box .img-box {
   position: relative;
-  width: 300px;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +30,7 @@
 
 .content-box .img-box img {
   position: relative;
-  max-width: 100px;
+  max-width: 25px;
 }
 
 .content {
@@ -41,21 +42,21 @@
   font-family: 'Dancing Script', cursive;
   color: #004980;
   text-transform: capitalize;
-  font-size: 24px;
-  padding: 0 2rem 1.5rem 2rem;
+  font-size: 16px;
+  padding: 0 1rem 0.75rem 1rem;
 }
 
 .content p {
   font-family: 'Dancing Script', cursive;
   color: #004980;;
-  font-size: 24px;
-  width: 400px;
-  padding: 0 2rem 2rem 2rem;
+  font-size: 16px;
+  width: 200px;
+  padding: 0 1rem 1.5rem 1rem;
 }
 
 .content img {
-  width: 200px;
-  padding: 0 2rem 0rem 2rem;
+  width: 100px;
+  padding: 0 1rem 0rem 1rem;
 }
 
 .close {
@@ -72,4 +73,82 @@
   cursor: pointer;
   /* border-radius: 50%; */
   z-index: 10;
+}
+
+/* MEDIAQUERIES */
+
+@media (min-width: 900px) {
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    /* display: none; */
+  }
+  
+  .content-box {
+    position: relative;
+    width: 700px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .content-box .img-box {
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-box .img-box img {
+    position: relative;
+    max-width: 100px;
+  }
+  
+  .content {
+    /* padding: 4rem 2rem 4rem 2rem; */
+    align-self: center;
+  }
+  
+  .content h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #004980;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding: 0 2rem 1.5rem 2rem;
+  }
+  
+  .content p {
+    font-family: 'Dancing Script', cursive;
+    color: #004980;;
+    font-size: 24px;
+    width: 400px;
+    padding: 0 2rem 2rem 2rem;
+  }
+  
+  .content img {
+    width: 200px;
+    padding: 0 2rem 0rem 2rem;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    /* background-color: lightgray; */
+    /* background: url(close.png); */
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    z-index: 10;
+  }
 }
