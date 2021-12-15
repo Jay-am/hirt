@@ -34,6 +34,7 @@
     <meta name="robots" content="index,follow" />
 
     <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="CSS/popup.css" />
     <link rel="stylesheet" href="CSS/footer.css" />
     <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/layout.css" />
@@ -239,6 +240,18 @@
     </header>
 
     <main>
+      <!-- <a class="trigger_popup_fricc">Click here to show the popup</a>
+      <div class="hover_bkgr_fricc">
+          <span class="helper"></span>
+          <div>
+              <div class="popupCloseButton">&times;</div>
+              <p>Add any HTML content<br />inside the popup box!</p>
+          </div>
+      </div> -->
+
+      <div class="popup" onclick="myFunction()">Click me!
+        <span class="popuptext" id="myPopup">Popup text...</span>
+      </div>
   
       <section class="hero">
         <div class="hero__content col">
@@ -704,6 +717,16 @@
     <script src="JS/horizontal-scroll.js"></script> -->
 
     <!-- <script src="JS/scroller.js"></script> -->
+
+    <!-- <script src="JS/popup.js"></script> -->
+
+    <script>
+      // When the user clicks on <div>, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
 
   </body>
 </html>
