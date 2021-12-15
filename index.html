@@ -240,17 +240,22 @@
     </header>
 
     <main>
-      <!-- <a class="trigger_popup_fricc">Click here to show the popup</a>
-      <div class="hover_bkgr_fricc">
-          <span class="helper"></span>
-          <div>
-              <div class="popupCloseButton">&times;</div>
-              <p>Add any HTML content<br />inside the popup box!</p>
-          </div>
-      </div> -->
 
-      <div class="popup" onclick="myFunction()">Click me!
-        <span class="popuptext" id="myPopup">Popup text...</span>
+      <div class="popup">
+        <div class="content-box"> 
+          <div class="close">
+            <img src="../hirt/IMAGES/close.png" alt="Close Window">
+          </div>
+          <div>
+            <img src="../hirt/IMAGES/stars.jpg" alt="Sterne">
+          </div>
+          <div class="content">
+            <h1>Liebe Kunden,<br>Liebe Geschäftspartner,</h1>
+            <p>wir wünschen Ihnen mit Ihren Familien ein frohes Weihnachtsfest und ein erfolgreiches neues Jahr, bleiben Sie gesund!</p>
+            <p>Rüdiger Hirt und das gesamte Team</p>
+            <img src="../hirt/IMAGES/Logo/Hirt-Zerspanungstechnik-Logo.png" alt="Logo Hirt Zerspanungstechnik">
+          </div>
+        </div>
       </div>
   
       <section class="hero">
@@ -721,11 +726,17 @@
     <!-- <script src="JS/popup.js"></script> -->
 
     <script>
-      // When the user clicks on <div>, open the popup
-      function myFunction() {
-        var popup = document.getElementById("myPopup");
-        popup.classList.toggle("show");
+      const popup = document.querySelector('.popup');
+      const close = document.querySelector('.close');
+
+      window.onload = function (){
+        setTimeout(function (){
+          popup.style.display = "block";
+        }, 5000)
       }
+      close.addEventListener('click',() => {
+        popup.style.display = "none";
+      })
       </script>
 
   </body>
