@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 .popup {
   position: fixed;
@@ -39,7 +39,7 @@
 }
 
 .content h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Handlee', cursive;
   color: #004980;
   text-transform: capitalize;
   font-size: 16px;
@@ -47,7 +47,7 @@
 }
 
 .content p {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Handlee', cursive;
   color: #004980;;
   font-size: 16px;
   width: 200px;
@@ -89,7 +89,7 @@
   
   .content-box {
     position: relative;
-    width: 700px;
+    width: 750px;
     background: white;
     display: flex;
     flex-direction: row;
@@ -99,7 +99,7 @@
   
   .content-box .img-box {
     position: relative;
-    width: 300px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,20 +119,20 @@
     font-family: 'Dancing Script', cursive;
     color: #004980;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 22px;
     padding: 0 2rem 1.5rem 2rem;
   }
   
   .content p {
     font-family: 'Dancing Script', cursive;
     color: #004980;;
-    font-size: 24px;
-    width: 400px;
+    font-size: 22px;
+    width: 450px;
     padding: 0 2rem 2rem 2rem;
   }
   
   .content img {
-    width: 200px;
+    width: 150px;
     padding: 0 2rem 0rem 2rem;
   }
   
