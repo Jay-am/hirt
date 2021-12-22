@@ -612,7 +612,7 @@ section {
 
   .entwicklung__content {
     /* padding-top: 16rem; */
-    padding: 16rem 0% 0rem 5%;
+    padding: 16rem 0% 0rem 2%;
   }
 
 
@@ -651,7 +651,7 @@ section {
 
   .fertigung__content {
     width: 70%;
-    padding: 16rem 5rem 0 9rem;
+    padding: 16rem 5rem 0 6.5%;
   }
   
   .fertigung__content h3,
@@ -757,7 +757,7 @@ section {
 
   .oberflaechenveredelung__content {
     /* padding-top: 10rem; */
-    padding: 10rem 0% 0rem 5%;
+    padding: 10rem 0% 0rem 2%;
   }
 
 
@@ -769,7 +769,7 @@ section {
 
   .montage__content {
     /* padding-top: 14rem; */
-    padding: 14rem 0% 0rem 5%;
+    padding: 14rem 0% 0rem 2%;
   }
 
   .montage__content p {
@@ -785,7 +785,7 @@ section {
 
   .qualitaetssicherung__content {
     padding-top: 16rem;
-    padding: 16rem 0% 0rem 5%;
+    padding: 16rem 0% 0rem 2%;
   }
 
   .qualitaetssicherung__content p {
@@ -801,7 +801,7 @@ section {
 
   .lagerhaltung__content {
     /* padding-top: 16rem; */
-    padding: 16rem 0% 0rem 5%;
+    padding: 16rem 0% 0rem 2%;
   }
 
 
@@ -813,7 +813,7 @@ section {
 
   .qualitaetsmanagement__content {
     /* padding-top: 5rem; */
-    padding: 1.5rem 0% 0rem 5%;
+    padding: 1.5rem 0% 0rem 2%;
     width: 70%;
   }
 
