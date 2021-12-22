@@ -14,10 +14,6 @@
   padding: 3rem 0 1rem 0;
 }
 
-.aktuelles__2021 {
-  min-height: 100vh;
-}
-
 .aktuelles__flex {
   display: flex;
   flex-direction: column;
@@ -36,12 +32,6 @@
   padding: 2rem 0 1.5rem 0;
 }
 
-/* 2021 */
-
-.aktion-kind img {
-  /* box-shadow: 2px 2px 2px lightgrey; */
-}
-
 
 
 @media (min-width: 600px) {}
@@ -55,10 +45,6 @@
 
   .aktuelles__header {
     padding: 4rem 0 1.5rem 0;
-  }
-
-  .aktuelles__2021 {
-    min-height: 80vh;
   }
 
   .aktuelles__flex {
@@ -94,10 +80,6 @@
     padding: 8rem 0 3rem 0;
   }
 
-  .aktuelles__2021 {
-    min-height: 80vh;
-  }
-
   .aktuelles__flex {
     display: flex;
     flex-direction: row;
@@ -119,6 +101,9 @@
   .aktuelles__text h3 {
     padding: 0rem 0 1.5rem 0;
   }
+
+
+  /* 2021 */
 
   .hygiene h3 {
     padding-top: 2rem;
