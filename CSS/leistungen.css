@@ -576,6 +576,12 @@ section {
 
   /* LEISTUNGEN */
 
+  .details-leistungen {
+    /* padding: 1rem 0 0rem 0; */
+    padding: 1rem 0% 0rem 10%;
+    margin: 0;
+  }
+
   .details-leistungen__section {
     display: flex;
     min-height: 100vh;
@@ -605,7 +611,8 @@ section {
   }
 
   .entwicklung__content {
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    padding: 16rem 0% 0rem 5%;
   }
 
 
@@ -749,7 +756,8 @@ section {
   }
 
   .oberflaechenveredelung__content {
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
+    padding: 10rem 0% 0rem 5%;
   }
 
 
@@ -760,7 +768,8 @@ section {
   }
 
   .montage__content {
-    padding-top: 14rem;
+    /* padding-top: 14rem; */
+    padding: 14rem 0% 0rem 5%;
   }
 
   .montage__content p {
@@ -776,6 +785,7 @@ section {
 
   .qualitaetssicherung__content {
     padding-top: 16rem;
+    padding: 16rem 0% 0rem 5%;
   }
 
   .qualitaetssicherung__content p {
@@ -790,7 +800,8 @@ section {
   }
 
   .lagerhaltung__content {
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    padding: 16rem 0% 0rem 5%;
   }
 
 
@@ -801,7 +812,8 @@ section {
   }
 
   .qualitaetsmanagement__content {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
+    padding: 2.5rem 0% 0rem 5%;
     width: 70%;
   }
 
