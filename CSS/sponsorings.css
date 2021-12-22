@@ -157,12 +157,12 @@
 @media (min-width: 1200px) {
   
   .hero {
-    height: 70vh;
-    background-position: 45 90%;
+    height: 55vh;
+    background-position: 45 0%;
   }
 
   .hero__title {
-    padding: 25% 2% 0 2%;
+    padding: 20% 2% 0 2%;
   }
 
   .sponsoring-info__content {
