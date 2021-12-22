@@ -345,22 +345,24 @@ input[type="checkbox"] {
   /* HERO */
 
   .hero {
-    height: 70vh;
+    height: 55vh;
     background-position: 0 10%;
   }
 
   .hero__title {
-    padding: 25% 0 0 2%;
+    padding: 20% 0 0 2%;
   }
 
   /* INTRO */
 
   .karriere-intro {
-    padding: 9.5rem 10% 0 10%;
+    padding: 6rem 0% 6rem 0%;
+    width: 65%;
+    margin: 0 auto;
   }
 
   .karriere-intro__content {
-    width: 65%;
+    text-align: center;
   }
 
   /* BEWERBEN */
