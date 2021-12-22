@@ -543,13 +543,13 @@ section {
 @media (min-width: 1200px) {
 
   .hero {
-    height: 70vh;
+    height: 55vh;
     background-position: 68% 70%;
   }
 
   .hero__title {
     width: 60%;
-    padding: 20.5% 5% 0 2%;
+    padding: 15% 5% 0 2%;
   }
 
 

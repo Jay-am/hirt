@@ -128,18 +128,17 @@ display: inline-block;
 
 @media (min-width: 1200px) {
   .hero {
-    height: 70vh;
+    height: 55vh;
     /* height: 100vh; */
-    background-position: 0 20%;
+    background-position: 0 50%;
   }
 
   .hero__title {
-    padding: 21% 2% 0 2%;
+    padding: 15% 2% 0 2%;
   }
 
   .unternehmen-info__content {
-    padding: 8rem 0% 7.5rem 10%;
-    min-height: 100vh;
+    padding: 4rem 0% 4rem 10%;
   }
 
   .unternehmen-info__text {
