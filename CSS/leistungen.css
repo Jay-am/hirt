@@ -826,7 +826,8 @@ section {
 
   .kontakt__content {
     text-align: center;
-    padding: 10rem 0 8rem 0;
+    padding: 10rem 0 5rem 0;
+    min-height: 60vh;
   }
   
   .kontakt__content h3 {
@@ -835,6 +836,7 @@ section {
   
   .kontakt__content p {
     padding: 0 0 2rem 0;
+    width: 100%;
   }
   
   .kontakt__content a {
