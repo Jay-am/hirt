@@ -379,14 +379,13 @@
   /* LUFT- UND RAUMFAHRT */
 
   .luft-und-raumfahrt {
-    height: 350px;
-    background-position: 40% 65%;
+    height: 650px;
+    background-position: 40% 25%;
   }
 
   .details-branchen__content--luft-und-raumfahrt {
     width: 100%;
-    padding: 0rem 0rem 5rem 10%;
-    margin-top: -5rem;
+    padding: 5rem 0rem 5rem 10%;
   }
 
   .details-branchen__content--luft-und-raumfahrt p {
@@ -394,26 +393,20 @@
   }
 
   .details-branchen__image--luft-und-raumfahrt {
-    padding: -4rem 0% 0 0%;
-    margin-top: -6rem;
+    padding: 4rem 0% 0 0%;
   }
 
 
   /* MEDIZINTECHNIK */
 
-  #medizintechnik {
-    margin-top: -5rem;
-  }
-
   .medizintechnik {
-    height: 350px;
+    height: 650px;
     background-position: 90% 65%;
   }
 
   .details-branchen__content--medizintechnik {
     width: 100%;
-    padding: 0rem 0rem 5rem 10%;
-    margin-top: -2rem;
+    padding: 5rem 0rem 5rem 10%;
   }
 
   .details-branchen__content--medizintechnik p {
@@ -421,25 +414,20 @@
   }
 
   .details-branchen__image--medizintechnik {
-    padding: -4rem 0% 0 0%;
+    padding: 4rem 0% 0 0%;
   }
 
 
   /* REHATECHNIK */
 
-  /* #rehatechnik {
-    margin-top: -5rem;
-  } */
-
   .rehatechnik {
-    height: 350px;
-    background-position: 0 35%;
+    height: 650px;
+    background-position: 0 25%;
   }
 
   .details-branchen__content--rehatechnik {
     width: 100%;
-    padding: 0rem 0rem 5rem 10%;
-    margin-top: -2rem;
+    padding: 5rem 0rem 5rem 10%;
   }
 
   .details-branchen__content--rehatechnik p {
@@ -447,25 +435,20 @@
   }
 
   .details-branchen__image--rehatechnik {
-    padding: -4rem 0% 0 0%;
-    margin-top: -2rem;
+    padding: 4rem 0% 0 0%;
   }
 
 
   /* SENSORTECHNIK */
 
-  /* #sensortechnik {
-    margin-top: -5rem;
-  } */
-
   .sensortechnik {
-    height: 350px;
-    background-position: 0% 75%;
+    height: 650px;
+    background-position: 0% 65%;
   }
 
   .details-branchen__content--sensortechnik {
     width: 100%;
-    padding: 0rem 0rem 5rem 10%;
+    padding: 5rem 0rem 5rem 10%;
   }
 
   .details-branchen__content--sensortechnik p {
@@ -473,27 +456,20 @@
   }
 
   .details-branchen__image--sensortechnik {
-    padding: -4rem 0% 0 0%;
-    margin-top: -5rem;
-    width: 80%;
+    padding: 4rem 0% 0 0%;
   }
 
 
   /* LEBENSMITTELTECHNIK */
 
-  /* #lebensmitteltechnik {
-    margin-top: -5rem;
-  } */
-
   .lebensmitteltechnik {
-    height: 350px;
-    background-position: 100% 90%;
+    height: 650px;
+    background-position: 100% 80%;
   }
 
   .details-branchen__content--lebensmitteltechnik {
     width: 100%;
-    padding: 0rem 0rem 5rem 10%;
-    margin-top: -8rem;
+    padding: 5rem 0rem 5rem 10%;
   }
 
   .details-branchen__content--lebensmitteltechnik p {
@@ -501,27 +477,20 @@
   }
 
   .details-branchen__image--lebensmitteltechnik {
-    padding: -8rem 0% 0 0%;
-    width: 60%;
-    margin-top: -4.5rem;
+    padding: 4rem 0% 0 0%;
   }
 
 
   /* VERTEIDIGUNGS- UND WEHRTECHNIK */
 
-  #verteidigungs-und-wehrtechnik {
-    margin-top: -5rem;
-  }
-
   .verteidigungs-und-wehrtechnik {
-    height: 350px;
+    height: 650px;
     background-position: 35% 55%;
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik {
     width: 100%;
-    padding: 0rem 0rem 5rem 10%;
-    margin-top: -4rem;
+    padding: 5rem 0rem 5rem 10%;
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik p {
@@ -529,25 +498,20 @@
   }
 
   .details-branchen__image--verteidigungs-und-wehrtechnik {
-    padding: -4rem 0% 0 0%;
-    margin-top: -4rem;
+    padding: 4rem 0% 0 0%;
   }
 
 
   /* MOTORSPORT */
 
-  #motorsport {
-    margin-top: -5rem;
-  }
-
   .motorsport {
-    height: 350px;
+    height: 650px;
     background-position: 0% 80%;
   }
 
   .details-branchen__content--motorsport {
     width: 100%;
-    padding: 0rem 0rem 5rem 10%;
+    padding: 5rem 0rem 5rem 10%;
     justify-items: space-between;
   }
 
@@ -560,25 +524,21 @@
   }
 
   .details-branchen__image--motorsport {
-    padding: -4rem 0% 0 0%;
-    margin-top: 0rem;
-    width: 80%;
+    padding: 4rem 0% 0 0%;
   }
 
   /* KONTAKT */
 
   .kontakt {
-    min-height: 45vh;
+    height: 600px;
   }
 
   .kontakt__content {
-    padding: 10rem 0 0 5rem;
-    /* margin-left: -25rem; */
+    padding: 9.5rem 0 0 0;
   }
 
   .btn__kontakt-branchen {
-    padding: 0rem 0 4rem 0%;
-    /* margin-left: -4.5rem; */
+    padding: 3rem 0 0 0;
   }
 }
 
@@ -590,10 +550,6 @@
   }
 
   .hero__title {
-    padding: 20% 0 0 2%;
-  }
-
-  section {
-    min-height: 100vh;
+    padding: 25% 0 0 2%;
   }
 }
