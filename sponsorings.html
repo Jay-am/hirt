@@ -68,7 +68,7 @@
     <!-- End Google Tag Manager (noscript) -->  
 
     <header>
-      <section class="navigation">
+      <div class="navigation">
         <nav class="nav row">
           <a href="./index"><img loading="lazy" 
               src="IMAGES/Logo/Hirt-Zerspanungstechnik-Logo.png"
@@ -231,19 +231,19 @@
             </ul>
           </div>
         </nav>
-      </section>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
+      <div class="hero">
         <div class="hero__content">
           <h1 class="hero__title">
             Wenn Präzision<br>entscheidend ist.
           </h1>
         </div>
-      </section>
+      </div>
 
-      <section class="sponsoring-info">
+      <div class="sponsoring-info">
         <div class="sponsoring-info__content">
           <div class="sponsoring-info__text">
             <h2 class="sponsoring-info__title">
@@ -253,11 +253,11 @@
               Wir teilen die Leidenschaft für Schnelligkeit und Präzision. Daher unterstützen wir gleich zwei Teams im Motorsport mit unserer Expertise - Metal in komplexer Form - und helfen bei der Fertigung diverser Fahrwerkskomponenten.
             </p>
         </div>
-      </section>
+      </div>
 
-      <section class="sponsorings">
+      <div class="sponsorings">
 
-        <div class="sponsoring sponsoring-cure-mannheim row">
+        <section class="sponsoring sponsoring-cure-mannheim full-section row">
           <div class="sponsoring-cure-mannheim-image">
             <img loading="lazy"  src="IMAGES/Sponsorings/cure_mannheim_wasserturm_1000x650.jpg" alt="Cure Mannheim Wasserturm" class="image">
           </div>
@@ -270,9 +270,9 @@
               In der Serie Formula Student treten studentische Teams aller Welt mit ihren Prototypen gegeneinander an. In statischen Disziplinen wie der Cost und Manufacturing Discussion oder dem Design Report werden die Hintergründe der Fahrzeugentwicklung von Juroren aus der Automobilindustrie hinterfragt und z. B. die Vollständigkeit der Stücklisten bewertet. Des Weiteren wird in der Business Plan Präsentation ein ausgearbeitetes Geschäftsmodell vorgelegt, mit dem potenzielle Investoren von einem fiktiven Produkt überzeugt werden müssen. Nach mehrtägiger erfolgreicher technischer Abnahme (Scrutineering) der mechanischen und elektrischen Systeme, erfüllen die Prototypen alle sicherheitsrelevanten Merkmale und dürfen an den dynamischen Disziplinen teilnehmen. Bei diesen werden die Fahrzeugeigenschaften wie das Kurvenfahrverhalten (Skip Pad/liegende Acht), das Beschleunigungsvermögen (75 m Acceleration), die Kurzstreckendistanz (Autocross) und die Langstreckendistanz (22 km Endurance) unter Beweis gestellt.
             </p>
           </div>
-        </div>
+        </section>
      
-        <div class="sponsoring sponsoring-martin-werz row">
+        <section class="sponsoring sponsoring-martin-werz full-section row">
           <div class="sponsoring-martin-werz-image">
             <img loading="lazy"  src="IMAGES/Sponsorings/werz_1000x650_v2.jpg" alt="Martin Werz Motorcross" class="image image-martin-werz">
           </div>
@@ -284,9 +284,9 @@
             <p>Wir sind sicher, dass sich diese Erfolge mit unserem Sponsoring in 2021 weiter ausbauen lassen.</p>
             <p>Wir wünschen Martin Werz für sein Highlight 2021 "Teilnahme an den FIM International Six Days of Enduro (ISDE) in Italien" viel Erfolg.</p>
           </div>
-        </div>
+        </section>
 
-        <div class="sponsoring sponsoring-tom-viehl row">
+        <section class="sponsoring sponsoring-tom-viehl full-section row">
           <div class="sponsoring-tom-viehl-image">
             <img loading="lazy"  src="IMAGES/Sponsorings/tom-viehl-1000x650.jpg" alt="Tom Viehl Division H1" class="image image-martin-werz">
           </div>
@@ -299,9 +299,9 @@
             <p>Für Hochleistungen in Sportdisziplinen, bei denen hoch technische Hilfsmittel benötigt werden, sind höchste Präzision, Material in bester Qualität und hervorragendes technisches Wissen von großer Wichtigkeit.</p>
             <p>Wir freuen uns, Tom Viehl hierbei unterstützen zu können und wünschen ihm für seine weiteren sportlichen Herausforderungen viel Erfolg!</p>
           </div>
-        </div>
+        </section>
 
-      </section>
+      </div>
 
       <!-- <section class="sponsoring-cure-mannheim">
         <div class="sponsoring-cure-mannheim-content container row">
@@ -413,8 +413,12 @@
 
     </footer>
 
+    <!-- NAVIGATION -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="JS/nav.js"></script>
+
+    <!-- SITEWISE SCROLL -->
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var nav = document.querySelector("nav");
