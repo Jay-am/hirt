@@ -967,7 +967,7 @@
   .down-click {
     display: block;
     width: 100vw;
-    padding-top: 2rem;
+    padding-top: 2%;
     padding-left: 40%;
   }
 
@@ -1325,7 +1325,7 @@
 
   .down-click {
     width: 100vw;
-    padding-top: 2rem;
+    padding-top: 2%;
     padding-left: 40%;
   }
 
