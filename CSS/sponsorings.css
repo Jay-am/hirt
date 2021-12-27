@@ -167,12 +167,13 @@
 
   .sponsoring-info {
     padding: 2rem 0rem 2rem 0rem;
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .sponsoring-info__text--paragraph {
     padding: 1rem 0 1rem 0;
+    width: 70%;
   }
 
 
