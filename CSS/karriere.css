@@ -365,16 +365,21 @@ input[type="checkbox"] {
     text-align: center;
   }
 
-  /* BEWERBEN */
-
-  .bewerben__content {
-    width: 70%;
-    padding: 0 10% 0 10%;
-  }
-
   /* STELLENANGEBOTE */
 
   .stellenangebote__content {
-    padding: 8rem 10% 10rem 9.8%;
+    padding: 5rem 10% 5rem 9.8%;
+  }
+
+  /* BEWERBEN */
+
+  .bewerben {
+    padding: 6rem 0rem 6rem 0rem;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .bewerben__content {
+    text-align: center;
   }
 }

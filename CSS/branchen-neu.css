@@ -572,13 +572,13 @@
   }
 
   .kontakt__content {
-    padding: 10rem 0 0 -10%;
-    margin-left: -25rem;
+    padding: 10rem 0 0 5rem;
+    /* margin-left: -25rem; */
   }
 
   .btn__kontakt-branchen {
     padding: 0rem 0 4rem 0%;
-    margin-left: -4.5rem;
+    /* margin-left: -4.5rem; */
   }
 }
 
@@ -591,5 +591,9 @@
 
   .hero__title {
     padding: 20% 0 0 2%;
+  }
+
+  section {
+    min-height: 100vh;
   }
 }

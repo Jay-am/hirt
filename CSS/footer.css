@@ -5,6 +5,7 @@
   grid-template-columns: 1fr;
   background: #00355c;
   padding: 3rem 2rem 3rem 2rem;
+  margin: 0;
 }
 
 .footer h3 {
@@ -234,7 +235,7 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr min-content;
     height: 40vh;
-    width: 100%;
+    margin: 0;
   }
 
   .footer__kontakt {
