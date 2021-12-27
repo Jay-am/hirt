@@ -374,12 +374,27 @@ input[type="checkbox"] {
   /* BEWERBEN */
 
   .bewerben {
-    padding: 6rem 0rem 6rem 0rem;
-    width: 65%;
-    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
 
   .bewerben__content {
+    align-self: center;
     text-align: center;
+    padding: 6rem 0rem 6rem 0rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .bewerben__content h3 {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .bewerben__content p {
+    padding: 0;
+    margin: 0 auto;
   }
 }
