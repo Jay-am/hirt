@@ -105,14 +105,14 @@
     scroll-snap-type: y mandatory;
   }
 
-  /* .full-section {
+  .full-section {
     width: 100%;
     height: 100vh;
     min-height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
     overflow: hidden;
-  } */
+  }
 
   main {
     width: 100vw;
@@ -120,11 +120,11 @@
     scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: y mandatory;
-  }
+  } 
 
   main > * {
     scroll-snap-align: start;
-  }
+  } 
 
   /* INFO */
 
