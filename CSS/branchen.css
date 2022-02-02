@@ -146,7 +146,7 @@
   background-position: 40% 25%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   clip-path: polygon(100% 0, 100% 90%, 85% 90%, 72% 100%, 60% 90%, 0 90%, 0 0);
 }
 
@@ -338,10 +338,17 @@
   .hero {
     height: 55vh;
     background-position: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .hero .hero__content {
+    width: 100%;
   }
 
   .hero__title {
-    padding: 45% 0 0 2%;
+    padding: 2%;
   }
 
   /* SCROLL */
@@ -379,7 +386,7 @@
   /* INTRO */
 
   .intro-branchen {
-    height: 65vh;
+    min-height: 65vh;
     text-align: center;
   }
 
@@ -434,9 +441,9 @@
 
   /* MEDIZINTECHNIK */
 
-  #medizintechnik {
+  /* #medizintechnik {
     margin-top: -5rem;
-  }
+  } */
 
   .medizintechnik {
     height: 45vh;
@@ -550,9 +557,9 @@
 
   /* VERTEIDIGUNGS- UND WEHRTECHNIK */
 
-  #verteidigungs-und-wehrtechnik {
+  /* #verteidigungs-und-wehrtechnik {
     margin-top: -5rem;
-  }
+  } */
 
   .verteidigungs-und-wehrtechnik {
     height: 45vh;
@@ -578,9 +585,9 @@
 
   /* MOTORSPORT */
 
-  #motorsport {
+  /* #motorsport {
     margin-top: -5rem;
-  }
+  } */
 
   .motorsport {
     height: 45vh;
@@ -635,7 +642,7 @@
   }
 
   .hero__title {
-    padding: 20% 0 0 2%;
+    padding: 2%;
   }
 
 
@@ -662,7 +669,7 @@
   /* INTRO */
 
   .intro-branchen {
-    height: 65vh;
+    min-height: 65vh;
     text-align: center;
   }
 
@@ -705,7 +712,12 @@
   .details-branchen__content--luft-und-raumfahrt {
     height: 60vh;
     width: 100%;
-    padding: 3% 0 5% 10%;
+    padding: 2% 0 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .details-branchen__content--luft-und-raumfahrt p {
@@ -749,7 +761,12 @@
   .details-branchen__content--rehatechnik {
     height: 60vh;
     width: 100%;
-    padding: 1.5% 0 5% 10%;
+    padding: 2% 0 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .details-branchen__content--rehatechnik p {
@@ -771,7 +788,12 @@
   .details-branchen__content--sensortechnik {
     height: 60vh;
     width: 100%;
-    padding: 0% 0 5% 10%;
+    padding: 2% 0 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .details-branchen__content--sensortechnik p {
@@ -794,7 +816,12 @@
   .details-branchen__content--lebensmitteltechnik {
     height: 60vh;
     width: 100%;
-    padding: 4% 0 5% 10%;
+    padding: 2% 0 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .details-branchen__content--lebensmitteltechnik p {
@@ -821,11 +848,17 @@
   .details-branchen__content--verteidigungs-und-wehrtechnik {
     height: 60vh;
     width: 100%;
-    padding: 4% 0 5% 10%;
+    padding: 2% 0 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik p {
     width: 100%;
+    line-height: 1.3;
   }
 
   .details-branchen__image--verteidigungs-und-wehrtechnik {
@@ -843,8 +876,12 @@
   .details-branchen__content--motorsport {
     height: 60vh;
     width: 100%;
-    padding: 0% 0 5% 10%;
-    justify-items: space-between;
+    padding: 2% 0 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .details-branchen__content--motorsport h2 {
@@ -866,7 +903,7 @@
   .kontakt {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-content: center;
     min-height: 60vh;
   }
@@ -880,6 +917,12 @@
   }
 }
 
+@media (min-width: 1441px) {
+  .details-branchen__content--motorsport p {
+    line-height: 1.6;
+  }
+}
+
 @media (min-width: 1800px) {
 
   .hero {
@@ -888,7 +931,7 @@
   }
 
   .hero__title {
-    padding: 30% 0 0 2%;
+    padding: 2%;
   }
 
   /* SCROLL */
@@ -915,7 +958,7 @@
   /* INTRO */
 
   .intro-branchen {
-    height: 65vh;
+    min-height: 65vh;
     text-align: center;
   }
 
@@ -958,7 +1001,7 @@
   .details-branchen__content--luft-und-raumfahrt {
     height: 55vh;
     width: 100%;
-    padding: 5% 0 5% 10%;
+    padding: 2% 0 2% 10%;
   }
 
   .details-branchen__content--luft-und-raumfahrt p {
@@ -1002,7 +1045,7 @@
   .details-branchen__content--rehatechnik {
     height: 55vh;
     width: 100%;
-    padding: 5% 0 5% 10%;
+    padding: 2% 0 2% 10%;
   }
 
   .details-branchen__content--rehatechnik p {
@@ -1024,7 +1067,7 @@
   .details-branchen__content--sensortechnik {
     height: 55vh;
     width: 100%;
-    padding: 5% 0 5% 10%;
+    padding: 2% 0 2% 10%;
   }
 
   .details-branchen__content--sensortechnik p {
@@ -1047,7 +1090,7 @@
   .details-branchen__content--lebensmitteltechnik {
     height: 55vh;
     width: 100%;
-    padding: 5% 0 5% 10%;
+    padding: 2% 0 2% 10%;
   }
 
   .details-branchen__content--lebensmitteltechnik p {
@@ -1074,7 +1117,7 @@
   .details-branchen__content--verteidigungs-und-wehrtechnik {
     height: 55vh;
     width: 100%;
-    padding: 5% 0 5% 10%;
+    padding: 2% 0 2% 10%;
   }
 
   .details-branchen__content--verteidigungs-und-wehrtechnik p {
@@ -1096,8 +1139,7 @@
   .details-branchen__content--motorsport {
     height: 55vh;
     width: 100%;
-    padding: 5% 0 5% 10%;
-    justify-items: space-between;
+    padding: 2% 0 2% 10%;
   }
 
   .details-branchen__content--motorsport h2 {
@@ -1119,7 +1161,7 @@
   .kontakt {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-content: center;
     min-height: 60vh;
   }
