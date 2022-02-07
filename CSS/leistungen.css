@@ -523,6 +523,7 @@ section {
     scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: y mandatory;
+    overflow-x: hidden;
   }
 
   main > * {
@@ -609,6 +610,7 @@ section {
 
   .details-leistungen__intro {
     padding: 120px 0 50px 0;
+    width: 100%;
   }
 
   .detailsleistungen__intro--text {
