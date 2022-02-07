@@ -630,7 +630,7 @@ section {
 
   .details-leistungen {
     /* padding: 1rem 0 0rem 0; */
-    padding: 1rem 0% 0rem 10%;
+    padding: 0 0 0 4rem;
     margin: 0;
   }
 
