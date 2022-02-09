@@ -3,10 +3,13 @@
 .hero {
   background: linear-gradient(to left, rgba(0,0,0,0) 60%,
               rgba(0,0,0,1)), url("../IMAGES/Heros/hero-branchen.jpg");
-  height: 65vh;
+  min-height: 65vh;
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .hero__title {
@@ -16,6 +19,7 @@
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
   padding: 30% 5% 0 5%;
+  padding: 5% 2.5% 3%;
 }
 
 
@@ -71,7 +75,7 @@
   background-position: 30% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   clip-path: polygon(100% 0, 100% 90%, 85% 90%, 72% 100%, 60% 90%, 0 90%, 0 0);
 }
 
@@ -244,12 +248,12 @@
 @media (min-width: 600px) {
 
   .hero {
-    height: 65vh;
+    min-height: 65vh;
     background-position: 0 5%;
   }
 
   .hero__title {
-    padding: 35% 0 0 4.5%;
+    padding: 10% 5% 2%;
   }
 
   /* INTRO */
@@ -336,7 +340,7 @@
 @media (min-width: 900px) {
 
   .hero {
-    height: 55vh;
+    min-height: 55vh;
     background-position: 100% 100%;
     display: flex;
     flex-wrap: wrap;
@@ -348,7 +352,7 @@
   }
 
   .hero__title {
-    padding: 2%;
+    padding: 30% 5% 2% 5%;
   }
 
   /* SCROLL */
@@ -393,7 +397,6 @@
   .details-branche {
     justify-items: center;
     align-items: center;
-    margin-bottom: 6rem;
   }
 
   .intro-branchen__content {
@@ -637,12 +640,12 @@
 @media (min-width: 1200px) {
 
   .hero {
-    height: 55vh;
+    min-height: 55vh;
     background-position: 100% 40%;
   }
 
   .hero__title {
-    padding: 2%;
+    padding: 15% 2% 2%;
   }
 
 
@@ -659,7 +662,6 @@
 
   .full-section {
     width: 100%;
-    height: 100vh;
     min-height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
@@ -676,11 +678,10 @@
   .details-branche {
     justify-items: center;
     align-items: center;
-    margin-bottom: 6rem;
   }
 
   .intro-branchen__content {
-    padding: 8.8rem 0 0 0;
+    padding: 120px 0 50px 0;
   }
 
   /* BRANCHEN */
@@ -926,12 +927,12 @@
 @media (min-width: 1800px) {
 
   .hero {
-    height: 55vh;
+    min-height: 55vh;
     background-position: 100% 40%;
   }
 
   .hero__title {
-    padding: 2%;
+    padding: 15% 2% 2%;
   }
 
   /* SCROLL */
@@ -947,7 +948,7 @@
 
   .full-section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     min-height: 100vh;
     background-size: cover;
     scroll-snap-align: start;
@@ -965,11 +966,10 @@
   .details-branche {
     justify-items: center;
     align-items: center;
-    margin-bottom: 6rem;
   }
 
   .intro-branchen__content {
-    padding: 8.8rem 0 0 0;
+    padding: 120px 0 50px 0;
   }
 
   /* BRANCHEN */

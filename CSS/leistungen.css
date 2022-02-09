@@ -9,7 +9,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .hero__title {
