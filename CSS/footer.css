@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr;
   background: #00355c;
-  padding: 3rem 2rem 3rem 2rem;
+  padding: 3rem 2.25rem 3rem;
   margin: 0;
 }
 
@@ -291,4 +291,15 @@
   }
 }
 
-@media (min-width: 1800px) {}
+@media (max-width: 899px) {
+  .footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 599px) {
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+}
