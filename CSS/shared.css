@@ -8,7 +8,7 @@
 
 .nav__logo {
   width: 5rem;
-  margin: 15% 0rem 15% 2rem;
+  margin: 15% 0rem 15% 15px;
   justify-content: flex-start;
 }
 
@@ -205,10 +205,10 @@ nav ul ul li {
 
 #nav-toggle {
   position: absolute;
-  right: 2rem;
+  right: 1rem;
   top: 2rem;
   cursor: pointer;
-  padding: 10px 35px 8px 0px;
+  padding: 10px 30px 8px 0px;
 }
 
 #nav-toggle span,
@@ -285,7 +285,15 @@ nav ul ul li {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+  .nav__logo {
+    margin: 15% 0rem 15% 2rem;
+  }
+
+  #nav-toggle {
+    right: 2rem;
+  }
+}
 
 @media (min-width: 900px) {
 

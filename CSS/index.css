@@ -13,6 +13,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* position: relative; */
+  display: flex;
+  align-items: flex-end;
 }
 
 /* .hero__content {
@@ -33,7 +35,7 @@
   line-height: 1;
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 25% 15px;
+  padding: 25% 15px 5%;
 }
 
 .down-click {
@@ -574,7 +576,7 @@
   }
 
   .hero__title {
-    padding: 25% 2rem 0;
+    padding: 25% 2rem 5%;
   }
 
   /* INTRO */

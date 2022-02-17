@@ -19,7 +19,7 @@
   line-height: 1;
   font-weight: lighter;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 6px 6px 6px rgb(0, 0, 0);
-  padding: 5% 2.5% 3%;
+  padding: 5% 15px 3%;
 }
 
 
@@ -85,9 +85,11 @@
   /* min-height: 50vh;
   padding: 0 5%; */
   min-height: 100vh;
-  padding: 0 5%;
+  padding: 0;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .details-leistungen__section--content {
@@ -96,6 +98,7 @@
 
 .slider .details-leistungen__section--content {
   padding-right: 40px;
+  padding-left: 15px;
 }
 
 .details-leistungen__section--content h3 {
@@ -118,10 +121,21 @@
   background-position: 80% 20%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.details-leistungen__entwicklung::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .entwicklung__content {
-  padding: 4rem 0;
+  padding: 4rem 15px;
 }
 
 .entwicklung__content h3 {
@@ -159,6 +173,17 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  position: relative;
+}
+
+.details-leistungen__section--fertigung::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .fertigung {
@@ -166,7 +191,9 @@ section {
   flex-direction: row;
   min-height: 100vh;
   align-items: center;
-  padding: 0 5%;
+  padding: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .fertigung__content h3,
@@ -202,7 +229,7 @@ section {
   padding-top: 0px;
   margin-left: auto;
   position: absolute;
-  right: 10px;
+  right: 0px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -269,10 +296,21 @@ section {
   background-position: 80% 5%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.details-leistungen__oberflaechenveredelung::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .oberflaechenveredelung__content {
-  padding: 4rem 0;
+  padding: 4rem 15px;
 }
 
 .oberflaechenveredelung__content h3 {
@@ -294,10 +332,21 @@ section {
   background-position: 50% 40%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.details-leistungen__montage::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .montage__content {
-  padding: 4rem 0;
+  padding: 4rem 15px;
 }
 
 .montage__content h3 {
@@ -321,10 +370,21 @@ section {
   background-position: 85% 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.details-leistungen__qualitaetssicherung::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .qualitaetssicherung__content {
-  padding: 4rem 0;
+  padding: 4rem 15px;
 }
 
 .qualitaetssicherung__content h3 {
@@ -348,10 +408,21 @@ section {
   background-position: 60% 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.details-leistungen__lagerhaltung::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .lagerhaltung__content {
-  padding: 4rem 0;
+  padding: 4rem 15px;
 }
 
 .lagerhaltung__content h3 {
@@ -377,10 +448,21 @@ section {
   background-position: 70% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.details-leistungen__qualitaetsmanagement::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .qualitaetsmanagement__content {
-  padding: 4rem 0;
+  padding: 4rem 15px;
 }
 
 .qualitaetsmanagement__content h3 {
@@ -408,7 +490,7 @@ section {
 }
 
 .kontakt__content h3 {
-  padding: 2rem 0 1rem 0;
+  padding: 0 0 1rem 0;
 }
 
 .kontakt__content p {
@@ -417,9 +499,15 @@ section {
 
 .kontakt__content a {
   text-decoration: none;
-  margin: 0 0 4rem 0;
+  margin: 0;
 }
 
+.details-leistungen__intro--text.container,
+.kontakt__content.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+} 
 
 /* MEDIAQUERIES */
 
@@ -431,7 +519,7 @@ section {
   }
 
   .hero__title {
-    padding: 10% 5% 2%;
+    padding: 10% 2rem 2%;
   }
 
   .details-leistungen__section--details .details-leistungen {
@@ -444,13 +532,25 @@ section {
     width: 100%;
   }
 
+  .details-leistungen__intro--text.container,
+  .kontakt__content.container {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  } 
+
+  .details-leistungen__intro--text.container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
   .slider .details-leistungen__section--content {
     padding-right: 30px;
+    padding-left: 0;
   }
   /* LEISTUNGEN */
   .details-leistungen__intro {
-    padding: 120px 0 50px 0;
+    padding: 60px 0;
   }
 
   .details-leistungen__section--content {
@@ -460,23 +560,31 @@ section {
   /* FERTIGUNG */
 
   .fertigung__content h3 {
-    padding: 2rem 0 2rem 0;
+    padding: 0 0 2rem 0;
   }
 
   .fertigung__content p {
-    padding: 2rem 0 0 0;
+    padding: 0 0 2rem 0;
+  }
+
+  .fertigung__content p:last-child {
+    padding-bottom: 0;
   }
 
   .fertigung-arrow {
     padding-top: 0px;
     margin-left: auto;
     position: absolute;
-    right: 10px;
+    right: -20px;
     top: 50%;
     transform: translateY(-50%);
   }
-}
 
+  .details-leistungen {
+    padding: 0 2rem;
+    width: calc(100% - 2rem);
+  }
+}
 
 @media (min-width: 900px) {
 
@@ -486,7 +594,7 @@ section {
   }
 
   .hero__title {
-    padding: 30% 5% 2% 5%;
+    padding: 30% 2.25rem 2%;
   }
 
   .details-leistungen {
@@ -502,11 +610,20 @@ section {
   }
 
   .details-leistungen__section--content {
-    width: calc(85% + 60px);
-    padding: 120px 60px 50px 1rem;
+    width: 100%;
+    padding: 120px 0px 50px;
   }
 
+  .details-leistungen__intro--text.container,
+  .kontakt__content.container  {
+    width: 100%;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
 
+  .details-leistungen__intro {
+    padding: 120px 0 50px;
+  }
   /* SCROLL */
 
   .full-scroll {
@@ -545,10 +662,14 @@ section {
 
 
   /* FERTIGUNG DETAILS */
+  .details-leistungen__section,
+  .fertigung {
+    padding: 0;
+  }
 
   .details-leistungen {
-    padding: 0 40px;
-    width: calc(100% - 80px);
+    padding: 0 2.25rem;
+    width: calc(100% - 5rem);
   }
 
   .img__fertigung--details img {
@@ -589,10 +710,14 @@ section {
   }
     
   .kontakt__content a {
-    margin: 0 0 4rem 0;
+    margin: 0;
+  }
+
+  .details-leistungen__section--details .details-leistungen {
+    padding: 0 2.25rem;
+    width: calc(100% - 5rem);
   }
 }
-
 
 @media (min-width: 1200px) {
 
@@ -603,9 +728,18 @@ section {
 
   .hero__title {
     width: 60%;
-    padding: 15% 2% 2% 2%;
+    padding: 15% 2.25rem 2%;
   }
 
+
+  .details-leistungen__intro--text.container,
+  .kontakt__content.container {
+    width: 95%;
+  } 
+
+  .details-leistungen__section {
+    padding: 0 5%;
+  }
 
   /* INTRO */
 
@@ -711,9 +845,9 @@ section {
 
   .fertigung__content {
     width: 70%;
-    max-width: 1140px;
+    max-width: 1200px;
     width: 100%;
-    padding: 120px 60px 50px 0;
+    padding: 120px 0px 50px 0 !important;
   }
   
   .fertigung__content h3,
