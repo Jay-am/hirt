@@ -249,6 +249,181 @@
 }
 /* MEDIAQUERIES */
 
+.branchen-wrap .branchen-img {
+  height: 50vh;
+  background-position: 40% 65%;
+  clip-path: polygon(100% 0, 100% 90%, 85% 90%, 72% 100%, 60% 90%, 0 90%, 0 0);
+}
+
+.branchen-wrap .branchen-row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  padding: 0 2.25rem;
+}
+
+.branchen-wrap .branchen-row .branchen-content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.branchen-wrap .branchen-row .branchen-content h2 {
+  margin-bottom: 16px;
+}
+
+.branchen-wrap .branchen-row .branchen-content p {
+  margin-bottom: 16px;
+}
+
+.branchen-wrap .branchen-row .branchen-content a {
+  padding: 0;
+}
+
+.branchen-wrap .branchen-row .branchen-image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.branchen-wrap .branchen-row .branchen-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 1800px) {
+  .branchen-wrap .branchen-img {
+    height: 45vh;
+    background-position: 40% 65%;
+    clip-path: polygon(100% 0, 100% 90%, 85% 90%, 72% 100%, 60% 90%, 0 90%, 0 0);
+  }
+  
+  .branchen-wrap .branchen-row {
+    height: 55vh;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content {
+    width: 65%;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content h2 {
+    margin-bottom: 15px;
+    line-height: 1.1;
+    font-size: 26px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content p {
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-image {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .branchen-wrap .branchen-img {
+    height: 40vh;
+  }
+  
+  .branchen-wrap .branchen-row {
+    height: 60vh;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content h2 {
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 24px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .branchen-wrap .branchen-img {
+    height: 500px;
+  }
+  
+  .branchen-wrap .branchen-row {
+    height: auto;
+    padding: 50px 2rem;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content h2 {
+    margin-bottom: 15px;
+    line-height: 1.1;
+    font-size: 26px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content p {
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-image {
+    width: 100%;
+  }
+
+  .branchen-wrap .branchen-row .branchen-image img {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .branchen-wrap .branchen-img {
+    height: 380px;
+  }
+  
+  .branchen-wrap .branchen-row {
+    padding: 35px 15px 40px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content {
+    margin-bottom: 20px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-image img {
+    max-width: 380px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content h2 {
+    margin-bottom: 16px;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .branchen-wrap .branchen-row .branchen-content p {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 480px) { 
+  .branchen-wrap .branchen-img {
+    height: 340px;
+  }
+}
+
 @media (min-width: 600px) {
 
   .hero {
