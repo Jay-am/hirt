@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="de">
-  <head>
+<!doctype html>
+<html lang="en">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-9QQ8T2KLQH"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-9QQ8T2KLQH");
-    </script>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leistungen</title>
-
-    <meta
-      name="description"
-      content="x"
-    />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Hirt Zerspanungstechnik GmbH" />
     <meta name="copyright" content="Hirt Zerspanungstechnik GmbH" />
 
@@ -31,661 +11,481 @@
     <meta name="google" content="notranslate" />
     <meta name="robots" content="index,follow" />
 
-    <link rel="stylesheet" href="CSS/leistungen.css" />
-    <link rel="stylesheet" href="CSS/footer.css" />
-    <link rel="stylesheet" href="CSS/reset.css" />
-    <link rel="stylesheet" href="CSS/layout.css" />
-    <link rel="stylesheet" href="CSS/shared.css" />
+    <meta name="description" content="Some tags are vital for SEO. Others have little or no impact on rankings. Here's every type of meta tag you need to know about.The purpose of a meta description is to reflect the essence of a page, but with more details and context."
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-53VLF3T");
-    </script>
-    <!-- End Google Tag Manager -->       
 
-    <link rel="shortcut icon" href="IMAGES/favicon.ico">
-    <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
-  </head>
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+    <title>Hrit</title>
+</head>
 
-  <body>
-    <header>
-      <div class="navigation">
-        <nav class="nav row">
-          <a href="index"><img loading="lazy" 
-              src="IMAGES/Logo/Hirt-Zerspanungstechnik-Logo.png"
-              alt="Hirt Zerspanungstechnik Logo"
-              class="nav__logo logo"/></a>
-          
-          <div class="nav__content row">
-            <div class="nav-mobile">
-              <a id="nav-toggle" href="#"><span></span></a>
+<body>
+    <div class="wrapper">
+        <!-- Header Start -->
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/hirt-zerspanungstechnik-logo.png" alt="Logo Hirt Zerspanungstechnik">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="navbar-toggler-icon">
+                            <div class="click-menu-btn">
+                                <span class="bar1"></span>
+                                <span class="bar2"></span>
+                                <span class="bar3"></span>
+                            </div>
+                        </div>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item menu-item-has-children active">
+                                <a class="nav-link" href="leistungen.html">Leistungen</a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#intro-leistungen" class="nav-link">Intro</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#entwicklung" class="nav-link">Entwicklung</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#fertigung" class="nav-link">Fertigung</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#oberflaechenbehandlung" class="nav-link">Oberflächenbehandlung</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#montage" class="nav-link">Montage</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#qualitaetssicherung" class="nav-link">Qualitätssicherung</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#lagerhaltung" class="nav-link">Lagerhaltung</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="leistungen.html#qualitaetsmanagement" class="nav-link">Qualitätsmanagement</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item menu-item-has-children">
+                                <a class="nav-link" href="branchen.html">Branchen</a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="branchen.html#intro-branchen" class="nav-link">Intro</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="branchen.html#luft-und-raumfahrt" class="nav-link">Luft- und Raumfahrt</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="branchen.html#medizintechnik" class="nav-link">Medizintechnik</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="branchen.html#rehatechnik" class="nav-link">Rehatechnik</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="branchen.html#sensortechnik" class="nav-link">Sensortechnik</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="branchen.html#verteidigungs-und-wehrtechnik" class="nav-link">Verteidigungs- und Wehrtechnik</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="branchen.html#lebensmitteltechnik" class="nav-link">Lebensmitteltechnik</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="branchen.html#motorsport" class="nav-link">Motorsport</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="unternehmen.html">Unternehmen</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sponsoring.html">Sponsoring</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="karriere.html">Karriere</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aktuelles.html">Aktuelles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <ul class="nav__list nav__list--primary">
-              <li class="nav__item">
-                <a href="./index" class="nav__link">Home</a>
-              </li>
-              <li class="nav__item"><a href="#" class="nav__link active">Leistungen</a>
-                <ul class="nav-dropdown">
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#intro-leistungen"
-                      class="nav-dropdown__link"
-                      >Intro</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#entwicklung"
-                      class="nav-dropdown__link"
-                      >Entwicklung</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#fertigung"
-                      class="nav-dropdown__link"
-                      >Fertigung</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#oberflaechenbehandlung"
-                      class="nav-dropdown__link"
-                      >Oberflächenbehandlung</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#montage"
-                      class="nav-dropdown__link"
-                      >Montage</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#qualitaetssicherung"
-                      class="nav-dropdown__link"
-                      >Qualitätssicherung</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#lagerhaltung"
-                      class="nav-dropdown__link"
-                      >Lagerhaltung</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./leistungen#qualitaetsmanagement"
-                      class="nav-dropdown__link"
-                      >Qualitätsmanagement</a
-                    >
-                  </li>
-                </ul>
-            </li>
-            <li class="nav__item"><a href="#" class="nav__link">Branchen</a>
-                <ul class="nav-dropdown">
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#intro-branchen"
-                      class="nav-dropdown__link"
-                      >Intro</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#luft-und-raumfahrt"
-                      class="nav-dropdown__link"
-                      >Luft- und Raumfahrt</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#medizintechnik"
-                      class="nav-dropdown__link"
-                      >Medizintechnik</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#rehatechnik"
-                      class="nav-dropdown__link"
-                      >Rehatechnik</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#sensortechnik"
-                      class="nav-dropdown__link"
-                      >Sensortechnik</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#verteidigungs-und-wehrtechnik"
-                      class="nav-dropdown__link"
-                      >Verteidigungs- und Wehrtechnik</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#lebensmitteltechnik"
-                      class="nav-dropdown__link"
-                      >Lebensmitteltechnik</a
-                    >
-                  </li>
-                  <li class="nav-dropdown__item">
-                    <a
-                      href="./branchen#motorsport"
-                      class="nav-dropdown__link"
-                      >Motorsport</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav__item">
-                <a href="unternehmen" class="nav__link">Unternehmen</a>
-              </li>
-              <!-- <li class="nav__item">
-                <a href="HTML/galerie.html" class="nav__link">Galerie</a>
-              </li> -->
-              <li class="nav__item">
-                <a href="sponsorings" class="nav__link">Sponsoring</a>
-              </li>
-              <li class="nav__item">
-                <a href="aktuelles.html" class="nav__link">Aktuelles</a>
-              </li>
-              <li class="nav__item">
-                <a href="karriere.html" class="nav__link">Karriere</a>
-              </li>
-              <li class="nav__item">
-                <a href="kontakt" class="nav__link">Kontakt</a>
-              </li>
-              <!-- <li class="nav__btn">
-                <a href="HTML/kontakt.html" class="nav__btn--link">Kontakt</a>
-              </li> -->
-              <!-- <li class="nav__item">
-                <a href="#" class="nav__link"><img loading="lazy" 
-                    src="IMAGES/Flags/English.png"
-                    alt="English"
-                    class="flag"/></a>
-              </li> -->
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
+        </header>
+        <!-- Header Start -->
 
-    <main>
-      <section class="hero">
-        <div class="hero__content">
-          <h1 class="hero__title">
-            Präzision und Effizienz in jeder Phase der Zusammen&shy;arbeit.
-          </h1>
-        </div>
-      </section>
-
-      <div class="details-leistungen__intro" id="intro-leistungen">
-        <div class="details-leistungen__intro--content">
-          <div class="container details-leistungen__intro--text">
-            <h2>Komplett&shy;lösungen aus einer Hand</h2>
-            <p class="details-leistungen__text">
-              Von der Konstruktion, Materialbeschaffung und Fertigung über die
-              Anfertigung und Archivierung von Prüfprotokollen bis zur
-              Auslieferung erhalten Sie eine maßgeschneiderte Komplettlösung aus
-              einer Hand.
-            </p>
-            <p class="details-leistungen__text">
-              So entstehen zu Ende gedachte Leistungspakete, die Ihre Wünsche
-              auf höchstem Niveau zufriedenstellen.
-            </p>
-            <div class="zertifikat">
-              <a href="zertifizierung"
-                ><img loading="lazy" 
-                  src="IMAGES/Zertifizierung/dnv-gl-siegel-freigestellt.png"
-                  alt="DNV-GL Zertifizierung"
-              /></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="details-leistungen details-leistungen__entwicklung  full-section">
-        <div class="details-leistungen__section entwicklung" id="entwicklung">
-          <div class="details-leistungen__section--content entwicklung__content">
-            <h3 class="shadow">ENTWICKLUNG</h3>
-            <p class="details-leistungen__text">Am Anfang stehen Ihre Ideen, Wünsche und Anforderungen.</p>
-            <p class="details-leistungen__text">Wir entwickeln und entwerfen daraus Präzisionsteile, die höchsten Qualitätsanforderungen entsprechen. Von der individuellen Beratung bis hin zum optimierten Fertigungsprozess.</p>
-            <p class="details-leistungen__text">Aufgrund Ihrer Vorgaben machen wir konkrete Vorschläge zu Materialien, Werkzeugen, Maschinen, Steuerungstechnik, Spann- und Messmitteln und geben Ihnen eine Kalkulation sowie Zeitplanung an die Hand.</p>
-            <a href="./index#komplettloesungen" class="zurueck">Zurück zur Startseite</a>
-          </div>
-        </div>
-      </section>
-
-      <div class="full-section slider">
-        <section class="details-leistungen details-leistungen__section--fertigung">
-          <div class="fertigung" id="fertigung">
-            <div class="details-leistungen__section--content fertigung__content">
-                <h3>FERTIGUNG</h3>
-                <div class="fertigung__headlines">
-                  <h3><a href="leistungen#drehen">DREHEN  | </a><a href="leistungen#fraesen"> FRÄSEN  | </a><a href="leistungen#schleifen"> SCHLEIFEN  | </a><a href="leistungen#drahterodieren"> DRAHTERODIEREN  | </a><a href="leistungen#laserbeschriften"> LASERBESCHRIFTEN</a>
+        <div id="fullpage">
+            <div class="section">
+                <!-- Banner Start -->
+                <div class="banner sub-banner leistungen-banner">
+                    <div class="container">
+                        <div class="banner-content">
+                            <h1>PRÄZISION UND EFFIZIENZ IN JEDER PHASE DER ZUSAMMEN­ARBEIT.</h1>
+                        </div>
+                    </div>
                 </div>
-                <p class="details-leistungen__text">Ob Drehen, Fräsen, Schleifen oder Drahterodieren &ndash; Wir fertigen anspruchsvolle Präzisionsteile als Prototypen oder Serienproduktionen aus allen zerspanbaren Werkstoffen.</p>
-                <p class="details-leistungen__text">Die Herstellung von Bauteilen und Komponenten mit komplizierten Geometrien zählt zu unseren Kernkompetenzen. Durch den Einsatz moderner CAM-Systeme sind wir in der Lage, auch filigrane und hochkomplexe Teile zu programmieren, prozesssicher herzustellen, zu veredeln und zu montieren.</p>
-                <br>
-                <a href="./index#komplettloesungen" class="zurueck zurueck-light">Zurück zur Startseite</a>
+                <!-- Banner End -->
+                <section class="certificate-wrap" id="intro-leistungen">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="certificate-content">
+                                    <h3>KOMPLETT­LÖSUNGEN AUS EINER HAND</h3>
+                                    <p>Von der Konstruktion, Materialbeschaffung und Fertigung über die Anfertigung und Archivierung von Prüfprotokollen bis zur Auslieferung erhalten Sie eine maßgeschneiderte Komplettlösung aus einer Hand.</p>
+                                    <p>So entstehen zu Ende gedachte Leistungspakete, die Ihre Wünsche auf höchstem Niveau zufriedenstellen.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="certificate-img">
+                                    <a href="zertifizierung.html"><img loading="lazy" src="images/dnv-gl-siegel-freigestellt.png" alt="DNV Zertifizierung" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="fertigung-arrow">
-              <a href="./leistungen#drehen">
-                <img src="./IMAGES/Leistungen/arrow_fertigung.png" alt="Arrow Fertigung">
-              </a>
-            </div>
-          </div>
-        </section>
-  
-        <section class="details-leistungen__section--details details-leistungen__section--drehen" id="drehen">
-          <div class="arrow-left">
-            <a href="./leistungen#fertigung">
-              <img src="./IMAGES/Leistungen/arrow_left.jpg" alt="Arrow left" class="img__arrow--left">
-            </a>
-          </div>
-          <div class="details-leistungen drehen">
-            <h3>Drehen</h3>
-            <h4 class="details-leistungen__text--light">
-              Drehteile von Ø 1 mm bis Ø 350 mm
-            </h4>
-            <h4 class="details-leistungen__text--light">
-              mit bis zu 7-Achsen Simultan&shy;bearbeitung
-            </h4>
-            <p class="details-leistungen__text text-1">
-              Ob Rund-, Plan- oder Profildrehen, wir fertigen komplexe
-              Dreh&shy;teile als Einzel&shy;teil oder Serie. Die aktuellste
-              CNC-Maschinen&shy;technologie sowohl in Bezug auf die Futter- als
-              auch die Stangen&shy;bear&shy;beitung ermöglicht uns eine
-              mehr&shy;dimen&shy;sionale Bearbeitung Ihrer Werk&shy;stücke. 
-            </p>
-            <p class="details-leistungen__text">
-              Eine Vielzahl angetriebener Werkzeuge und die gleich&shy;zeitige
-              Mehrseiten&shy;bearbeitung ermög&shy;lichen uns, komplexe Teile in
-              nur einer Auf&shy;span&shy;nung komplett zu fertigen und so selbst bei
-              der Fertigung kleiner Los&shy;größen wirtschaft&shy;liche Lösungen zu
-              erzielen. Die individuelle Anpas&shy;sung unserer CNC-Drehmaschinen, ver&shy;setzt uns in die Lage, sehr genaue Rundlauf- und Maß&shy;toller&shy;anzen einhalten. Das macht uns ausge&shy;sprochen viel&shy;seitig.
-            </p>
-            <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
-          </div>
-          <div class="img__fertigung--details">
-            <img src="./IMAGES/Leistungen/drehen.jpg" alt="Drehen">
-          </div>
-          <div class="arrow-right">
-            <a href="./leistungen#fraesen">
-              <img src="./IMAGES/Leistungen/arrow_right.jpg" alt="Arrow Right" class="img__arrow--right">
-            </a>
-          </div>
-        </section>
-  
-        <section class="details-leistungen__section--details details-leistungen__section--fraesen" id="fraesen">
-          <div class="arrow-left">
-            <a href="./leistungen#drehen">
-              <img src="./IMAGES/Leistungen/arrow_left.jpg" alt="Arrow left">
-            </a>
-          </div>
-          <div class="details-leistungen fraesen">
-            <h3>Fräsen</h3>
-            <h4 class="details-leistungen__text--light">
-              Frästeile bis 600 mm x 400 mm x 400 mm
-            </h4>
-            <h4 class="details-leistungen__text--light last">
-              mit bis zu 5-Achsen Simultanbearbeitung
-            </h4>
-            <p class="details-leistungen__text text-1">
-              Modernste CAD-/CAM-Technologie für die komplexe
-              5-Achsen-Simultanbearbeitung ermöglicht uns die Fertigung
-              hoch&shy;komplexer Geometrien in einer Spannung, ein Höchst&shy;maß an
-              Flexibilität, Wieder&shy;holgenauig&shy;keit und
-              Bearbeitungsgeschwindigkeit.
-            </p>
-            <p class="details-leistungen__text text-2">
-              Die absolute Perfektion in der Form&shy;gebung, ein Maximum an Maß&shy;genauig&shy;keit sowie die
-              Mini&shy;mierung der Rüst&shy;zeiten und Rüst&shy;kosten sind die Folge und sorgen für ein optimales Preis-Leistungs-Verhältnis.
-            </p>
-            <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
-          </div>
-          <div class="img__fertigung--details">
-            <img src="./IMAGES/Leistungen/fraesen.jpg" alt="Fräsen">
-          </div>
-          <div class="arrow-right">
-            <a href="./leistungen#schleifen">
-              <img src="./IMAGES/Leistungen/arrow_right.jpg" alt="Arrow Right">
-            </a>
-          </div>
-        </section>
-  
-        <section class="details-leistungen__section--details details-leistungen__section--schleifen" id="schleifen">
-          <div class="arrow-left">
-            <a href="./leistungen#fraesen">
-              <img src="./IMAGES/Leistungen/arrow_left.jpg" alt="Arrow left">
-            </a>
-          </div>
-          <div class="details-leistungen schleifen">
-            <h3>Schleifen</h3>
-            <p class="details-leistungen__text">
-              Vom Drehen und Fräsen unterscheidet sich die Schleif&shy;technik
-              dadurch, dass die Zerspanung mittels geometrisch unbestimmter
-              Schneide durchgeführt wird. Präzision und damit verbundene
-              erstklassige Arbeits&shy;ergebnisse sind die Folge. 
-            </p>
-            <p class="details-leistungen__text">
-              Konturen und Flächen der in den voran&shy;gegangenen Fertigungs&shy;schritten
-              entstandenen Komponenten werden &ndash; bis auf wenige µ genau
-              (bis in den Nanobereich genau) &ndash; bearbeitet, um Ihren
-              Bauteilen im wahrsten Sinne des Wortes den letzten Schliff zu
-              verleihen.
-            </p>
-            <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
-          </div>
-          <div class="img__fertigung--details">
-            <img src="./IMAGES/Leistungen/schleifen.jpg" alt="Schleifen">
-          </div>
-          <div class="arrow-right">
-            <a href="./leistungen#drahterodieren">
-              <img src="./IMAGES/Leistungen/arrow_right.jpg" alt="Arrow Right">
-            </a>
-          </div>
-        </section>
-  
-        <section class="details-leistungen__section--details details-leistungen__section--drahterodieren" id="drahterodieren">
-          <div class="arrow-left">
-            <a href="./leistungen#schleifen">
-              <img src="./IMAGES/Leistungen/arrow_left.jpg" alt="Arrow left">
-            </a>
-          </div>
-          <div class="details-leistungen drahterodieren">
-            <h3>Drahterodieren</h3>
-            <p class="details-leistungen__text">
-              CNC Erodieren ist optimal für Werk&shy;stoffe geeignet, die nur schwer zu zerspanen sind. Auf hoch&shy;wertigen CNC-Maschinen erodieren wir Werkstücke feinster Strukturen mit einer Präzision auf höchstem Niveau.
-            </p>
-            <p class="details-leistungen__text">
-            Um höchste Ansprüche zu erfüllen, ermöglichen unsere Maschinen diverse Schneidhöhen und &nbsp;-koniken und arbeiten auch in Bezug auf die Verfahrenswege bedarfsgerecht und individuell. Die Oberfläche der Werkstücke kann dabei ganz nach Ihren Wünschen gestaltet werden und erhält ein erstklassiges Finish.
-            </p>
-            <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
-          </div>
-          <div class="img__fertigung--details">
-            <img src="./IMAGES/Leistungen/erodieren.jpg" alt="Drahterodieren">
-          </div>
-          <div class="arrow-right">
-            <a href="./leistungen#laserbeschriften">
-              <img src="./IMAGES/Leistungen/arrow_right.jpg" alt="Arrow Right">
-            </a>
-          </div>
-        </section>
 
-        <section class="details-leistungen__section--details details-leistungen__section--laserbeschriften" id="laserbeschriften">
-          <div class="arrow-left">
-            <a href="./leistungen#drahterodieren">
-              <img src="./IMAGES/Leistungen/arrow_left.jpg" alt="Arrow left">
-            </a>
-          </div>
-          <div class="details-leistungen laserbeschriften">
-            <h3>Laserbeschriftungen nach Ihren Vorgaben</h3>
-            <h4 class="details-leistungen__text--light">
-              Max. Werkstückabmessungen (B x H x T) 
-            </h4>
-            <h4 class="details-leistungen__text--light last">
-              680 mm x 500 mm x 700 mm 
-            </h4>
-            <br>
-            <p class="details-leistungen__text">
-              Wir beschriften Ihre Teile, verschiedenster Materialien, mittels Lasergravur. Vom Code bis hin zum ganzen Text ist alles möglich. Die dauerhafte Kennzeichnung die dadurch entsteht ist extrem präzise, fälschungssicher und dauerhaft. Wir gravieren für Sie schnell und in gleichbleibender Qualität.
-            </p>
-            <br>
-            <h4 class="details-leistungen__text--light">
-              Unsere Leistungen
-            </h4>
-              <p class="details-leistungen__text text-1">
-                Laserbeschriften<br>
-                Verfärben und Aufschäumen<br>
-                Anlassen<br>
-                Gravieren und Abtragen
-              </p>
-            </ul>
-            <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
-          </div>
-          <div class="img__fertigung--details">
-            <img src="./IMAGES/Leistungen/laserbeschriftung.jpg" alt="Laserbeschriftung">
-          </div>
-        </section>
-      </div>
+            <!-- Contant Start -->
+            <section class="section branchen-inner-wrap" id="entwicklung">
+                <div class="branchen-img entwicklung"></div>
+                <div class="container">
+                    <div class="branchen-row">
+                        <div class="branchen-content">
+                            <h3>ENTWICKLUNG</h3>
+                            <p>Am Anfang stehen Ihre Ideen, Wünsche und Anforderungen.</p>
+                            <p>Wir entwickeln und entwerfen daraus Präzisionsteile, die höchsten Qualitätsanforderungen entsprechen. Von der individuellen Beratung bis hin zum optimierten Fertigungsprozess.</p>
+                            <p>Aufgrund Ihrer Vorgaben machen wir konkrete Vorschläge zu Materialien, Werkzeugen, Maschinen, Steuerungstechnik, Spann- und Messmitteln und geben Ihnen eine Kalkulation sowie Zeitplanung an die Hand.</p>
+                            <a href="index.html#leistungen" class="zurueck">Zurück zur Startseite</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-      <section class="details-leistungen details-leistungen__oberflaechenveredelung full-section">
-        <div class="details-leistungen__section oberflächenveredelung" id="oberflaechenbehandlung">
-          <div class="details-leistungen__section--content oberflaechenveredelung__content">
-            <h3>OBERFLÄCHENVEREDELUNG</h3>
-            <p class="details-leistungen__text">Damit Ihre Werkstücke und Bauteile besonderen Anforderungen an Funktionalität, Haltbarkeit, Haptik und Ästhetik gerecht werden, kümmern wir uns neben der Fertigung auch um die Veredelung Ihrer Werkstücke.</p>
-            <p class="details-leistungen__text">In bewährter Qualität werden Ihre Teile oberflächenbehandelt. Dye Penetrant Inspect, gebeizt, brüniert, cadmiert, vernickelt, chromatiert, einsatzgehärtet, elektropoliert, eloxiert, gasnitriert, goldbedampft, gehärtet, hartanodisiert, hochglanzpoliert, hochglanzverchromt, induktiv gehärtet, KTL, lackiert, Magnetic Particle Inspect, nitriert, passiviert, phosphatiert, plasmatiert, Polyspektral, pulverbeschichtet, salzbadnitrocarbotiert, Safecoat, Teflon, Tufram, schwarzverchromt, vakuumgehärtet, vergoldet, vernickelt, versilbert, verzinkt, zinkvernickelt, schwarzverzinkt, wärmebehandelt.</p>
-            <p class="details-leistungen__text">Ergänzt wird unser Leistungsspektrum durch Lasermarkierungen und Laserbeschriftungen.</p>
-            <a href="./index#komplettloesungen" class="zurueck">Zurück zur Startseite</a>
-          </div>
-            <!-- <div class="details-leistungen__section--list">
-              <p class="lighter">Anlassen</p>
-              <p class="lighter">Beizen</p>
-              <p class="lighter">Brünieren</p>
-              <p class="lighter">Cadmieren</p>
-              <p class="lighter">Chemisch Nickel</p>
-              <p class="lighter">Chromatieren MIL-C-5541</p>
-              <p class="lighter">Chromatieren SCHWARZ DIN 50961</p>
-              <p class="lighter">Dye Penetrant Inspect ASTM E1417/E1417M</p>
-              <p class="lighter">E-Polieren</p>
-              <p class="lighter">Einsatzhärten</p>
-              <p class="lighter">Eloxieren</p>
-              <p class="lighter">Farbig auslegen</p>
-              <p class="lighter">Gasnitrieren</p>
-              <p class="lighter">Glühen</p>
-              <p class="lighter">Gold bedampfen</p>
-              <p class="lighter">Gravieren</p>
-              <p class="lighter">Gummieren</p>
-              <p class="lighter">Hardcoat</p>
-              <p class="lighter">Harteloxieren</p>
-              <p class="lighter">Härten</p>
-              <p class="lighter">Hartanodisieren MIL-A-8625F</p>
-              <p class="lighter">Hochglanzverchromen</p>
-              <p class="lighter">Induktivhärten</p>
-              <p class="lighter">KTL</p>
-              <p class="lighter">Lackieren</p>
-              <p class="lighter">Lackierung FS6-6815.15</p>
-              <p class="lighter">Laserbeschriften</p>
-              <p class="lighter">Lasermarkieren</p>
-              <p class="lighter">Magnetic Particle Inspect ASTM E1444/E1444M, MIL-STD-1907 Grade A</p>
-              <p class="lighter">Nitrieren</p>
-              <p class="lighter">Passivieren</p>
-              <p class="lighter">Polieren hochglanz</p>
-              <p class="lighter">Elektropolieren</p>
-              <p class="lighter">Phosphatieren</p>
-              <p class="lighter">Plasmatieren</p>
-              <p class="lighter">Polyspectral</p>
-              <p class="lighter">Pulverbeschichten</p>
-              <p class="lighter">Safecoat</p>
-              <p class="lighter">Salzbadnitrocarburieren</p>
-              <p class="lighter">Strahlen (Edelstahlkugel)</p>
-              <p class="lighter">Schwarzchrom</p>
-              <p class="lighter">Teflon 1070-BLAU</p>
-              <p class="lighter">Tufram</p>
-              <p class="lighter">Vakuumhärten</p>
-              <p class="lighter">Verchromen</p>
-              <p class="lighter">Vergolden</p>
-              <p class="lighter">Vergüten</p>
-              <p class="lighter">Vernickeln MIL-P-18317</p>
-              <p class="lighter">Versilbern</p>
-              <p class="lighter">Verzinken</p>
-              <p class="lighter">Zink-Nickel AMS 2417</p>
-            </div>  -->
+            <section class="section branchen-inner-wrap leistungen-slider" id="fertigung">
+                <!-- <div class=""> -->
+                    <div class="leistungen-slide">
+                        <div class="branchen-img fertigung"></div>
+                        <div class="container">
+                            <div class="branchen-row">
+                                <div class="branchen-content">
+                                    <h3>FERTIGUNG</h3>
+                                    <ul>
+                                        <li><a href="#" data-slide="2">DREHEN</a></li>
+                                        <li><a href="#" data-slide="3">FRÄSEN</a></li>
+                                        <li><a href="#" data-slide="4">SCHLEIFEN</a></li>
+                                        <li><a href="#" data-slide="5">DRAHTERODIEREN</a></li>
+                                        <li><a href="#" data-slide="6">LASERBESCHRIFTEN</a></li>
+                                    </ul>
+                                    <p>Ob Drehen, Fräsen, Schleifen oder Drahterodieren – Wir fertigen anspruchsvolle Präzisionsteile als Prototypen oder Serienproduktionen aus allen zerspanbaren Werkstoffen.</p>
+                                    <p>Die Herstellung von Bauteilen und Komponenten mit komplizierten Geometrien zählt zu unseren Kernkompetenzen. Durch den Einsatz moderner CAM-Systeme sind wir in der Lage, auch filigrane und hochkomplexe Teile zu programmieren,
+                                        prozesssicher herzustellen, zu veredeln und zu montieren.</p>
+                                    <a href="index.html#leistungen" class="zurueck">Zurück zur Startseite</a>
+                                </div>
+                            </div>
+                            <button type="button" class="first-slide-arrow"><img src="images/arrow_right.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="leistungen-slide">
+                        <div class="container">
+                            <div class="details-leistungen-wrap">
+                                <div class="details-leistungen drehen">
+                                    <h3>Drehen</h3>
+                                    <h4>Drehteile von Ø 1 mm bis Ø 350 mm</br>
+                                    mit bis zu 7-Achsen Simultanbearbeitung</h4>
+                                    <p>Ob Rund-, Plan- oder Profildrehen, wir fertigen komplexe
+                                    Drehteile als Einzelteil oder Serie. Die aktuellste
+                                    CNC-Maschinentechnologie sowohl in Bezug auf die Futter- als
+                                    auch die Stangenbearbeitung ermöglicht uns eine
+                                    mehrdimensionale Bearbeitung Ihrer Werkstücke.</p>
+                                    <p>Eine Vielzahl angetriebener Werkzeuge und die gleichzeitige
+                                    Mehrseitenbearbeitung ermöglichen uns, komplexe Teile in
+                                    nur einer Aufspannung komplett zu fertigen und so selbst bei
+                                    der Fertigung kleiner Losgrößen wirtschaftliche Lösungen zu
+                                    erzielen. Die individuelle Anpassung unserer CNC-Drehmaschinen, versetzt uns in die Lage, sehr genaue Rundlauf- und Maßtolleranzen einhalten. Das macht uns ausgesprochen vielseitig.</p>
+                                    <a href="leistungen.html#fertigung" class="zurueck">Zurück</a>
+                                </div>
+                                <div class="img__fertigung--details">
+                                    <img src="images/drehen.jpg" alt="Drehen">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leistungen-slide">
+                        <div class="container">
+                            <div class="details-leistungen-wrap">
+                                <div class="details-leistungen fraesen">
+                                    <h3>Fräsen</h3>
+                                    <h4>Frästeile bis 600 mm x 400 mm x 400 mm</br>
+                                    mit bis zu 5-Achsen Simultanbearbeitung</h4>
+                                    <p>Modernste CAD-/CAM-Technologie für die komplexe
+                                    5-Achsen-Simultanbearbeitung ermöglicht uns die Fertigung
+                                    hochkomplexer Geometrien in einer Spannung, ein Höchstmaß an
+                                    Flexibilität, Wiederholgenauigkeit und
+                                    Bearbeitungsgeschwindigkeit.</p>
+                                    <p>Die absolute Perfektion in der Formgebung, ein Maximum an Maßgenauigkeit sowie die
+                                    Minimierung der Rüstzeiten und Rüstkosten sind die Folge und sorgen für ein optimales Preis-Leistungs-Verhältnis.</p>
+                                    <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
+                                </div>
+                                <div class="img__fertigung--details">
+                                    <img src="images/fraesen.jpg" alt="Fräsen">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leistungen-slide">
+                        <div class="container">
+                            <div class="details-leistungen-wrap">
+                                <div class="details-leistungen schleifen">
+                                    <h3>Schleifen</h3>
+                                    <p>Vom Drehen und Fräsen unterscheidet sich die Schleiftechnik
+                                    dadurch, dass die Zerspanung mittels geometrisch unbestimmter
+                                    Schneide durchgeführt wird. Präzision und damit verbundene
+                                    erstklassige Arbeitsergebnisse sind die Folge.</p>
+                                    <p>Konturen und Flächen der in den vorangegangenen Fertigungsschritten
+                                    entstandenen Komponenten werden – bis auf wenige µ genau
+                                    (bis in den Nanobereich genau) – bearbeitet, um Ihren
+                                    Bauteilen im wahrsten Sinne des Wortes den letzten Schliff zu
+                                    verleihen.</p>
+                                    <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
+                                </div>
+                                <div class="img__fertigung--details">
+                                    <img src="images/schleifen.jpg" alt="Fräsen">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leistungen-slide">
+                        <div class="container">
+                            <div class="details-leistungen-wrap">
+                                <div class="details-leistungen drahterodieren">
+                                    <h3>Drahterodieren</h3>
+                                    <p>CNC Erodieren ist optimal für Werkstoffe geeignet, die nur schwer zu zerspanen sind. Auf hochwertigen CNC-Maschinen erodieren wir Werkstücke feinster Strukturen mit einer Präzision auf höchstem Niveau.</p>
+                                    <p>Um höchste Ansprüche zu erfüllen, ermöglichen unsere Maschinen diverse Schneidhöhen und &nbsp;-koniken und arbeiten auch in Bezug auf die Verfahrenswege bedarfsgerecht und individuell. Die Oberfläche der Werkstücke kann dabei ganz nach Ihren Wünschen gestaltet werden und erhält ein erstklassiges Finish.</p>
+                                    <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
+                                </div>
+                                <div class="img__fertigung--details">
+                                    <img src="images/erodieren.jpg" alt="Fräsen">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leistungen-slide">
+                        <div class="container">
+                            <div class="details-leistungen-wrap">
+                                <div class="details-leistungen laserbeschriften">
+                                    <h3>Laserbeschriftungen nach Ihren Vorgaben</h3>
+                                    <h4>Max. Werkstückabmessungen (B x H x T)</br>
+                                    680 mm x 500 mm x 700 mm</h4>
+                                    <p>Wir beschriften Ihre Teile, verschiedenster Materialien,&nbsp;mittels Lasergravur. Vom Code bis hin zum ganzen Text ist alles möglich. Die dauerhafte Kennzeichnung die dadurch entsteht ist extrem präzise, fälschungssicher und dauerhaft. Wir gravieren für Sie schnell und in gleichbleibender Qualität.</p>
+                                    <br>
+                                    <h4>Unsere Leistungen</h4>
+                                    <p>Laserbeschriften<br>
+                                        Verfärben und Aufschäumen<br>
+                                        Anlassen<br>
+                                        Gravieren und Abtragen</p>
+                                    <a href="./leistungen#fertigung" class="zurueck">Zurück</a>
+                                </div>
+                                <div class="img__fertigung--details">
+                                    <img src="images/laserbeschriftung.jpg" alt="Laserbeschriftung">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </section>
+
+            <section class="section branchen-inner-wrap" id="oberflaechenbehandlung">
+                <div class="branchen-img oberflaechenbehandlung"></div>
+                <div class="container">
+                    <div class="branchen-row">
+                        <div class="branchen-content">
+                            <h3>OBERFLÄCHENVEREDELUNG</h3>
+                            <p>Damit Ihre Werkstücke und Bauteile besonderen Anforderungen an Funktionalität, Haltbarkeit, Haptik und Ästhetik gerecht werden, kümmern wir uns neben der Fertigung auch um die Veredelung Ihrer Werkstücke.</p>
+                            <p>In bewährter Qualität werden Ihre Teile oberflächenbehandelt. Dye Penetrant Inspect, gebeizt, brüniert, cadmiert, vernickelt, chromatiert, einsatzgehärtet, elektropoliert, eloxiert, gasnitriert, goldbedampft, gehärtet, hartanodisiert,
+                                hochglanzpoliert, hochglanzverchromt, induktiv gehärtet, KTL, lackiert, Magnetic Particle Inspect, nitriert, passiviert, phosphatiert, plasmatiert, Polyspektral, pulverbeschichtet, salzbadnitrocarbotiert, Safecoat, Teflon,
+                                Tufram, schwarzverchromt, vakuumgehärtet, vergoldet, vernickelt, versilbert, verzinkt, zinkvernickelt, schwarzverzinkt, wärmebehandelt.</p>
+                            <p>Ergänzt wird unser Leistungsspektrum durch Lasermarkierungen und Laserbeschriftungen.</p>
+                            <a href="index.html#leistungen" class="zurueck">Zurück zur Startseite</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section branchen-inner-wrap" id="montage">
+                <div class="branchen-img montage"></div>
+                <div class="container">
+                    <div class="branchen-row">
+                        <div class="branchen-content">
+                            <h3>MONTAGE</h3>
+                            <p>Die Montage von Baugruppen und komplexen Geräten nach höchsten Qualitätsstandards ist neben der Fertigung anspruchsvoller Präzisionsteile eine weitere unserer Kernkompetenzen.</p>
+                            <p>Unsere hervorragend ausgebildeten und qualifizierten Mitarbeiter erfüllen höchste Anforderungen und Standards bei der Montage von mechanischen und elektronischen Baugruppen bis hin zu hochkomplexen Geräten.</p>
+                            <p>Auf Ihren Wunsch prüfen wir Atex-konform und gemäß IP67 die Stromaufnahme und Dichtigkeit von Baugruppen, erstellen umfassende Montagedokumentationen und ermöglichen die Rückverfolgbarkeit jedes einzelnen Teils.</p>
+                            <p>Dank optimierter Montageplätze sind die Rüstzeiten auf ein Minimum reduziert, so dass wir auch kleine Stückzahlen wirtschaftlich realisieren können.</p>
+                            <a href="index.html#leistungen" class="zurueck">Zurück zur Startseite</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section branchen-inner-wrap" id="qualitaetssicherung">
+                <div class="branchen-img qualitaetssicherung"></div>
+                <div class="container">
+                    <div class="branchen-row">
+                        <div class="branchen-content">
+                            <h3>QUALITÄTSSICHERUNG</h3>
+                            <p>Mit genauester Messtechnik lassen sich minimalste Abweichungen auch an komplizierten Konturen feststellen. Für höchste Ansprüche in der Qualitätssicherung entwickeln wir daher Prüfeinrichtungen zur Funktionskontrolle Ihrer
+                                Produkte.
+                            </p>
+                            <p>Ein Zeiss Dura Maxx 3D Koordinaten-Messgerät mit einem Messbereich von 500 x 500 x 450 mm mit Messsoftware Calypso sowie das KEYENCE LM1100 sorgen für die präzise Überprüfung unserer Qualitätsstandards.</p>
+                            <p>Die Maßhaltigkeit unserer Fertigungsteile überwachen wir in einem klimatisierten Feinmessraum.</p>
+                            <a href="index.html#leistungen" class="zurueck">Zurück zur Startseite</a>
+                            <a href="#">Zum Zertifikat</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section branchen-inner-wrap" id="lagerhaltung">
+                <div class="branchen-img lagerhaltung"></div>
+                <div class="container">
+                    <div class="branchen-row">
+                        <div class="branchen-content">
+                            <h3>LAGERHALTUNG (KANBAN)</h3>
+                            <p>Ein wesentlicher Faktor für schnelles und flexibles Reagieren auf Ihre Anfragen ist unser Materiallager. Gut sortiert ermöglicht es den sofortigen Zugriff auf die große Auswahl der zur Verfügung stehenden Rohstoffe. So können
+                                wir für Sie die Fertigung aus einer Hand realisieren.</p>
+                            <p>Auf Wunsch übernehmen wir auch die komplette Lagerhaltung von Vorrichtung und Komponenten und bieten Ihnen die Möglichkeit zur Kanban-Versorgung.</p>
+                            <a href="index.html#leistungen" class="zurueck">Zurück zur Startseite</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section branchen-inner-wrap" id="qualitaetsmanagement">
+                <div class="branchen-img qualitaetsmanagement"></div>
+                <div class="container">
+                    <div class="branchen-row">
+                        <div class="branchen-content">
+                            <h3>QUALITÄTSMANAGEMENT</h3>
+                            <p>Unser Qualitäts­management­system ist nach den hohen Anforder­ungen der EN 9100:2018 für die Luft­fahrt zertifiziert. Alle Bearbeitungs­schritte erfolgen unter strengen Qualitäts­kontrollen und Umsetzung der Vorgaben unseres
+                                Qualitäts­management­systems, in welches sämtliche Unternehmens­prozesse einge­bunden sind und die wir nach DIN EN ISO 9001:2015 einsetzen. Alle Prozess­schritte - vom Rohstoff bis zur Aus­lieferung, im Einkauf wie in der
+                                Fertigung und im Messraum - dokumen­tieren wir gemäß Norm. Sie werden durch SAP Business One aufgezeichnet und unsere Prüfmittel durch ein unabhängiges Kalibrier­labor überwacht. So können wir außer der reinen Messwert­erfassung
+                                auch die Digitalisierung, Übertragung und langfristige Speicherung aller relevanten Daten gewähr­leisten und sind jederzeit hinsichtlich der Qualitäts­historie einzelner Produkte auskunftsfähig.</p>
+                            <p>Ein jährliches Überwachungs­audit, sowie eine Rezertifizierung im Abstand von 3 Jahren bescheinigen uns die regel­mäßige Wirksam­keit unserer zertifizierten Produktions­abläufe, um unsere aus­geprägten Ansprüche an Qualität
+                                sicher­zustellen. Wir garantieren Ihnen daher neben kompromiss­loser Spitzen­leistung, Funktions­sicherheit und hoher Effizienz in wirklich jeder Phase der Zusammen­arbeit zertifizierte Qualität. </p>
+                            <a href="index.html#leistungen" class="zurueck">Zurück zur Startseite</a>
+                            <a href="#">Zum Zertifikat</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section kontakt-wrap">
+                <div class="container">
+                    <div class="kontakt-content">
+                        <h3>Haben Sie Fragen?</h3>
+                        <p>Oder möchten Sie mehr darüber erfahren, wie wir Ihnen bei der Entwicklung, Fertigung und Montage Ihres Produkts helfen können?</p>
+                        <p>Gerne beraten wir Sie in einem persönlichen Gespräch. Wir freuen uns darauf, Sie kennenzulernen.</p>
+                        <a href="kontakt.html" class="btn__kontakt">Kontaktieren Sie uns</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Contant End -->
+
+            <footer class="section footer">
+                <div class="container">
+                    <div class="row footer-row">
+                        <div class="col-md-4 col-lg-4 col-xl-3">
+                            <div class="footer__kontakt">
+                                <h4>So erreichen Sie uns</h4>
+                                <ul class="footer__links">
+                                    <li><a href="tel:+49 (0) 6227 8645-0">+49 (0) 6227 8645-0</a></li>
+                                    <li><a href="mailto:info@hirt-zerspanungstechnik.de">info@hirt-zerspanungstechnik.de</a></li>
+                                    <li>Porschestraße 9, 68789 St. Leon-Rot</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="footer__kontakt">
+                                <h4>Öffnungszeiten</h4>
+                                <ul class="footer__links">
+                                    <li>Mo-Do: 8:00 Uhr bis 16:30 Uhr</li>
+                                    <li>Fr: 8:00 Uhr bis 14:30 Uhr</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-5 col-xl-6">
+                            <div class="zertifiziert">
+                                <h4>Zertifiziert durch</h4>
+                                <a href="zertifizierung.html"><img loading="lazy" src="images/dnv-gl-logo.png" alt="DNV-GL Logo" class="footer__image"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copywright-wrap">
+                        <p class="copywright">&copy;2021 <a href="index.html">Hirt Zerspanungstechnik GmbH</a></p>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="kontakt.html" class="footer__link">Impressum</a>
+                            </li>
+                            <li>
+                                <a href="kontakt.html" class="footer__link">Datenschutz</a>
+                            </li>
+                            <li>
+                                <a href="kontakt.html" class="footer__link">AGB</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
         </div>
-      </section>
+    </div>
 
-      <section class="details-leistungen details-leistungen__montage full-section">
-        <div class="details-leistungen__section montage" id="montage">
-          <div class="details-leistungen__section--content montage__content">
-            <h3>MONTAGE</h3>
-            <p class="details-leistungen__text">Die Montage von Baugruppen und komplexen Geräten nach höchsten Qualitätsstandards ist neben der Fertigung anspruchsvoller Präzisionsteile eine weitere unserer Kernkompetenzen.</p>
-            <p class="details-leistungen__text">Unsere hervorragend ausgebildeten und qualifizierten Mitarbeiter erfüllen höchste Anforderungen und Standards bei der Montage von mechanischen und elektronischen Baugruppen bis hin zu hochkomplexen Geräten.</p>
-            <p class="details-leistungen__text">Auf Ihren Wunsch prüfen wir Atex-konform und gemäß IP67 die Stromaufnahme und Dichtigkeit von Baugruppen, erstellen umfassende Montagedokumentationen und ermöglichen die Rückverfolgbarkeit jedes einzelnen Teils.</p>
-            <p class="details-leistungen__text">Dank optimierter Montageplätze sind die Rüstzeiten auf ein Minimum reduziert, so daß wir auch kleine Stückzahlen wirtschaftlich realisieren können.</p>
-            <a href="./index#komplettloesungen" class="zurueck zurueck-light">Zurück zur Startseite</a>
-          </div>
-        </div>
-      </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(window).on("resize", function(e) {
+            checkScreenSize();
+        });
 
-      <section class="details-leistungen details-leistungen__qualitaetssicherung full-section">
-        <div class="details-leistungen__section qualitaetssicherung" id="qualitaetssicherung">
-          <div class="details-leistungen__section--content qualitaetssicherung__content">
-            <h3>Qualitätssicherung</h3>
-            <p class="details-leistungen__text">Mit genauester Messtechnik lassen sich minimalste Abweichungen auch an komplizierten Konturen feststellen. Für höchste Ansprüche in der Qualitätssicherung entwickeln wir daher Prüfeinrichtungen zur Funktionskontrolle Ihrer Produkte. </p>
-            <p class="details-leistungen__text">Ein Zeiss Dura Maxx 3D Koordinaten-Messgerät mit einem Messbereich von 500 x 500 x 450 mm mit Messsoftware Calypso sowie das KEYENCE LM1100 sorgen für die präzise Überprüfung unserer Qualitätsstandards.</p>
-            <p class="details-leistungen__text">Die Maßhaltigkeit unserer Fertigungsteile überwachen wir in einem klimatisierten Feinmessraum.</p>
-            <a href="./index#komplettloesungen" class="zurueck  zurueck-light">Zurück zur Startseite</a><br>
-            <a href="zertifizierung" class="zurueck  zurueck-light">Zum Zertifikat</a>
-          </div>
-        </div>
-      </section>
+        checkScreenSize();
 
-      <section class="details-leistungen details-leistungen__lagerhaltung full-section">
-        <div class="details-leistungen__section lagerhaltung" id="lagerhaltung">
-          <div class="details-leistungen__section--content lagerhaltung__content">
-            <h3>Lagerhaltung (Kanban)</h3>
-            <p class="details-leistungen__text">
-              Ein wesentlicher Faktor für schnelles und flexibles Reagieren
-              auf Ihre Anfragen ist unser Materiallager. Gut sortiert
-              ermöglicht es den sofortigen Zugriff auf die große Auswahl der zur
-              Verfügung stehenden Rohstoffe. So können wir für Sie die
-              Fertigung aus einer Hand realisieren.
-            </p>
-            <p class="details-leistungen__text">
-              Auf Wunsch übernehmen wir auch die komplette
-              Lagerhaltung von Vorrichtung und Komponenten und bieten Ihnen
-              die Möglichkeit zur Kanban-Versorgung.
-            </p>
-            <a href="./index#komplettloesungen" class="zurueck zurueck-light">Zurück zur Startseite</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="details-leistungen details-leistungen__qualitaetsmanagement full-section">
-        <div class="details-leistungen__section qualitaetsmanagement" id="qualitaetsmanagement">
-          <div class="details-leistungen__section--content qualitaetsmanagement__content">
-            <h3>Qualitätsmanagement</h3>
-            <p class="details-leistungen__text">Unser Qualitäts&shy;management&shy;system ist nach den hohen Anforder&shy;ungen der EN 9100:2018 für die Luft&shy;fahrt zertifiziert. Alle Bearbeitungs&shy;schritte erfolgen unter strengen Qualitäts&shy;kontrollen und Umsetzung der Vorgaben unseres Qualitäts&shy;management&shy;systems, in welches sämtliche Unternehmens&shy;prozesse einge­bunden sind und die wir nach DIN EN ISO 9001:2015 einsetzen. Alle Prozess&shy;schritte &ndash; vom Rohstoff bis zur Aus­lieferung, im Einkauf wie in der Fertigung und im Messraum - dokumen­tieren wir gemäß Norm. Sie werden durch SAP Business One aufgezeichnet und unsere Prüfmittel durch ein unabhängiges Kalibrier&shy;labor überwacht. So können wir außer der reinen Messwert&shy;erfassung auch die Digitalisierung, Übertragung und langfristige Speicherung aller relevanten Daten gewähr&shy;leisten und sind jederzeit hinsichtlich der Qualitäts&shy;historie einzelner Produkte auskunftsfähig.</p>
-            <p class="details-leistungen__text">Ein jährliches Überwachungs&shy;audit, sowie eine Rezertifizierung im Abstand von 3 Jahren bescheinigen uns die regel&shy;mäßige Wirksam&shy;keit unserer zertifizierten Produktions­abläufe, um unsere aus­geprägten Ansprüche an Qualität sicher&shy;zustellen. Wir garantieren Ihnen daher neben kompromiss&shy;loser Spitzen&shy;leistung, Funktions&shy;sicherheit und hoher Effizienz in wirklich jeder Phase der Zusammen&shy;arbeit zertifizierte Qualität.</p>
-            <a href="./index#komplettloesungen" class="zurueck zurueck-light">Zurück zur Startseite</a><br>
-            <a href="zertifizierung" class="zurueck  zurueck-light">Zum Zertifikat</a>
-          </div>
-        </div>
-      </section>
-      
-      <section class="kontakt full-section">
-        <div class="container kontakt__content">
-          <h3>Haben Sie Fragen?</h3>
-          <p>
-            Oder möchten Sie mehr darüber erfahren, wie wir Ihnen bei der
-            Entwicklung, Fertigung und Montage Ihres Produkts helfen können?<br />Gerne
-            beraten wir Sie in einem persönlichen Gespräch. Wir freuen uns
-            darauf, Sie kennenzulernen.
-          </p>
-          <a href="kontakt" class="btn__kontakt"
-            >Kontaktieren Sie uns</a
-          >
-        </div>
-
-        <footer class="footer">
-          <div class="footer__kontakt">
-            <h3>So erreichen Sie uns</h3>
-            <ul class="footer__links">
-              <li class="footer__item">+49 (0) 6227 8645-0</li>
-              <li class="footer__item footer__padding">
-                <a href="mailto:info@hirt-zerspanungstechnik.de"
-                  >info@hirt-zerspanungstechnik.de</a
-                >
-              </li>
-              <li class="footer__item">Porschestraße 9, 68789 St. Leon-Rot</li>
-            </ul>
-          </div>
-    
-          <div class="footer__oeffnungszeiten">
-            <h3>Öffnungszeiten</h3>
-            <ul class="footer__links">
-              <li class="footer__item">Mo-Do: 8:00 Uhr bis 16:30 Uhr</li>
-              <li class="footer__item">Fr: 8:00 Uhr bis 14:30 Uhr</li>
-            </ul>
-          </div>
-    
-          <div class="zertifiziert">
-            <h3>Zertifiziert durch</h3>
-            <a href="zertifizierung"
-              ><img
-                loading="lazy"
-                src="IMAGES/Zertifizierung/dnv-gl-logo.png"
-                alt="DNV-GL Logo"
-                class="footer__image"
-            /></a>
-          </div>
-    
-          <div class="rights">
-            <p class="copywright">&copy;2021 Hirt Zerspanungstechnik GmbH</p>
-          </div>
-    
-          <div class="legal">
-            <ul class="footer__links row">
-              <li class="footer__item">
-                <a href="impressum" class="footer__link impressum">Impressum</a>
-              </li>
-              <li class="footer__item">
-                <a href="datenschutz" class="footer__link datenschutz"
-                  >Datenschutz</a
-                >
-              </li>
-              <li class="footer__item">
-                <a href="agb" class="footer__link agb">AGB</a>
-              </li>
-            </ul>
-          </div>
-        </footer>
-      </section>
-    </main>
-
-    <!-- NAVIGATION -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="JS/nav.js"></script>
-
-    <!-- SITE SCROLL -->
-    <script type="text/javascript">
-      window.addEventListener("scroll", function () {
-        var nav = document.querySelector("nav");
-        nav.classList.toggle("sticky", window.scrollY > 0);
-      });
+        function checkScreenSize() {
+            var newWindowWidth = $(window).width();
+            if (newWindowWidth >= 1200) {
+                fullpage.initialize('#fullpage', {
+                    licenseKey: 'YOUR KEY HERE',
+                    css3: false,
+                    verticalCentered: false,
+                    // resize: false,
+                    scrollBar: true,
+                    scrollingSpeed: 500,
+                    keyboardScrolling: true,
+                    // autoScrolling: false
+                });
+            }
+        }
     </script>
+</body>
 
-    <!-- ACCORDION MOBILE VERSION -->
-    <!-- <script src="JS/accordion-leistungen-mobile.js"></script> -->
-
-    <!-- VERTICAL SCROLL -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.js"></script>
-    <script src="https://bundle.run/css-scroll-snap-polyfill@0.1.2"></script>
-    <script src="JS/vertical-scroll.js"></script> -->
-
-    <!-- HORIZONTAL SLIDER -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.js"></script>
-    <script src="https://bundle.run/css-scroll-snap-polyfill@0.1.2"></script>
-    <script src="JS/horizontal-scroll.js"></script> -->
-
-    <!-- <script src="JS/scroller.js"></script> -->
-
-  </body>
 </html>
