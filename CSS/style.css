@@ -1795,7 +1795,11 @@ header.shadowHeader {
         padding: 70px 0;
     }
     .branchen-inner-wrap .branchen-row .branchen-content {
-        width: 70%;
+        width: 75%;
+    }
+
+    .branchen-inner-wrap .branchen-row .branchen-img-inner {
+        width: 25%;
     }
     /*-_-_branchen_CSS_Start_-_-*/
     /*-_-_sponsoring_CSS_Start_-_-*/
