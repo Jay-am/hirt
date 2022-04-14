@@ -62,9 +62,9 @@ $(document).ready(function () {
     speed: 1000,
     arrows: true,
     prevArrow:
-      "<button type='button' class='slick-prev slick-arrow'><img src='images/arrow_left.png' alt=''></button>",
+      "<button type='button' class='slick-prev slick-arrow'><img src='IMAGES/arrow_left.png' alt=''></button>",
     nextArrow:
-      "<button type='button' class='slick-next slick-arrow'><img src='images/arrow_right.png' alt=''></button>",
+      "<button type='button' class='slick-next slick-arrow'><img src='IMAGES/arrow_right.png' alt=''></button>",
   });
 
   $(

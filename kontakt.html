@@ -1,9 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta name="author" content="Hirt Zerspanungstechnik GmbH" />
     <meta name="copyright" content="Hirt Zerspanungstechnik GmbH" />
 
@@ -11,74 +13,80 @@
     <meta name="google" content="notranslate" />
     <meta name="robots" content="index,follow" />
 
-    <meta name="description" content="Some tags are vital for SEO. Others have little or no impact on rankings. Here's every type of meta tag you need to know about.The purpose of a meta description is to reflect the essence of a page, but with more details and context."
+    <meta
+      name="description"
+      content="Some tags are vital for SEO. Others have little or no impact on rankings. Here's every type of meta tag you need to know about.The purpose of a meta description is to reflect the essence of a page, but with more details and context."
     />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/font-awesome.min.css" />
 
-
-    <link rel="stylesheet" href="css/fullpage.css">
-    <!-- <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css"> -->
+    <link rel="stylesheet" href="CSS/fullpage.css" />
+    <!-- <link rel="stylesheet" href="CSS/slick.css">
+    <link rel="stylesheet" href="CSS/slick-theme.css"> -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://www.gstatic.com/external_hosted/handlebars/v4.7.6/handlebars.min.js"></script>
     <script>
-        const CONFIGURATION = {
-            locations: [{
-                title: "Hirt Zerspanungstechnik GmbH",
-                address1: "Porschestraße 9",
-                address2: "68789 St. Leon-Rot, Germany",
-                coords: {
-                    lat: 49.242929038737294,
-                    lng: 8.640636235581987
-                },
-                placeId: "ChIJZy9fy_W8l0cRaESQqQE-CeI",
-            }, ],
-            mapOptions: {
-                center: {
-                    lat: 38.0,
-                    lng: -100.0
-                },
-                fullscreenControl: true,
-                mapTypeControl: false,
-                streetViewControl: false,
-                zoom: 4,
-                zoomControl: true,
-                maxZoom: 17,
+      const CONFIGURATION = {
+        locations: [
+          {
+            title: "Hirt Zerspanungstechnik GmbH",
+            address1: "Porschestraße 9",
+            address2: "68789 St. Leon-Rot, Germany",
+            coords: {
+              lat: 49.242929038737294,
+              lng: 8.640636235581987,
             },
-            mapsApiKey: "AIzaSyB9nHwLr0M75qzooMpOko7InfDa0AdvKzg",
-        };
+            placeId: "ChIJZy9fy_W8l0cRaESQqQE-CeI",
+          },
+        ],
+        mapOptions: {
+          center: {
+            lat: 38.0,
+            lng: -100.0,
+          },
+          fullscreenControl: true,
+          mapTypeControl: false,
+          streetViewControl: false,
+          zoom: 4,
+          zoomControl: true,
+          maxZoom: 17,
+        },
+        mapsApiKey: "AIzaSyB9nHwLr0M75qzooMpOko7InfDa0AdvKzg",
+      };
 
-        function initMap() {
-            new LocatorPlus(CONFIGURATION);
-        }
+      function initMap() {
+        new LocatorPlus(CONFIGURATION);
+      }
     </script>
     <script id="locator-result-items-tmpl" type="text/x-handlebars-template">
-        {{#each locations}}
-        <li class="location-result" data-location-index="{{index}}">
-            <button class="select-location">
-            <h2 class="name">{{title}}</h2>
-          </button>
-            <div class="address">{{address1}}<br>{{address2}}</div>
-            <button class="details-button">
-            View details
-          </button> {{#if travelDistanceText}}
-            <div class="distance">{{travelDistanceText}}</div>
-            {{/if}} {{#if ../showDirectionsButton}}
-            <button class="show-directions" title="Show directions to this location">
-              <svg width="34" height="34" viewBox="0 0 34 34"
-                   fill="none" xmlns="http://www.w3.org/2000/svg" alt="Show directions">
-                <path d="M17.5867 9.24375L17.9403 8.8902V8.8902L17.5867 9.24375ZM16.4117 9.24375L16.7653 9.59731L16.7675 9.59502L16.4117 9.24375ZM8.91172 16.7437L8.55817 16.3902L8.91172 16.7437ZM8.91172 17.9229L8.55817 18.2765L8.55826 18.2766L8.91172 17.9229ZM16.4117 25.4187H16.9117V25.2116L16.7652 25.0651L16.4117 25.4187ZM16.4117 25.4229H15.9117V25.63L16.0582 25.7765L16.4117 25.4229ZM25.0909 17.9229L25.4444 18.2765L25.4467 18.2742L25.0909 17.9229ZM25.4403 16.3902L17.9403 8.8902L17.2332 9.5973L24.7332 17.0973L25.4403 16.3902ZM17.9403 8.8902C17.4213 8.3712 16.5737 8.3679 16.0559 8.89248L16.7675 9.59502C16.8914 9.4696 17.1022 9.4663 17.2332 9.5973L17.9403 8.8902ZM16.0582 8.8902L8.55817 16.3902L9.26527 17.0973L16.7653 9.5973L16.0582 8.8902ZM8.55817 16.3902C8.0379 16.9105 8.0379 17.7562 8.55817 18.2765L9.26527 17.5694C9.13553 17.4396 9.13553 17.227 9.26527 17.0973L8.55817 16.3902ZM8.55826 18.2766L16.0583 25.7724L16.7652 25.0651L9.26517 17.5693L8.55826 18.2766ZM15.9117 25.4187V25.4229H16.9117V25.4187H15.9117ZM16.0582 25.7765C16.5784 26.2967 17.4242 26.2967 17.9444 25.7765L17.2373 25.0694C17.1076 25.1991 16.895 25.1991 16.7653 25.0694L16.0582 25.7765ZM17.9444 25.7765L25.4444 18.2765L24.7373 17.5694L17.2373 25.0694L17.9444 25.7765ZM25.4467 18.2742C25.9631 17.7512 25.9663 16.9096 25.438 16.3879L24.7354 17.0995C24.8655 17.2279 24.8687 17.4363 24.7351 17.5716L25.4467 18.2742Z" fill="#7e7efd"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M19 19.8333V17.75H15.6667V20.25H14V16.9167C14 16.4542 14.3708 16.0833 14.8333 16.0833H19V14L21.9167 16.9167L19 19.8333Z" fill="#7e7efd"/>
-                <circle cx="17" cy="17" r="16.5" stroke="#7e7efd"/>
-              </svg>
-            </button> {{/if}}
-        </li>
-        {{/each}}
+      {{#each locations}}
+      <li class="location-result" data-location-index="{{index}}">
+          <button class="select-location">
+          <h2 class="name">{{title}}</h2>
+        </button>
+          <div class="address">{{address1}}<br>{{address2}}</div>
+          <button class="details-button">
+          View details
+        </button> {{#if travelDistanceText}}
+          <div class="distance">{{travelDistanceText}}</div>
+          {{/if}} {{#if ../showDirectionsButton}}
+          <button class="show-directions" title="Show directions to this location">
+            <svg width="34" height="34" viewBox="0 0 34 34"
+                 fill="none" xmlns="http://www.w3.org/2000/svg" alt="Show directions">
+              <path d="M17.5867 9.24375L17.9403 8.8902V8.8902L17.5867 9.24375ZM16.4117 9.24375L16.7653 9.59731L16.7675 9.59502L16.4117 9.24375ZM8.91172 16.7437L8.55817 16.3902L8.91172 16.7437ZM8.91172 17.9229L8.55817 18.2765L8.55826 18.2766L8.91172 17.9229ZM16.4117 25.4187H16.9117V25.2116L16.7652 25.0651L16.4117 25.4187ZM16.4117 25.4229H15.9117V25.63L16.0582 25.7765L16.4117 25.4229ZM25.0909 17.9229L25.4444 18.2765L25.4467 18.2742L25.0909 17.9229ZM25.4403 16.3902L17.9403 8.8902L17.2332 9.5973L24.7332 17.0973L25.4403 16.3902ZM17.9403 8.8902C17.4213 8.3712 16.5737 8.3679 16.0559 8.89248L16.7675 9.59502C16.8914 9.4696 17.1022 9.4663 17.2332 9.5973L17.9403 8.8902ZM16.0582 8.8902L8.55817 16.3902L9.26527 17.0973L16.7653 9.5973L16.0582 8.8902ZM8.55817 16.3902C8.0379 16.9105 8.0379 17.7562 8.55817 18.2765L9.26527 17.5694C9.13553 17.4396 9.13553 17.227 9.26527 17.0973L8.55817 16.3902ZM8.55826 18.2766L16.0583 25.7724L16.7652 25.0651L9.26517 17.5693L8.55826 18.2766ZM15.9117 25.4187V25.4229H16.9117V25.4187H15.9117ZM16.0582 25.7765C16.5784 26.2967 17.4242 26.2967 17.9444 25.7765L17.2373 25.0694C17.1076 25.1991 16.895 25.1991 16.7653 25.0694L16.0582 25.7765ZM17.9444 25.7765L25.4444 18.2765L24.7373 17.5694L17.2373 25.0694L17.9444 25.7765ZM25.4467 18.2742C25.9631 17.7512 25.9663 16.9096 25.438 16.3879L24.7354 17.0995C24.8655 17.2279 24.8687 17.4363 24.7351 17.5716L25.4467 18.2742Z" fill="#7e7efd"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19 19.8333V17.75H15.6667V20.25H14V16.9167C14 16.4542 14.3708 16.0833 14.8333 16.0833H19V14L21.9167 16.9167L19 19.8333Z" fill="#7e7efd"/>
+              <circle cx="17" cy="17" r="16.5" stroke="#7e7efd"/>
+            </svg>
+          </button> {{/if}}
+      </li>
+      {{/each}}
     </script>
     <script id="locator-details-tmpl" type="text/x-handlebars-template">
-        <button class="back-button">
+      <button class="back-button">
         <img
           class="icon"
           src="https://fonts.gstatic.com/s/i/googlematerialicons/arrow_back/v11/24px.svg"
@@ -86,9 +94,15 @@
         />
         Back
       </button>
-        <header>
-            <div class="banner">
-                <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <header>
+        <div class="banner">
+          <svg
+            width="23"
+            height="32"
+            viewBox="0 0 23 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
@@ -103,19 +117,20 @@
               fill="#FBE15C"
             ></path>
           </svg>
-            </div>
-            <h2>{{location.title}}</h2>
-        </header>
-        {{#if location.travelDistanceText}}
-        <div class="distance">{{location.travelDistanceText}} away</div>
-        {{/if}}
-        <div class="address">
-            {{location.address1}}<br /> {{location.address2}}
         </div>
-        <div class="atmosphere">
-            {{#if place.rating}}
-            <span class="star-rating-numeric">{{place.rating}}</span>
-            <span>
+        <h2>{{location.title}}</h2>
+      </header>
+      {{#if location.travelDistanceText}}
+        <div class="distance">{{location.travelDistanceText}} away</div>
+      {{/if}}
+      <div class="address">
+        {{location.address1}}<br />
+        {{location.address2}}
+      </div>
+      <div class="atmosphere">
+        {{#if place.rating}}
+          <span class="star-rating-numeric">{{place.rating}}</span>
+          <span>
             {{#each place.fullStarIcons}}
               <img
                 src="https://fonts.gstatic.com/s/i/googlematerialicons/star/v15/24px.svg"
@@ -137,308 +152,451 @@
                 class="star-icon"
               />
             {{/each}}
-          </span> {{/if}} {{#if place.user_ratings_total}}
-            <a href="{{place.url}}" target="_blank">{{place.user_ratings_total}}
-            reviews</a> {{else}}
-            <a href="{{place.url}}" target="_blank">See on Google Maps</a> {{/if}} {{#if place.price_level}} &bull;
-            <span class="price-dollars">
+          </span>
+        {{/if}}
+        {{#if place.user_ratings_total}}
+          <a href="{{place.url}}" target="_blank">{{place.user_ratings_total}}
+            reviews</a>
+        {{else}}
+          <a href="{{place.url}}" target="_blank">See on Google Maps</a>
+        {{/if}}
+        {{#if place.price_level}}
+          &bull;
+          <span class="price-dollars">
             {{#each place.dollarSigns}}${{/each}}
-          </span> {{/if}}
-        </div>
-        <hr /> {{#if place.opening_hours}}
+          </span>
+        {{/if}}
+      </div>
+      <hr />
+      {{#if place.opening_hours}}
         <div class="hours contact">
-            <img src="https://fonts.gstatic.com/s/i/googlematerialicons/schedule/v12/24px.svg" alt="Opening hours" class="icon" />
-            <div class="right">
-                {{#each place.openingHoursSummary}}
-                <div>
-                    <span class="weekday">{{days}}</span>
-                    <span class="hours">{{hours}}</span>
-                </div>
-                {{/each}}
-            </div>
+          <img
+            src="https://fonts.gstatic.com/s/i/googlematerialicons/schedule/v12/24px.svg"
+            alt="Opening hours"
+            class="icon"
+          />
+          <div class="right">
+            {{#each place.openingHoursSummary}}
+              <div>
+                <span class="weekday">{{days}}</span>
+                <span class="hours">{{hours}}</span>
+              </div>
+            {{/each}}
+          </div>
         </div>
-        {{/if}} {{#if place.website}}
+      {{/if}}
+      {{#if place.website}}
         <div class="website contact">
-            <img src="https://fonts.gstatic.com/s/i/googlematerialicons/public/v10/24px.svg" alt="Website" class="icon" />
-            <div class="right">
-                <a href="{{place.website}}">{{place.websiteDomain}}</a>
-            </div>
+          <img
+            src="https://fonts.gstatic.com/s/i/googlematerialicons/public/v10/24px.svg"
+            alt="Website"
+            class="icon"
+          />
+          <div class="right">
+            <a href="{{place.website}}">{{place.websiteDomain}}</a>
+          </div>
         </div>
-        {{/if}} {{#if place.formatted_phone_number}}
+      {{/if}}
+      {{#if place.formatted_phone_number}}
         <div class="phone contact">
-            <img src="https://fonts.gstatic.com/s/i/googlematerialicons/phone/v10/24px.svg" alt="Phone number" class="icon" />
-            <div class="right">
-                {{place.formatted_phone_number}}
-            </div>
+          <img
+            src="https://fonts.gstatic.com/s/i/googlematerialicons/phone/v10/24px.svg"
+            alt="Phone number"
+            class="icon"
+          />
+          <div class="right">
+            {{place.formatted_phone_number}}
+          </div>
         </div>
-        {{/if}} {{#if place.html_attributions}} {{#each place.html_attributions}}
-        <p class="attribution">{{{this}}}</p>
-        {{/each}} {{/if}}
+      {{/if}}
+      {{#if place.html_attributions}}
+        {{#each place.html_attributions}}
+          <p class="attribution">{{{this}}}</p>
+        {{/each}}
+      {{/if}}
     </script>
-    <link rel="stylesheet" href="css/locator.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+    <link rel="stylesheet" href="CSS/locator.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" type="image/png" href="IMAGES/favicon.ico" />
     <title>Hrit</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <!-- Header Start -->
-        <header class="shadowHeader">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/hirt-zerspanungstechnik-logo.png" alt="Logo Hirt Zerspanungstechnik">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="navbar-toggler-icon">
-                            <div class="click-menu-btn">
-                                <span class="bar1"></span>
-                                <span class="bar2"></span>
-                                <span class="bar3"></span>
-                            </div>
-                        </div>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item menu-item-has-children">
-                                <a class="nav-link" href="leistungen.html">Leistungen</a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#intro-leistungen" class="nav-link">Intro</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#entwicklung" class="nav-link">Entwicklung</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#fertigung" class="nav-link">Fertigung</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#oberflaechenbehandlung" class="nav-link">Oberflächenbehandlung</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#montage" class="nav-link">Montage</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#qualitaetssicherung" class="nav-link">Qualitätssicherung</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#lagerhaltung" class="nav-link">Lagerhaltung</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="leistungen.html#qualitaetsmanagement" class="nav-link">Qualitätsmanagement</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item menu-item-has-children">
-                                <a class="nav-link" href="branchen.html">Branchen</a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item">
-                                        <a href="branchen.html#intro-branchen" class="nav-link">Intro</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="branchen.html#luft-und-raumfahrt" class="nav-link">Luft- und Raumfahrt</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="branchen.html#medizintechnik" class="nav-link">Medizintechnik</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="branchen.html#rehatechnik" class="nav-link">Rehatechnik</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="branchen.html#sensortechnik" class="nav-link">Sensortechnik</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="branchen.html#verteidigungs-und-wehrtechnik" class="nav-link">Verteidigungs- und Wehrtechnik</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="branchen.html#lebensmitteltechnik" class="nav-link">Lebensmitteltechnik</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="branchen.html#motorsport" class="nav-link">Motorsport</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="unternehmen.html">Unternehmen</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="sponsoring.html">Sponsoring</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="karriere.html">Karriere</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="aktuelles.html">Aktuelles</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="kontakt.html">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!-- Header Start -->
-
-        <!-- Contant Start -->
-        <section class="kontakt-inner-wrap">
-            <div class="container">
-                <div class="kontakt-inner-content">
-                    <div class="kontakt--info">
-                        <h3>Hirt Zerspanungstechnik</h3>
-                        <div class="kontakt--info--adresse">
-                            <p>Porschestraße 9</p>
-                            <p>D-68789 St. Leon-Rot</p>
-                        </div>
-                        <div class="kontakt--info--daten">
-                            <p>Tel.: +49 (0) 6227 8645-0</p>
-                            <p>Fax: +49 (0) 6227 8645-29</p>
-                        </div>
-                        <div class="kontakt--info--daten">
-                            <a href="mailto:info@hirt-zerspanungstechnik.de" class="e-mail e-mail-info">info@hirt‑zerspanungstechnik.de</a>
-                            <a href="mailto:anfragen@hirt-zerspanungstechnik.de" class="e-mail e-mail-anfrage">anfragen@hirt‑zerspanungstechnik.de</a>
-                            <a href="mailto:rechnungen@hirt-zerspanungstechnik.de" class="e-mail e-mail-rechnungen">rechnungen@hirt‑zerspanungstechnik.de</a>
-                            <a href="mailto:karriere@hirt-zerspanungstechnik.de" class="e-mail e-mail-karriere">karriere@hirt‑zerspanungstechnik.de</a>
-                        </div>
-                        <div class="kontakt--info--erreichbarkeit">
-                            <p>Öffnungszeiten</p>
-                            <p>Montag - Donnerstag: <br>
-                                8:00 Uhr bis 16:30 Uhr</p>
-                        </div>
-                        <div class="kontakt--info--erreichbarkeit">
-                            <p>Freitag: <br>
-                                8:00 Uhr bis 14:30 Uhr</p>
-                        </div>
-                    </div>
-
-                    <div class="ansprechpartner-content">
-                        <div class="ansprechpartner-intro">
-                            <h3>Ihre Ansprechpartner</h3>
-                            <p>Haben Sie Fragen oder wünschen ein unverbindliches Angebot?</p>
-                            <p>
-                                Für die schnelle und präzise Klärung Ihres Anliegens stehen Ihnen folgende Ansprechpartner zur Verfügung.
-                            </p>
-                        </div>
-                        <div class="ansprechpartner__card card-1">
-                            <img loading="lazy" src="images/Rudiger_Hirt.jpg" alt="Rüdiger Hirt">
-                            <div class="ansprechpartner-inner">
-                                <h5>Rüdiger Hirt</h5>
-                                <p class="title">Geschäftsführer</p>
-                                <p class="number">+49 (0) 6227 8645-0</p>
-                                <a href="mailto:r.hirt@hirt-zerspanungstechnik.de">r.hirt@hirt‑zerspanungstechnik.de</a>
-                            </div>
-                        </div>
-                        <div class="ansprechpartner__card card-2">
-                            <img loading="lazy" src="images/Stefan_Richter.jpg" alt="Stefan Richter">
-                            <div class="ansprechpartner-inner">
-                                <h5>Stefan Richter</h5>
-                                <p class="title">Abteilungsleiter Entwicklung/Montage</p>
-                                <p class="number">+49 (0) 6227 8645-13</p>
-                                <a href="mailto:s.richter@hirt-zerspanungstechnik.de">s.richter@hirt‑zerspanungstechnik.de</a>
-                            </div>
-                        </div>
-                    </div>
+      <!-- Header Start -->
+      <header class="shadowHeader">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="IMAGES/hirt-zerspanungstechnik-logo.png"
+                alt="Logo Hirt Zerspanungstechnik"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div class="navbar-toggler-icon">
+                <div class="click-menu-btn">
+                  <span class="bar1"></span>
+                  <span class="bar2"></span>
+                  <span class="bar3"></span>
                 </div>
-            </div>
-        </section>
-        <section class="google-map">
-            <div class="container">
-                <div id="map-container">
-                    <div id="locations-panel">
-                        <div id="locations-panel-list">
-                            <div class="location-head">
-                                <h1 class="search-title">
-                                    <img src="https://fonts.gstatic.com/s/i/googlematerialicons/place/v15/24px.svg" /> Route berechnen
-                                </h1>
-                                <div class="search-input">
-                                    <input id="location-search-input" placeholder="Geben Sie eine Adresse oder PLZ ein" />
-                                    <div id="search-overlay-search" class="search-input-overlay search">
-                                        <button id="location-search-button">
-                              <img
-                                class="icon"
-                                src="https://fonts.gstatic.com/s/i/googlematerialicons/search/v11/24px.svg"
-                                alt="Search"
-                              />
-                            </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="section-name" id="location-results-section-name">
-                                Standort
-                            </div>
-                            <div class="results">
-                                <ul id="location-results-list"></ul>
-                            </div>
-                        </div>
-                        <div id="locations-panel-details"></div>
-                    </div>
-                    <div id="map"></div>
-                </div>
-            </div>
-        </section>
-        <!-- Contant End -->
+              </div>
+            </button>
 
-        <footer class="section footer">
-            <div class="container">
-                <div class="row footer-row">
-                    <div class="col-md-4 col-lg-4 col-xl-3">
-                        <div class="footer__kontakt">
-                            <h4>So erreichen Sie uns</h4>
-                            <ul class="footer__links">
-                                <li><a href="tel:+49 (0) 6227 8645-0">+49 (0) 6227 8645-0</a></li>
-                                <li><a href="mailto:info@hirt-zerspanungstechnik.de">info@hirt-zerspanungstechnik.de</a></li>
-                                <li>Porschestraße 9, 68789 St. Leon-Rot</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="footer__kontakt">
-                            <h4>Öffnungszeiten</h4>
-                            <ul class="footer__links">
-                                <li>Mo-Do: 8:00 Uhr bis 16:30 Uhr</li>
-                                <li>Fr: 8:00 Uhr bis 14:30 Uhr</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-5 col-xl-6">
-                        <div class="zertifiziert">
-                            <h4>Zertifiziert durch</h4>
-                            <a href="zertifizierung.html"><img loading="lazy" src="images/dnv-gl-logo.png" alt="DNV-GL Logo" class="footer__image"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="copywright-wrap">
-                    <p class="copywright">&copy;2021 <a href="index.html">Hirt Zerspanungstechnik GmbH</a></p>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="kontakt.html" class="footer__link">Impressum</a>
-                        </li>
-                        <li>
-                            <a href="kontakt.html" class="footer__link">Datenschutz</a>
-                        </li>
-                        <li>
-                            <a href="kontakt.html" class="footer__link">AGB</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item menu-item-has-children">
+                  <a class="nav-link" href="leistungen.html">Leistungen</a>
+                  <ul class="sub-menu">
+                    <li class="nav-item">
+                      <a
+                        href="leistungen.html#intro-leistungen"
+                        class="nav-link"
+                        >Intro</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="leistungen.html#entwicklung" class="nav-link"
+                        >Entwicklung</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="leistungen.html#fertigung" class="nav-link"
+                        >Fertigung</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="leistungen.html#oberflaechenbehandlung"
+                        class="nav-link"
+                        >Oberflächenbehandlung</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="leistungen.html#montage" class="nav-link"
+                        >Montage</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="leistungen.html#qualitaetssicherung"
+                        class="nav-link"
+                        >Qualitätssicherung</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="leistungen.html#lagerhaltung" class="nav-link"
+                        >Lagerhaltung</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="leistungen.html#qualitaetsmanagement"
+                        class="nav-link"
+                        >Qualitätsmanagement</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item menu-item-has-children">
+                  <a class="nav-link" href="branchen.html">Branchen</a>
+                  <ul class="sub-menu">
+                    <li class="nav-item">
+                      <a href="branchen.html#intro-branchen" class="nav-link"
+                        >Intro</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="branchen.html#luft-und-raumfahrt"
+                        class="nav-link"
+                        >Luft- und Raumfahrt</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="branchen.html#medizintechnik" class="nav-link"
+                        >Medizintechnik</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="branchen.html#rehatechnik" class="nav-link"
+                        >Rehatechnik</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="branchen.html#sensortechnik" class="nav-link"
+                        >Sensortechnik</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="branchen.html#verteidigungs-und-wehrtechnik"
+                        class="nav-link"
+                        >Verteidigungs- und Wehrtechnik</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="branchen.html#lebensmitteltechnik"
+                        class="nav-link"
+                        >Lebensmitteltechnik</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="branchen.html#motorsport" class="nav-link"
+                        >Motorsport</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="unternehmen.html">Unternehmen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sponsoring.html">Sponsoring</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="karriere.html">Karriere</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aktuelles.html">Aktuelles</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+              </ul>
             </div>
-        </footer>
+          </nav>
+        </div>
+      </header>
+      <!-- Header Start -->
+
+      <!-- Contant Start -->
+      <section class="kontakt-inner-wrap">
+        <div class="container">
+          <div class="kontakt-inner-content">
+            <div class="kontakt--info">
+              <h3>Hirt Zerspanungstechnik</h3>
+              <div class="kontakt--info--adresse">
+                <p>Porschestraße 9</p>
+                <p>D-68789 St. Leon-Rot</p>
+              </div>
+              <div class="kontakt--info--daten">
+                <p>Tel.: +49 (0) 6227 8645-0</p>
+                <p>Fax: +49 (0) 6227 8645-29</p>
+              </div>
+              <div class="kontakt--info--daten">
+                <a
+                  href="mailto:info@hirt-zerspanungstechnik.de"
+                  class="e-mail e-mail-info"
+                  >info@hirt‑zerspanungstechnik.de</a
+                >
+                <a
+                  href="mailto:anfragen@hirt-zerspanungstechnik.de"
+                  class="e-mail e-mail-anfrage"
+                  >anfragen@hirt‑zerspanungstechnik.de</a
+                >
+                <a
+                  href="mailto:rechnungen@hirt-zerspanungstechnik.de"
+                  class="e-mail e-mail-rechnungen"
+                  >rechnungen@hirt‑zerspanungstechnik.de</a
+                >
+                <a
+                  href="mailto:karriere@hirt-zerspanungstechnik.de"
+                  class="e-mail e-mail-karriere"
+                  >karriere@hirt‑zerspanungstechnik.de</a
+                >
+              </div>
+              <div class="kontakt--info--erreichbarkeit">
+                <p>Öffnungszeiten</p>
+                <p>
+                  Montag - Donnerstag: <br />
+                  8:00 Uhr bis 16:30 Uhr
+                </p>
+              </div>
+              <div class="kontakt--info--erreichbarkeit">
+                <p>
+                  Freitag: <br />
+                  8:00 Uhr bis 14:30 Uhr
+                </p>
+              </div>
+            </div>
+
+            <div class="ansprechpartner-content">
+              <div class="ansprechpartner-intro">
+                <h3>Ihre Ansprechpartner</h3>
+                <p>
+                  Haben Sie Fragen oder wünschen ein unverbindliches Angebot?
+                </p>
+                <p>
+                  Für die schnelle und präzise Klärung Ihres Anliegens stehen
+                  Ihnen folgende Ansprechpartner zur Verfügung.
+                </p>
+              </div>
+              <div class="ansprechpartner__card card-1">
+                <img
+                  loading="lazy"
+                  src="IMAGES/Rudiger_Hirt.jpg"
+                  alt="Rüdiger Hirt"
+                />
+                <div class="ansprechpartner-inner">
+                  <h5>Rüdiger Hirt</h5>
+                  <p class="title">Geschäftsführer</p>
+                  <p class="number">+49 (0) 6227 8645-0</p>
+                  <a href="mailto:r.hirt@hirt-zerspanungstechnik.de"
+                    >r.hirt@hirt‑zerspanungstechnik.de</a
+                  >
+                </div>
+              </div>
+              <div class="ansprechpartner__card card-2">
+                <img
+                  loading="lazy"
+                  src="IMAGES/Stefan_Richter.jpg"
+                  alt="Stefan Richter"
+                />
+                <div class="ansprechpartner-inner">
+                  <h5>Stefan Richter</h5>
+                  <p class="title">Abteilungsleiter Entwicklung/Montage</p>
+                  <p class="number">+49 (0) 6227 8645-13</p>
+                  <a href="mailto:s.richter@hirt-zerspanungstechnik.de"
+                    >s.richter@hirt‑zerspanungstechnik.de</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="google-map">
+        <div class="container">
+          <div id="map-container">
+            <div id="locations-panel">
+              <div id="locations-panel-list">
+                <div class="location-head">
+                  <h1 class="search-title">
+                    <img
+                      src="https://fonts.gstatic.com/s/i/googlematerialicons/place/v15/24px.svg"
+                    />
+                    Route berechnen
+                  </h1>
+                  <div class="search-input">
+                    <input
+                      id="location-search-input"
+                      placeholder="Geben Sie eine Adresse oder PLZ ein"
+                    />
+                    <div
+                      id="search-overlay-search"
+                      class="search-input-overlay search"
+                    >
+                      <button id="location-search-button">
+                        <img
+                          class="icon"
+                          src="https://fonts.gstatic.com/s/i/googlematerialicons/search/v11/24px.svg"
+                          alt="Search"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-name" id="location-results-section-name">
+                  Standort
+                </div>
+                <div class="results">
+                  <ul id="location-results-list"></ul>
+                </div>
+              </div>
+              <div id="locations-panel-details"></div>
+            </div>
+            <div id="map"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Contant End -->
+
+      <footer class="section footer">
+        <div class="container">
+          <div class="row footer-row">
+            <div class="col-md-4 col-lg-4 col-xl-3">
+              <div class="footer__kontakt">
+                <h4>So erreichen Sie uns</h4>
+                <ul class="footer__links">
+                  <li>
+                    <a href="tel:+49 (0) 6227 8645-0">+49 (0) 6227 8645-0</a>
+                  </li>
+                  <li>
+                    <a href="mailto:info@hirt-zerspanungstechnik.de"
+                      >info@hirt-zerspanungstechnik.de</a
+                    >
+                  </li>
+                  <li>Porschestraße 9, 68789 St. Leon-Rot</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="footer__kontakt">
+                <h4>Öffnungszeiten</h4>
+                <ul class="footer__links">
+                  <li>Mo-Do: 8:00 Uhr bis 16:30 Uhr</li>
+                  <li>Fr: 8:00 Uhr bis 14:30 Uhr</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6">
+              <div class="zertifiziert">
+                <h4>Zertifiziert durch</h4>
+                <a href="zertifizierung.html"
+                  ><img
+                    loading="lazy"
+                    src="IMAGES/dnv-gl-logo.png"
+                    alt="DNV-GL Logo"
+                    class="footer__image"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="copywright-wrap">
+            <p class="copywright">
+              &copy;2021 <a href="index.html">Hirt Zerspanungstechnik GmbH</a>
+            </p>
+
+            <ul class="footer__links">
+              <li>
+                <a href="kontakt.html" class="footer__link">Impressum</a>
+              </li>
+              <li>
+                <a href="kontakt.html" class="footer__link">Datenschutz</a>
+              </li>
+              <li>
+                <a href="kontakt.html" class="footer__link">AGB</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/fullpage.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9nHwLr0M75qzooMpOko7InfDa0AdvKzg&callback=initMap&libraries=places,geometry&channel=GMPSB_locatorplus_v4_cABCDE" async defer></script>
-    <script src="js/directions.js"></script>
-    <script src="js/custom.js"></script>
-</body>
-
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/fullpage.js"></script>
+    <script src="JS/slick.min.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9nHwLr0M75qzooMpOko7InfDa0AdvKzg&callback=initMap&libraries=places,geometry&channel=GMPSB_locatorplus_v4_cABCDE"
+      async
+      defer
+    ></script>
+    <script src="JS/directions.js"></script>
+    <script src="JS/custom.js"></script>
+  </body>
 </html>
