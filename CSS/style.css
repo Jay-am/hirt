@@ -178,7 +178,7 @@ header .navbar-nav>li .sub-menu>li>a:hover {
 /*-_-_Header_CSS_End_-_-*/
 
 
-/*-_-_Banner_CSS_Start_-_-*/
+*-_-_Banner_CSS_Start_-_-*/
 
 #fullpage .fp-tableCell,
 #fullpage .fp-section.fp-table {
@@ -186,7 +186,7 @@ header .navbar-nav>li .sub-menu>li>a:hover {
 }
 
 .banner {
-    background: url(../IMAGES/hero-index.jpg) center center no-repeat;
+    background: url(../IMAGES/Heros/hero-index.jpg) center center no-repeat;
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -280,7 +280,7 @@ h2 {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.9)), url(../IMAGES/realisation.png) center center no-repeat;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.9)), url(../IMAGES/Index/realisation.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -326,7 +326,7 @@ h2 {
 }
 
 .leistungen-tiles .leistungen-tile-1 {
-    background: url(../IMAGES/entwicklung.jpg);
+    background: url(../IMAGES/Leistungen/entwicklung.jpg);
     width: calc(12% + 15px);
     height: 500px;
     background-position: 80% 50%;
@@ -340,7 +340,7 @@ h2 {
 }
 
 .leistungen-tiles .leistungen-tile-2 {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.8)), url(../IMAGES/fertigung.png);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.8)), url(../IMAGES/Leistungen/fertigung.png);
     width: calc(30% + 15px);
     height: 500px;
     background-position: center center !important;
@@ -354,7 +354,7 @@ h2 {
 }
 
 .leistungen-tiles .leistungen-tile-3 {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0.8)), url(../IMAGES/oberflaechenveredelung.jpg);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0.8)), url(../IMAGES/Leistungen/oberflaechenveredelung.jpg);
     background-position: center center  !important;
     background-size: cover;
     background-repeat: no-repeat;    
@@ -370,7 +370,7 @@ h2 {
 }
 
 .leistungen-tiles .leistungen-tile-4 {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.9)), url(../IMAGES/montage.png);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.9)), url(../IMAGES/Leistungen/montage.jpg);
     background-position: center center  !important;
     background-size: cover;
     background-repeat: no-repeat;    
@@ -386,7 +386,7 @@ h2 {
 }
 
 .leistungen-tiles .leistungen-tile-5 {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9)), url(../IMAGES/lagerhaltung.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9)), url(../IMAGES/Leistungen/lagerhaltung.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;  
@@ -403,7 +403,7 @@ h2 {
 }
 
 .leistungen-tiles .leistungen-tile-6 {
-    background: url(../IMAGES/qualitaetssicherung.jpg), rgba(0, 0, 0, 1);
+    background: url(../IMAGES/Leistungen/qualitaetssicherung.jpg), rgba(0, 0, 0, 1);
     width: 12%;
     height: 500px;
     background-position: 80% 50%;
@@ -780,7 +780,7 @@ footer .footer__links li a:hover {
 /*-_-_branchen_CSS_Start_-_-*/
 
 .branchen-banner.sub-banner {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1)), url(../IMAGES/hero-branchen.jpg) center center no-repeat;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1)), url(../IMAGES/Heros/hero-branchen.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -936,44 +936,44 @@ footer .footer__links li a:hover {
 }
 
 .luft-und-raumfahrt {
-    background: url("../IMAGES/luftundraumfahrt.jpg");
+    background: url("../IMAGES/Branchen/Luft-und-Raumfahrt/luftundraumfahrt.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .medizintechnik {
-    background: url("../IMAGES/medizintechnik.jpg");
+    background: url("../IMAGES/Branchen/Medizintechnik/medizintechnik.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .rehatechnik {
-    background: url("../IMAGES/rehatechnik.jpg");
+    background: url("../IMAGES/Branchen/Rehatechnik/rehatechnik.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .sensortechnik {
-    background: url("../IMAGES/sensortechnik.jpg");
+    background: url("../IMAGES/Branchen/Sensortechnik/sensortechnik.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .lebensmitteltechnik {
-    background: url("../IMAGES/lebensmitteltechnik.jpg");
+    background: url("../IMAGES/Branchen/Lebensmitteltechnik/lebensmitteltechnik.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .verteidigungs-und-wehrtechnik {
-    background: url("../IMAGES/verteidigungsundwehrtechnik.jpg");
+    background: url("../IMAGES/Branchen/Verteidigings-und-Wehrtechnik/verteidigungsundwehrtechnik.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .motorsport {
     /* background: url("../IMAGES/motorsport_cure_mannheim.jpg"); */
-    background: url("../IMAGES/cure-mannheim-rosengarten.png");
+    background: url("../IMAGES/Branchen/Motorsport/motorsport_cure_mannheim.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1000,51 +1000,51 @@ footer .footer__links li a:hover {
 }
 
 .leistungen-banner.sub-banner {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.6)), url(../IMAGES/hero_leistungen.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.6)), url(../IMAGES/Heros/hero_leistungen.jpg);
     background-size: cover;
     background-position: center right;
 }
 
 .entwicklung {
-    background: url("../IMAGES/entwicklung.jpg");
+    background: url("../IMAGES/Leistungen/entwicklung.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top 35% right !important;
 }
 
 .fertigung {
-    background: url("../IMAGES/fertigung.png");
+    background: url("../IMAGES/Leistungen/fertigung.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .oberflaechenbehandlung {
-    background: url("../IMAGES/oberflaechenveredelung.jpg");
+    background: url("../IMAGES/Leistungen/oberflaechenveredelung.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .montage {
-    background: url("../IMAGES/montage.png");
+    background: url("../IMAGES/Leistungen/montage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .qualitaetssicherung {
-    background: url("../IMAGES/qualitaetssicherung.jpg");
+    background: url("../IMAGES/Leistungen/qualitaetssicherung.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom !important;
 }
 
 .lagerhaltung {
-    background: url("../IMAGES/lagerhaltung.jpg");
+    background: url("../IMAGES/Leistungen/lagerhaltung.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .qualitaetsmanagement {
-    background: url("../IMAGES/qualitaetsmanagement.jpg");
+    background: url("../IMAGES/Leistungen/qualitaetsmanagement.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1056,7 +1056,7 @@ footer .footer__links li a:hover {
 /*-_-_unternehmen_CSS_Start_-_-*/
 
 .unternehmen-banner.sub-banner {
-    background-image: url(../IMAGES/hero-unternehmen.jpg);
+    background-image: url(../IMAGES/Heros/hero-unternehmen.jpg);
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1069,7 +1069,7 @@ footer .footer__links li a:hover {
 /*-_-_sponsoring_CSS_Start_-_-*/
 
 .sponsoring-banner.sub-banner {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.4)), url(../IMAGES/hero-sponsorings.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.4)), url(../IMAGES/Heros/hero-sponsorings.jpg);
     background-position: 70% 70%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1122,7 +1122,7 @@ footer .footer__links li a:hover {
 /*-_-_aktuelles_CSS_Start_-_-*/
 
 .aktuelles-banner.sub-banner {
-    background: url(../IMAGES/hero-aktuelles.jpg);
+    background: url(../IMAGES/Heros/hero-aktuelles.jpg);
     background-position: 0 15%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1183,7 +1183,7 @@ footer .footer__links li a:hover {
 /*-_-_karriere_CSS_Start_-_-*/
 
 .karriere-banner.sub-banner {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 1)), url(../IMAGES/hero-karriere.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 1)), url(../IMAGES/Heros/hero-karriere.jpg);
 }
 
 .karriere-banner.sub-banner .banner-content h1 {
@@ -1463,7 +1463,7 @@ header.shadowHeader {
 
 /*-_-_Zertifizierung_CSS_Start_-_-*/
 .zertifizierung-banner.sub-banner {
-    background: url(../IMAGES/hero_zertifizierung.jpg) no-repeat;
+    background: url(../IMAGES/Heros/hero_zertifizierung.jpg) no-repeat;
     background-position: 0 100%;
     background-size: cover;
 }
