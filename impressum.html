@@ -263,6 +263,26 @@
         </div>
       </header>
 
+      <div id="cookie-popup" class="hidden">
+        <div class="cookies-container">
+          <p class="cookies-copy">
+            Wir nutzen Cookies, um Ihr Erlebnis auf unserer Webseite so angenehm
+          wie möglich zu gestalten.
+          </p>
+  
+          <div class="cookies-buttons">
+            <button class="cookies-btn-1" id="accept">
+              <b>Einverstanden</b>
+            </button>
+            <button class="cookies-btn-2">
+              <a href="./datenschutz.html" target="_blank" class="cookies-link"
+                >Mehr Informationen</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
 
     <main>
       <section class="hero">
@@ -509,6 +529,7 @@
 <script src="JS/fullpage.js"></script>
 <script src="JS/slick.min.js"></script>
 <script src="JS/custom.js"></script>
+<script src="JS/cookie-pop-up.js"></script>
 <script>
   $(window).on("resize", function (e) {
     checkScreenSize();

@@ -159,6 +159,165 @@
 
 
 
+/* COOKIE POPUP */
+
+/* .cookies-active {
+  visibility:visible;
+}
+
+.cookies-hidden {
+  visibility:hidden;
+} */
+
+
+#cookie-popup {
+  font-size: 1rem;
+  /* background-color: var(--clr-green-500); */
+  background-color: rgba(44, 213, 196, 0.8);
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: auto;
+  /* left: 10%;
+  bottom: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%; */
+  transition: opacity 1s ease;
+  z-index: 1000000;
+}
+
+#cookie-popup.hidden {
+  opacity: 0;
+}
+
+.cookies-container {
+  font-size: 0.9rem;
+  color:white;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  /* margin: 0 auto; */
+}
+
+.cookies-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.cookies-copy {
+  font-size: 1rem;
+}
+
+.cookies-buttons {
+  padding: 1rem 0 0.25rem 0;
+}
+
+button {
+  color:white;
+  border: 1px solid white;
+  border-radius:10px;
+  background:transparent;
+  padding: 0.25rem 0.75rem;
+  margin: 0 !important;
+}
+
+.cookies-btn-1 {
+  border: 2px solid white;
+  margin-right: 0.5rem;
+}
+
+.cookies-btn-1:hover {
+  color:var(--clr-green-700);
+  border: 2px solid var(--clr-green-700);
+}
+
+.cookies-link:hover {
+  color:var(--clr-green-700);
+}
+
+.cookies-btn-2:hover {
+  color:var(--clr-green-700);
+  border: 1px solid var(--clr-green-700);
+}
+
+
+@media (min-width: 600px) {
+  .cookies-container {
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .cookies-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 0.9rem;
+    color:white;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0 auto;
+  }
+
+  .cookies-buttons {
+    padding-top: 0rem;
+  }
+}
+
+@media (min-width: 1200px) {
+ 
+  #cookie-popup {
+    font-size: 0.9rem;
+    /* background-color: var(--clr-green-500); */
+    background-color: rgba(44, 213, 196, 0.6);;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* left: 10%;
+    bottom: 10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%; */
+    transition: opacity 1s ease;
+    z-index: 1000000;
+  }
+
+  .cookies-container {
+    padding: 1rem 6.5rem 1rem 6.5rem;
+    font-size: 0.9rem;
+  }
+
+  .cookies-buttons {
+    padding: 0;
+  }
+
+  .cookies-copy {
+    font-size: 1rem;
+  }
+} 
+
+#cookie-popup .cookies-container
+{
+  height: 50px !important;
+}
+@media (max-width:900px)
+{
+  #cookie-popup .cookies-container
+  {
+    height: 100px !important;
+    text-align: center;
+  }
+}
+@media (max-width:560px)
+{
+  #cookie-popup .cookies-container
+  {
+    height: 125px !important;
+  }
+}
+
 
 
 
