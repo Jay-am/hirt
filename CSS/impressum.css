@@ -20,7 +20,7 @@
 /* IMPRESSUM */
 
 .impressum__content {
-  padding: 2rem 0rem 4rem 0rem;
+  padding: 0rem 0rem 8rem 0rem;
 }
 
 .impressum__content h2 {
@@ -28,7 +28,7 @@
 }
 
 .impressum__content h3 {
-  padding: 2rem 0rem 1rem 0rem;
+  padding: 5rem 0rem 1rem 0rem;
   font-size: 1.2rem;
   font-weight: 300;
 }
