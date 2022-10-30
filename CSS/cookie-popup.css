@@ -10,7 +10,7 @@
 
 #cookie-popup {
   font-size: 0.9rem;
-  background-color: var(--clr-nav-active) !important;
+  background-color: rgba(0, 102, 178, 0.99) !important;
   position:fixed;
   left: 0;
   bottom: 0;
@@ -24,14 +24,8 @@
 }
 
 .cookies-container {
-  background-color: var(--clr-nav-active) !important;
+  background-color: rgba(0, 102, 178, 0.99) !important;
   padding: 1rem 1rem 1rem 1rem;
-}
-
-@-moz-document url-prefix(about:blank) {
-  * {
-      background: var(--clr-nav-active) !important;
-  }
 }
 
 .cookies-link {
