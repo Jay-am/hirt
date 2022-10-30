@@ -34,6 +34,8 @@
     <!-- <link rel="stylesheet" href="CSS/slick.css">
     <link rel="stylesheet" href="CSS/slick-theme.css"> -->
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/layout.css" />
+    <link rel="stylesheet" href="CSS/cookie-popup.css" />
     <link rel="shortcut icon" type="image/png" href="IMAGES/favicon.ico" />
 
     <!-- Google Tag Manager -->
@@ -227,6 +229,26 @@
         </div>
         <!-- Banner End -->
 
+        <div id="cookie-popup" class="hidden">
+          <div class="cookies-container">
+            <p class="cookies-copy">
+              Wir nutzen Cookies, um Ihr Erlebnis auf unserer Webseite so
+              angenehm wie möglich zu gestalten.
+            </p>
+
+            <div class="cookies-buttons">
+              <button class="cookies-btn-2">
+                <a href="datenschutz.html" class="cookies-link"
+                  >Mehr Informationen</a
+                >
+              </button>
+              <button class="cookies-btn-1" id="accept">
+                <b>Einverstanden</b>
+              </button>
+            </div>
+          </div>
+        </div>
+
         <!-- Contant Start -->
         <section class="section certificate-wrap" id="intro-branchen">
           <div class="container">
@@ -351,5 +373,6 @@
     <script src="JS/fullpage.js"></script>
     <script src="JS/slick.min.js"></script>
     <script src="JS/custom.js"></script>
+    <script src="JS/cookie-pop-up.js"></script>
   </body>
 </html>
