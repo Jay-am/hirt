@@ -28,6 +28,12 @@
   padding: 1rem 1rem 1rem 1rem;
 }
 
+@-moz-document url-prefix(about:blank) {
+  * {
+      background: var(--clr-nav-active) !important;
+  }
+}
+
 .cookies-link {
   display: inline-block;
   text-decoration: none;
@@ -37,7 +43,6 @@
 .cookies-copy {
   font-size: 0.9rem;
   color: white;
-  background-color: var(--clr-nav-active) !important;
 }
 
 .cookies-buttons button {
