@@ -15,12 +15,6 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  min-height: auto;
-  /* left: 10%;
-  bottom: 10%;
-  width: 150px;
-  height: 150px;
-  border-radius: 10%; */
   transition: opacity 1s ease;
   z-index: 1000000;
 }
@@ -32,7 +26,6 @@
 .cookies-container {
   background-color: var(--clr-nav-active) !important;
   padding: 1rem 1rem 1rem 1rem;
-  /* margin: 0 auto; */
 }
 
 .cookies-link {
@@ -44,6 +37,7 @@
 .cookies-copy {
   font-size: 0.9rem;
   color: white;
+  background-color: var(--clr-nav-active) !important;
 }
 
 .cookies-buttons button {
@@ -99,20 +93,6 @@ button {
 
 @media (min-width: 1200px) {
  
-  #cookie-popup {
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /* left: 10%;
-    bottom: 10%;
-    width: 150px;
-    height: 150px;
-    border-radius: 10%; */
-    transition: opacity 1s ease;
-    z-index: 1000000;
-  }
-
   .cookies-container {
     display: flex;
     justify-content:space-between;
