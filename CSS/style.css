@@ -1288,6 +1288,14 @@ footer .footer__links li a:hover {
     margin-bottom: 16px;
 }
 
+.ausbildung {
+    font-size: 16px !important;
+    line-height: 1.3;
+    font-weight: 300 !important;
+    margin: 0;
+    padding: 0;
+}
+
 .karriere-content #accordion .card .card-body ul {
     list-style-type: disc;
     padding-left: 18px;
