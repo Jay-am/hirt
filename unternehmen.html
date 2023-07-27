@@ -229,7 +229,7 @@
         </div>
         <!-- Banner End -->
 
-        <div id="cookie-popup" class="hidden">
+        <!-- <div id="cookie-popup" class="hidden">
           <div class="cookies-container">
             <p class="cookies-copy">
               Wir nutzen Cookies, um Ihr Erlebnis auf unserer Webseite so
@@ -246,6 +246,64 @@
                 <b>Einverstanden</b>
               </button>
             </div>
+          </div>
+        </div> -->
+
+        <div class="cookie-pop-up" id="cookie-pop-up">
+          <h2>Diese Website verwendet Cookies</h2>
+          <p>
+            Einige dieser Cookies sind unerlässlich, während andere uns helfen,
+            deine Erfahrung zu verbessern, indem sie Einblicke in die Nutzung der
+            Website geben.
+          </p>
+          <br />
+          <button class="js-cookie-accept">Alle akzeptieren</button>
+          <button class="js-cookie-reject">Alle ablehnen</button>
+          <br />
+          <br />
+          <button class="js-cookies-manage" id="js-cookies-manage">
+            Optionen verwalten
+          </button>
+    
+          <div class="cookie-categories" id="cookie-categories">
+            <!-- <hr /> -->
+            <h3 class="necessary" style="color: white; padding-top: 1.5rem">
+              Unverzichtbare Cookies
+            </h3>
+            <p class="p1">
+              Unverzichtbare Cookies ermöglichen grundlegende Funktionen. Die
+              Website kann ohne diese Cookies nicht richtig funktionieren und kann
+              nur durch Änderung deiner Browsereinstellungen deaktiviert werden.
+            </p>
+            <hr />
+    
+            <div class="cookie-category-header">
+              <h3>Analytische Cookies</h3>
+              <label class="cookie-category-toggle">
+                <input type="checkbox" name="analytical-cookies" />
+                <div class="toggle"></div>
+              </label>
+            </div>
+            <p>
+              Diese Cookies helfen uns, unsere Website zu verbessern, indem sie
+              Aufschluss darüber geben, wie die Website genutzt wird.
+            </p>
+            <hr />
+    
+            <div class="cookie-category-header">
+              <h3>Marketing-Cookies</h3>
+              <label class="cookie-category-toggle">
+                <input type="checkbox" name="marketing-cookies" />
+                <div class="toggle"></div>
+              </label>
+            </div>
+            <p>
+              Diese Cookies ermöglichen es uns zu verstehen, wie du mit unserer
+              Website interagierst, damit wir dir auf der Grundlage deines
+              Surfverhaltens relevante Informationen anzeigen können.
+            </p>
+            <br />
+            <button class="js-cookie-save">Speichern</button>
           </div>
         </div>
 
