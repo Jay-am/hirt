@@ -2721,3 +2721,41 @@ header.shadowHeader {
     }
     /*-_-_branchen_CSS_End_-_-*/
 }
+
+
+/* POPUP */
+
+#popup {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position:absolute;
+    margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+#popup img {
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin:0 auto;
+}
+
+#close {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    top: 17%;
+    right: 23.5%;
+}

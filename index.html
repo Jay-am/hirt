@@ -63,6 +63,10 @@
       <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
     </head>
     <body>
+      <div id="popup">
+        <img src="IMAGES/betriebsferien.jpg" alt="popup">
+        <button id="close">X</button>
+      </div>
       <div class="wrapper">
         <!-- Header Start -->
         <header>
@@ -668,6 +672,23 @@
           }
         }
       </script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+
+  //select the POPUP FRAME and show it
+  $("#popup").hide().fadeIn(1000);
+
+  //close the POPUP if the button with id="close" is clicked
+  $("#close").on("click", function (e) {
+      e.preventDefault();
+      $("#popup").fadeOut(1000);
+  });
+
+  });
+</script>
     </body>
   </html>
 </html>
